@@ -1,4 +1,3 @@
-<pre>
 <IntuitResponse xmlns="http://schema.intuit.com/finance/v3" time="2013-05-08T17:41:46.431Z">
     <QueryResponse>
         <Account status="Pending">
@@ -16,4 +15,3 @@
         </Account>
     </QueryResponse>
 </IntuitResponse>
-</pre>
