@@ -1,0 +1,29 @@
+<IntuitResponse xmlns="http://schema.intuit.com/finance/v3" time="2013-07-11T11:06:02.685Z">
+    <Item status="Pending">
+        <Id>NG:3201247</Id>
+        <SyncToken>1</SyncToken>
+        <MetaData>
+            <CreateTime>2013-07-11T11:01:15Z</CreateTime>
+            <LastUpdatedTime>2013-07-11T11:01:15Z</LastUpdatedTime>
+        </MetaData>
+        <Name>Addmodall</Name>
+        <Description>Groupitemallfields</Description>
+        <Active>true</Active>
+        <Type>Group</Type>
+        <PrintGroupedItems>true</PrintGroupedItems>
+        <ItemGroupDetail>
+            <ItemGroupLine>
+                <ItemRef name="Cabinet Pulls">QB:16</ItemRef>
+                <Qty>24</Qty>
+                <UOMRef>
+                    <Unit>each</Unit>
+                    <UOMSetRef>QB:2</UOMSetRef>
+                </UOMRef>
+            </ItemGroupLine>
+            <ItemGroupLine>
+                <ItemRef name="Light Pine">QB:17</ItemRef>
+                <Qty>1</Qty>
+            </ItemGroupLine>
+        </ItemGroupDetail>
+    </Item>
+</IntuitResponse>

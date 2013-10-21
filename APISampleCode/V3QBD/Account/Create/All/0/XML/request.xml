@@ -1,0 +1,17 @@
+<Account xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns="http://schema.intuit.com/finance/v3">
+    <Name>Acct41</Name>
+    <SubAccount>true</SubAccount>
+    <ParentRef>QB:85</ParentRef>
+    <Description>my sec account</Description>
+    <Active>true</Active>
+    <Classification>Asset</Classification>
+    <AccountType>Bank</AccountType>
+    <AcctNum>AN3031</AcctNum>
+    <BankNum>BA3051</BankNum>
+    <OpeningBalance>1000.00</OpeningBalance>
+    <OpeningBalanceDate>2013-03-12</OpeningBalanceDate>
+    <CurrentBalance>500.00</CurrentBalance>
+    <CurrentBalanceWithSubAccounts>200.00</CurrentBalanceWithSubAccounts>
+    <CurrencyRef>USD</CurrencyRef>
+</Account>

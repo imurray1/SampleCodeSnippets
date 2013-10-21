@@ -1,0 +1,30 @@
+<IntuitResponse xmlns="http://schema.intuit.com/finance/v3" time="2013-05-21T11:37:50.498Z">
+    <QueryResponse>
+        <Payment status="Pending">
+            <Id>NG:512249</Id>
+            <SyncToken>1</SyncToken>
+            <MetaData>
+                <CreateTime>2013-05-21T04:34:22Z</CreateTime>
+                <LastUpdatedTime>2013-05-21T11:34:22Z</LastUpdatedTime>
+            </MetaData>
+            <TxnDate>2013-04-15</TxnDate>
+            <PrivateNote>Testing with Cash and all fields</PrivateNote>
+            <Line>
+                <Id>NG:3612460</Id>
+                <Amount>40</Amount>
+                <LinkedTxn>
+                    <TxnId>QB:64583</TxnId>
+                    <TxnType>Invoice</TxnType>
+                </LinkedTxn>
+                <DetailType>PaymentLineDetail</DetailType>
+            </Line>
+            <CustomerRef name="Google">QB:284</CustomerRef>
+            <RemitToRef name="Google">QB:284</RemitToRef>
+            <ARAccountRef name="Accounts Receivable">QB:4</ARAccountRef>
+            <DepositToAccountRef name="Checking">QB:2</DepositToAccountRef>
+            <PaymentMethodRef name="Cash">QB:1</PaymentMethodRef>
+            <PaymentRefNum>Cash#001</PaymentRefNum>
+            <TotalAmt>40</TotalAmt>
+        </Payment>
+    </QueryResponse>
+</IntuitResponse>

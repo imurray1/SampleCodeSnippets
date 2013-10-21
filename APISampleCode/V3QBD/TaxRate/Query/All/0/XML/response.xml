@@ -1,0 +1,17 @@
+<IntuitResponse xmlns="http://schema.intuit.com/finance/v3" time="2012-08-03T10:52:36.109Z">
+    <QueryResponse maxResults="1" startPosition="1">
+        <TaxRate status="Synchronized">
+            <Id>QB:98</Id>
+            <SyncToken>1</SyncToken>
+            <MetaData>
+                <CreateTime>2012-04-07T14:42:11Z</CreateTime>
+                <LastUpdatedTime>2012-04-07T14:42:11Z</LastUpdatedTime>
+            </MetaData>
+            <Name>Newyork Tax rate</Name>
+            <Description>Sales Tax for Newyork</Description>
+            <Active>true</Active>
+            <RateValue>0.33333</RateValue>
+            <AgencyRef name="Bank of Anycity">QB:164</AgencyRef>
+        </TaxRate>
+    </QueryResponse>
+</IntuitResponse>

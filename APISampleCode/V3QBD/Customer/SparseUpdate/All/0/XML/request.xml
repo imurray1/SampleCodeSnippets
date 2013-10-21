@@ -1,0 +1,9 @@
+<Customer xmlns="http://schema.intuit.com/finance/v3" sparse="true">
+    <Id>NG:14758674</Id>
+    <SyncToken>2</SyncToken>
+    <Title>Ms.</Title>
+    <GivenName>sparse mod</GivenName>
+    <MiddleName>L</MiddleName>
+    <FamilyName>fmly</FamilyName>
+    <DisplayName>sparse mod</DisplayName>
+</Customer>

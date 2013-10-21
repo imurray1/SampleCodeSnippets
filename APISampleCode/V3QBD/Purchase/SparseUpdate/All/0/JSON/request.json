@@ -1,0 +1,8 @@
+{
+"sparse":"true",
+"Id":"NG:3406790",
+"SyncToken":"1",
+"Line":[{"DetailType":"ItemBasedExpenseLineDetail","ItemBasedExpenseLineDetail":{"ItemRef":{"name":"Plumb Fixtrs","value":"QB:30"}}}],
+"AccountRef":{"name":"QuickBooks Credit Card","value":"QB:87"},
+"EntityRef":{"name":"City of East Bayshore","value":"QB:99"}
+}

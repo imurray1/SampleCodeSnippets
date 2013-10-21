@@ -1,0 +1,14 @@
+<IntuitResponse xmlns="http://schema.intuit.com/finance/v3" time="2013-04-19T09:12:54.694Z">
+    <Class status="Pending">
+        <Id>NG:227225</Id>
+        <SyncToken>3</SyncToken>
+        <MetaData>
+            <CreateTime>2013-04-19T08:54:31Z</CreateTime>
+            <LastUpdatedTime>2013-04-19T09:02:12Z</LastUpdatedTime>
+        </MetaData>
+        <Name>ClassAddwithQBIdInactive</Name>
+        <SubClass>true</SubClass>
+        <ParentRef name="New Construction">QB:1</ParentRef>
+        <Active>true</Active>
+    </Class>
+</IntuitResponse>

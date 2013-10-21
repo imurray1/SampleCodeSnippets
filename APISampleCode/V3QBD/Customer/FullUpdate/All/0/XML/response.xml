@@ -1,0 +1,69 @@
+<IntuitResponse xmlns="http://schema.intuit.com/finance/v3" time="2013-04-03T10:47:10.757Z">
+    <Customer> status="Pending">
+        <Id>NG:14758674</Id>
+        <SyncToken>2</SyncToken>
+        <Organization>false</Organization>
+        <Title>s.r</Title>
+        <GivenName>Jai Javan</GivenName>
+        <MiddleName>Ka</MiddleName>
+        <FamilyName>Kissan</FamilyName>
+        <CompanyName>Company1</CompanyName>
+        <DisplayName>Customer_DQ1All_Fields_C001</DisplayName>
+        <Active>true</Active>
+        <PrimaryPhone>
+            <FreeFormNumber>(650)111-1111</FreeFormNumber>
+        </PrimaryPhone>
+        <AlternatePhone>
+            <FreeFormNumber>(650)111-2222</FreeFormNumber>
+        </AlternatePhone>
+        <Mobile>
+            <FreeFormNumber>(650)111-4444</FreeFormNumber>
+        </Mobile>
+        <Fax>
+            <FreeFormNumber>(650)111-3333</FreeFormNumber>
+        </Fax>
+        <PrimaryEmailAddr>
+            <Address>Customer99@Company99.com</Address>
+        </PrimaryEmailAddr>
+        <DefaultTaxCodeRef name="Tax">QB:1</DefaultTaxCodeRef>
+        <BillAddr>
+            <Line1>99 Garcia Ave</Line1>
+            <Line2>Bldg 99</Line2>
+            <Line3>San Jose, CA 95127</Line3>
+            <City>San Jose</City>
+            <Country>USA</Country>
+            <CountrySubDivisionCode>CA</CountrySubDivisionCode>
+            <PostalCode>95127-9090</PostalCode>
+        </BillAddr>
+        <ShipAddr>
+            <Line1>300, Main Street</Line1>
+            <Line2>Bldg 99</Line2>
+            <Line3>San Jose, CA 95128</Line3>
+            <City>San Jose</City>
+            <Country>USA</Country>
+            <CountrySubDivisionCode>CA</CountrySubDivisionCode>
+            <PostalCode>95128-9090</PostalCode>
+        </ShipAddr>
+        <Job>false</Job>
+        <CustomerTypeRef name="Referral">QB:2</CustomerTypeRef>
+        <SalesTermRef name="Net 15">QB:5</SalesTermRef>
+        <SalesRepRef name="T">QB:2</SalesRepRef>
+        <TaxRateRef name="San Tomas">QB:46</TaxRateRef>
+        <PaymentMethodRef name="Check">QB:2</PaymentMethodRef>
+        <Balance>9800.5</Balance>
+        <OpenBalanceDate>2012-03-05</OpenBalanceDate>
+        <BalanceWithJobs>9800.5</BalanceWithJobs>
+        <CreditLimit>155000</CreditLimit>
+        <AcctNum>a124-9898ZZ</AcctNum>
+        <CurrencyRef name="US Dollar">QB:109</CurrencyRef>
+        <ResaleNum>41</ResaleNum>
+        <JobInfo>
+            <Status>Pending</Status>
+            <StartDate>2012-03-05</StartDate>
+            <ProjectedEndDate>2012-04-05</ProjectedEndDate>
+            <EndDate>2012-04-05</EndDate>
+            <Description>In progress description not to exceed 99 characters in length</Description>
+            <JobTypeRef name="New Construction">QB:1</JobTypeRef>
+        </JobInfo>
+        </Customer>
+</IntuitResponse>

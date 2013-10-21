@@ -1,0 +1,20 @@
+{
+    "Line": [{
+        "DetailType": "SalesItemLineDetail",
+        "SalesItemLineDetail": {"ItemRef": {
+            "name": "Plumb Fixtrs",
+            "value": "QB:30"
+        }}
+    }],
+    "TxnTaxDetail": {
+        "DefaultTaxCodeRef": {
+            "name": "Tax",
+            "value": "QB:1"
+        },
+        "TotalTax": "0.00"
+    },
+    "CustomerRef": {
+        "name": "Apple",
+        "value": "QB:260"
+    }
+}

@@ -1,0 +1,39 @@
+<IntuitResponse xmlns="http://schema.intuit.com/finance/v3"
+    time="2013-06-03T12:00:52.461Z">
+    <Bill status="Pending">
+        <Id>QB:62758</Id>
+        <SyncToken>2</SyncToken>
+        <MetaData>
+            <CreateTime>2013-06-03T11:58:16Z</CreateTime>
+            <LastUpdatedTime>2013-06-03T11:58:16Z</LastUpdatedTime>
+        </MetaData>
+        <TxnDate>2012-12-15</TxnDate>
+        <ExchangeRate>1</ExchangeRate>
+        <PrivateNote>Sparse Mod</PrivateNote>
+        <TxnStatus>Payable</TxnStatus>
+        <Line>
+            <Id>NG:3629085</Id>
+            <Description>Opening balance</Description>
+            <Amount>1457</Amount>
+            <DetailType>AccountBasedExpenseLineDetail</DetailType>
+            <AccountBasedExpenseLineDetail>
+                <AccountRefname="Uncategorized Expenses">QB:146</AccountRef>
+            </AccountBasedExpenseLineDetail>
+        </Line>
+        <TxnTaxDetail>
+            <TotalTax>0</TotalTax>
+        </TxnTaxDetail>
+        <VendorRefname="Orange Electronics">QB:248</VendorRef>
+            <APAccountRefname="Accounts Payable">QB:12</APAccountRef>
+                <TotalAmt>1457</TotalAmt>
+                <SalesTermRefname="Net 60">QB:6</SalesTermRef>
+                    <DueDate>2013-02-13</DueDate>
+                    <ShipAddr>
+                        <Line1>789 Beecham Way</Line1>
+                        <City>Sabinal</City>
+                        <CountrySubDivisionCode>NM</CountrySubDivisionCode>
+                        <PostalCode>87006</PostalCode>
+                    </ShipAddr>
+                    <Balance>1457</Balance>
+    </Bill>
+</IntuitResponse>

@@ -1,0 +1,14 @@
+{
+   "Name":"Pay2",
+   "Description":"Pay1",
+   "Active":"true",
+   "Type":"Payment",
+   "PaymentMethodRef":{
+      "name":"Check",
+      "value":"QB:2"
+   },
+   "DepositToAccountRef":{
+      "name":"Checking",
+      "value":"QB:8"
+   }
+}

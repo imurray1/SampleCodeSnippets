@@ -1,0 +1,30 @@
+<Payment xmlns="http://schema.intuit.com/finance/v3">
+    <TxnDate>2013-04-15</TxnDate>
+    <PrivateNote>Testing with Cash and all fields</PrivateNote>
+    <Line>
+        <Amount>40</Amount>
+        <LinkedTxn>
+            <TxnId>NG:3403692</TxnId>
+            <TxnType>Invoice</TxnType>
+        </LinkedTxn>
+        <DetailType>PaymentLineDetail</DetailType>
+    </Line>
+    <Line>
+        <Amount>20</Amount>
+        <LinkedTxn>
+            <TxnId>NG:3403692</TxnId>
+            <TxnType>Invoice</TxnType>
+        </LinkedTxn>
+        <DetailType>DiscountLineDetail</DetailType>
+        <DiscountLineDetail>
+            <DiscountAccountRef name="Less Discounts given">QB:24</DiscountAccountRef>
+            <ClassRef name="Kitchen Design">QB:11</ClassRef>
+        </DiscountLineDetail>
+    </Line>
+    <CustomerRef name="Google">QB:284</CustomerRef>
+    <ARAccountRef name="Accounts Receivable">QB:4</ARAccountRef>
+    <DepositToAccountRef name="Checking">QB:2</DepositToAccountRef>
+    <PaymentMethodRef name="Cash">QB:1</PaymentMethodRef>
+    <PaymentRefNum>Cash#001</PaymentRefNum>
+    <TotalAmt>20</TotalAmt>
+</Payment>

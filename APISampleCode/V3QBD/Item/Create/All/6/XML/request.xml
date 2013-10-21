@@ -1,0 +1,12 @@
+<Item xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://schema.intuit.com/finance/v3 IntuitRestServiceDef.xsd"
+    xmlns="http://schema.intuit.com/finance/v3">
+    
+    <Name>Pay1</Name>
+    <Description>Pay1</Description>
+    <Active>true</Active>
+    <Type>Payment</Type>
+    <PaymentMethodRef name ="Check">QB:2</PaymentMethodRef>
+    <DepositToAccountRef name = "Checking">QB:8</DepositToAccountRef>
+    
+</Item>

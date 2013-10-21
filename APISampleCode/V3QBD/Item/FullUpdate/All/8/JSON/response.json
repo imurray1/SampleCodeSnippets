@@ -1,0 +1,26 @@
+{
+    "Item": {
+        "Name": "ADD13_mod",
+        "Description": "Groupitemallfields_MOD",
+        "Active": false,
+        "Taxable": false,
+        "Type": "Group",
+        "ItemGroupDetail": {"ItemGroupLine": [{
+            "ItemRef": {
+                "value": "QB:28",
+                "name": "Rough"
+            },
+            "Qty": 24
+        }]},
+        "status": "Pending",
+        "Id": "NG:3202323",
+        "SyncToken": "4",
+        "MetaData": {
+            "CreateTime": "2013-07-15T07:15:28Z",
+            "LastUpdatedTime": "2013-07-15T07:29:20Z"
+        },
+        "CustomField": [],
+        "AttachableRef": []
+    },
+    "time": "2013-07-15T07:34:56.957Z"
+}

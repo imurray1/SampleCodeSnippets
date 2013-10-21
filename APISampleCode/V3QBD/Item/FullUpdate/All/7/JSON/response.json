@@ -1,0 +1,38 @@
+{
+    "Item": {
+        "Name": "Min",
+        "Active": true,
+        "Taxable": true,
+        "Type": "Assembly",
+        "IncomeAccountRef": {
+            "value": "QB:26",
+            "name": "Materials Income"
+        },
+        "COGSAccountRef": {
+            "value": "QB:30",
+            "name": "Cost of Goods Sold"
+        },
+        "AssetAccountRef": {
+            "value": "QB:6",
+            "name": "Inventory Asset"
+        },
+        "AvgCost": 80,
+        "QtyOnHand": 24,
+        "QtyOnPurchaseOrder": 0,
+        "QtyOnSalesOrder": 0,
+        "SalesTaxCodeRef": {
+            "value": "QB:1",
+            "name": "Tax"
+        },
+        "status": "Pending",
+        "Id": "NG:3202559",
+        "SyncToken": "4",
+        "MetaData": {
+            "CreateTime": "2013-07-15T13:43:33Z",
+            "LastUpdatedTime": "2013-07-15T13:47:22Z"
+        },
+        "CustomField": [],
+        "AttachableRef": []
+    },
+    "time": "2013-07-15T13:53:02.677Z"
+}

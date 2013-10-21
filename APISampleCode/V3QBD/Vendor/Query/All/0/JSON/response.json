@@ -1,0 +1,20 @@
+{"QueryResponse": {
+    "Vendor": [{
+        "OtherAddr": [],
+        "TaxIdentifier": "32-1234567",
+        "status": "Pending",
+        "Id": "NG:3916388",
+        "SyncToken": "2",
+        "MetaData": {
+            "CreateTime": "2013-04-03T07:52:31Z",
+            "LastUpdatedTime": "2013-04-03T08:06:11Z"
+        },
+        "CustomField": [],
+        "AttachableRef": [],
+        "Organization": false,
+        "DisplayName": "Cust2Mod",
+        "OtherContactInfo": []
+    }],
+    "startPosition": 1,
+    "maxResults": 1
+}}

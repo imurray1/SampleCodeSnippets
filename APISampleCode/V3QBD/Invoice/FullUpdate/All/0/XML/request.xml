@@ -1,0 +1,68 @@
+<Invoice xmlns="http://schema.intuit.com/finance/v3">
+    <Id>NG:3343199</Id>
+    <SyncToken>2</SyncToken>
+    <DocNumber>MdInvMax</DocNumber>
+    <TxnDate>2012-05-22</TxnDate>
+    <PrivateNote>Mod Invoice Max</PrivateNote>
+    <TxnStatus>Payable</TxnStatus>
+    <Line>
+        <Description>Blueprints</Description>
+        <Amount>100</Amount>
+        <DetailType>SalesItemLineDetail</DetailType>
+        <SalesItemLineDetail>
+            <ItemRef name="Blueprints">QB:86</ItemRef>
+            <ClassRef name="Design">QB:9</ClassRef>
+            <UnitPrice>100</UnitPrice>
+            <Qty>1</Qty>
+            <TaxCodeRef name="Tax">QB:1</TaxCodeRef>
+        </SalesItemLineDetail>
+    </Line>
+    <TxnTaxDetail>
+        <DefaultTaxCodeRef name="Tax">QB:1</DefaultTaxCodeRef>
+        <TotalTax>66.65</TotalTax>
+        <TaxLine>
+            <Description>Sales Tax</Description>
+            <Amount>66.65</Amount>
+            <DetailType>TaxLineDetail</DetailType>
+            <TaxLineDetail>
+                <TaxRateRef name="East Bayshore">QB:53</TaxRateRef>
+                <TaxPercent>0.3</TaxPercent>
+            </TaxLineDetail>
+        </TaxLine>
+    </TxnTaxDetail>
+    <CustomerRef name="New Trends Customer">QB:283</CustomerRef>
+    <CustomerMemo>Thank you for your business.</CustomerMemo>
+    <BillAddr>
+        <Line1>123</Line1>
+        <Line2>newton street</Line2>
+        <Line3>new town</Line3>
+        <City>San Francisco</City>
+        <CountrySubDivisionCode>CA</CountrySubDivisionCode>
+        <PostalCode>95141</PostalCode>
+    </BillAddr>
+    <ShipAddr>
+        <Line1>123</Line1>
+        <Line2>newton street</Line2>
+        <Line3>new town</Line3>
+        <City>San Francisco</City>
+        <CountrySubDivisionCode>CA</CountrySubDivisionCode>
+        <PostalCode>95141</PostalCode>
+    </ShipAddr>
+    <RemitToRef name="New Trends Customer">QB:283</RemitToRef>
+    <ClassRef name="New Construction">QB:1</ClassRef>
+    <SalesTermRef name="Net 15">QB:2</SalesTermRef>
+    <DueDate>2012-05-02</DueDate>
+    <SalesRepRef name="DL">QB:6</SalesRepRef>
+    <PONumber>12345</PONumber>
+    <FOB>1000</FOB>
+    <ShipMethodRef name="UPS">QB:4</ShipMethodRef>
+    <ShipDate>2012-05-02</ShipDate>
+    <TotalAmt>25176.38</TotalAmt>
+    <PrintStatus>NeedToPrint</PrintStatus>
+    <BillEmail>
+        <Address>Newtrends_1676@int.com</Address>
+    </BillEmail>
+    <ARAccountRef name="Accounts Receivable">QB:4</ARAccountRef>
+    <Balance>25176.38</Balance>
+    <FinanceCharge>false</FinanceCharge>
+</Invoice>

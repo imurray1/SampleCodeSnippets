@@ -1,0 +1,165 @@
+<IntuitResponse xmlns="http://schema.intuit.com/finance/v3" time="2013-06-03T11:29:45.933Z">
+    <Bill status="Pending">
+        <Id>NG:3424984</Id>
+        <SyncToken>2</SyncToken>
+        <MetaData>
+            <CreateTime>2013-06-03T11:21:58Z</CreateTime>
+            <LastUpdatedTime>2013-06-03T11:27:12Z</LastUpdatedTime>
+        </MetaData>
+        <DocNumber>TEST001</DocNumber>
+        <TxnDate>2013-02-05</TxnDate>
+        <ExchangeRate>1</ExchangeRate>
+        <PrivateNote>tESTING with ll types of Line itesms</PrivateNote>
+        <TxnStatus>Payable</TxnStatus>
+        <Line>
+            <Id>NG:3629070</Id>
+            <Description>Testing Exp</Description>
+            <Amount>500</Amount>
+            <DetailType>AccountBasedExpenseLineDetail</DetailType>
+            <AccountBasedExpenseLineDetail>
+                <CustomerRef name="Apple">QB:260</CustomerRef>
+                <ClassRef name="New Construction">QB:1</ClassRef>
+                <AccountRef name="Fuel">QB:32</AccountRef>
+                <BillableStatus>Billable</BillableStatus>
+            </AccountBasedExpenseLineDetail>
+        </Line>
+        <Line>
+            <Id>NG:3629071</Id>
+            <Description>clips</Description>
+            <Amount>4.8</Amount>
+            <DetailType>ItemBasedExpenseLineDetail</DetailType>
+            <ItemBasedExpenseLineDetail>
+                <ItemRef name="clip">QB:115</ItemRef>
+                <ClassRef name="Design">QB:9</ClassRef>
+                <UnitPrice>0.05</UnitPrice>
+                <Qty>4</Qty>
+                <UOMRef>
+                    <Unit>cs</Unit>
+                    <UOMSetRef>QB:4</UOMSetRef>
+                </UOMRef>
+                <CustomerRef name="Apple">QB:260</CustomerRef>
+                <BillableStatus>Billable</BillableStatus>
+            </ItemBasedExpenseLineDetail>
+        </Line>
+        <Line>
+            <Id>NG:3629072</Id>
+            <Description>labor used in assembly desc</Description>
+            <Amount>20</Amount>
+            <DetailType>ItemBasedExpenseLineDetail</DetailType>
+            <ItemBasedExpenseLineDetail>
+                <ItemRef name="labor used in assembly">QB:118</ItemRef>
+                <ClassRef name="New Construction">QB:1</ClassRef>
+                <UnitPrice>20</UnitPrice>
+                <Qty>1</Qty>
+                <CustomerRef name="Michael">QB:285</CustomerRef>
+                <BillableStatus>Billable</BillableStatus>
+            </ItemBasedExpenseLineDetail>
+        </Line>
+        <Line>
+            <Id>NG:3629073</Id>
+            <Description>testing assembly</Description>
+            <Amount>720</Amount>
+            <DetailType>ItemBasedExpenseLineDetail</DetailType>
+            <ItemBasedExpenseLineDetail>
+                <ItemRef name="Wood Door">QB:21</ItemRef>
+                <ClassRef name="New Construction">QB:1</ClassRef>
+                <UnitPrice>30</UnitPrice>
+                <Qty>24</Qty>
+                <CustomerRef name="Google">QB:284</CustomerRef>
+                <BillableStatus>Billable</BillableStatus>
+            </ItemBasedExpenseLineDetail>
+        </Line>
+        <Line>
+            <Id>NG:3629074</Id>
+            <Description>Flooring</Description>
+            <Amount>60</Amount>
+            <DetailType>ItemBasedExpenseLineDetail</DetailType>
+            <ItemBasedExpenseLineDetail>
+                <ItemRef name="Flooring">QB:49</ItemRef>
+                <ClassRef name="Tub Design">QB:12</ClassRef>
+                <UnitPrice>30</UnitPrice>
+                <Qty>2</Qty>
+                <CustomerRef name="Disney">QB:281</CustomerRef>
+                <BillableStatus>Billable</BillableStatus>
+            </ItemBasedExpenseLineDetail>
+        </Line>
+        <Line>
+            <Id>NG:3629075</Id>
+            <Description>Testing Other Charge</Description>
+            <Amount>80</Amount>
+            <DetailType>ItemBasedExpenseLineDetail</DetailType>
+            <ItemBasedExpenseLineDetail>
+                <ItemRef name="Deposit">QB:93</ItemRef>
+                <ClassRef name="Remodel">QB:4</ClassRef>
+                <UnitPrice>40</UnitPrice>
+                <Qty>2</Qty>
+                <CustomerRef name="Autoworks">QB:275</CustomerRef>
+                <BillableStatus>Billable</BillableStatus>
+            </ItemBasedExpenseLineDetail>
+        </Line>
+        <Line>
+            <Id>NG:3629076</Id>
+            <DetailType>GroupLineDetail</DetailType>
+            <GroupLineDetail>
+                <GroupItemRef name="Door set">QB:47</GroupItemRef>
+                <Line>
+                    <Id>NG:3629077</Id>
+                    <Description>Doorknobs Part 3704</Description>
+                    <Amount>15</Amount>
+                    <DetailType>ItemBasedExpenseLineDetail</DetailType>
+                    <ItemBasedExpenseLineDetail>
+                        <ItemRef name="Doorknobs Std">QB:19</ItemRef>
+                        <UnitPrice>15</UnitPrice>
+                        <Qty>1</Qty>
+                    </ItemBasedExpenseLineDetail>
+                </Line>
+                <Line>
+                    <Id>NG:3629078</Id>
+                    <Description>Exterior door - #P10981</Description>
+                    <Amount>590.39</Amount>
+                    <DetailType>ItemBasedExpenseLineDetail</DetailType>
+                    <ItemBasedExpenseLineDetail>
+                        <ItemRef name="Exterior">QB:22</ItemRef>
+                        <UnitPrice>590.39</UnitPrice>
+                        <Qty>1</Qty>
+                    </ItemBasedExpenseLineDetail>
+                </Line>
+                <Line>
+                    <Id>NG:3629079</Id>
+                    <Description>Exterior door and hardware set</Description>
+                    <Amount>605.39</Amount>
+                    <DetailType>AccountBasedExpenseLineDetail</DetailType>
+                </Line>
+            </GroupLineDetail>
+        </Line>
+        <Line>
+            <Id>NG:3629080</Id>
+            <Description>Subtotal</Description>
+            <Amount>1490.19</Amount>
+            <DetailType>SubTotalLineDetail</DetailType>
+            <SubTotalLineDetail>
+                <ItemRef name="Subtotal">QB:41</ItemRef>
+            </SubTotalLineDetail>
+        </Line>
+        <TxnTaxDetail>
+            <TotalTax>0</TotalTax>
+        </TxnTaxDetail>
+        <VendorRef name="Bank of Anycity">QB:164</VendorRef>
+        <APAccountRef name="Accounts Payable">QB:12</APAccountRef>
+        <TotalAmt>1990.19</TotalAmt>
+        <BillEmail>
+            <Address>lisah@samplename.com</Address>
+        </BillEmail>
+        <SalesTermRef name="15thDateDriven">QB:7</SalesTermRef>
+        <DueDate>2013-02-15</DueDate>
+        <ShipAddr>
+            <Line1>Bank of Anycity</Line1>
+            <Line2>Lisa Holzhauser</Line2>
+            <Line3>1935 Main Street</Line3>
+            <City>Middlefield</City>
+            <CountrySubDivisionCode>CA</CountrySubDivisionCode>
+            <PostalCode>94482</PostalCode>
+        </ShipAddr>
+        <Balance>1990.19</Balance>
+    </Bill>
+</IntuitResponse>

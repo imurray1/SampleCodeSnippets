@@ -1,0 +1,28 @@
+<Item xmlns="http://schema.intuit.com/finance/v3">
+
+    <Id>NG:3056750</Id>
+
+    <SyncToken>3</SyncToken>
+
+    <MetaData>
+
+        <CreateTime>2013-05-27T15:37:22Z</CreateTime>
+
+        <LastUpdatedTime>2013-05-27T15:37:24Z</LastUpdatedTime>
+
+    </MetaData>
+
+    <Name>Pay1_mod1</Name>
+
+    <Description>Pay1</Description>
+
+    <Active>true</Active>
+
+    <Type>Payment</Type>
+
+    <PaymentMethodRef name="Check">QB:2</PaymentMethodRef>
+
+    <DepositToAccountRef name="Checking">QB:8</DepositToAccountRef>
+
+
+</Item>

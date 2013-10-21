@@ -1,0 +1,38 @@
+{
+    "Item": {
+        "Name": "SerItem3",
+        "Description": "ServiceItems",
+        "Active": true,
+        "UnitPrice": 20.5,
+        "Type": "Service",
+        "UOMSetRef": {
+            "value": "QB:5",
+            "name": "Area by the square foot"
+        },
+        "IncomeAccountRef": {
+            "value": "QB:28",
+            "name": "Reimbursement Income"
+        },
+        "PurchaseDesc": "Service_Purchase",
+        "PurchaseCost": 10,
+        "ExpenseAccountRef": {
+            "value": "QB:78",
+            "name": "Other Expenses"
+        },
+        "PrefVendorRef": {
+            "value": "QB:4",
+            "name": "A Cheung Limited"
+        },
+        "SalesTaxCodeRef": {"value": "QB:2"},
+        "status": "Pending",
+        "Id": "NG:3104668",
+        "SyncToken": "1",
+        "MetaData": {
+            "CreateTime": "2013-06-04T05:59:47Z",
+            "LastUpdatedTime": "2013-06-04T05:59:47Z"
+        },
+        "CustomField": [],
+        "AttachableRef": []
+    },
+    "time": "2013-06-04T07:13:05.493Z"
+}

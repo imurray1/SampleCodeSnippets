@@ -1,0 +1,71 @@
+{
+    "Item": {
+        "Name": "Interior Door kit_Test",
+        "Description": "complete Interior door",
+        "Active": true,
+        "Taxable": true,
+        "UnitPrice": 0,
+        "Type": "Assembly",
+        "IncomeAccountRef": {
+            "value": "QB:26",
+            "name": "Materials Income"
+        },
+        "COGSAccountRef": {
+            "value": "QB:30",
+            "name": "Cost of Goods Sold"
+        },
+        "AssetAccountRef": {
+            "value": "QB:6",
+            "name": "Inventory Asset"
+        },
+        "AvgCost": 80,
+        "QtyOnHand": 24,
+        "QtyOnPurchaseOrder": 0,
+        "QtyOnSalesOrder": 1,
+        "SalesTaxCodeRef": {
+            "value": "QB:1",
+            "name": "Tax"
+        },
+        "BuildPoint": 5,
+        "ItemAssemblyDetail": {"ItemAssemblyLine": [
+            {
+                "ItemRef": {
+                    "value": "QB:19",
+                    "name": "Doorknobs Std"
+                },
+                "Qty": 1
+            },
+            {
+                "ItemRef": {
+                    "value": "QB:23",
+                    "name": "Interior"
+                },
+                "Qty": 1
+            },
+            {
+                "ItemRef": {
+                    "value": "QB:69",
+                    "name": "Brass hinges"
+                },
+                "Qty": 3
+            },
+            {
+                "ItemRef": {
+                    "value": "QB:68",
+                    "name": "Door Frame"
+                },
+                "Qty": 1
+            }
+        ]},
+        "status": "Pending",
+        "Id": "NG:3200732",
+        "SyncToken": "1",
+        "MetaData": {
+            "CreateTime": "2013-07-10T13:00:43Z",
+            "LastUpdatedTime": "2013-07-10T13:00:43Z"
+        },
+        "CustomField": [],
+        "AttachableRef": []
+    },
+    "time": "2013-07-10T13:05:18.807Z"
+}

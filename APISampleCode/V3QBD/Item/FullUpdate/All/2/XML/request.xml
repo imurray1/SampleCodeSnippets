@@ -1,0 +1,38 @@
+<Item xmlns="http://schema.intuit.com/finance/v3">
+
+    <Id>QB:88</Id>
+
+    <SyncToken>1</SyncToken>
+
+    <MetaData>
+
+        <CreateTime>2007-05-05T18:25:54Z</CreateTime>
+
+        <LastUpdatedTime>2013-01-02T05:07:44Z</LastUpdatedTime>
+
+    </MetaData>
+
+    <Name>Lumber_mod1</Name>
+
+    <Description>Lumber</Description>
+
+    <Active>true</Active>
+
+    <Taxable>true</Taxable>
+
+    <UnitPrice>0</UnitPrice>
+
+    <Type>NonInventory</Type>
+
+    <IncomeAccountRef name="Materials Income">QB:26</IncomeAccountRef>
+
+    <PurchaseDesc>Lumber</PurchaseDesc>
+
+    <PurchaseCost>0</PurchaseCost>
+
+    <ExpenseAccountRef name="Job Materials">QB:50</ExpenseAccountRef>
+
+    <PrefVendorRef name="Timberloft Lumber">QB:14</PrefVendorRef>
+
+    <SalesTaxCodeRef name="Tax">QB:1</SalesTaxCodeRef>
+</Item>

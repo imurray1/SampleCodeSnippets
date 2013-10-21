@@ -1,0 +1,21 @@
+<Item xmlns="http://schema.intuit.com/finance/v3">
+    <Id>NG:3056723</Id>
+    <SyncToken>3</SyncToken>
+    <MetaData>
+        <CreateTime>2013-05-27T08:31:47Z</CreateTime>
+        <LastUpdatedTime>2013-05-27T08:31:50Z</LastUpdatedTime>
+    </MetaData>
+    <Name>OthrChrFull1_mod2</Name>
+    <Description>Add New Full Item 1 Sales Tranc</Description>
+    <Active>true</Active>
+    <ParentRef name="Delivery">QB:124</ParentRef>
+    <UnitPrice>1000</UnitPrice>
+    <Type>Other Charge</Type>
+    <IncomeAccountRef name="Design Income">QB:122</IncomeAccountRef>
+    <PurchaseDesc>Add New Full Item 1 Purc Tranc</PurchaseDesc>
+    <PurchaseCost>2000</PurchaseCost>
+    <ExpenseAccountRef name="Other Expenses">QB:78</ExpenseAccountRef>
+    <PrefVendorRef name="Hugo Boss">QB:268</PrefVendorRef>
+    <SalesTaxCodeRef>QB:1</SalesTaxCodeRef>
+
+</Item>

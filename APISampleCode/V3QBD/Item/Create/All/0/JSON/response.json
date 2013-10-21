@@ -1,0 +1,46 @@
+{
+    "Item": {
+        "Name": "Inventory item 9",
+        "Description": "Inventory item",
+        "Active": true,
+        "UnitPrice": 1782.56,
+        "Type": "Inventory",
+        "UOMSetRef": {
+            "value": "QB:1",
+            "name": "Each to Case/Doz"
+        },
+        "IncomeAccountRef": {
+            "value": "QB:26",
+            "name": "Materials Income"
+        },
+        "PurchaseDesc": "standard interior brass hinge",
+        "PurchaseCost": 3,
+        "COGSAccountRef": {
+            "value": "QB:30",
+            "name": "Cost of Goods Sold"
+        },
+        "AssetAccountRef": {
+            "value": "QB:6",
+            "name": "Inventory Asset"
+        },
+        "PrefVendorRef": {
+            "value": "QB:12",
+            "name": "Perry Windows & Doors"
+        },
+        "AvgCost": 3,
+        "QtyOnHand": 2142,
+        "QtyOnPurchaseOrder": 0,
+        "QtyOnSalesOrder": 0,
+        "SalesTaxCodeRef": {"value": "QB:1"},
+        "status": "Pending",
+        "Id": "NG:3104665",
+        "SyncToken": "1",
+        "MetaData": {
+            "CreateTime": "2013-06-04T05:31:48Z",
+            "LastUpdatedTime": "2013-06-04T05:31:48Z"
+        },
+        "CustomField": [],
+        "AttachableRef": []
+    },
+    "time": "2013-06-04T06:45:06.350Z"
+}

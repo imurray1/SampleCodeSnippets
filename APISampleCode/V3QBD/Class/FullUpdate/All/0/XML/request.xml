@@ -1,0 +1,8 @@
+<Class  xmlns="http://schema.intuit.com/finance/v3" >
+    <Id>NG:227225</Id>
+    <SyncToken>2</SyncToken>
+    <Name>ClassAddwithQBIdInactive</Name>
+    <SubClass>false</SubClass>
+    <ParentRef name="New Construction">QB:1</ParentRef>
+    <Active>true</Active>
+</Class>

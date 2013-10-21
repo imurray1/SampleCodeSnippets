@@ -1,0 +1,52 @@
+<IntuitResponse xmlns="http://schema.intuit.com/finance/v3" time="2013-04-23T17:13:30.346Z">
+    <Purchase status="Pending">
+        <Id>NG:3876177</Id>
+        <SyncToken>2</SyncToken>
+        <MetaData>
+            <CreateTime>2013-04-17T07:39:46Z</CreateTime>
+            <LastUpdatedTime>2013-04-17T07:39:46Z</LastUpdatedTime>
+        </MetaData>
+        <DocNumber>ModAll</DocNumber>
+        <TxnDate>2013-05-07</TxnDate>
+        <TxnStatus>Paid</TxnStatus>
+        <Line>
+            <Id>NG:64626</Id>
+            <Description>acc ex memo mod</Description>
+            <Amount>45</Amount>
+            <DetailType>AccountBasedExpenseLineDetail</DetailType>
+            <AccountBasedExpenseLineDetail>
+                <CustomerRef name="Smith,Lee">QB:78</CustomerRef>
+                <ClassRef name="Overhead">QB:7</ClassRef>
+                <AccountRef name="Insurance">QB:88</AccountRef>
+                <BillableStatus>NotBillable</BillableStatus>
+            </AccountBasedExpenseLineDetail>
+        </Line>
+        <Line>
+            <Id>NG:38538</Id>
+            <Description>standard interior brass hinge</Description>
+            <Amount>4.8</Amount>
+            <DetailType>ItemBasedExpenseLineDetail</DetailType>
+            <ItemBasedExpenseLineDetail>
+                <ItemRef name="Brass hinges">QB:69</ItemRef>
+                <ClassRef name="Overhead">QB:7</ClassRef>
+                <UnitPrice>0</UnitPrice>
+                <Qty>1</Qty>
+                <CustomerRef name="Smith,Lee">QB:78</CustomerRef>
+                <BillableStatus>NotBillable</BillableStatus>
+            </ItemBasedExpenseLineDetail>
+        </Line>
+        <Line>
+            <Id>NG:64621</Id>
+            <DetailType>GroupLineDetail</DetailType>
+            <GroupLineDetail>
+                <GroupItemRef name="A1 Custom Storage Shed">QB:64</GroupItemRef>
+            </GroupLineDetail>
+        </Line>
+        <AccountRef name="CalOil Credit Card">QB:126</AccountRef>
+        <PaymentType>CreditCard</PaymentType>
+        <EntityRef name="City of East Bayshore">QB:99</EntityRef>
+        <Credit>false</Credit>
+        <TotalAmt>5630.39</TotalAmt>
+        <Memo>Job Materials</Memo>
+    </Purchase>
+</IntuitResponse>

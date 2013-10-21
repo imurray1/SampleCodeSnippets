@@ -1,0 +1,5 @@
+<IntuitResponse xmlns="http://schema.intuit.com/finance/v3" time="2013-02-12T08:28:25.005Z">
+    <Payment>
+        <Id>QB:57</Id>
+    </Payment>
+</IntuitResponse>

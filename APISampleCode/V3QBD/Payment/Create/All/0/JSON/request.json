@@ -1,0 +1,29 @@
+{
+    "CustomerRef": {
+        "value": "QB:281",
+        "name": "Disney"
+    },
+    "ARAccountRef": {
+        "value": "QB:4",
+        "name": "Accounts Receivable"
+    },
+    "DepositToAccountRef": {
+        "value": "QB:8",
+        "name": "Undeposited Funds"
+    },
+    "PaymentMethodRef": {
+        "value": "QB:2",
+        "name": "Check"
+    },
+    "TotalAmt": 32000,
+    "TxnDate": "2012-12-15",
+    "LinkedTxn": [],
+    "Line": [{
+        "Amount": 3200,
+        "LinkedTxn": [{
+            "TxnId": "QB:64126",
+            "TxnType": "Invoice"
+        }],
+        "DetailType": "PaymentLineDetail"
+    }]
+}

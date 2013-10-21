@@ -1,0 +1,32 @@
+<Item xmlns="http://schema.intuit.com/finance/v3">
+    <Id>QB:125</Id>
+    <SyncToken>1</SyncToken>
+    <Name>Assmb_Mod_All</Name>
+    <Description>Testing sales mod</Description>
+    <Active>false</Active>
+    <ParentRef name="unit1">QB:117</ParentRef>
+    <Taxable>false</Taxable>
+    <UnitPrice>60</UnitPrice>
+    <Type>Assembly</Type>
+    <UOMSetRef name="Area by the square foot">QB:1</UOMSetRef>
+    <IncomeAccountRef>QB:26</IncomeAccountRef>
+    <PurchaseDesc>Testing purchase mod</PurchaseDesc>
+    <PurchaseCost>15</PurchaseCost>
+    <COGSAccountRef>QB:26</COGSAccountRef>
+    <AssetAccountRef>QB:26</AssetAccountRef>
+    <PrefVendorRef name="City of East Bayshore">QB:99</PrefVendorRef>
+    <AvgCost>40</AvgCost>
+    <QtyOnHand>40</QtyOnHand>
+    <QtyOnPurchaseOrder>6</QtyOnPurchaseOrder>
+    <QtyOnSalesOrder>3</QtyOnSalesOrder>
+    <ManPartNum>Man#Test007</ManPartNum>
+    <SalesTaxCodeRef name="Non">QB:2</SalesTaxCodeRef>
+    <BuildPoint>15</BuildPoint>
+    <ItemAssemblyDetail>
+        <ItemAssemblyLine>
+            <ItemRef name="clamps">QB:116</ItemRef>
+            <Qty>8</Qty>
+        </ItemAssemblyLine>
+
+    </ItemAssemblyDetail>
+</Item>

@@ -1,0 +1,5 @@
+<Invoice xmlns="http://schema.intuit.com/finance/v3" sparse="true">
+    <Id>NG:414894</Id>
+    <SyncToken>1</SyncToken>
+    <DocNumber>9024sparse</DocNumber>
+</Invoice>

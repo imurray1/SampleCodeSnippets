@@ -1,0 +1,42 @@
+<IntuitResponse xmlns="http://schema.intuit.com/finance/v3" time="2013-02-12T08:24:01.892Z">
+    <Invoice status="Pending">
+        <Id>NG:414894</Id>
+        <SyncToken>2</SyncToken>
+        <MetaData>
+            <CreateTime>2013-02-12T08:22:11Z</CreateTime>
+            <LastUpdatedTime>2013-02-12T08:24:11Z</LastUpdatedTime>
+        </MetaData>
+        <DocNumber>9024sparse</DocNumber>
+        <TxnDate>2012-02-12T00:00:00Z</TxnDate>
+        <ExchangeRate>1</ExchangeRate>
+        <TxnStatus>Payable</TxnStatus>
+        <Line>
+            <Id>NG:626751</Id>
+            <Description>Removal labor, removed shed and graded area for sun room
+                addition</Description>
+            <Amount>200</Amount>
+            <DetailType>SalesItemLineDetail</DetailType>
+            <SalesItemLineDetail>
+                <ItemRef name="Patio Door">QB:58</ItemRef>
+                <UnitPrice>200</UnitPrice>
+                <Qty>1</Qty>
+                <TaxCodeRef name="Non">QB:2</TaxCodeRef>
+            </SalesItemLineDetail>
+        </Line>
+        <TxnTaxDetail>
+            <DefaultTaxCodeRef name="Tax">QB:1</DefaultTaxCodeRef>
+            <TotalTax>0</TotalTax>
+        </TxnTaxDetail>
+        <CustomerRef name="Robson ClinicNew">NG:427974</CustomerRef>
+        <RemitToRef name="Robson Clinic1234Mod">NG:427974</RemitToRef>
+        <DueDate>2012-12-28T00:00:00Z</DueDate>
+        <ShipMethodRef name="UPS">QB:4</ShipMethodRef>
+        <ShipDate>2012-10-26T00:00:00Z</ShipDate>
+        <TotalAmt>200</TotalAmt>
+        <PrintStatus>NotSet</PrintStatus>
+        <EmailStatus>NotSet</EmailStatus>
+        <ARAccountRef name="Accounts Receivable">QB:4</ARAccountRef>
+        <Balance>200</Balance>
+        <FinanceCharge>false</FinanceCharge>
+    </Invoice>
+</IntuitResponse>

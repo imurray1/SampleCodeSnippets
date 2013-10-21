@@ -1,0 +1,5 @@
+<Account xmlns="http://schema.intuit.com/finance/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" sparse="true">
+    <Id>NG:208966</Id>
+    <SyncToken>1</SyncToken>
+    <Name>MyBnkAct</Name>
+</Account>

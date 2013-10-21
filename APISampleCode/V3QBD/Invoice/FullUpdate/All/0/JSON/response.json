@@ -1,0 +1,56 @@
+{
+    "Invoice": {
+        "status": "Pending",
+        "Id": "QB:62631",
+        "SyncToken": "2",
+        "MetaData": {
+            "CreateTime": "2013-04-03T11:08:38Z",
+            "LastUpdatedTime": "2013-04-03T11:08:38Z"
+        },
+        "CustomField": [],
+        "AttachableRef": [],
+        "DocNumber": "InvoiceWB",
+        "TxnDate": "2012-01-23",
+        "TxnStatus": "Paid",
+        "LinkedTxn": [],
+        "Line": [{
+            "Id": "NG:3577001",
+            "Description": "Model#: 2009-WB",
+            "Amount": 1550,
+            "LinkedTxn": [],
+            "DetailType": "SalesItemLineDetail",
+            "SalesItemLineDetail": {
+                "ServiceDate": "9999-12-31",
+                "ItemRef": {
+                    "value": "QB:2",
+                    "name": "parts"
+                },
+                "UnitPrice": 550,
+                "Qty": 1,
+                "TaxCodeRef": {
+                    "value": "QB:1",
+                    "name": "Tax"
+                }
+            },
+            "CustomField": []
+        }],
+        "TxnTaxDetail": {
+            "DefaultTaxCodeRef": {
+                "value": "QB:1",
+                "name": "Tax"
+            },
+            "TotalTax": 0,
+            "TaxLine": []
+        },
+        "CustomerRef": {
+            "value": "QB:89",
+            "name": "customer2"
+        },
+        "TotalAmt": 6848.59,
+        "PrintStatus": "NotSet",
+        "EmailStatus": "NotSet",
+        "Balance": 6848.59,
+        "FinanceCharge": false
+    },
+    "time": "2013-04-03T11:15:51.455Z"
+}

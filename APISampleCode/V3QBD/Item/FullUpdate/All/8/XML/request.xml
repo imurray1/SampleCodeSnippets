@@ -1,0 +1,19 @@
+<Item xmlns="http://schema.intuit.com/finance/v3">
+    <Id>NG:3201247</Id>
+    <SyncToken>1</SyncToken>
+    <MetaData>
+        <CreateTime>2013-07-11T11:01:15Z</CreateTime>
+        <LastUpdatedTime>2013-07-11T11:01:15Z</LastUpdatedTime>
+    </MetaData>
+    <Name>Addmodall_MOD</Name>
+    <Description>Groupitemallfields_MOD</Description>
+    <Active>false</Active>
+    <Type>Group</Type>
+    <PrintGroupedItems>false</PrintGroupedItems>
+    <ItemGroupDetail>
+        <ItemGroupLine>
+            <ItemRef name="Mileage">QB:70</ItemRef>
+            <Qty>500</Qty>
+        </ItemGroupLine>
+    </ItemGroupDetail>
+</Item>

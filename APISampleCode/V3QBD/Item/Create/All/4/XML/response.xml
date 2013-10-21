@@ -1,0 +1,14 @@
+<IntuitResponse xmlns="http://schema.intuit.com/finance/v3" time="2013-05-27T16:07:42.074Z">
+    <Item status="Pending">
+        <Id>NG:3056746</Id>
+        <SyncToken>1</SyncToken>
+        <MetaData>
+            <CreateTime>2013-05-27T14:55:44Z</CreateTime>
+            <LastUpdatedTime>2013-05-27T14:55:44Z</LastUpdatedTime>
+        </MetaData>
+        <Name>Sub1</Name>
+        <Description>Desc Full Subtotal</Description>
+        <Active>true</Active>
+        <Type>Subtotal</Type>
+    </Item>
+</IntuitResponse>

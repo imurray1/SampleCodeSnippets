@@ -1,0 +1,36 @@
+{
+    "Purchase": {
+        "AccountRef": {
+            "value": "QB:87",
+            "name": "QuickBooks Credit Card"
+        },
+        "PaymentType": "CreditCard",
+        "EntityRef": {
+            "value": "QB:99",
+            "name": "City of East Bayshore"
+        },
+        "Credit": false,
+        "status": "Pending",
+        "Id": "NG:3406790",
+        "SyncToken": "2",
+        "MetaData": {
+            "CreateTime": "2013-05-11T03:55:49Z",
+            "LastUpdatedTime": "2013-05-11T10:58:23Z"
+        },
+        "CustomField": [],
+        "AttachableRef": [],
+        "TxnDate": "2013-05-11",
+        "LinkedTxn": [],
+        "Line": [{
+            "Id": "NG:3607296",
+            "LinkedTxn": [],
+            "DetailType": "ItemBasedExpenseLineDetail",
+            "ItemBasedExpenseLineDetail": {"ItemRef": {
+                "value": "QB:30",
+                "name": "Plumb Fixtrs"
+            }},
+            "CustomField": []
+        }]
+    },
+    "time": "2013-05-11T10:59:25.083Z"
+}

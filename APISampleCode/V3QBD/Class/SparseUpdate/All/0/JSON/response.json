@@ -1,0 +1,17 @@
+{
+    "Class": {
+        "Name": "WestCoastSparse",
+        "SubClass": false,
+        "Active": true,
+        "status": "Pending",
+        "Id": "NG:228476",
+        "SyncToken": "4",
+        "MetaData": {
+            "CreateTime": "2013-05-10T10:08:43Z",
+            "LastUpdatedTime": "2013-05-10T10:11:33Z"
+        },
+        "CustomField": [],
+        "AttachableRef": []
+    },
+    "time": "2013-05-10T10:12:23.704Z"
+}

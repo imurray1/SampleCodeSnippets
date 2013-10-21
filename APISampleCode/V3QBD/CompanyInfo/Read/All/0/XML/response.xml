@@ -1,0 +1,51 @@
+<IntuitResponse xmlns="http://schema.intuit.com/finance/v3" time="2013-05-27T08:59:44.363Z">
+    <QueryResponse>
+        <CompanyInfo domain="QBDT">
+            <Id>255535841</Id>
+            <SyncToken>1</SyncToken>
+            <MetaData>
+                <CreateTime>2013-05-27T01:56:09.660Z</CreateTime>
+                <LastUpdatedTime>2013-05-27T01:56:55.330Z</LastUpdatedTime>
+            </MetaData>
+            <CompanyName>Stage_Nirvana_CompInfo</CompanyName>
+            <LegalName>Stage_Nirvana_CompInfo_Legal</LegalName>
+            <CompanyAddr>
+                <Line1>2500 Garcia Ave</Line1>
+                <Line2>2nd cross,3rd street</Line2>
+                <Line3>CA 94010</Line3>
+                <City>MountainView</City>
+                <CountrySubDivisionCode>CA</CountrySubDivisionCode>
+                <PostalCode>94010</PostalCode>
+            </CompanyAddr>
+            <LegalAddr>
+                <Line1>2500 Garcia Ave</Line1>
+                <Line2>2nd cross,3rd street</Line2>
+                <City>MountainView</City>
+                <CountrySubDivisionCode>CA</CountrySubDivisionCode>
+                <PostalCode>94010</PostalCode>
+            </LegalAddr>
+            <PrimaryPhone>
+                <FreeFormNumber>650-890-9876</FreeFormNumber>
+            </PrimaryPhone>
+            <CompanyFileName>Stage_Nirvana_CompInfo</CompanyFileName>
+            <FlavorStratum>bel_stratum</FlavorStratum>
+            <SampleFile>false</SampleFile>
+            <CompanyUserId>183058671</CompanyUserId>
+            <CompanyStartDate>2013-05-27</CompanyStartDate>
+            <EmployerId>12-1234567</EmployerId>
+            <FiscalYearStartMonth>January</FiscalYearStartMonth>
+            <TaxYearStartMonth>January</TaxYearStartMonth>
+            <QBVersion>23 0 5 4</QBVersion>
+            <Fax>
+                <FreeFormNumber>650-890-9876</FreeFormNumber>
+            </Fax>
+            <Email>
+                <Address>nirvana@intu.com</Address>
+            </Email>
+            <WebAddr>
+                <URI>www.nirvanainto.com</URI>
+            </WebAddr>
+            <LastSyncTime>2013-05-27T01:56:55Z</LastSyncTime>
+        </CompanyInfo>
+    </QueryResponse>
+</IntuitResponse>

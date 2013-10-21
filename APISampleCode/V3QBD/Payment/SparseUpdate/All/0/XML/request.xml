@@ -1,0 +1,7 @@
+<Payment xmlns="http://schema.intuit.com/finance/v3" sparse="true" status="Pending">
+    <Id>QB:63514</Id>
+    <SyncToken>1</SyncToken>
+    <PrivateNote>Sparse Mod</PrivateNote>
+    <PaymentType>Cash</PaymentType>
+    <TotalAmt>828.11</TotalAmt>
+</Payment>

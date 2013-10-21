@@ -1,0 +1,35 @@
+{
+    "Item": {
+        "Name": "ADD13",
+        "Description": "Groupitemallfields",
+        "Active": true,
+        "Type": "Group",
+        "PrintGroupedItems": true,
+        "ItemGroupDetail": {"ItemGroupLine": [
+            {
+                "ItemRef": {
+                    "value": "QB:16",
+                    "name": "Cabinet Pulls"
+                },
+                "Qty": 24
+            },
+            {
+                "ItemRef": {
+                    "value": "QB:17",
+                    "name": "Light Pine"
+                },
+                "Qty": 1
+            }
+        ]},
+        "status": "Pending",
+        "Id": "NG:3202323",
+        "SyncToken": "1",
+        "MetaData": {
+            "CreateTime": "2013-07-15T07:14:22Z",
+            "LastUpdatedTime": "2013-07-15T07:14:22Z"
+        },
+        "CustomField": [],
+        "AttachableRef": []
+    },
+    "time": "2013-07-15T07:19:59.396Z"
+}

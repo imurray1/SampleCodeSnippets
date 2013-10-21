@@ -1,0 +1,105 @@
+{
+    Customer: {
+        BillAddr: {
+            Line1: "99 Garcia Ave", 
+            Line2: "Bldg 99", 
+            Line3: "San Jose, CA 95127", 
+            City: "San Jose", 
+            Country: "USA", 
+            CountrySubDivisionCode: "CA", 
+            PostalCode: "95127-9090"
+        }, 
+        ShipAddr: {
+            Line1: "300, Main Street", 
+            Line2: "Bldg 99", 
+            Line3: "San Jose, CA 95128", 
+            City: "San Jose", 
+            Country: "USA", 
+            CountrySubDivisionCode: "CA", 
+            PostalCode: "95128-9090"
+        }, 
+        OtherAddr: [ ], 
+        ContactName: "amaar bibi", 
+        AltContactName: "samar appa", 
+        Job: false, 
+        CustomerTypeRef: {
+            value: "QB:2", 
+            name: "Referral"
+        }, 
+        SalesTermRef: {
+            value: "QB:5", 
+            name: "Net 15"
+        }, 
+        SalesRepRef: {
+            value: "QB:2", 
+            name: "T"
+        }, 
+        TaxRateRef: {
+            value: "QB:46", 
+            name: "San Tomas"
+        }, 
+        PaymentMethodRef: {
+            value: "QB:2", 
+            name: "Check"
+        }, 
+        Balance: 9800.5, 
+        OpenBalanceDate: "2012-03-05", 
+        BalanceWithJobs: 9800.5, 
+        CreditLimit: 155000, 
+        AcctNum: "a124-9898ZZ", 
+        CurrencyRef: {
+            value: "QB:109", 
+            name: "US Dollar"
+        }, 
+        ResaleNum: "41", 
+        JobInfo: {
+            Status: "Pending", 
+            StartDate: "2012-03-05", 
+            ProjectedEndDate: "2012-04-05", 
+            EndDate: "2012-04-05", 
+            Description: "In progress description not to exceed 99 characters in length", 
+            JobTypeRef: {
+                value: "QB:1", 
+                name: "New Construction"
+            }
+        }, 
+        status: "Pending", 
+        Id: "NG:14754917", 
+        SyncToken: "1", 
+        MetaData: {
+            CreateTime: "2013-04-03T10:41:52Z", 
+            LastUpdatedTime: "2013-04-03T10:41:52Z"
+        }, 
+        CustomField: [ ], 
+        AttachableRef: [ ], 
+        Organization: true, 
+        Title: "Mr", 
+        GivenName: "AJA", 
+        MiddleName: "M", 
+        FamilyName: "MAjorB", 
+        CompanyName: "CustomerUS toni ki company", 
+        DisplayName: "Us ka Roni1_JSON", 
+        Active: true, 
+        PrimaryPhone: {
+            FreeFormNumber: "(650)111-1111"
+        }, 
+        AlternatePhone: {
+            FreeFormNumber: "(650)111-2222"
+        }, 
+        Mobile: {
+            FreeFormNumber: "(650)111-4444"
+        }, 
+        Fax: {
+            FreeFormNumber: "(650)111-3333"
+        }, 
+        PrimaryEmailAddr: {
+            Address: "Customer_99@Company.com"
+        }, 
+        OtherContactInfo: [ ], 
+        DefaultTaxCodeRef: {
+            value: "QB:1", 
+            name: "Tax"
+        }
+    }, 
+    time: "2013-04-03T10:41:48.254Z"
+}

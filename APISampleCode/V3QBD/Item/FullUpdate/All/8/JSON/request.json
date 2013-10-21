@@ -1,0 +1,21 @@
+{
+    "status": "Synchronized",
+    "Id": "NG:3202323",
+    "SyncToken": "3",
+    "MetaData": {
+        "CreateTime": "2013-07-15T07:21:03Z",
+        "LastUpdatedTime": "2013-07-15T07:15:28Z"
+    },
+    "Name": "ADD13_mod",
+    "Description": "Groupitemallfields_MOD",
+    "Active": "false",
+    "Type": "Group",
+    "PrintGroupedItems": "true",
+    "ItemGroupDetail": {"ItemGroupLine": [{
+        "ItemRef": {
+            "name": "Rough",
+            "value": "QB:28"
+        },
+        "Qty": "24"
+    }]}
+}

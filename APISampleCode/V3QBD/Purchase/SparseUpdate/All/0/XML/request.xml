@@ -1,0 +1,5 @@
+<Purchase xmlns="http://schema.intuit.com/finance/v3" sparse="true">
+    <Id> NG:3876177</Id>
+    <SyncToken>1</SyncToken>
+    <EntityRef name="City of East Bayshore">QB:99</EntityRef>
+</Purchase>

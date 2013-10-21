@@ -1,0 +1,16 @@
+<Item xmlns="http://schema.intuit.com/finance/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.intuit.com/finance/v3 IntuitRestServiceDef.xsd">
+    <Name>P1</Name>
+    <Description>desc_Sales</Description>
+    <Active>true</Active>
+    <ParentRef name="Lumber">QB:88</ParentRef>
+    <UnitPrice>30</UnitPrice>
+    <Type>NonInventory</Type>
+    <UOMSetRef name="Area by the square foot">QB:5</UOMSetRef>
+    <IncomeAccountRef name="Reimbursement Income">QB:128</IncomeAccountRef>
+    <PurchaseDesc>Desc_Purchase</PurchaseDesc>
+    <PurchaseCost>10</PurchaseCost>
+    <ExpenseAccountRef name="Other Expenses">QB:78</ExpenseAccountRef>
+    <PrefVendorRef name="A Cheung Limited">QB:166</PrefVendorRef>
+    <ManPartNum>1234</ManPartNum>
+    <SalesTaxCodeRef>QB:1</SalesTaxCodeRef>
+</Item>

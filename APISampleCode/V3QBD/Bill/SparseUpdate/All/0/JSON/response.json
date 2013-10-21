@@ -1,0 +1,73 @@
+{
+   "Bill":{
+      "DueDate":"2012-12-25",
+      "ShipAddr":{
+         "Line1":"HB",
+         "Line2":"Hugo Boss",
+         "Line3":"23",
+         "City":"MV",
+         "Country":"USA",
+         "CountrySubDivisionCode":"CA",
+         "PostalCode":"95141"
+      },
+      "Balance":0,
+      "status":"Pending",
+      "Id":"QB:63673",
+      "SyncToken":"2",
+      "MetaData":{
+         "CreateTime":"2013-06-03T12:00:39Z",
+         "LastUpdatedTime":"2013-06-03T12:00:39Z"
+      },
+      "CustomField":[
+
+      ],
+      "AttachableRef":[
+
+      ],
+      "TxnDate":"2012-12-15",
+      "ExchangeRate":1,
+      "PrivateNote":"tESTING with ll types of Line itesms",
+      "TxnStatus":"Paid",
+      "LinkedTxn":[
+
+      ],
+      "Line":[
+         {
+            "Id":"NG:3629086",
+            "Amount":568,
+            "LinkedTxn":[
+
+            ],
+            "DetailType":"AccountBasedExpenseLineDetail",
+            "AccountBasedExpenseLineDetail":{
+               "AccountRef":{
+                  "value":"QB:38",
+                  "name":"Dues and Subscriptions"
+               }
+            },
+            "CustomField":[
+
+            ]
+         }
+      ],
+      "TxnTaxDetail":{
+         "TotalTax":0,
+         "TaxLine":[
+
+         ]
+      },
+      "VendorRef":{
+         "value":"QB:268",
+         "name":"Hugo Boss"
+      },
+      "APAccountRef":{
+         "value":"QB:12",
+         "name":"Accounts Payable"
+      },
+      "TotalAmt":568,
+      "BillEmail":{
+         "Address":"hb@hb.com"
+      }
+   },
+   "time":"2013-06-03T12:03:16.286Z"
+}

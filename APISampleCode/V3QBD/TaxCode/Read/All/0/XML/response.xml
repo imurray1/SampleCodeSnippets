@@ -1,0 +1,15 @@
+<QueryResponse maxResults="1" startPosition="1">
+    <TaxCode status="Synchronized">
+        <Id>NG:3105687</Id>
+        <SyncToken>4</SyncToken>
+        <MetaData>
+            <CreateTime>2013-03-27T13:48:19Z</CreateTime>
+            <LastUpdatedTime>2013-03-27T13:44:38Z</LastUpdatedTime>
+        </MetaData>
+        <Name>B2</Name>
+        <Description>Description_mod</Description>
+        <Active>false</Active>
+        <Taxable>false</Taxable>
+        <TaxGroup>false</TaxGroup>
+    </TaxCode>
+</QueryResponse>

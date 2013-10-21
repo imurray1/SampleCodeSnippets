@@ -1,0 +1,43 @@
+{
+    "Item": {
+        "Name": "P2_modified",
+        "Description": "desc_Sales",
+        "Active": true,
+        "ParentRef": {
+            "value": "QB:88",
+            "name": "Lumber"
+        },
+        "UnitPrice": 30,
+        "Type": "NonInventory",
+        "UOMSetRef": {
+            "value": "QB:5",
+            "name": "Area by the square foot"
+        },
+        "IncomeAccountRef": {
+            "value": "QB:128",
+            "name": "Reimbursement Income"
+        },
+        "PurchaseDesc": "Desc_Purchase",
+        "PurchaseCost": 10,
+        "ExpenseAccountRef": {
+            "value": "QB:78",
+            "name": "Other Expenses"
+        },
+        "PrefVendorRef": {
+            "value": "QB:166",
+            "name": "A Cheung Limited"
+        },
+        "ManPartNum": "1234",
+        "SalesTaxCodeRef": {"value": "QB:1"},
+        "status": "Pending",
+        "Id": "NG:3104667",
+        "SyncToken": "2",
+        "MetaData": {
+            "CreateTime": "2013-06-04T05:51:26Z",
+            "LastUpdatedTime": "2013-06-04T09:18:47Z"
+        },
+        "CustomField": [],
+        "AttachableRef": []
+    },
+    "time": "2013-06-04T10:32:08.359Z"
+}

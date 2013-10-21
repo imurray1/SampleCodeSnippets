@@ -1,0 +1,33 @@
+{
+   "Name":"P2",
+   "Description":"desc_Sales",
+   "Active":"true",
+   "ParentRef":{
+      "name":"Lumber",
+      "value":"QB:88"
+   },
+   "UnitPrice":"30",
+   "Type":"NonInventory",
+   "UOMSetRef":{
+      "name":"Area by the square foot",
+      "value":"QB:5"
+   },
+   "IncomeAccountRef":{
+      "name":"Reimbursement Income",
+      "value":"QB:128"
+   },
+   "PurchaseDesc":"Desc_Purchase",
+   "PurchaseCost":"10",
+   "ExpenseAccountRef":{
+      "name":"Other Expenses",
+      "value":"QB:78"
+   },
+   "PrefVendorRef":{
+      "name":"A Cheung Limited",
+      "value":"QB:166"
+   },
+   "ManPartNum":"1234",
+   "SalesTaxCodeRef":{
+      "value":"QB:1"
+   }
+}

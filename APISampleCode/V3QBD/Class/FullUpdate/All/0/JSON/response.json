@@ -1,0 +1,16 @@
+{
+    "Class": {
+        "Name": "WestCoast",
+        "SubClass": false,
+        "status": "Pending",
+        "Id": "NG:228476",
+        "SyncToken": "2",
+        "MetaData": {
+            "CreateTime": "2013-05-10T09:58:14Z",
+            "LastUpdatedTime": "2013-05-10T10:04:37Z"
+        },
+        "CustomField": [],
+        "AttachableRef": []
+    },
+    "time": "2013-05-10T10:05:27.676Z"
+}

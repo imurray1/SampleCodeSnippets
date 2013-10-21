@@ -1,0 +1,14 @@
+<Item xmlns="http://schema.intuit.com/finance/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.intuit.com/finance/v3 IntuitRestServiceDef.xsd">
+    <Name>SerItem2</Name>
+    <Description>ServiceItems</Description>
+    <Active>true</Active>
+    <UnitPrice>20.5</UnitPrice>
+    <Type>Service</Type>
+    <UOMSetRef name="Area by the square foot">QB:5</UOMSetRef>
+    <IncomeAccountRef name="Reimbursement Income">QB:28</IncomeAccountRef>
+    <PurchaseDesc>Service_Purchase</PurchaseDesc>
+    <PurchaseCost>10</PurchaseCost>
+    <ExpenseAccountRef name="Other Expenses">QB:78</ExpenseAccountRef>
+    <PrefVendorRef name="A Cheung Limited">QB:4</PrefVendorRef>
+    <SalesTaxCodeRef>QB:2</SalesTaxCodeRef>
+</Item>

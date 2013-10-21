@@ -1,0 +1,21 @@
+{
+    "QueryResponse": {
+        "Account": [{
+            "Name": "SubAccount4",
+            "SubAccount": false,
+            "Active": true,
+            "Classification": "Asset",
+            "AccountType": "Bank",
+            "status": "Pending",
+            "Id": "NG:194441",
+            "SyncToken": "1",
+            "MetaData": {
+                "CreateTime": "2013-03-22T10:41:19Z",
+                "LastUpdatedTime": "2013-03-22T10:41:19Z"
+            }
+        }],
+        "startPosition": 1,
+        "maxResults": 1
+    },
+    "time": "2013-03-22T10:46:48.489Z"
+}

@@ -1,0 +1,38 @@
+{
+    "Item": {
+        "Name": "OthrChrFull2_mod",
+        "Description": "Add New Full Item 1 Sales Tranc",
+        "Active": true,
+        "ParentRef": {
+            "value": "QB:124",
+            "name": "Delivery"
+        },
+        "UnitPrice": 1000,
+        "Type": "Other Charge",
+        "IncomeAccountRef": {
+            "value": "QB:122",
+            "name": "Design Income"
+        },
+        "PurchaseDesc": "Add New Full Item 1 Purc Tranc",
+        "PurchaseCost": 2000,
+        "ExpenseAccountRef": {
+            "value": "QB:78",
+            "name": "Other Expenses"
+        },
+        "PrefVendorRef": {
+            "value": "QB:268",
+            "name": "Hugo Boss"
+        },
+        "SalesTaxCodeRef": {"value": "QB:1"},
+        "status": "Pending",
+        "Id": "NG:3104666",
+        "SyncToken": "2",
+        "MetaData": {
+            "CreateTime": "2013-06-04T05:45:50Z",
+            "LastUpdatedTime": "2013-06-04T09:15:36Z"
+        },
+        "CustomField": [],
+        "AttachableRef": []
+    },
+    "time": "2013-06-04T10:28:56.072Z"
+}

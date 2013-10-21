@@ -1,0 +1,19 @@
+{
+    "Line": [{
+        "DetailType": "ItemBasedExpenseLineDetail",
+        "ItemBasedExpenseLineDetail": {"ItemRef": {
+            "name": "Plumb Fixtrs",
+            "value": "QB:30"
+        }}
+    }],
+    "AccountRef": {
+        "name": "QuickBooks Credit Card",
+        "value": "QB:87"
+    },
+    "PaymentType": "CreditCard",
+    "EntityRef": {
+        "name": "Bank of Anycity",
+        "value": "QB:164"
+    },
+    "Credit": "false"
+}

@@ -1,0 +1,1 @@
+select * from Vendor where id = 'NG:3916388'

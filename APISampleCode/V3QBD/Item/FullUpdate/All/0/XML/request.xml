@@ -1,0 +1,50 @@
+<Item xmlns="http://schema.intuit.com/finance/v3">
+
+    <Id>NG:3056721</Id>
+
+    <SyncToken>4</SyncToken>
+
+    <MetaData>
+
+        <CreateTime>2013-05-27T07:47:51Z</CreateTime>
+
+        <LastUpdatedTime>2013-05-27T07:47:57Z</LastUpdatedTime>
+
+    </MetaData>
+
+    <Name>Inventory item 5_mod1</Name>
+
+    <Description>Inventory item</Description>
+
+    <Active>true</Active>
+
+    <UnitPrice>1782.56</UnitPrice>
+
+    <Type>Inventory</Type>
+
+    <UOMSetRef name="Each to Case/Doz">QB:1</UOMSetRef>
+
+    <IncomeAccountRef name="Materials Income">QB:26</IncomeAccountRef>
+
+    <PurchaseDesc>standard interior brass hinge</PurchaseDesc>
+
+    <PurchaseCost>3</PurchaseCost>
+
+    <COGSAccountRef name="Cost of Goods Sold">QB:30</COGSAccountRef>
+
+    <AssetAccountRef name="Inventory Asset">QB:6</AssetAccountRef>
+
+    <PrefVendorRef name="Perry Windows &amp; Doors">QB:12</PrefVendorRef>
+
+    <AvgCost>3</AvgCost>
+
+    <QtyOnHand>2142</QtyOnHand>
+
+
+    <QtyOnPurchaseOrder>0</QtyOnPurchaseOrder>
+
+    <QtyOnSalesOrder>0</QtyOnSalesOrder>
+
+    <SalesTaxCodeRef>QB:1</SalesTaxCodeRef>
+
+</Item>

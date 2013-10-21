@@ -1,0 +1,20 @@
+<IntuitResponse xmlns="http://schema.intuit.com/finance/v3" time="2013-07-11T11:09:39.494Z">
+    <Item status="Pending">
+        <Id>NG:3201247</Id>
+        <SyncToken>2</SyncToken>
+        <MetaData>
+            <CreateTime>2013-07-11T11:01:15Z</CreateTime>
+            <LastUpdatedTime>2013-07-11T11:04:52Z</LastUpdatedTime>
+        </MetaData>
+        <Name>Addmodall_MOD</Name>
+        <Description>Groupitemallfields_MOD</Description>
+        <Active>false</Active>
+        <Type>Group</Type>
+        <ItemGroupDetail>
+            <ItemGroupLine>
+                <ItemRef name="Mileage">QB:70</ItemRef>
+                <Qty>500</Qty>
+            </ItemGroupLine>
+        </ItemGroupDetail>
+    </Item>
+</IntuitResponse>

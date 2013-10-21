@@ -1,0 +1,103 @@
+<IntuitResponse xmlns="http://schema.intuit.com/finance/v3" time="2013-05-08T04:52:12.475Z">
+    
+    <Purchase status="Pending">
+        
+        <Id>NG:3406144</Id>
+        
+        <SyncToken>1</SyncToken>
+        
+        <MetaData>
+            
+            <CreateTime>2013-05-07T21:51:51Z</CreateTime>
+            
+            <LastUpdatedTime>2013-05-08T04:51:51Z</LastUpdatedTime>
+            
+        </MetaData>
+        
+        <DocNumber>CcChrAll</DocNumber>
+        
+        <TxnDate>2013-04-26</TxnDate>
+        
+        <TxnStatus>Payable</TxnStatus>
+        
+        <Line>
+            
+            <Id>NG:3605766</Id>
+            
+            <Description>acc ex memo</Description>
+            
+            <Amount>23</Amount>
+            
+            <DetailType>AccountBasedExpenseLineDetail</DetailType>
+            
+            <AccountBasedExpenseLineDetail>
+                
+                <CustomerRef name="Apple">QB:260</CustomerRef>
+                
+                <ClassRef name="Design">QB:9</ClassRef>
+                
+                <AccountRef name="Automobile">QB:31</AccountRef>
+                
+                <BillableStatus>Billable</BillableStatus>
+                
+            </AccountBasedExpenseLineDetail>
+            
+        </Line>
+        
+        <Line>
+            
+            <Id>NG:3605767</Id>
+            
+            <Description>clamps for purchase txn</Description>
+            
+            <Amount>4.8</Amount>
+            
+            <DetailType>ItemBasedExpenseLineDetail</DetailType>
+            
+            <ItemBasedExpenseLineDetail>
+                
+                <ItemRef name="clamps">QB:116</ItemRef>
+                
+                <ClassRef name="Design">QB:9</ClassRef>
+                
+                <UnitPrice>0.2</UnitPrice>
+                
+                <Qty>1</Qty>
+                
+                <CustomerRef name="Apple">QB:260</CustomerRef>
+                
+                <BillableStatus>Billable</BillableStatus>
+                
+            </ItemBasedExpenseLineDetail>
+            
+        </Line>
+        
+        <Line>
+            
+            <Id>NG:3605768</Id>
+            
+            <DetailType>GroupLineDetail</DetailType>
+            
+            <GroupLineDetail>
+                
+                <GroupItemRef name="Door set">QB:47</GroupItemRef>
+                
+            </GroupLineDetail>
+            
+        </Line>
+        
+        <AccountRef name="QuickBooks Credit Card">QB:87</AccountRef>
+        
+        <PaymentType>CreditCard</PaymentType>
+        
+        <EntityRef name="Bank of Anycity">QB:164</EntityRef>
+        
+        <Credit>false</Credit>
+        
+        <TotalAmt>5630.39</TotalAmt>
+        
+        <Memo>Job Materials</Memo>
+        
+    </Purchase>
+    
+</IntuitResponse>

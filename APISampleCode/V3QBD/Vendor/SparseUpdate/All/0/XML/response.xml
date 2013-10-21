@@ -1,0 +1,65 @@
+<IntuitResponse xmlns="http://schema.intuit.com/finance/v3" time="2013-04-05T04:10:36.720Z">
+    <Vendor status="Pending">
+        <Id>NG:3904416</Id>
+        <SyncToken>2</SyncToken>
+        <MetaData>
+            <CreateTime>2013-04-05T03:59:24Z</CreateTime>
+            <LastUpdatedTime>2013-04-05T04:03:03Z</LastUpdatedTime>
+        </MetaData>
+        <Organization>false</Organization>
+        <Title>Mr.</Title>
+        <GivenName>Ven100</GivenName>
+        <MiddleName>MiddleName</MiddleName>
+        <FamilyName>Lastname</FamilyName>
+        <CompanyName>CompanyName</CompanyName>
+        <DisplayName>VenDis100Mod</DisplayName>
+        <PrintOnCheckName>Nameoncheck</PrintOnCheckName>
+        <Active>true</Active>
+        <PrimaryPhone>
+            <FreeFormNumber>(650)111-1111</FreeFormNumber>
+        </PrimaryPhone>
+        <AlternatePhone>
+            <FreeFormNumber>(650)111-1111</FreeFormNumber>
+        </AlternatePhone>
+        <Fax>
+            <FreeFormNumber>(650)111-1111</FreeFormNumber>
+        </Fax>
+        <PrimaryEmailAddr>
+            <Address>Vendor@vendor.com</Address>
+        </PrimaryEmailAddr>
+        <ContactName>Contact Name</ContactName>
+        <AltContactName>Alternate Contact</AltContactName>
+        <BillAddr>
+            <Line1>Billing address</Line1>
+            <Line2>Company</Line2>
+            <Line3>address line three</Line3>
+            <Line4>address line four </Line4>
+            <Line5>address line five </Line5>
+            <City>Mountain View</City>
+            <Country>USA</Country>
+            <CountrySubDivisionCode>CA</CountrySubDivisionCode>
+            <PostalCode>94043</PostalCode>
+        </BillAddr>
+        <ShipAddr>
+            <Line1>Shipping address</Line1>
+            <Line2>ompany</Line2>
+            <Line3>address line three</Line3>
+            <Line4>address line four </Line4>
+            <Line5>address line five </Line5>
+            <City>Mountain View</City>
+            <Country>USA</Country>
+            <CountrySubDivisionCode>CA</CountrySubDivisionCode>
+            <PostalCode>94043</PostalCode>
+        </ShipAddr>
+        <TaxIdentifier>32-1234567</TaxIdentifier>
+        <VendorTypeRef name="Consultant">QB:1</VendorTypeRef>
+        <TermRef name="Due on receipt">QB:4</TermRef>
+        <PrefillAccountRef name="Advertising and Promotion">QB:35</PrefillAccountRef>
+        <Balance>500</Balance>
+        <OpenBalanceDate>2012-10-01</OpenBalanceDate>
+        <CreditLimit>1223</CreditLimit>
+        <AcctNum>1234</AcctNum>
+        <Vendor1099>true</Vendor1099>
+        <CurrencyRef name="US Dollar">QB:109</CurrencyRef>
+    </Vendor>
+</IntuitResponse>

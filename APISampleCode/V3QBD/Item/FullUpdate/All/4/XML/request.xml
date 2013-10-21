@@ -1,0 +1,24 @@
+<Item xmlns="http://schema.intuit.com/finance/v3">
+
+
+    <Id>QB:41</Id>
+
+    <SyncToken>1</SyncToken>
+
+    <MetaData>
+
+        <CreateTime>1999-07-29T18:24:16Z</CreateTime>
+
+        <LastUpdatedTime>2013-01-02T05:07:43Z</LastUpdatedTime>
+
+    </MetaData>
+
+    <Name>Subtotal_mod1</Name>
+
+    <Description>Subtotal</Description>
+
+    <Active>true</Active>
+
+    <Type>Subtotal</Type>
+
+</Item>

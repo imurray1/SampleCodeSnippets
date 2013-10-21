@@ -1,0 +1,62 @@
+{
+    "Invoice": {
+        "status": "Pending",
+        "Id": "QB:62821",
+        "SyncToken": "3",
+        "MetaData": {
+            "CreateTime": "2013-04-11T10:20:52Z",
+            "LastUpdatedTime": "2013-04-11T10:21:47Z"
+        },
+        "CustomField": [],
+        "AttachableRef": [],
+        "TxnDate": "2013-04-01",
+        "ExchangeRate": 1,
+        "PrivateNote": "Opening balance",
+        "TxnStatus": "Payable",
+        "LinkedTxn": [],
+        "Line": [{
+            "Id": "NG:3581172",
+            "Description": "Opening balance",
+            "Amount": 200,
+            "LinkedTxn": [],
+            "DetailType": "DescriptionOnly",
+            "CustomField": []
+        }],
+        "TxnTaxDetail": {
+            "DefaultTaxCodeRef": {
+                "value": "QB:1",
+                "name": "Tax"
+            },
+            "TotalTax": 0,
+            "TaxLine": []
+        },
+        "CustomerRef": {
+            "value": "QB:253",
+            "name": "New Stack1"
+        },
+        "BillAddr": {
+            "Line1": "CRT",
+            "Line2": "DS"
+        },
+        "RemitToRef": {
+            "value": "QB:253",
+            "name": "New Stack1"
+        },
+        "DueDate": "2013-04-01",
+        "ShipMethodRef": {
+            "value": "QB:4",
+            "name": "UPS"
+        },
+        "ShipDate": "2013-04-01",
+        "TotalAmt": 200,
+        "PrintStatus": "NotSet",
+        "EmailStatus": "NotSet",
+        "ARAccountRef": {
+            "value": "QB:145",
+            "name": "11111"
+        },
+        "Balance": 200,
+        "FinanceCharge": true
+    },
+    "time": "2013-04-11T10:30:43.822Z"
+}

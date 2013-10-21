@@ -1,0 +1,6 @@
+<Class  xmlns="http://schema.intuit.com/finance/v3" >
+    <Name>ClassAddAllFlds</Name>
+    <SubClass>true</SubClass>
+    <!--ParentRef name="New Construction">QB:1</ParentRef-->
+    <Active>true</Active>
+</Class>

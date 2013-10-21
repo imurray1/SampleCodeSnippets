@@ -1,0 +1,13 @@
+<Item xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://schema.intuit.com/finance/v3 IntuitRestServiceDef.xsd"
+    xmlns="http://schema.intuit.com/finance/v3">
+    
+    <Name>Dis</Name>
+    <Description>10% Discount</Description>
+    <Active>true</Active>
+    <Taxable>false</Taxable>
+    <RatePercent>10</RatePercent>
+    <Type>Discount</Type>
+    <IncomeAccountRef name="Less Discounts given">QB:24</IncomeAccountRef>
+    <SalesTaxCodeRef name="Non">QB:2</SalesTaxCodeRef>
+</Item>

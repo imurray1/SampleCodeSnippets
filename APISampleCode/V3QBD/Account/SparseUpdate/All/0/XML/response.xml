@@ -1,0 +1,14 @@
+<IntuitResponse xmlns="http://schema.intuit.com/finance/v3" time="2013-05-08T18:45:42.565Z">
+    <Account status="Pending">
+        <Id>NG:208966</Id>
+        <SyncToken>2</SyncToken>
+        <MetaData>
+            <CreateTime>2013-05-08T18:43:55Z</CreateTime>
+            <LastUpdatedTime>2013-05-08T18:43:55Z</LastUpdatedTime>
+        </MetaData>
+        <Name>MyBnkAct</Name>
+        <Active>true</Active>
+        <Classification>Asset</Classification>
+        <AccountType>Bank</AccountType>
+    </Account>
+</IntuitResponse>

@@ -1,0 +1,43 @@
+<IntuitResponse xmlns="http://schema.intuit.com/finance/v3" time="2013-06-03T11:01:30.628Z">
+
+    <QueryResponse maxResults="1" startPosition="1">
+
+        <Item status="Synchronized">
+
+            <Id>QB:95</Id>
+
+            <SyncToken>1</SyncToken>
+
+            <MetaData>
+
+                <CreateTime>2007-12-18T04:17:49Z</CreateTime>
+
+                <LastUpdatedTime>2013-06-03T10:38:56Z</LastUpdatedTime>
+
+            </MetaData>
+
+            <Name>Freight Reimbursement</Name>
+
+            <Description>Freight and Delivery Reimbursement</Description>
+
+            <Active>true</Active>
+
+            <Taxable>false</Taxable>
+
+            <UnitPrice>0</UnitPrice>
+
+            <Type>Other Charge</Type>
+
+            <IncomeAccountRef name="Reimbursed Freight &amp; Delivery">QB:119</IncomeAccountRef>
+
+            <PurchaseCost>0</PurchaseCost>
+
+            <SalesTaxCodeRef name="Non">QB:2</SalesTaxCodeRef>
+
+            <SpecialItem>false</SpecialItem>
+
+        </Item>
+
+    </QueryResponse>
+
+</IntuitResponse>

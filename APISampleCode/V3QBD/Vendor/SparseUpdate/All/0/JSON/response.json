@@ -1,0 +1,21 @@
+{
+    "Vendor": {
+        "OtherAddr": [],
+        "TaxIdentifier": "32-1234567",
+        "Vendor1099": false,
+        "status": "Pending",
+        "Id": "NG:3916388",
+        "SyncToken": "2",
+        "MetaData": {
+            "CreateTime": "2013-04-11T07:51:53Z",
+            "LastUpdatedTime": "2013-04-11T07:54:52Z"
+        },
+        "CustomField": [],
+        "AttachableRef": [],
+        "Organization": false,
+        "DisplayName": "Cust4Mod",
+        "Active": true,
+        "OtherContactInfo": []
+    },
+    "time": "2013-04-11T08:03:49.114Z"
+}

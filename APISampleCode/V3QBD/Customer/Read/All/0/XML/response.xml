@@ -1,0 +1,33 @@
+<IntuitResponse xmlns="http://schema.intuit.com/finance/v3" time="2013-04-03T10:22:55.766Z">
+    <QueryResponse> max Results="1" startPosition="1"> <Customer status="Pending">
+            <Id>NG:512249</Id>
+            <SyncToken>1</SyncToken>
+            <MetaData>
+                <CreateTime>2013-04-03T05:49:14Z</CreateTime>
+                <LastUpdatedTime>2013-04-03T05:49:14Z</LastUpdatedTime>
+            </MetaData>
+            <Organization>false</Organization>
+            <Title>Ms.</Title>
+            <GivenName>Simm</GivenName>
+            <MiddleName>K.</MiddleName>
+            <FamilyName>Hopkins</FamilyName>
+            <DisplayName>Simm K. Hopkins</DisplayName>
+            <Active>true</Active>
+            <Job>false</Job>
+            <Balance>19500.5</Balance>
+            <OpenBalanceDate>2012-03-05</OpenBalanceDate>
+            <CreditLimit>155000</CreditLimit>
+            <AcctNum>a124-9898ZZ</AcctNum>
+            <ResaleNum>41</ResaleNum>
+            <JobInfo>
+                <Status>Pending</Status>
+                <StartDate>2012-03-05</StartDate>
+                <ProjectedEndDate>2012-03-05</ProjectedEndDate>
+                <EndDate>2012-03-05</EndDate>
+                <Description>In progress description not to exceed 99 characters in
+                    length</Description>
+                <JobTypeRef name="New Construction">QB:1</JobTypeRef>
+            </JobInfo>
+        </Customer>
+    </QueryResponse>
+</IntuitResponse>

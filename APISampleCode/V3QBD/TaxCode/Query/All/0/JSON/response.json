@@ -1,0 +1,20 @@
+{
+    "QueryResponse": {
+        "TaxCode": {
+            "Name": "WA",
+            "Active": true,
+            "Taxable": false,
+            "TaxGroup": false,
+            "status": "Synchronized",
+            "Id": "NG:3105687",
+            "SyncToken": "4",
+            "MetaData": {
+                "CreateTime": "2013-03-27T13:48:19Z",
+                "LastUpdatedTime": "2013-03-27T13:44:38Z"
+            }
+        },
+        "startPosition": 1,
+        "maxResults": 1
+    },
+    "time": "2013-04-03T09:21:25.679Z"
+}

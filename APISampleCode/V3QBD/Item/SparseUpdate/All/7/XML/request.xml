@@ -1,0 +1,10 @@
+<Item xmlns="http://schema.intuit.com/finance/v3" sparse="true">
+    <Id>NG:3202465</Id>
+    <SyncToken>1</SyncToken>
+    <ItemAssemblyDetail>
+        <ItemAssemblyLine>
+            <ItemRef name="clamps">QB:116</ItemRef>
+            <Qty>8</Qty>
+        </ItemAssemblyLine>
+    </ItemAssemblyDetail>
+</Item>

@@ -1,0 +1,37 @@
+<IntuitResponse xmlns="http://schema.intuit.com/finance/v3" time="2013-07-12T14:18:21.511Z">
+    <Item status="Pending">
+        <Id>QB:125</Id>
+        <SyncToken>2</SyncToken>
+        <MetaData>
+            <CreateTime>2013-07-12T14:13:19Z</CreateTime>
+            <LastUpdatedTime>2013-07-12T14:13:19Z</LastUpdatedTime>
+        </MetaData>
+        <Name>Assmb_Mod_All1373638700677</Name>
+        <Description>Testing sales mod</Description>
+        <Active>false</Active>
+        <ParentRef name="unit1">QB:117</ParentRef>
+        <Taxable>true</Taxable>
+        <UnitPrice>60</UnitPrice>
+        <Type>Assembly</Type>
+        <UOMSetRef name="Area by the square foot">QB:1</UOMSetRef>
+        <IncomeAccountRef>QB:26</IncomeAccountRef>
+        <PurchaseDesc>Testing purchase mod</PurchaseDesc>
+        <PurchaseCost>15</PurchaseCost>
+        <COGSAccountRef>QB:26</COGSAccountRef>
+        <AssetAccountRef>QB:26</AssetAccountRef>
+        <PrefVendorRef name="City of East Bayshore">QB:99</PrefVendorRef>
+        <AvgCost>20</AvgCost>
+        <QtyOnHand>10</QtyOnHand>
+        <QtyOnPurchaseOrder>4</QtyOnPurchaseOrder>
+        <QtyOnSalesOrder>0</QtyOnSalesOrder>
+        <ManPartNum>Man#Test007</ManPartNum>
+        <SalesTaxCodeRef name="Non">QB:2</SalesTaxCodeRef>
+        <BuildPoint>15</BuildPoint>
+        <ItemAssemblyDetail>
+            <ItemAssemblyLine>
+                <ItemRef name="clamps">QB:116</ItemRef>
+                <Qty>8</Qty>
+            </ItemAssemblyLine>
+        </ItemAssemblyDetail>
+    </Item>
+</IntuitResponse>

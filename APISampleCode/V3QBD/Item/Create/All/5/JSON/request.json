@@ -1,0 +1,16 @@
+{
+   "Name":"Dis1",
+   "Description":"10% Discount",
+   "Active":"true",
+   "Taxable":"false",
+   "RatePercent":"10",
+   "Type":"Discount",
+   "IncomeAccountRef":{
+      "name":"Less Discounts given",
+      "value":"QB:24"
+   },
+   "SalesTaxCodeRef":{
+      "name":"Non",
+      "value":"QB:2"
+   }
+}

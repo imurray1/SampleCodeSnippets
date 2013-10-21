@@ -1,0 +1,16 @@
+{
+    "Id": "NG:3104671",
+    "SyncToken": "1",
+    "Name": "Pay2_mod",
+    "Description": "Pay1_mod",
+    "Active": "true",
+    "Type": "Payment",
+    "PaymentMethodRef": {
+        "name": "Check",
+        "value": "QB:2"
+    },
+    "DepositToAccountRef": {
+        "name": "Checking",
+        "value": "QB:8"
+    }
+}

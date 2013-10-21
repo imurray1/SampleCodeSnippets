@@ -1,0 +1,21 @@
+{
+    "QueryResponse": {
+        "Vendor": [{
+            "TaxIdentifier": "32-1234567",
+            "Vendor1099": false,
+            "status": "Pending",
+            "Id": "NG:3904387",
+            "SyncToken": "1",
+            "MetaData": {
+                "CreateTime": "2013-04-03T07:52:31Z",
+                "LastUpdatedTime": "2013-04-03T07:52:31Z"
+            },
+            "Organization": false,
+            "DisplayName": "Cust2",
+            "Active": true
+        }],
+        "startPosition": 1,
+        "maxResults": 1
+    },
+    "time": "2013-04-03T08:07:56.952Z"
+}

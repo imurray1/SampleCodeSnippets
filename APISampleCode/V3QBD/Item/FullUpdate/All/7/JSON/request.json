@@ -1,0 +1,22 @@
+{
+    "Name": "Min",
+    "Type": "Assembly",
+    "IncomeAccountRef": {
+        "value": "QB:26",
+        "name": "Materials Income"
+    },
+    "COGSAccountRef": {
+        "value": "QB:30",
+        "name": "Cost of Goods Sold"
+    },
+    "AssetAccountRef": {
+        "value": "QB:6",
+        "name": "Inventory Asset"
+    },
+    "SalesTaxCodeRef": {
+        "value": "QB:1",
+        "name": "Tax"
+    },
+    "Id": "NG:3202559",
+    "SyncToken": "3"
+}

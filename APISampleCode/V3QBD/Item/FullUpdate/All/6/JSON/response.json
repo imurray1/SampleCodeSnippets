@@ -1,0 +1,26 @@
+{
+    "Item": {
+        "Name": "Pay2_mod",
+        "Description": "Pay1_mod",
+        "Active": true,
+        "Type": "Payment",
+        "PaymentMethodRef": {
+            "value": "QB:2",
+            "name": "Check"
+        },
+        "DepositToAccountRef": {
+            "value": "QB:8",
+            "name": "Checking"
+        },
+        "status": "Pending",
+        "Id": "NG:3104671",
+        "SyncToken": "2",
+        "MetaData": {
+            "CreateTime": "2013-06-04T08:33:25Z",
+            "LastUpdatedTime": "2013-06-04T09:33:42Z"
+        },
+        "CustomField": [],
+        "AttachableRef": []
+    },
+    "time": "2013-06-04T10:47:03.386Z"
+}

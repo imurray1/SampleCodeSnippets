@@ -1,0 +1,27 @@
+<IntuitResponse xmlns="http://schema.intuit.com/finance/v3" time="2013-05-27T16:01:01.194Z">
+
+    <Item status="Pending">
+
+        <Id>QB:41</Id>
+
+        <SyncToken>2</SyncToken>
+
+        <MetaData>
+
+            <CreateTime>2013-05-27T14:49:03Z</CreateTime>
+
+            <LastUpdatedTime>2013-05-27T14:49:03Z</LastUpdatedTime>
+
+        </MetaData>
+
+        <Name>Subtotal_mod1</Name>
+
+        <Description>Subtotal</Description>
+
+        <Active>true</Active>
+
+        <Type>Subtotal</Type>
+
+    </Item>
+
+</IntuitResponse>

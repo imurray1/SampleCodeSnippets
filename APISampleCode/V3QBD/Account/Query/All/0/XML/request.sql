@@ -1,0 +1,1 @@
+select * where id in ('NG:512249')

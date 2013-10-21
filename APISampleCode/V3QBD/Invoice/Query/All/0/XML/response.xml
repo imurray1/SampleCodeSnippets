@@ -1,0 +1,72 @@
+<IntuitResponse xmlns="http://schema.intuit.com/finance/v3" time="2013-02-12T08:10:51.819Z">
+    <QueryResponse maxResults="1" startPosition="1">
+        <Invoice status="Synchronized">
+            <Id>NG:413353</Id>v <SyncToken>2</SyncToken>
+            <MetaData>
+                <CreateTime>2013-02-12T08:10:28.882Z</CreateTime>
+                <LastUpdatedTime>2013-02-12T08:10:32Z</LastUpdatedTime>
+            </MetaData>
+            <DocNumber>9021</DocNumber>
+            <TxnDate>2012-02-12T00:00:00Z</TxnDate>
+            <ExchangeRate>1</ExchangeRate>
+            <TxnStatus>Payable</TxnStatus>
+            <Line>
+                <Id>QB:64558</Id>
+                <Description>Removal labor, removed shed and graded area for sun room
+                    addition</Description>
+                <Amount>200</Amount>
+                <DetailType>SalesItemLineDetail</DetailType>
+                <SalesItemLineDetail>
+                    <ItemRef name="Patio Door">QB:58</ItemRef>
+                    <UnitPrice>200</UnitPrice>
+                    <Qty>1</Qty>
+                    <TaxCodeRef name="Non">QB:2</TaxCodeRef>
+                </SalesItemLineDetail>
+            </Line>
+            <TxnTaxDetail>
+                <DefaultTaxCodeRef name="Tax">QB:1</DefaultTaxCodeRef>
+                <TotalTax>0</TotalTax>
+                <TaxLine>
+                    <Id>QB:64559</Id>
+                    <Description>CA sales tax, San Tomas County</Description>
+                    <Amount>0</Amount>
+                    <DetailType>TaxLineDetail</DetailType>
+                    <TaxLineDetail>
+                        <TaxRateRef name="San Tomas">QB:46</TaxRateRef>
+                        <TaxPercent>7.75</TaxPercent>
+                    </TaxLineDetail>
+                </TaxLine>
+            </TxnTaxDetail>
+            <CustomerRef name="Robson ClinicNew">NG:427974</CustomerRef>
+            <BillAddr>
+                <Line1>Dr. Darci Robson</Line1>
+                <Line2>300 Main St, Suite 2</Line2>
+                <Line3>Bayshore CA 94326</Line3>
+                <City>Bayshore</City>
+                <CountrySubDivisionCode>CA</CountrySubDivisionCode>
+                <PostalCode>94326</PostalCode>
+            </BillAddr>
+            <ShipAddr>
+                <Line1>Dr. Darci Robson</Line1>
+                <Line2>300 Main St, Suite 2</Line2>
+                <City>Bayshore</City>
+                <CountrySubDivisionCode>CA</CountrySubDivisionCode>
+                <PostalCode>94326</PostalCode>
+            </ShipAddr>
+            <RemitToRef name="Robson ClinicNew">QB:288</RemitToRef>
+            <DueDate>2012-12-28T00:00:00Z</DueDate>
+            <ShipMethodRef name="UPS">QB:4</ShipMethodRef>
+            <ShipDate>2012-10-26T00:00:00Z</ShipDate>
+            <TotalAmt>200</TotalAmt>
+            <TemplateRef name="Intuit Product Invoice">QB:2</TemplateRef>
+            <PrintStatus>NotSet</PrintStatus>
+            <EmailStatus>NotSet</EmailStatus>
+            <BillEmail>
+                <Address>drobson@samplename.com</Address>
+            </BillEmail>
+            <ARAccountRef name="Accounts Receivable">QB:4</ARAccountRef>
+            <Balance>200</Balance>
+            <FinanceCharge>false</FinanceCharge>
+        </Invoice>
+    </QueryResponse>
+</IntuitResponse>

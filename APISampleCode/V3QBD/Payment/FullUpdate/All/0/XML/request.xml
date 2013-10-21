@@ -1,0 +1,34 @@
+<Payment xmlns="http://schema.intuit.com/finance/v3">
+    <Id>QB:63803</Id>
+    <SyncToken>1</SyncToken>
+    <TxnDate>2013-04-18</TxnDate>
+    <PrivateNote>Modifying with Cash and all fields</PrivateNote>
+    <Line>
+        <Amount>828.11</Amount>
+        <LinkedTxn>
+            <TxnId>QB:64283</TxnId>
+            <TxnType>Invoice</TxnType>
+        </LinkedTxn>
+        <DetailType>PaymentLineDetail</DetailType>
+    </Line>
+    <Line>
+        <Amount>20</Amount>
+        <LinkedTxn>
+            <TxnId>QB:64283</TxnId>
+            <TxnType>Invoice</TxnType>
+        </LinkedTxn>
+        <DetailType>DiscountLineDetail</DetailType>
+        <DiscountLineDetail>
+            <DiscountAccountRef name="Construction Income">QB:23</DiscountAccountRef>
+            <ClassRef name="Remodel">QB:4</ClassRef>
+        </DiscountLineDetail>
+    </Line>
+    <CustomerRef name="Michael">QB:285</CustomerRef>
+    <RemitToRef name="Family Room">QB:256</RemitToRef>
+    <ARAccountRef name="Accounts Receivable">QB:4</ARAccountRef>
+    <DepositToAccountRef name="Undeposited Funds">QB:8</DepositToAccountRef>
+
+    <PaymentMethodRef name="Cash">QB:1</PaymentMethodRef>
+    <PaymentRefNum>Cash#001</PaymentRefNum>
+    <TotalAmt>828.11</TotalAmt>
+</Payment>

@@ -1,0 +1,46 @@
+{
+    "Id": "QB:62631",
+    "SyncToken": "1",
+    "MetaData": {
+        "CreateTime": "2013-04-02T17:09:19Z",
+        "LastUpdatedTime": "2013-04-02T17:09:44Z"
+    },
+    "DocNumber": "InvoiceWB",
+    "TxnDate": "2012-01-23",
+    "TxnStatus": "Paid",
+    "Line": [{
+        "Description": "Model#: 2009-WB",
+        "Amount": 1550,
+        "DetailType": "SalesItemLineDetail",
+        "SalesItemLineDetail": {
+            "ServiceDate": "9999-12-31",
+            "ItemRef": {
+                "value": "QB:2",
+                "name": "parts"
+            },
+            "UnitPrice": 550,
+            "Qty": 1,
+            "TaxCodeRef": {
+                "value": "QB:1",
+                "name": "Tax"
+            }
+        },
+        "CustomField": []
+    }],
+    "TxnTaxDetail": {
+        "DefaultTaxCodeRef": {
+            "value": "QB:1",
+            "name": "Tax"
+        },
+        "TotalTax": 0,
+        "TaxLine": []
+    },
+    "CustomerRef": {
+        "value": "QB:89",
+        "name": "customer2"
+    },
+    "TotalAmt": 1550,
+    "PrintStatus": "NotSet",
+    "EmailStatus": "NotSet",
+    "FinanceCharge": false
+}

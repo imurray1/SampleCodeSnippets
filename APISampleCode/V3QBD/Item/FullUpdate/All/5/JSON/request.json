@@ -1,0 +1,18 @@
+{
+    "Id": "NG:3104670",
+    "SyncToken": "1",
+    "Name": "Dis1_mod",
+    "Description": "10% Discount_mod",
+    "Active": "true",
+    "Taxable": "false",
+    "RatePercent": "10",
+    "Type": "Discount",
+    "IncomeAccountRef": {
+        "name": "Less Discounts given",
+        "value": "QB:24"
+    },
+    "SalesTaxCodeRef": {
+        "name": "Non",
+        "value": "QB:2"
+    }
+}

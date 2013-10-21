@@ -1,0 +1,23 @@
+<IntuitResponse xmlns="http://schema.intuit.com/finance/v3" time="2013-04-23T17:13:30.346Z">
+    <Purchase status="Pending">
+        <Id>NG:3876177</Id>
+        <SyncToken>2</SyncToken>
+        <MetaData>
+            <CreateTime>2013-04-17T07:39:46Z</CreateTime>
+            <LastUpdatedTime>2013-04-17T07:39:46Z</LastUpdatedTime>
+        </MetaData>
+        <DocNumber>SparseEnt</DocNumber>
+        <TxnDate>2013-05-07</TxnDate>
+        <Line>
+            <Id>NG:64626</Id>
+            <DetailType>AccountBasedExpenseLineDetail</DetailType>
+            <AccountBasedExpenseLineDetail>
+                <AccountRef name="Automobile">QB:31</AccountRef>
+            </AccountBasedExpenseLineDetail>
+        </Line>
+        <AccountRef name="QuickBooks Credit Card">QB:87</AccountRef>
+        <PaymentType>CreditCard</PaymentType>
+        <EntityRef name="City of East Bayshore">QB:99</EntityRef>
+        <Credit>false</Credit>
+    </Purchase>
+</IntuitResponse>

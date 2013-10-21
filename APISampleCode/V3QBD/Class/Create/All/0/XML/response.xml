@@ -1,0 +1,13 @@
+<IntuitResponse xmlns="http://schema.intuit.com/finance/v3" time="2013-04-19T08:23:05.914Z">
+    <Class status="Pending">
+        <Id>NG:227214</Id>
+        <SyncToken>1</SyncToken>
+        <MetaData>
+            <CreateTime>2013-04-19T08:12:24Z</CreateTime>
+            <LastUpdatedTime>2013-04-19T08:12:24Z</LastUpdatedTime>
+        </MetaData>
+        <Name>ClassAddAllFlds</Name>
+        <SubClass>false</SubClass>
+        <Active>true</Active>
+    </Class>
+</IntuitResponse>

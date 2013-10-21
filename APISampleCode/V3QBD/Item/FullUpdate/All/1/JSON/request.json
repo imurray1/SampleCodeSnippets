@@ -1,0 +1,28 @@
+{
+    "Id": "NG:3104666",
+    "SyncToken": "1",
+    "Name": "OthrChrFull2_mod",
+    "Description": "Add New Full Item 1 Sales Tranc",
+    "Active": "true",
+    "ParentRef": {
+        "name": "Delivery",
+        "value": "QB:124"
+    },
+    "UnitPrice": "1000",
+    "Type": "Other Charge",
+    "IncomeAccountRef": {
+        "name": "Design Income",
+        "value": "QB:122"
+    },
+    "PurchaseDesc": "Add New Full Item 1 Purc Tranc",
+    "PurchaseCost": "2000",
+    "ExpenseAccountRef": {
+        "name": "Other Expenses",
+        "value": "QB:78"
+    },
+    "PrefVendorRef": {
+        "name": "Hugo Boss",
+        "value": "QB:268"
+    },
+    "SalesTaxCodeRef": {"value": "QB:1"}
+}

@@ -1,0 +1,43 @@
+<IntuitResponse xmlns="http://schema.intuit.com/finance/v3" time="2013-05-27T09:58:37.245Z">
+
+    <Item status="Pending">
+
+        <Id>QB:88</Id>
+
+        <SyncToken>2</SyncToken>
+
+        <MetaData>
+
+            <CreateTime>2013-05-27T08:46:42Z</CreateTime>
+
+            <LastUpdatedTime>2013-05-27T08:46:42Z</LastUpdatedTime>
+
+        </MetaData>
+
+        <Name>Lumber_mod1</Name>
+
+        <Description>Lumber</Description>
+
+        <Active>true</Active>
+
+        <Taxable>true</Taxable>
+
+        <UnitPrice>0</UnitPrice>
+
+        <Type>NonInventory</Type>
+
+        <IncomeAccountRef name="Materials Income">QB:26</IncomeAccountRef>
+
+        <PurchaseDesc>Lumber</PurchaseDesc>
+
+        <PurchaseCost>0</PurchaseCost>
+
+        <ExpenseAccountRef name="Job Materials">QB:50</ExpenseAccountRef>
+
+        <PrefVendorRef name="Timberloft Lumber">QB:14</PrefVendorRef>
+
+        <SalesTaxCodeRef name="Tax">QB:1</SalesTaxCodeRef>
+
+    </Item>
+
+</IntuitResponse>

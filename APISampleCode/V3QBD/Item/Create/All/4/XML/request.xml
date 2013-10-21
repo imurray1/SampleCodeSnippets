@@ -1,0 +1,10 @@
+<Item xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://schema.intuit.com/finance/v3 IntuitRestServiceDef.xsd"
+    xmlns="http://schema.intuit.com/finance/v3">
+    
+    <Name>Sub1</Name>
+    <Description>Desc Full Subtotal</Description>
+    <Active>true</Active>
+    <Type>Subtotal</Type>
+    
+</Item>

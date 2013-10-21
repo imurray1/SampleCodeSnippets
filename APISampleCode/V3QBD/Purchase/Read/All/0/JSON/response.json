@@ -1,0 +1,35 @@
+{
+    "QueryResponse": {
+        "Purchase": [{
+            "AccountRef": {
+                "value": "QB:87",
+                "name": "QuickBooks Credit Card"
+            },
+            "PaymentType": "CreditCard",
+            "EntityRef": {
+                "value": "QB:164",
+                "name": "Bank of Anycity"
+            },
+            "Credit": false,
+            "status": "Pending",
+            "Id": "NG:3406789",
+            "SyncToken": "1",
+            "MetaData": {
+                "CreateTime": "2013-05-11T03:39:14Z",
+                "LastUpdatedTime": "2013-05-11T10:39:14Z"
+            },
+            "TxnDate": "2013-05-11",
+            "Line": [{
+                "Id": "NG:3607293",
+                "DetailType": "ItemBasedExpenseLineDetail",
+                "ItemBasedExpenseLineDetail": {"ItemRef": {
+                    "value": "QB:30",
+                    "name": "Plumb Fixtrs"
+                }}
+            }]
+        }],
+        "startPosition": 1,
+        "maxResults": 1
+    },
+    "time": "2013-05-11T10:42:08.836Z"
+}

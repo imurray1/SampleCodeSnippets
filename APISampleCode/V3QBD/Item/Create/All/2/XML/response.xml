@@ -1,0 +1,25 @@
+<IntuitResponse xmlns="http://schema.intuit.com/finance/v3" time="2013-05-27T10:08:10.627Z">
+    <Item status="Pending">
+        <Id>NG:3056725</Id>
+        <SyncToken>1</SyncToken>
+        <MetaData>
+            <CreateTime>2013-05-27T08:56:15Z</CreateTime>
+            <LastUpdatedTime>2013-05-27T08:56:15Z</LastUpdatedTime>
+        </MetaData>
+        <Name>P1</Name>
+        <Description>desc_Sales</Description>
+        <Active>true</Active>
+        <ParentRef name="Lumber">QB:88</ParentRef>
+        
+        <UnitPrice>30</UnitPrice>
+        <Type>NonInventory</Type>
+        <UOMSetRef name="Area by the square foot">QB:5</UOMSetRef>
+        <IncomeAccountRef name="Reimbursement Income">QB:128</IncomeAccountRef>
+        <PurchaseDesc>Desc_Purchase</PurchaseDesc>
+        <PurchaseCost>10</PurchaseCost>
+        <ExpenseAccountRef name="Other Expenses">QB:78</ExpenseAccountRef>
+        <PrefVendorRef name="A Cheung Limited">QB:166</PrefVendorRef>
+        <ManPartNum>1234</ManPartNum>
+        <SalesTaxCodeRef>QB:1</SalesTaxCodeRef>
+    </Item>
+</IntuitResponse>

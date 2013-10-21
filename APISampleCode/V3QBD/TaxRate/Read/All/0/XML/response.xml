@@ -1,0 +1,17 @@
+<IntuitResponse xmlns="http://schema.intuit.com/finance/v3" time="2013-03-29T06:57:19.141Z">
+    <QueryResponse maxResults="1" startPosition="1">
+        <TaxRate status="Pending">
+            <Id>NG:3108828</Id>
+            <SyncToken>1</SyncToken>
+            <MetaData>
+                <CreateTime>2013-03-29T06:50:45Z</CreateTime>
+                <LastUpdatedTime>2013-03-29T06:50:45Z</LastUpdatedTime>
+            </MetaData>
+            <Name>TX1</Name>
+            <Description>Sales Tax for TX1</Description>
+            <Active>true</Active>
+            <RateValue>10</RateValue>
+            <AgencyRef name="City of East Bayshore">QB:99</AgencyRef>
+        </TaxRate>
+    </QueryResponse>
+</IntuitResponse>

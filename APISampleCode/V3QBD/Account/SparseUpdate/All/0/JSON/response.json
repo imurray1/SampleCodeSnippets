@@ -1,0 +1,18 @@
+{
+    "Account": {
+        "Name": "SamAct1Sparse",
+        "Active": true,
+        "Classification": "Asset",
+        "AccountType": "Bank",
+        "status": "Pending",
+        "Id": "NG:208968",
+        "SyncToken": "2",
+        "MetaData": {
+            "CreateTime": "2013-05-08T18:51:47Z",
+            "LastUpdatedTime": "2013-05-08T18:51:47Z"
+        },
+        "CustomField": [],
+        "AttachableRef": []
+    },
+    "time": "2013-05-08T18:56:24.222Z"
+}

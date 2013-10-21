@@ -1,0 +1,6 @@
+<Account xmlns="http://schema.intuit.com/finance/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Id>NG:208963</Id>
+    <SyncToken>1</SyncToken>
+    <Name>Min11m</Name>
+    <AccountType>Bank</AccountType>
+</Account>

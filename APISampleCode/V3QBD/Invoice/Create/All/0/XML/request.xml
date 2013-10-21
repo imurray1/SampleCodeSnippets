@@ -1,0 +1,69 @@
+
+<Invoice xmlns="http://schema.intuit.com/finance/v3" >
+    <DocNumber>Test_All1</DocNumber>
+    <TxnDate>2012-08-13</TxnDate>
+    <ExchangeRate>1</ExchangeRate>
+    <PrivateNote>Adding test case with all fields</PrivateNote>
+    <TxnStatus>Payable</TxnStatus>
+    <Line>
+        <Description>Installation labor</Description>
+        <Amount>175</Amount>
+        <DetailType>SalesItemLineDetail</DetailType>
+        <SalesItemLineDetail>
+            <ItemRef name="Installation">QB:2</ItemRef>
+            <ClassRef name="Remodel">QB:4</ClassRef>
+            <UnitPrice>35</UnitPrice>
+            <Qty>5</Qty>
+            <UOMRef>
+                <Unit>sqm</Unit>
+                <UOMSetRef>QB:10</UOMSetRef>
+            </UOMRef>
+            <TaxCodeRef name="Tax">QB:1</TaxCodeRef>
+        </SalesItemLineDetail>
+    </Line>
+    <TxnTaxDetail>
+        <DefaultTaxCodeRef name="Tax">QB:1</DefaultTaxCodeRef>
+        <TotalTax>13.56</TotalTax>
+        <TaxLine>
+            <Description>CA sales tax, San Tomas County</Description>
+            <Amount>13.56</Amount>
+            <DetailType>TaxLineDetail</DetailType>
+            <TaxLineDetail>
+                <TaxRateRef name="San Tomas">QB:46</TaxRateRef>
+                <TaxPercent>7.75</TaxPercent>
+            </TaxLineDetail>
+        </TaxLine>
+    </TxnTaxDetail>
+    <CustomerRef name="Abercrombie, Kristy">QB:21</CustomerRef>
+    <BillAddr>
+        <Line1>Kristy Abercrombie</Line1>
+        <Line2>5647 Cypress Hill Rd</Line2>
+        <City>Bayshore</City>
+        <CountrySubDivisionCode>CA</CountrySubDivisionCode>
+        <PostalCode>94326</PostalCode>
+    </BillAddr>
+    <ShipAddr>
+        <Line1>Kristy Abercrombie</Line1>
+        <Line2>5647 Cypress Hill Rd</Line2>
+        <City>Bayshore</City>
+        <CountrySubDivisionCode>CA</CountrySubDivisionCode>
+        <PostalCode>94326</PostalCode>
+    </ShipAddr>
+    <RemitToRef name="Abercrombie, Kristy">QB:21</RemitToRef>
+    <ClassRef name="Design">QB:9</ClassRef>
+    <SalesTermRef name="Net 30">QB:1</SalesTermRef>
+    <DueDate>2012-09-12</DueDate>
+    <PONumber>15</PONumber>
+    <ShipMethodRef name="UPS">QB:4</ShipMethodRef>
+    <ShipDate>2012-08-13</ShipDate>
+    <TotalAmt>188.56</TotalAmt>
+    <TemplateRef name="Intuit Product Invoice">QB:2</TemplateRef>
+    <PrintStatus>NotSet</PrintStatus>
+    <EmailStatus>NeedToSend</EmailStatus>
+    <BillEmail>
+        <Address>kristy@samplename.com</Address>
+    </BillEmail>
+    <ARAccountRef name="Accounts Receivable">QB:4</ARAccountRef>
+    <Balance>188.56</Balance>
+    <FinanceCharge>false</FinanceCharge>
+</Invoice>

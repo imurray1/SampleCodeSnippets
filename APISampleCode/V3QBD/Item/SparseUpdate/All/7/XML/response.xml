@@ -1,0 +1,37 @@
+<IntuitResponse xmlns="http://schema.intuit.com/finance/v3" time="2013-07-15T11:26:43.698Z">
+    <Item status="Pending">
+        <Id>NG:3202430</Id>
+        <SyncToken>2</SyncToken>
+        <MetaData>
+            <CreateTime>2013-07-15T11:20:58Z</CreateTime>
+            <LastUpdatedTime>2013-07-15T11:21:05Z</LastUpdatedTime>
+        </MetaData>
+        <Name>Assmb_Test_All1373887595198</Name>
+        <Description>Testing sales</Description>
+        <Active>true</Active>
+        <ParentRef name="Interior Door kit">QB:67</ParentRef>
+        <Taxable>true</Taxable>
+        <UnitPrice>20</UnitPrice>
+        <Type>Assembly</Type>
+        <UOMSetRef name="Each to Case/Doz">QB:1</UOMSetRef>
+        <IncomeAccountRef name="Design Income">QB:122</IncomeAccountRef>
+        <PurchaseDesc>Testing purchase</PurchaseDesc>
+        <PurchaseCost>10</PurchaseCost>
+        <COGSAccountRef name="Cost of Goods Sold">QB:30</COGSAccountRef>
+        <AssetAccountRef name="Inventory Asset">QB:6</AssetAccountRef>
+        <PrefVendorRef name="Bank of Anycity">QB:164</PrefVendorRef>
+        <AvgCost>15</AvgCost>
+        <QtyOnHand>30</QtyOnHand>
+        <QtyOnPurchaseOrder>4</QtyOnPurchaseOrder>
+        <QtyOnSalesOrder>7</QtyOnSalesOrder>
+        <ManPartNum>Man#Test001</ManPartNum>
+        <SalesTaxCodeRef name="Tax">QB:1</SalesTaxCodeRef>
+        <BuildPoint>12</BuildPoint>
+        <ItemAssemblyDetail>
+            <ItemAssemblyLine>
+                <ItemRef name="clamps">QB:116</ItemRef>
+                <Qty>8</Qty>
+            </ItemAssemblyLine>
+        </ItemAssemblyDetail>
+    </Item>
+</IntuitResponse>

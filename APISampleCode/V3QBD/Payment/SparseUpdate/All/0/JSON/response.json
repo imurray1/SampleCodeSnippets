@@ -1,0 +1,45 @@
+{
+    "Payment": {
+        "CustomerRef": {
+            "value": "QB:281",
+            "name": "Disney"
+        },
+        "RemitToRef": {"value": "QB:281"},
+        "ARAccountRef": {
+            "value": "QB:4",
+            "name": "Accounts Receivable"
+        },
+        "DepositToAccountRef": {
+            "value": "QB:8",
+            "name": "Undeposited Funds"
+        },
+        "PaymentMethodRef": {
+            "value": "QB:2",
+            "name": "Check"
+        },
+        "TotalAmt": 39000,
+        "UnappliedAmt": 57,
+        "status": "Pending",
+        "Id": "NG:3422867",
+        "SyncToken": "3",
+        "MetaData": {
+            "CreateTime": "2013-05-27T01:36:41Z",
+            "LastUpdatedTime": "2013-05-27T08:42:21Z"
+        },
+        "CustomField": [],
+        "AttachableRef": [],
+        "TxnDate": "2012-12-30",
+        "LinkedTxn": [],
+        "Line": [{
+            "Id": "NG:3624315",
+            "Amount": 3200,
+            "LinkedTxn": [{
+                "TxnId": "QB:64126",
+                "TxnType": "Invoice"
+            }],
+            "DetailType": "PaymentLineDetail",
+            "CustomField": []
+        }]
+    },
+    "time": "2013-05-27T08:43:22.565Z"
+}

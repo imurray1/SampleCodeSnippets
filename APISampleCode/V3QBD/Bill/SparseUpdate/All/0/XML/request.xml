@@ -1,0 +1,6 @@
+<Bill xmlns="http://schema.intuit.com/finance/v3"sparse="true"
+    status="Pending">
+    <Id>QB:62758</Id>
+    <SyncToken>1</SyncToken>
+    <PrivateNote>Sparse Mod</PrivateNote>
+</Bill>

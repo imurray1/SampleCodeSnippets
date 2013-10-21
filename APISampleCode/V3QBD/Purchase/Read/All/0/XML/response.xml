@@ -1,0 +1,27 @@
+<IntuitResponse xmlns="http://schema.intuit.com/finance/v3" time="2013-05-10T06:55:07.382Z">
+    <QueryResponse maxResults="1" startPosition="1">
+        <Purchase status="Synchronized">
+            <Id>NG:3406678</Id>
+            <SyncToken>2</SyncToken>
+            <MetaData>
+                <CreateTime>2013-05-10T06:54:54Z</CreateTime>
+                <LastUpdatedTime>2013-05-10T06:54:06Z</LastUpdatedTime>
+            </MetaData>
+            <DocNumber>ModMin</DocNumber>
+            <TxnDate>2013-05-10</TxnDate>
+            <TxnStatus>Paid</TxnStatus>
+            <Line>
+                <Id>QB:65558</Id>
+                <DetailType>AccountBasedExpenseLineDetail</DetailType>
+                <AccountBasedExpenseLineDetail>
+                    <AccountRef name="Automobile">QB:31</AccountRef>
+                </AccountBasedExpenseLineDetail>
+            </Line>
+            <AccountRef name="QuickBooks Credit Card">QB:87</AccountRef>
+            <PaymentType>CreditCard</PaymentType>
+            <EntityRef name="Bank of Anycity">QB:164</EntityRef>
+            <Credit>true</Credit>
+            <TotalAmt>0</TotalAmt>
+        </Purchase>
+    </QueryResponse>
+</IntuitResponse>
