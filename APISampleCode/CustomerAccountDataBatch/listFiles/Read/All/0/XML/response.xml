@@ -1,0 +1,17 @@
+<Files xmlns="http://schema.intuit.com/platform/fdatafeed/files/v1">
+    <file>
+        <name>TXNs_101_1209250035010_V3_5.gz</name>
+        <size>20</size>
+        <modifiedTs>2012-09-25T00:35:01-07:00</modifiedTs>
+    </file>
+    <file>
+        <name>ACCOUNTs_101_1209250035010_V3_5.gz</name>
+        <size>20</size>
+        <modifiedTs>2012-09-25T00:35:01-07:00</modifiedTs>
+    </file>
+    <file>
+        <name>INVESTMENTs_101_1209250035010_V3_5.gz</name>
+        <size>20</size>
+        <modifiedTs>2012-09-25T00:35:01-07:00</modifiedTs>
+    </file>
+</Files>

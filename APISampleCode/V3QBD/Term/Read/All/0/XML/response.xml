@@ -1,1 +1,18 @@
-
+<IntuitResponse xmlns="http://schema.intuit.com/finance/v3"
+    time="2013-10-22T07:16:10.300Z">
+    <Term status="Pending">
+        <Id>NG:62637</Id>
+        <SyncToken>1</SyncToken>
+        <MetaData>
+            <CreateTime>2013-10-22T07:14:09Z</CreateTime>
+            <LastUpdatedTime>2013-10-22T07:14:09Z</LastUpdatedTime>
+        </MetaData>
+        <Name>testInvDisc2</Name>
+        <Active>false</Active>
+        <Type>DateDriven</Type>
+        <DiscountPercent>0</DiscountPercent>
+        <DayOfMonthDue>6</DayOfMonthDue>
+        <DueNextMonthDays>4</DueNextMonthDays>
+        <DiscountDayOfMonth>3</DiscountDayOfMonth>
+    </Term>
+</IntuitResponse>

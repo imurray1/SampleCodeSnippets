@@ -1,1 +1,13 @@
-
+<IntuitResponse xmlns="http://schema.intuit.com/finance/v3" time="2013-10-22T05:16:11.523Z">
+    <PaymentMethod status="Pending">
+        <Id>NG:70599</Id>
+        <SyncToken>1</SyncToken>
+        <MetaData>
+            <CreateTime>2013-10-22T05:16:11Z</CreateTime>
+            <LastUpdatedTime>2013-10-22T05:16:11Z</LastUpdatedTime>
+        </MetaData>
+        <Name>NG#Cash</Name>
+        <Active>true</Active>
+        <Type>Cash</Type>
+    </PaymentMethod>
+</IntuitResponse>

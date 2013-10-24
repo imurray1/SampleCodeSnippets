@@ -1,0 +1,1 @@
+select *,line.* where Id='QB:62404'

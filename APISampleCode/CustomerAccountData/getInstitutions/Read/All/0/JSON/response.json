@@ -1,0 +1,66 @@
+{"Institutions": {
+    "institution": [
+        {
+            "institutionId": 100000,
+            "institutionName": "CCBank",
+            "homeUrl": "http://www.example.com",
+            "phoneNumber": "123-456-7890",
+            "virtual": false
+        },
+        {
+            "institutionId": 100001,
+            "institutionName": "CCBank1",
+            "homeUrl": "http://www.example.com",
+            "phoneNumber": "123-456-7891",
+            "virtual": false
+        },
+        {
+            "institutionId": 100002,
+            "institutionName": "CCBank2",
+            "homeUrl": "http://www.example.com",
+            "phoneNumber": "123-456-7892",
+            "virtual": false
+        },
+        {
+            "institutionId": 100003,
+            "institutionName": "CCBank3",
+            "homeUrl": "http://www.example.com",
+            "phoneNumber": "123-456-7890",
+            "virtual": false
+        },
+        {
+            "institutionId": 100004,
+            "institutionName": "CCBank4",
+            "homeUrl": "http://www.example.com",
+            "phoneNumber": "123-456-7894",
+            "virtual": false
+        },
+        {
+            "institutionId": 100005,
+            "institutionName": "CCBank5",
+            "homeUrl": "http://www.example.com",
+            "phoneNumber": "123-456-7895",
+            "virtual": false
+        },
+        {
+            "institutionId": 200001,
+            "institutionName": "OFX Automation",
+            "virtual": false
+        },
+        {
+            "institutionId": 200002,
+            "institutionName": "CCOFXBank",
+            "virtual": false
+        },
+        {
+            "institutionId": 200004,
+            "institutionName": "CCBank",
+            "virtual": false
+        },
+        {
+            "institutionId": 777999,
+            "institutionName": "Customer Central OFX Bank",
+            "virtual": false
+        }
+    ]
+}}

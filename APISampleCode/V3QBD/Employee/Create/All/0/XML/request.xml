@@ -1,1 +1,34 @@
-
+<Employee  xmlns="http://schema.intuit.com/finance/v3">
+    <Organization>false</Organization>
+    <Title>Mr</Title>
+    <GivenName>David</GivenName>
+    <MiddleName>M</MiddleName>
+    <FamilyName>Boon</FamilyName>
+    <DisplayName>My Display Name</DisplayName>
+    <PrintOnCheckName>David M Boon</PrintOnCheckName>
+    <Active>true</Active>
+    <PrimaryPhone>
+        <FreeFormNumber>505.555.9999</FreeFormNumber>
+    </PrimaryPhone>
+    <AlternatePhone>
+        <FreeFormNumber>505.555.9998</FreeFormNumber>
+    </AlternatePhone>
+    <Mobile>
+        <FreeFormNumber>505.555.9997</FreeFormNumber>
+    </Mobile>
+    <Fax>
+        <FreeFormNumber>505.555.9996</FreeFormNumber>
+    </Fax>
+    <PrimaryEmailAddr>
+        <Address>david_boon@yahoo.com</Address>
+    </PrimaryEmailAddr>
+    <EmployeeType>Regular</EmployeeType>
+    <EmployeeNumber>Emp001</EmployeeNumber>
+    <PrimaryAddr>
+        <Line1>#12,Lotus</Line1>
+        <Line2>2nd Main</Line2>
+        <City>TeaNeck</City>
+        <CountrySubDivisionCode>CA</CountrySubDivisionCode>
+        <PostalCode>56060</PostalCode>
+    </PrimaryAddr>
+</Employee>

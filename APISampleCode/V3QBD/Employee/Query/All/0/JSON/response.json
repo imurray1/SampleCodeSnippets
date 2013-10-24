@@ -1,3 +1,33 @@
 {
-  "key":"value"
+      "QueryResponse": {
+      "maxResults": "1",
+      "startPosition": "1",
+      "Employee": {
+        "Organization": "false",
+        "Title": "Miss",
+        "GivenName": "Rose",
+        "MiddleName": "Lane",
+        "FamilyName": "Teach",
+        "DisplayName": "Rose Lane Teach",
+        "PrintOnCheckName": "Rose Lane Teach",
+        "Active": "true",
+        "PrimaryPhone": { "FreeFormNumber": "505.555.9999" },
+        "PrimaryEmailAddr": { "Address": "roseteach@foobar.com" },
+        "EmployeeType": "Regular",
+        "status": "Synchronized",
+        "Id": "NG:512249",
+        "SyncToken": "1",
+        "MetaData": {
+          "CreateTime": "2013-08-05T21:48:23Z",
+          "LastUpdatedTime": "2013-08-05T21:48:23Z"
+        },        
+        "PrimaryAddr": {
+          "Line1": "799 Mayberry",
+          "City": "Lucy",
+          "CountrySubDivisionCode": "NM",
+          "PostalCode": "87063"
+        }
+      }
+    },
+    "time": "2013-08-13T04:27:20.927Z"
 }

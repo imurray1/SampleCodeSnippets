@@ -1,1 +1,19 @@
-
+<IntuitResponse xmlns="http://schema.intuit.com/finance/v3"
+    time="2013-10-22T07:37:09.841Z">
+    <QueryResponse maxResults="1" startPosition="1">
+        <Term status="Synchronized">
+            <Id>QB:1</Id>
+            <SyncToken>1</SyncToken>
+            <MetaData>
+                <CreateTime>1999-07-29T18:24:18Z</CreateTime>
+                <LastUpdatedTime>2013-10-22T04:53:11Z</LastUpdatedTime>
+            </MetaData>
+            <Name>Net 30</Name>
+            <Active>true</Active>
+            <Type>Standard</Type>
+            <DiscountPercent>0</DiscountPercent>
+            <DueDays>30</DueDays>
+            <DiscountDays>0</DiscountDays>
+        </Term>
+    </QueryResponse>
+</IntuitResponse>

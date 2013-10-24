@@ -1,1 +1,14 @@
-
+<Estimate xmlns="http://schema.intuit.com/finance/v3" sparse="true">
+    <Line>
+        <Description>Trim lumber</Description>
+        <Amount>95</Amount>
+        <DetailType>SalesItemLineDetail</DetailType>
+        <SalesItemLineDetail>
+            <ItemRef name="Trim">QB:29</ItemRef>
+            <UnitPrice>95</UnitPrice>
+            <Qty>10</Qty>
+            <TaxCodeRef name="Tax">QB:1</TaxCodeRef>
+        </SalesItemLineDetail>
+    </Line>
+    <CustomerRef name="Customer_6356">QB:222</CustomerRef>
+</Estimate>

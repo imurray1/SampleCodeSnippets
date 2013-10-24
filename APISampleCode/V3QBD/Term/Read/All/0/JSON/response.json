@@ -1,3 +1,20 @@
-{
-  "key":"value"
-}
+    {
+        "Term": {
+            "Name": "Std Term3 ",
+            "Active": true,
+            "Type": "Standard",
+            "DiscountPercent": 0,
+            "DueDays": 60,
+            "DiscountDays": 10,
+            "status": "Pending",
+            "Id": "NG:62636",
+            "SyncToken": "1",
+            "MetaData": {
+                "CreateTime": "2013-10-22T07:09:36Z",
+                "LastUpdatedTime": "2013-10-22T07:09:36Z"
+            },
+            "CustomField": [],
+            "AttachableRef": []
+        },
+        "time": "2013-10-22T07:09:36.506Z"
+    }

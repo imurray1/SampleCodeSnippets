@@ -1,0 +1,21 @@
+    {
+        "Term": {
+            "Name": "testInvDisc2",
+            "Active": false,
+            "Type": "DateDriven",
+            "DiscountPercent": 0,
+            "DayOfMonthDue": 6,
+            "DueNextMonthDays": 4,
+            "DiscountDayOfMonth": 3,
+            "status": "Pending",
+            "Id": "NG:62637",
+            "SyncToken": "1",
+            "MetaData": {
+                "CreateTime": "2013-10-22T07:14:09Z",
+                "LastUpdatedTime": "2013-10-22T07:14:09Z"
+            },
+            "CustomField": [],
+            "AttachableRef": []
+        },
+        "time": "2013-10-22T07:14:09.032Z"
+    }

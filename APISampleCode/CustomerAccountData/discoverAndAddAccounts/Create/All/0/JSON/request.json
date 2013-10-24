@@ -1,0 +1,12 @@
+ {
+    "credentials": {"credential": [
+        {
+            "name": "Banking Userid",
+            "value": "demo"
+        },
+        {
+            "name": "Banking Password",
+            "value": "go"
+        }
+    ]}
+}}

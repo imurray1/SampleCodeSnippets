@@ -1,1 +1,189 @@
-
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<IntuitResponse xmlns="http://schema.intuit.com/finance/v3" time="2013-09-06T04:28:34.941Z">
+    <CreditMemo status="Pending">
+        <Id>NG:3459204</Id>
+        <SyncToken>1</SyncToken>
+        <MetaData>
+            <CreateTime>2013-09-06T04:32:25Z</CreateTime>
+            <LastUpdatedTime>2013-09-06T04:32:25Z</LastUpdatedTime>
+        </MetaData>
+        <DocNumber>1224</DocNumber>
+        <TxnDate>2013-08-24</TxnDate>
+        <PrivateNote>first memo</PrivateNote>
+        <TxnStatus>Pending</TxnStatus>
+        <Line>
+            <Id>NG:3695170</Id>
+            <Description>Install carpeting</Description>
+            <Amount>20</Amount>
+            <DetailType>SalesItemLineDetail</DetailType>
+            <SalesItemLineDetail>
+                <ItemRef name="Carpet">QB:6</ItemRef>
+                <ClassRef name="Tub Design">QB:12</ClassRef>
+                <UnitPrice>10</UnitPrice>
+                <Qty>2</Qty>
+                <TaxCodeRef name="Non">QB:2</TaxCodeRef>
+                <ServiceDate>2013-08-26</ServiceDate>
+            </SalesItemLineDetail>
+        </Line>
+        <Line>
+            <Id>NG:3695171</Id>
+            <Description>Doors</Description>
+            <Amount>10</Amount>
+            <DetailType>SalesItemLineDetail</DetailType>
+            <SalesItemLineDetail>
+                <ItemRef name="Wood Door">QB:21</ItemRef>
+                <ClassRef name="Tub Design">QB:12</ClassRef>
+                <UnitPrice>10</UnitPrice>
+                <Qty>1</Qty>
+                <TaxCodeRef name="Tax">QB:1</TaxCodeRef>
+                <ServiceDate>2013-08-26</ServiceDate>
+            </SalesItemLineDetail>
+        </Line>
+        <Line>
+            <Id>NG:3695172</Id>
+            <Description>complete Interior door</Description>
+            <Amount>10</Amount>
+            <DetailType>SalesItemLineDetail</DetailType>
+            <SalesItemLineDetail>
+                <ItemRef name="Interior Door kit">QB:67</ItemRef>
+                <ClassRef name="Bathroom Design">QB:10</ClassRef>
+                <UnitPrice>10</UnitPrice>
+                <Qty>1</Qty>
+                <TaxCodeRef name="Tax">QB:1</TaxCodeRef>
+                <ServiceDate>2013-08-26</ServiceDate>
+            </SalesItemLineDetail>
+        </Line>
+        <Line>
+            <Id>NG:3695173</Id>
+            <Description>Flooring</Description>
+            <Amount>10</Amount>
+            <DetailType>SalesItemLineDetail</DetailType>
+            <SalesItemLineDetail>
+                <ItemRef name="Flooring">QB:49</ItemRef>
+                <ClassRef name="Tub Design">QB:12</ClassRef>
+                <UnitPrice>10</UnitPrice>
+                <Qty>1</Qty>
+                <TaxCodeRef name="Tax">QB:1</TaxCodeRef>
+                <ServiceDate>2013-08-26</ServiceDate>
+            </SalesItemLineDetail>
+        </Line>
+        <Line>
+            <Id>NG:3695174</Id>
+            <Description>Equipment</Description>
+            <Amount>10</Amount>
+            <DetailType>SalesItemLineDetail</DetailType>
+            <SalesItemLineDetail>
+                <ItemRef name="Equipment - 17">QB:97</ItemRef>
+                <ClassRef name="Tub Design">QB:12</ClassRef>
+                <UnitPrice>10</UnitPrice>
+                <TaxCodeRef name="Tax">QB:1</TaxCodeRef>
+                <ServiceDate>2013-08-26</ServiceDate>
+            </SalesItemLineDetail>
+        </Line>
+        <Line>
+            <Id>NG:3695175</Id>
+            <Description>Description of Delivery of material</Description>
+            <Amount>0.56</Amount>
+            <DetailType>SalesItemLineDetail</DetailType>
+            <SalesItemLineDetail>
+                <ItemRef name="Delivery">QB:124</ItemRef>
+                <ClassRef name="Tub Design">QB:12</ClassRef>
+                <RatePercent>5.6</RatePercent>
+                <TaxCodeRef name="Tax">QB:1</TaxCodeRef>
+                <ServiceDate>2013-08-26</ServiceDate>
+            </SalesItemLineDetail>
+        </Line>
+        <Line>
+            <Id>NG:3695176</Id>
+            <DetailType>GroupLineDetail</DetailType>
+            <GroupLineDetail>
+                <GroupItemRef name="Door set">QB:47</GroupItemRef>
+            </GroupLineDetail>
+        </Line>
+        <Line>
+            <Id>NG:3695180</Id>
+            <Description>10% Discount</Description>
+            <Amount>-15</Amount>
+            <DetailType>DiscountLineDetail</DetailType>
+            <DiscountLineDetail>
+                <DiscountRef name="Discount">QB:42</DiscountRef>
+                <DiscountPercent>10</DiscountPercent>
+                <ServiceDate>2013-08-26</ServiceDate>
+                <ClassRef name="Tub Design">QB:12</ClassRef>
+                <TaxCodeRef name="Non">QB:2</TaxCodeRef>
+            </DiscountLineDetail>
+        </Line>
+        <Line>
+            <Id>NG:3695181</Id>
+            <Description>Down payment received</Description>
+            <Amount>100</Amount>
+            <DetailType>PaymentLineDetail</DetailType>
+            <PaymentLineDetail>
+                <ItemRef name="Payment">QB:43</ItemRef>
+                <ServiceDate>2013-08-26</ServiceDate>
+                <ClassRef name="Tub Design">QB:12</ClassRef>
+            </PaymentLineDetail>
+        </Line>
+        <Line>
+            <Id>NG:3695183</Id>
+            <Description>Subtotal</Description>
+            <Amount>305.56</Amount>
+            <DetailType>SubTotalLineDetail</DetailType>
+            <SubTotalLineDetail>
+                <ItemRef name="Subtotal">QB:41</ItemRef>
+                <ServiceDate>2013-08-27</ServiceDate>
+            </SubTotalLineDetail>
+        </Line>
+        <TxnTaxDetail>
+            <DefaultTaxCodeRef name="Tax">QB:1</DefaultTaxCodeRef>
+            <TotalTax>14.77</TotalTax>
+            <TaxLine>
+                <Id>NG:3695184</Id>
+                <Description>CA sales tax, San Tomas County</Description>
+                <Amount>14.77</Amount>
+                <DetailType>TaxLineDetail</DetailType>
+                <TaxLineDetail>
+                    <TaxRateRef name="San Tomas">QB:46</TaxRateRef>
+                    <TaxPercent>7.75</TaxPercent>
+                </TaxLineDetail>
+            </TaxLine>
+        </TxnTaxDetail>
+        <CustomerRef name="Apple">QB:260</CustomerRef>
+        <CustomerMemo>All work is complete</CustomerMemo>
+        <BillAddr>
+            <Line1>Line1</Line1>
+            <Line2>Line2</Line2>
+            <Line3>Line3</Line3>
+            <City>San Francisco</City>
+            <Country>USA</Country>
+            <CountrySubDivisionCode>CA</CountrySubDivisionCode>
+            <PostalCode>95141</PostalCode>
+        </BillAddr>
+        <ShipAddr>
+            <Line1>Line1</Line1>
+            <Line2>Line2</Line2>
+            <Line3>Line3</Line3>
+            <City>San Francisco</City>
+            <Country>USA</Country>
+            <CountrySubDivisionCode>CA</CountrySubDivisionCode>
+            <PostalCode>95141</PostalCode>
+        </ShipAddr>
+        <RemitToRef name="Apple">QB:260</RemitToRef>
+        <ClassRef name="Tub Design">QB:12</ClassRef>
+        <SalesTermRef name="Net 15">QB:2</SalesTermRef>
+        <DueDate>2013-09-08</DueDate>
+        <SalesRepRef name="EM">QB:1</SalesRepRef>
+        <PONumber>1</PONumber>
+        <FOB>fob</FOB>
+        <ShipMethodRef name="Airborne">QB:1</ShipMethodRef>
+        <ShipDate>2013-08-24</ShipDate>
+        <TotalAmt>320.33</TotalAmt>
+        <HomeTotalAmt>320.33</HomeTotalAmt>
+        <TemplateRef name="Custom Credit Memo">QB:10</TemplateRef>
+        <PrintStatus>NeedToPrint</PrintStatus>
+        <EmailStatus>NotSet</EmailStatus>
+        <ARAccountRef name="Accounts Receivable">QB:4</ARAccountRef>
+        <Balance>0</Balance>
+        <RemainingCredit>0</RemainingCredit>
+    </CreditMemo>
+</IntuitResponse>

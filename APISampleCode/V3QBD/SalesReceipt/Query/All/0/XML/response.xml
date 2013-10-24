@@ -1,1 +1,59 @@
-
+<IntuitResponse xmlns="http://schema.intuit.com/finance/v3" time="2013-10-23T16:47:42.783Z">
+    <SalesReceipt status="Synchronized">
+        <Id>NG:3482244</Id>
+        <SyncToken>2</SyncToken>
+        <MetaData>
+            <CreateTime>2013-10-22T10:00:14Z</CreateTime>
+            <LastUpdatedTime>2013-10-22T10:02:25Z</LastUpdatedTime>
+        </MetaData>
+        <DocNumber>3020</DocNumber>
+        <TxnDate>2013-10-18</TxnDate>
+        <ExchangeRate>1</ExchangeRate>
+        <TxnStatus>Payable</TxnStatus>
+        <Line>
+            <Id>QB:64692</Id>
+            <Description>Foundation slab - prep and pouring</Description>
+            <Amount>25</Amount>
+            <DetailType>SalesItemLineDetail</DetailType>
+            <SalesItemLineDetail>
+                <ItemRef name="Concrete Slab">QB:50</ItemRef>
+                <UnitPrice>12.5</UnitPrice>
+                <Qty>2</Qty>
+                <TaxCodeRef name="Non">QB:2</TaxCodeRef>
+            </SalesItemLineDetail>
+        </Line>
+        <Line>
+            <Id>QB:64693</Id>
+            <Description>Discount based on amounts</Description>
+            <Amount>-3</Amount>
+            <DetailType>DiscountLineDetail</DetailType>
+            <DiscountLineDetail>
+                <DiscountRef name="Amount discount">QB:103</DiscountRef>
+                <TaxCodeRef name="Tax">QB:1</TaxCodeRef>
+            </DiscountLineDetail>
+        </Line>
+        <TxnTaxDetail>
+            <DefaultTaxCodeRef name="Non">QB:2</DefaultTaxCodeRef>
+            <TotalTax>0</TotalTax>
+            <TaxLine>
+                <Id>QB:64694</Id>
+                <Description>CA sales tax, San Tomas County</Description>
+                <Amount>0</Amount>
+                <DetailType>TaxLineDetail</DetailType>
+                <TaxLineDetail>
+                    <TaxRateRef name="San Tomas">QB:46</TaxRateRef>
+                    <TaxPercent>7.75</TaxPercent>
+                </TaxLineDetail>
+            </TaxLine>
+        </TxnTaxDetail>
+        <DueDate>2013-10-18</DueDate>
+        <ShipMethodRef name="UPS">QB:4</ShipMethodRef>
+        <ShipDate>2013-10-18</ShipDate>
+        <TotalAmt>22</TotalAmt>
+        <TemplateRef name="Custom Sales Receipt">QB:9</TemplateRef>
+        <PrintStatus>NotSet</PrintStatus>
+        <EmailStatus>NotSet</EmailStatus>
+        <Balance>22</Balance>
+        <DepositToAccountRef name="Undeposited Funds">QB:8</DepositToAccountRef>
+    </SalesReceipt>
+</IntuitResponse>

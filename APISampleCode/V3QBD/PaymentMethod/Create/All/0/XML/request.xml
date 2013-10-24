@@ -1,1 +1,5 @@
-
+<PaymentMethod xmlns="http://schema.intuit.com/finance/v3">
+    <Name>NG#Cash</Name>
+    <Active>true</Active>
+    <Type>Cash</Type>
+</PaymentMethod>

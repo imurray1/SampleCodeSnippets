@@ -1,1 +1,28 @@
-
+<IntuitResponse xmlns="http://schema.intuit.com/finance/v3"
+    time="2013-09-16T04:41:40.506Z">
+    <Estimate sparse="true" status="Pending">
+        <Id>NG:3462821</Id>
+        <SyncToken>1</SyncToken>
+        <MetaData>
+            <CreateTime>2013-09-16T04:41:45Z</CreateTime>
+            <LastUpdatedTime>2013-09-16T04:41:45Z</LastUpdatedTime>
+        </MetaData>
+        <TxnDate>2013-09-16</TxnDate>
+        <TxnStatus>Active</TxnStatus>
+        <Line>
+            <Id>NG:3704203</Id>
+            <Description>Trim lumber</Description>
+            <Amount>95</Amount>
+            <DetailType>SalesItemLineDetail</DetailType>
+            <SalesItemLineDetail>
+                <ItemRef name="Trim">QB:29</ItemRef>
+                <UnitPrice>95</UnitPrice>
+                <Qty>10</Qty>
+                <TaxCodeRef name="Tax">QB:1</TaxCodeRef>
+            </SalesItemLineDetail>
+        </Line>
+        <CustomerRef name="Customer_6356">QB:222</CustomerRef>
+        <PrintStatus>NotSet</PrintStatus>
+        <EmailStatus>NotSet</EmailStatus>
+    </Estimate>
+</IntuitResponse>

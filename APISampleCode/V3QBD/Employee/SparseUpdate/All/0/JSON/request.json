@@ -1,3 +1,8 @@
 {
-  "key":"value"
+  "Employee": {
+    "sparse": "true",
+    "Id": "NG:3704377",
+    "SyncToken": "1",
+    "FamilyName": "BEdt"
+  }
 }

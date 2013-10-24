@@ -1,0 +1,12 @@
+<InstitutionLogin xmlns="http://schema.intuit.com/platform/fdatafeed/institutionlogin/v1">
+    <credentials>
+        <credential>
+            <name>Banking Userid</name>
+            <value>demo</value>
+        </credential>
+        <credential>
+            <name>Banking Password</name>
+            <value>go</value>
+        </credential>
+    </credentials>
+</InstitutionLogin>

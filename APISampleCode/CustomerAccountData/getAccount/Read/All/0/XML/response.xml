@@ -1,0 +1,30 @@
+<ns8:AccountList xmlns="http://schema.intuit.com/platform/fdatafeed/account/v1"
+    xmlns:ns2="http://schema.intuit.com/platform/fdatafeed/otheraccount/v1"
+    xmlns:ns3="http://schema.intuit.com/platform/fdatafeed/creditaccount/v1"
+    xmlns:ns4="http://schema.intuit.com/platform/fdatafeed/loanaccount/v1"
+    xmlns:ns5="http://schema.intuit.com/platform/fdatafeed/bankingaccount/v1"
+    xmlns:ns6="http://schema.intuit.com/platform/fdatafeed/rewardsaccount/v1"
+    xmlns:ns7="http://schema.intuit.com/platform/fdatafeed/investmentaccount/v1"
+    xmlns:ns8="http://schema.intuit.com/platform/fdatafeed/accountlist/v1">
+    <ns3:CreditAccount>
+        <accountId>400005394781</accountId>
+        <status>ACTIVE</status>
+        <accountNumber>4100007777</accountNumber>
+        <accountNickname>My Visa</accountNickname>
+        <displayPosition>2</displayPosition>
+        <institutionId>100000</institutionId>
+        <balanceDate>2013-10-22T00:00:00-07:00</balanceDate>
+        <lastTxnDate>2013-10-20T00:00:00-07:00</lastTxnDate>
+        <aggrSuccessDate>2013-10-22T13:25:14.298-07:00</aggrSuccessDate>
+        <aggrAttemptDate>2013-10-22T13:25:14.298-07:00</aggrAttemptDate>
+        <aggrStatusCode>0</aggrStatusCode>
+        <currencyCode>USD</currencyCode>
+        <institutionLoginId>120910153</institutionLoginId>
+        <ns3:creditAccountType>CREDITCARD</ns3:creditAccountType>
+        <ns3:currentBalance>-1022.25</ns3:currentBalance>
+        <ns3:paymentMinAmount>15</ns3:paymentMinAmount>
+        <ns3:paymentDueDate>2020-04-01T00:00:00-07:00</ns3:paymentDueDate>
+        <ns3:statementEndDate>2020-03-01T00:00:00-08:00</ns3:statementEndDate>
+        <ns3:statementCloseBalance>-1022.25</ns3:statementCloseBalance>
+    </ns3:CreditAccount>
+</ns8:AccountList>

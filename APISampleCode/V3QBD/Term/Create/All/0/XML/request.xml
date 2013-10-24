@@ -1,1 +1,8 @@
-
+<Term xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Name>Std Term2 </Name>
+    <Active>true</Active>
+    <Type>Standard</Type>
+    <DiscountPercent>0</DiscountPercent>
+    <DueDays>60</DueDays>
+    <DiscountDays>10</DiscountDays>
+</Term>

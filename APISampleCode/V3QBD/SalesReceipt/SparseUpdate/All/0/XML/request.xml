@@ -1,1 +1,5 @@
-
+<SalesReceipt xmlns="http://schema.intuit.com/finance/v3" sparse="true">
+    <Id>QB:64695</Id>
+    <SyncToken>2</SyncToken>
+    <DocNumber>3023</DocNumber>
+</SalesReceipt>

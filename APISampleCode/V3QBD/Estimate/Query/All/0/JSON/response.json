@@ -1,3 +1,69 @@
 {
-  "key":"value"
+    "QueryResponse": {
+        "Estimate": [{
+            "status": "Synchronized",
+            "Id": "QB:62988",
+            "SyncToken": "1",
+            "MetaData": {
+                "CreateTime": "2013-09-16T04:59:03Z",
+                "LastUpdatedTime": "2013-09-16T05:16:48Z"
+            },
+            "DocNumber": "DocNumber4",
+            "TxnDate": "2013-09-16",
+            "TxnStatus": "Active",
+            "TxnTaxDetail": {
+                "DefaultTaxCodeRef": {
+                    "value": "QB:1",
+                    "name": "Tax"
+                },
+                "TotalTax": 36.81
+            },
+            "CustomerRef": {
+                "value": "QB:222",
+                "name": "Customer_6356"
+            },
+            "BillAddr": {
+                "Line1": "6356 Garcia Ave",
+                "Line2": "Bldg 6356",
+                "City": "Mountain View",
+                "Country": "USA",
+                "CountrySubDivisionCode": "CA",
+                "PostalCode": "94043"
+            },
+            "ShipAddr": {
+                "Line1": "6356 Garcia Ave",
+                "Line2": "Bldg 6356",
+                "City": "Mountain View",
+                "Country": "USA",
+                "CountrySubDivisionCode": "CA",
+                "PostalCode": "94403"
+            },
+            "RemitToRef": {
+                "value": "QB:222",
+                "name": "Customer_6356"
+            },
+            "SalesTermRef": {
+                "value": "QB:5",
+                "name": "1% 10 Net 30"
+            },
+            "DueDate": "2013-10-16",
+            "SalesRepRef": {
+                "value": "QB:1",
+                "name": "R1"
+            },
+            "ShipDate": "2013-09-16",
+            "TotalAmt": 511.81,
+            "TemplateRef": {
+                "value": "QB:6",
+                "name": "Custom Estimate"
+            },
+            "PrintStatus": "NotSet",
+            "EmailStatus": "NotSet",
+            "BillEmail": {"Address": "Customer_6356@Company_6356.com"},
+            "Balance": 511.81
+        }],
+        "startPosition": 1,
+        "maxResults": 1
+    },
+    "time": "2013-10-23T12:17:44.582Z"
 }

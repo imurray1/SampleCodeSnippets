@@ -1,1 +1,11 @@
-
+<CreditMemo xmlns="http://schema.intuit.com/finance/v3" sparse="true">
+    <Id>NG:4378179</Id>
+    <SyncToken>1</SyncToken>
+    <Line>
+        <DetailType>SalesItemLineDetail</DetailType>
+        <SalesItemLineDetail>
+            <ItemRef name="Repairs">QB:4</ItemRef>
+        </SalesItemLineDetail>
+    </Line>
+    <CustomerRef name="Disney">QB:281</CustomerRef>
+</CreditMemo>

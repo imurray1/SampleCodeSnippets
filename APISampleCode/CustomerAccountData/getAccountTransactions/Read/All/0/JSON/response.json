@@ -1,0 +1,29 @@
+{
+    "creditCardTransactions": [
+        {
+            "id": 400319238524,
+            "userDate": 1382425200000,
+            "categorization": {
+                "context": [],
+                "common": {}
+            },
+            "currencyType": "USD",
+            "payeeName": "CREDITCARD credit 295",
+            "amount": 10.22,
+            "pending": true
+        },
+        {
+            "id": 400319238525,
+            "userDate": 1382425200000,
+            "categorization": {
+                "context": [],
+                "common": {}
+            },
+            "currencyType": "USD",
+            "payeeName": "CREDITCARD debit 294",
+            "amount": -10.21,
+            "pending": true
+        }
+    ],
+    "notRefreshedReason": "NOT_NECESSARY"
+}

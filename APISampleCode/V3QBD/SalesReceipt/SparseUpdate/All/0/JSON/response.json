@@ -1,3 +1,133 @@
 {
-  "key":"value"
+   "SalesReceipt": {
+      "status": "Pending",
+      "sparse": true,
+      "Id": "QB:14068",
+      "SyncToken": "2",
+      "MetaData": {
+         "CreateTime": "2013-10-23T08:04:53Z",
+         "LastUpdatedTime": "2013-10-23T08:04:53Z"
+      },
+      "CustomField": [],
+      "AttachableRef": [],
+      "DocNumber": "3008",
+      "TxnDate": "2012-12-10",
+      "ExchangeRate": 1,
+      "TxnStatus": "Payable",
+      "LinkedTxn": [],
+      "Line": [
+         {
+            "Id": "NG:4144897",
+            "Description": "Florescent Lights",
+            "Amount": 95,
+            "LinkedTxn": [],
+            "DetailType": "SalesItemLineDetail",
+            "SalesItemLineDetail": {
+               "ItemRef": {
+                  "value": "QB:55",
+                  "name": "Fluorescent Ceiling Lighting"
+               },
+               "ClassRef": {
+                  "value": "QB:1",
+                  "name": "New Construction"
+               },
+               "UnitPrice": 95,
+               "Qty": 1,
+               "TaxCodeRef": {
+                  "value": "QB:1",
+                  "name": "Tax"
+               }
+            },
+            "CustomField": []
+         }
+      ],
+      "TxnTaxDetail": {
+         "DefaultTaxCodeRef": {
+            "value": "QB:1",
+            "name": "Tax"
+         },
+         "TxnTaxCodeRef": {
+            "value": "QB:TG.54",
+            "name": "E. Bayshore/County"
+         },
+         "TotalTax": 7.65,
+         "TaxLine": [
+            {
+               "Id": "NG:4144898",
+               "Description": "City Sales Tax",
+               "Amount": 0.29,
+               "LinkedTxn": [],
+               "DetailType": "TaxLineDetail",
+               "TaxLineDetail": {
+                  "TaxRateRef": {
+                     "value": "QB:53",
+                     "name": "East Bayshore"
+                  },
+                  "TaxPercent": 0.3
+               },
+               "CustomField": []
+            },
+            {
+               "Id": "NG:4144899",
+               "Description": "CA sales tax, San Tomas County",
+               "Amount": 7.36,
+               "LinkedTxn": [],
+               "DetailType": "TaxLineDetail",
+               "TaxLineDetail": {
+                  "TaxRateRef": {
+                     "value": "QB:46",
+                     "name": "San Tomas"
+                  },
+                  "TaxPercent": 7.75
+               },
+               "CustomField": []
+            }
+         ]
+      },
+      "CustomerRef": {
+         "value": "QB:260",
+         "name": "Apple"
+      },
+      "CustomerMemo": {
+         "value": "Thank you for your business."
+      },
+      "BillAddr": {
+         "Line1": "Bridget Keenan",
+         "Line2": "213 Fern Lane",
+         "City": "East Bayshore",
+         "CountrySubDivisionCode": "CA",
+         "PostalCode": "94327"
+      },
+      "RemitToRef": {
+         "value": "QB:81",
+         "name": "Keenan, Bridget"
+      },
+      "ClassRef": {
+         "value": "QB:1",
+         "name": "New Construction"
+      },
+      "DueDate": "2012-12-10",
+      "PONumber": "1245",
+      "ShipDate": "2012-12-10",
+      "TotalAmt": 102.65,
+      "TemplateRef": {
+         "value": "QB:9",
+         "name": "Custom Sales Receipt"
+      },
+      "PrintStatus": "NeedToPrint",
+      "EmailStatus": "NotSet",
+      "BillEmail": {
+         "Address": "bridget@samplename.com"
+      },
+      "Balance": 102.65,
+      "PaymentMethodRef": {
+         "value": "QB:2",
+         "name": "Check"
+      },
+      "DepositToAccountRef": {
+         "value": "QB:2",
+         "name": "Checking"
+      }
+   },
+   "time": "2013-10-23T08:12:25.206Z"
 }

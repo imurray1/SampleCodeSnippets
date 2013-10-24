@@ -1,3 +1,90 @@
-{
-  "key":"value"
-}
+{   
+        "Estimate":{
+                "status": "Synchronized",
+                "Id": "QB:62627",
+                "SyncToken": "1",
+                "MetaData": {
+                    "CreateTime": "2011-04-05T14:09:39.372Z",
+                    "LastUpdatedTime": "2013-04-19T05:37:12Z"
+                },
+                "CustomField": [],
+                "DocNumber": "616",
+                "TxnDate": "2004-04-20",
+                "PrivateNote": "Estimate Memo 6357",
+                "TxnStatus": "Active",
+                "Line": [{
+                    "Id": "QB:62629",
+                    "Description": "ItemService_6357 Desc",
+                    "Amount": 6357,
+                    "DetailType": "SalesItemLineDetail",
+                    "SalesItemLineDetail": {
+                        "ItemRef": {
+                            "value": "QB:103",
+                            "name": "ItemService_6357"
+                        },
+                        "UnitPrice": 6357,
+                        "TaxCodeRef": {
+                            "value": "QB:1",
+                            "name": "Tax"
+                        }
+                    },
+                    "CustomField": []
+                }],
+                "TxnTaxDetail": {
+                    "DefaultTaxCodeRef": {
+                        "value": "QB:1",
+                        "name": "Tax"
+                    },
+                    "TotalTax": 492.67,
+                    "TaxLine": [{
+                        "Id": "QB:62630",
+                        "Description": "CA sales tax, San Tomas County",
+                        "Amount": 492.67,
+                        "DetailType": "TaxLineDetail",
+                        "TaxLineDetail": {
+                            "TaxRateRef": {
+                                "value": "QB:46",
+                                "name": "San Tomas"
+                            },
+                            "TaxPercent": 7.75
+                        },
+                        "CustomField": []
+                    }]
+                },
+                "CustomerRef": {
+                    "value": "QB:223",
+                    "name": "Customer_6357"
+                },
+                "BillAddr": {
+                    "Line1": "6357 Garcia Ave",
+                    "Line2": "Bldg 6357",
+                    "City": "Mountain View",
+                    "Country": "USA",
+                    "CountrySubDivisionCode": "CA",
+                    "PostalCode": "94043"
+                },
+                "ShipAddr": {
+                    "Line1": "6357 Garcia Ave",
+                    "Line2": "Bldg 6357",
+                    "City": "Mountain View",
+                    "Country": "USA",
+                    "CountrySubDivisionCode": "CA",
+                    "PostalCode": "94403"
+                },
+                "RemitToRef": {
+                    "value": "QB:223",
+                    "name": "Customer_6357"
+                },
+                "DueDate": "2004-04-20",
+                "ShipDate": "2004-04-20",
+                "TotalAmt": 6849.67,
+                "TemplateRef": {
+                    "value": "QB:6",
+                    "name": "Custom Estimate"
+                },
+                "PrintStatus": "NotSet",
+                "EmailStatus": "NotSet",
+                "BillEmail": {"Address": "Customer_6357@Company_6357.com"},
+                "Balance": 6849.67
+            }
+  }

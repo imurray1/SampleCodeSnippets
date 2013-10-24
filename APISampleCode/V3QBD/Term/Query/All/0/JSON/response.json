@@ -1,3 +1,22 @@
 {
-  "key":"value"
+    "QueryResponse": {
+        "Term": [{
+            "Name": "Net 30",
+            "Active": true,
+            "Type": "Standard",
+            "DiscountPercent": 0,
+            "DueDays": 30,
+            "DiscountDays": 0,
+            "status": "Synchronized",
+            "Id": "QB:1",
+            "SyncToken": "1",
+            "MetaData": {
+                "CreateTime": "1999-07-29T18:24:18Z",
+                "LastUpdatedTime": "2013-10-22T04:53:11Z"
+            }
+        }],
+        "startPosition": 1,
+        "maxResults": 1
+    },
+    "time": "2013-10-22T07:38:38.070Z"
 }

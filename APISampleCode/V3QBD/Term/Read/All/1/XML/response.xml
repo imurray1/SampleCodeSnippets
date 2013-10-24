@@ -1,0 +1,16 @@
+<IntuitResponse xmlns="http://schema.intuit.com/finance/v3"
+    time="2013-10-22T07:16:10.300Z">    <Term status="Pending">
+        <Id>NG:62636</Id>
+        <SyncToken>1</SyncToken>
+        <MetaData>
+            <CreateTime>2013-10-22T07:09:36Z</CreateTime>
+            <LastUpdatedTime>2013-10-22T07:09:36Z</LastUpdatedTime>
+        </MetaData>
+        <Name>Std Term3 </Name>
+        <Active>true</Active>
+        <Type>Standard</Type>
+        <DiscountPercent>0</DiscountPercent>
+        <DueDays>60</DueDays>
+        <DiscountDays>10</DiscountDays>
+    </Term>
+</IntuitResponse>

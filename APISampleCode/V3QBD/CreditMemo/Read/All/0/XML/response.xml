@@ -1,1 +1,68 @@
-
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<IntuitResponse xmlns="http://schema.intuit.com/finance/v3" time="2013-08-27T05:20:10.758Z">
+    <CreditMemo status="Synchronized">
+        <Id>QB:62404</Id>
+        <SyncToken>1</SyncToken>
+        <MetaData>
+            <CreateTime>2009-10-09T18:04:18Z</CreateTime>
+            <LastUpdatedTime>2013-08-26T16:09:47Z</LastUpdatedTime>
+        </MetaData>
+        <DocNumber>1104</DocNumber>
+        <TxnDate>2012-12-15</TxnDate>
+        <PrivateNote>thank you so much</PrivateNote>
+        <TxnStatus>Paid</TxnStatus>
+        <Line>
+            <Id>QB:62406</Id>
+            <Description>Repair work</Description>
+            <Amount>35</Amount>
+            <DetailType>SalesItemLineDetail</DetailType>
+            <SalesItemLineDetail>
+                <ItemRef name="Repairs">QB:4</ItemRef>
+                <UnitPrice>35</UnitPrice>
+                <TaxCodeRef name="Non">QB:2</TaxCodeRef>
+            </SalesItemLineDetail>
+        </Line>
+        <TxnTaxDetail>
+            <DefaultTaxCodeRef name="Tax">QB:1</DefaultTaxCodeRef>        <TotalTax>0</TotalTax>
+            <TaxLine>
+                <Id>QB:62407</Id>
+                <Description>CA sales tax, San Tomas County</Description>
+                <Amount>0</Amount>
+                <DetailType>TaxLineDetail</DetailType>
+                <TaxLineDetail>
+                    <TaxRateRef name="San Tomas">QB:46</TaxRateRef>
+                    <TaxPercent>7.75</TaxPercent>
+                </TaxLineDetail>
+            </TaxLine>
+        </TxnTaxDetail>
+        <CustomerRef name="Family Room">QB:22</CustomerRef>
+        <CustomerMemo>It's been a pleasure working with you!</CustomerMemo>
+        <BillAddr>
+            <Line1>Kristy Abercrombie</Line1>
+            <Line2>5647 Cypress Hill Rd</Line2>
+            <City>Bayshore</City>
+            <CountrySubDivisionCode>CA</CountrySubDivisionCode>
+            <PostalCode>94326</PostalCode>
+        </BillAddr>
+        <ShipAddr>
+            <Line1>Kristy Abercrombie</Line1>
+            <Line2>5647 Cypress Hill Rd</Line2>
+            <City>Bayshore</City>
+            <CountrySubDivisionCode>CA</CountrySubDivisionCode>
+            <PostalCode>94326</PostalCode>
+        </ShipAddr>
+        <RemitToRef name="Abercrombie, Kristy">QB:21</RemitToRef>
+        <DueDate>2012-12-15</DueDate>
+        <PONumber>1234</PONumber>
+        <ShipDate>2012-12-15</ShipDate>
+        <TotalAmt>35</TotalAmt>    <TemplateRef name="Custom Credit Memo">QB:10</TemplateRef>
+        <PrintStatus>NeedToPrint</PrintStatus>
+        <EmailStatus>NeedToSend</EmailStatus>
+        <BillEmail>
+            <Address>kristy@samplename.com</Address>
+        </BillEmail>
+        <ARAccountRef name="Accounts Receivable">QB:4</ARAccountRef>
+        <Balance>0</Balance>
+        <RemainingCredit>0</RemainingCredit>
+    </CreditMemo>
+</IntuitResponse>

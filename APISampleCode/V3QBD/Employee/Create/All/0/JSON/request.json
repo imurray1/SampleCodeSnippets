@@ -1,3 +1,26 @@
 {
-  "key":"value"
+  "Employee": {
+    "Organization": "false",
+    "Title": "Mr",
+    "GivenName": "David",
+    "MiddleName": "M",
+    "FamilyName": "Boon",
+    "DisplayName": "My Display Name",
+    "PrintOnCheckName": "David M Boon",
+    "Active": "true",
+    "PrimaryPhone": { "FreeFormNumber": "505.555.9999" },
+    "AlternatePhone": { "FreeFormNumber": "505.555.9998" },
+    "Mobile": { "FreeFormNumber": "505.555.9997" },
+    "Fax": { "FreeFormNumber": "505.555.9996" },
+    "PrimaryEmailAddr": { "Address": "david_boon@yahoo.com" },
+    "EmployeeType": "Regular",
+    "EmployeeNumber": "Emp001",
+    "PrimaryAddr": {
+      "Line1": "#12,Lotus",
+      "Line2": "2nd Main",
+      "City": "TeaNeck",
+      "CountrySubDivisionCode": "CA",
+      "PostalCode": "56060"
+    }
+  }
 }

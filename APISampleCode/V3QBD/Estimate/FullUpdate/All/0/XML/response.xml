@@ -1,1 +1,29 @@
-
+<IntuitResponse xmlns="http://schema.intuit.com/finance/v3"
+    time="2013-09-06T09:25:47.975Z">
+    <Estimate status="Pending">
+        <Id>NG:3459243</Id>
+        <SyncToken>3</SyncToken>
+        <MetaData>
+            <CreateTime>2013-09-06T09:28:43Z</CreateTime>
+            <LastUpdatedTime>2013-09-06T09:29:37Z</LastUpdatedTime>
+        </MetaData>
+        <TxnDate>2013-09-03</TxnDate>
+        <TxnStatus>Active</TxnStatus>
+        <Line>
+            <Id>NG:3695761</Id>
+            <Description>Blueprints</Description>
+            <Amount>20</Amount>
+            <DetailType>SalesItemLineDetail</DetailType>
+            <SalesItemLineDetail>
+                <ItemRef name="Blueprints">QB:86</ItemRef>
+                <UnitPrice>10</UnitPrice>
+                <Qty>2</Qty>
+                <TaxCodeRef name="Non">QB:2</TaxCodeRef>
+            </SalesItemLineDetail>
+        </Line>
+        <CustomerRef name="Customer_6356">QB:223</CustomerRef>
+        <TotalAmt>20</TotalAmt>
+        <PrintStatus>NotSet</PrintStatus>
+        <EmailStatus>NotSet</EmailStatus>
+    </Estimate>
+</IntuitResponse>

@@ -1,3 +1,45 @@
 {
-  "key":"value"
+   "SalesReceipt": {
+      "status": "Pending",
+      "Id": "NG:4378267",
+      "SyncToken": "1",
+      "MetaData": {
+         "CreateTime": "2013-10-23T05:09:18Z",
+         "LastUpdatedTime": "2013-10-23T05:09:18Z"
+      },
+      "CustomField": [],
+      "AttachableRef": [],
+      "TxnDate": "2013-10-23",
+      "TxnStatus": "Payable",
+      "LinkedTxn": [],
+      "Line": [
+         {
+            "Id": "NG:4141552",
+            "LinkedTxn": [],
+            "DetailType": "SalesItemLineDetail",
+            "SalesItemLineDetail": {
+               "ItemRef": {
+                  "value": "QB:30",
+                  "name": "Plumb Fixtrs"
+               }
+            },
+            "CustomField": []
+         }
+      ],
+      "TxnTaxDetail": {
+         "DefaultTaxCodeRef": {
+            "value": "QB:1",
+            "name": "Tax"
+         },
+         "TotalTax": 0,
+         "TaxLine": []
+      },
+      "CustomerRef": {
+         "value": "QB:260",
+         "name": "Apple"
+      },
+      "PrintStatus": "NotSet",
+      "EmailStatus": "NotSet"
+   },
+   "time": "2013-10-23T05:16:35.977Z"
 }

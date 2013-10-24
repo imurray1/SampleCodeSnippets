@@ -1,1 +1,50 @@
-
+<IntuitResponse xmlns="http://schema.intuit.com/finance/v3"
+    time="2013-10-23T12:16:24.238Z">
+    <QueryResponse maxResults="1" startPosition="1">
+        <Estimate status="Synchronized">
+            <Id>QB:62988</Id>
+            <SyncToken>1</SyncToken>
+            <MetaData>
+                <CreateTime>2013-09-16T04:59:03Z</CreateTime>
+                <LastUpdatedTime>2013-09-16T05:16:48Z</LastUpdatedTime>
+            </MetaData>
+            <DocNumber>DocNumber4</DocNumber>
+            <TxnDate>2013-09-16</TxnDate>
+            <TxnStatus>Active</TxnStatus>
+            <TxnTaxDetail>
+                <DefaultTaxCodeRef name="Tax">QB:1</DefaultTaxCodeRef>
+                <TotalTax>36.81</TotalTax>
+            </TxnTaxDetail>
+            <CustomerRef name="Customer_6356">QB:222</CustomerRef>
+            <BillAddr>
+                <Line1>6356 Garcia Ave</Line1>
+                <Line2>Bldg 6356</Line2>
+                <City>Mountain View</City>
+                <Country>USA</Country>
+                <CountrySubDivisionCode>CA</CountrySubDivisionCode>
+                <PostalCode>94043</PostalCode>
+            </BillAddr>
+            <ShipAddr>
+                <Line1>6356 Garcia Ave</Line1>
+                <Line2>Bldg 6356</Line2>
+                <City>Mountain View</City>
+                <Country>USA</Country>
+                <CountrySubDivisionCode>CA</CountrySubDivisionCode>
+                <PostalCode>94403</PostalCode>
+            </ShipAddr>
+            <RemitToRef name="Customer_6356">QB:222</RemitToRef>
+            <SalesTermRef name="1% 10 Net 30">QB:5</SalesTermRef>
+            <DueDate>2013-10-16</DueDate>
+            <SalesRepRef name="R1">QB:1</SalesRepRef>
+            <ShipDate>2013-09-16</ShipDate>
+            <TotalAmt>511.81</TotalAmt>
+            <TemplateRef name="Custom Estimate">QB:6</TemplateRef>
+            <PrintStatus>NotSet</PrintStatus>
+            <EmailStatus>NotSet</EmailStatus>
+            <BillEmail>
+                <Address>Customer_6356@Company_6356.com</Address>
+            </BillEmail>
+            <Balance>511.81</Balance>
+        </Estimate>
+    </QueryResponse>
+</IntuitResponse>

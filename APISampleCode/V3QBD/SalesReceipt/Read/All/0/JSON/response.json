@@ -1,3 +1,125 @@
 {
-  "key":"value"
+   "SalesReceipt": {
+      "status": "Synchronized",
+      "Id": "QB:64695",
+      "SyncToken": "1",
+      "MetaData": {
+         "CreateTime": "2013-10-23T12:17:51Z",
+         "LastUpdatedTime": "2013-10-23T12:20:50Z"
+      },
+      "CustomField": [],
+      "DocNumber": "3021",
+      "TxnDate": "2013-10-23",
+      "ExchangeRate": 1,
+      "TxnStatus": "Payable",
+      "Line": [
+         {
+            "Id": "QB:64697",
+            "Amount": 200,
+            "DetailType": "SalesItemLineDetail",
+            "SalesItemLineDetail": {
+               "ItemRef": {
+                  "value": "QB:52",
+                  "name": "Blueprint changes"
+               },
+               "UnitPrice": 200,
+               "TaxCodeRef": {
+                  "value": "QB:2",
+                  "name": "Non"
+               }
+            },
+            "CustomField": []
+         },
+         {
+            "Id": "QB:64698",
+            "Description": "10% Discount",
+            "Amount": -20,
+            "DetailType": "DiscountLineDetail",
+            "DiscountLineDetail": {
+               "TaxCodeRef": {
+                  "value": "QB:2",
+                  "name": "Non"
+               },
+               "DiscountRef": {
+                  "value": "QB:42",
+                  "name": "Discount"
+               },
+               "DiscountPercent": 10
+            },
+            "CustomField": []
+         },
+         {
+            "Id": "QB:64699",
+            "Description": "Installation labor",
+            "Amount": 35,
+            "DetailType": "SalesItemLineDetail",
+            "SalesItemLineDetail": {
+               "ItemRef": {
+                  "value": "QB:2",
+                  "name": "Installation"
+               },
+               "UnitPrice": 35,
+               "Qty": 1,
+               "UOMRef": {
+                  "Unit": "square meter",
+                  "UOMSetRef": {
+                     "value": "QB:9"
+                  }
+               },
+               "TaxCodeRef": {
+                  "value": "QB:2",
+                  "name": "Non"
+               }
+            },
+            "CustomField": []
+         },
+         {
+            "Id": "QB:64700",
+            "Description": "Out-of-state sale, exempt from sales tax",
+            "Amount": 20,
+            "DetailType": "TaxLineDetail",
+            "TaxLineDetail": {
+               "TaxRateRef": {
+                  "value": "QB:44",
+                  "name": "Out of State"
+               }
+            },
+            "CustomField": []
+         }
+      ],
+      "TxnTaxDetail": {
+         "TotalTax": 0,
+         "TaxLine": [
+            {
+               "Id": "QB:64701",
+               "Description": "CA sales tax, San Tomas County",
+               "Amount": 0,
+               "DetailType": "TaxLineDetail",
+               "TaxLineDetail": {
+                  "TaxRateRef": {
+                     "value": "QB:46",
+                     "name": "San Tomas"
+                  },
+                  "TaxPercent": 7.75
+               },
+               "CustomField": []
+            }
+         ]
+      },
+      "DueDate": "2013-10-23",
+      "ShipDate": "2013-10-23",
+      "TotalAmt": 235,
+      "TemplateRef": {
+         "value": "QB:9",
+         "name": "Custom Sales Receipt"
+      },
+      "PrintStatus": "NotSet",
+      "EmailStatus": "NotSet",
+      "Balance": 235,
+      "DepositToAccountRef": {
+         "value": "QB:8",
+         "name": "Undeposited Funds"
+      }
+   },
+   "time": "2013-10-23T16:06:34.438Z"
 }

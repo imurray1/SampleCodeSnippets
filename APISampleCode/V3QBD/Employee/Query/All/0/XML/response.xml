@@ -1,1 +1,33 @@
-
+<IntuitResponse xmlns="http://schema.intuit.com/finance/v3" time="2013-08-13T04:27:20.927Z">
+    <QueryResponse maxResults="1" startPosition="1">
+        <Employee status="Synchronized">
+            <Id>NG:512249</Id>
+            <SyncToken>1</SyncToken>
+            <MetaData>
+                <CreateTime>2013-08-05T21:48:23Z</CreateTime>
+                <LastUpdatedTime>2013-08-05T21:48:23Z</LastUpdatedTime>
+            </MetaData>
+            <Organization>false</Organization>
+            <Title>Miss</Title>
+            <GivenName>Rose</GivenName>
+            <MiddleName>Lane</MiddleName>
+            <FamilyName>Teach</FamilyName>
+            <DisplayName>Rose Lane Teach</DisplayName>
+            <PrintOnCheckName>Rose Lane Teach</PrintOnCheckName>
+            <Active>true</Active>
+            <PrimaryPhone>
+                <FreeFormNumber>505.555.9999</FreeFormNumber>
+            </PrimaryPhone>
+            <PrimaryEmailAddr>
+                <Address>roseteach@foobar.com</Address>
+            </PrimaryEmailAddr>
+            <EmployeeType>Regular</EmployeeType>
+            <PrimaryAddr>
+                <Line1>799 Mayberry</Line1>
+                <City>Lucy</City>
+                <CountrySubDivisionCode>NM</CountrySubDivisionCode>
+                <PostalCode>87063</PostalCode>
+            </PrimaryAddr>
+        </Employee>
+    </QueryResponse>
+</IntuitResponse>

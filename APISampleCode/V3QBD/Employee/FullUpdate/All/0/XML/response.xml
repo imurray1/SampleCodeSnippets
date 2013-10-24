@@ -1,1 +1,42 @@
-
+<IntuitResponse xmlns="http://schema.intuit.com/finance/v3" time="2013-08-05T21:48:23Z">
+    <Employee status="Pending">
+        <Id>QB:237</Id>
+        <SyncToken>2</SyncToken>
+        <MetaData>
+            <CreateTime>2013-08-05T21:48:23Z</CreateTime>
+            <LastUpdatedTime>2013-08-05T21:48:23Z</LastUpdatedTime>
+        </MetaData>
+        <Organization>false</Organization>
+        <Title>Mr.</Title>
+        <GivenName>REdt</GivenName>
+        <MiddleName>MEdt</MiddleName>
+        <FamilyName>TEdt</FamilyName>
+        <DisplayName>REdt MEdt TEdt</DisplayName>
+        <PrintOnCheckName>REdt MEdt TEdt</PrintOnCheckName>
+        <Active>false</Active>
+        <PrimaryPhone>
+            <FreeFormNumber>972.433.2324</FreeFormNumber>
+        </PrimaryPhone>
+        <AlternatePhone>
+            <FreeFormNumber>408.333.1220</FreeFormNumber>
+        </AlternatePhone>
+        <Mobile>
+            <FreeFormNumber>408.333.1220</FreeFormNumber>
+        </Mobile>
+        <Fax>
+            <FreeFormNumber>972.433.1230</FreeFormNumber>
+        </Fax>
+        <PrimaryEmailAddr>
+            <Address>roseTeachE@foo.com</Address>
+        </PrimaryEmailAddr>
+        <EmployeeType>Officer</EmployeeType>
+        <EmployeeNumber>899992</EmployeeNumber>
+        <PrimaryAddr>
+            <Line1>#12 Lotus Apt</Line1>
+            <Line2>Suite #112</Line2>
+            <City>TeaNeck</City>
+            <CountrySubDivisionCode>CA</CountrySubDivisionCode>
+            <PostalCode>56060</PostalCode>
+        </PrimaryAddr>
+    </Employee>
+</IntuitResponse>

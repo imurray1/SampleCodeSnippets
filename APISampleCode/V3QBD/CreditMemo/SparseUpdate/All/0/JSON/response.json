@@ -1,3 +1,133 @@
 {
-  "key":"value"
+   "CreditMemo":{
+      "RemainingCredit":0,
+      "status":"Pending",
+      "sparse":true,
+      "Id":"NG:4378249",
+      "SyncToken":"3",
+      "MetaData":{
+         "CreateTime":"2013-10-22T18:33:58Z",
+         "LastUpdatedTime":"2013-10-22T18:36:34Z"
+      },
+      "CustomField":[
+
+      ],
+      "AttachableRef":[
+
+      ],
+      "DocNumber":"1321Mod2",
+      "TxnDate":"2013-08-24",
+      "PrivateNote":"first memo",
+      "TxnStatus":"Pending",
+      "LinkedTxn":[
+
+      ],
+      "Line":[
+         {
+            "Id":"NG:4141533",
+            "Description":"CA sales tax, San Domingo County",
+            "Amount":0,
+            "LinkedTxn":[
+
+            ],
+            "DetailType":"TaxLineDetail",
+            "TaxLineDetail":{
+               "TaxRateRef":{
+                  "value":"QB:45",
+                  "name":"San Domingo"
+               }
+            },
+            "CustomField":[
+
+            ]
+         }
+      ],
+      "TxnTaxDetail":{
+         "DefaultTaxCodeRef":{
+            "value":"QB:1",
+            "name":"Tax"
+         },
+         "TxnTaxCodeRef":{
+            "value":"QB:TG.54",
+            "name":"test"
+         },
+         "TotalTax":14.77,
+         "TaxLine":[
+            {
+               "Id":"NG:4141534",
+               "Description":"CA sales tax, San Tomas County",
+               "Amount":14.77,
+               "LinkedTxn":[
+
+               ],
+               "DetailType":"TaxLineDetail",
+               "TaxLineDetail":{
+                  "TaxRateRef":{
+                     "value":"QB:46",
+                     "name":"San Tomas"
+                  },
+                  "TaxPercent":7.75
+               },
+               "CustomField":[
+
+               ]
+            }
+         ]
+      },
+      "CustomerRef":{
+         "value":"QB:253",
+         "name":"Michael M Moore"
+      },
+      "BillAddr":{
+         "Line1":"Line1",
+         "Line2":"Line2",
+         "Line3":"Line3",
+         "City":"San Francisco",
+         "Country":"USA",
+         "CountrySubDivisionCode":"CA",
+         "PostalCode":"95141"
+      },
+      "ShipAddr":{
+         "Line1":"Line1",
+         "Line2":"Line2",
+         "Line3":"Line3",
+         "City":"San Francisco",
+         "Country":"USA",
+         "CountrySubDivisionCode":"CA",
+         "PostalCode":"95141"
+      },
+      "RemitToRef":{
+         "value":"QB:260",
+         "name":"Apple"
+      },
+      "ClassRef":{
+         "value":"QB:12",
+         "name":"Tub Design"
+      },
+      "SalesTermRef":{
+         "value":"QB:2",
+         "name":"Net 15"
+      },
+      "DueDate":"2013-09-08",
+      "SalesRepRef":{
+         "value":"QB:1",
+         "name":"EM"
+      },
+      "PONumber":"1",
+      "FOB":"fob",
+      "ShipMethodRef":{
+         "value":"QB:1",
+         "name":"Airborne"
+      },
+      "ShipDate":"2013-08-24",
+      "TotalAmt":320.33,
+      "PrintStatus":"NeedToPrint",
+      "EmailStatus":"NotSet",
+      "ARAccountRef":{
+         "value":"QB:4",
+         "name":"Accounts Receivable"
+      },
+      "Balance":0
+   },
+   "time":"2013-10-22T18:44:02.438Z"
 }

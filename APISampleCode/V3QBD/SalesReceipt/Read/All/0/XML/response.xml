@@ -1,1 +1,81 @@
-
+<IntuitResponse xmlns="http://schema.intuit.com/finance/v3" time="2013-10-23T16:05:12.707Z">
+    <SalesReceipt status="Synchronized">
+        <Id>QB:64695</Id>
+        <SyncToken>1</SyncToken>
+        <MetaData>
+            <CreateTime>2013-10-23T12:17:51Z</CreateTime>
+            <LastUpdatedTime>2013-10-23T12:20:50Z</LastUpdatedTime>
+        </MetaData>
+        <DocNumber>3021</DocNumber>
+        <TxnDate>2013-10-23</TxnDate>
+        <ExchangeRate>1</ExchangeRate>
+        <TxnStatus>Payable</TxnStatus>
+        <Line>
+            <Id>QB:64697</Id>
+            <Amount>200</Amount>
+            <DetailType>SalesItemLineDetail</DetailType>
+            <SalesItemLineDetail>
+                <ItemRef name="Blueprint changes">QB:52</ItemRef>
+                <UnitPrice>200</UnitPrice>
+                <TaxCodeRef name="Non">QB:2</TaxCodeRef>
+            </SalesItemLineDetail>
+        </Line>
+        <Line>
+            <Id>QB:64698</Id>
+            <Description>10% Discount</Description>
+            <Amount>-20</Amount>
+            <DetailType>DiscountLineDetail</DetailType>
+            <DiscountLineDetail>
+                <DiscountRef name="Discount">QB:42</DiscountRef>
+                <DiscountPercent>10</DiscountPercent>
+                <TaxCodeRef name="Non">QB:2</TaxCodeRef>
+            </DiscountLineDetail>
+        </Line>
+        <Line>
+            <Id>QB:64699</Id>
+            <Description>Installation labor</Description>
+            <Amount>35</Amount>
+            <DetailType>SalesItemLineDetail</DetailType>
+            <SalesItemLineDetail>
+                <ItemRef name="Installation">QB:2</ItemRef>
+                <UnitPrice>35</UnitPrice>
+                <Qty>1</Qty>
+                <UOMRef>
+                    <Unit>square meter</Unit>
+                    <UOMSetRef>QB:9</UOMSetRef>
+                </UOMRef>
+                <TaxCodeRef name="Non">QB:2</TaxCodeRef>
+            </SalesItemLineDetail>
+        </Line>
+        <Line>
+            <Id>QB:64700</Id>
+            <Description>Out-of-state sale, exempt from sales tax</Description>
+            <Amount>20</Amount>
+            <DetailType>TaxLineDetail</DetailType>
+            <TaxLineDetail>
+                <TaxRateRef name="Out of State">QB:44</TaxRateRef>
+            </TaxLineDetail>
+        </Line>
+        <TxnTaxDetail>
+            <TotalTax>0</TotalTax>
+            <TaxLine>
+                <Id>QB:64701</Id>
+                <Description>CA sales tax, San Tomas County</Description>
+                <Amount>0</Amount>
+                <DetailType>TaxLineDetail</DetailType>
+                <TaxLineDetail>
+                    <TaxRateRef name="San Tomas">QB:46</TaxRateRef>
+                    <TaxPercent>7.75</TaxPercent>
+                </TaxLineDetail>
+            </TaxLine>
+        </TxnTaxDetail>
+        <DueDate>2013-10-23</DueDate>
+        <ShipDate>2013-10-23</ShipDate>
+        <TotalAmt>235</TotalAmt>
+        <TemplateRef name="Custom Sales Receipt">QB:9</TemplateRef>
+        <PrintStatus>NotSet</PrintStatus>
+        <EmailStatus>NotSet</EmailStatus>
+        <Balance>235</Balance>
+        <DepositToAccountRef name="Undeposited Funds">QB:8</DepositToAccountRef>
+    </SalesReceipt>
+</IntuitResponse>

@@ -1,3 +1,35 @@
 {
-  "key":"value"
+ "Employee": {
+      "Organization": "false",
+      "Title": "Mr",
+      "GivenName": "David",
+      "MiddleName": "M",
+      "FamilyName": "BEdt",
+      "DisplayName": "David M Boon",
+      "PrintOnCheckName": "David M Boon",
+      "Active": "true",
+      "PrimaryPhone": { "FreeFormNumber": "505.555.9999" },
+      "AlternatePhone": { "FreeFormNumber": "505.555.9998" },
+      "Mobile": { "FreeFormNumber": "505.555.9997" },
+      "Fax": { "FreeFormNumber": "505.555.9996" },
+      "PrimaryEmailAddr": { "Address": "david_boon@yahoo.com" },
+      "EmployeeType": "Regular",
+      "EmployeeNumber": "Emp001",
+      "sparse": "true",
+      "status": "Pending",
+      "Id": "NG:1910889",
+      "SyncToken": "2",
+      "MetaData": {
+        "CreateTime": "2013-08-05T21:48:23Z",
+        "LastUpdatedTime": "2013-08-05T21:48:23Z"
+      },      
+      "PrimaryAddr": {
+        "Line1": "#12,Lotus",
+        "Line2": "2nd Main",
+        "City": "TeaNeck",
+        "CountrySubDivisionCode": "CA",
+        "PostalCode": "56060"
+      }
+    },
+    "time": "2013-08-05T21:48:23Z"
 }

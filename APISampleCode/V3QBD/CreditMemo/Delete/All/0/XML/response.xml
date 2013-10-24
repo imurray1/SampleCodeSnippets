@@ -1,1 +1,6 @@
-
+<IntuitResponse xmlns="http://schema.intuit.com/finance/v3"
+    time="2013-10-23T06:13:19.376Z">
+    <CreditMemo>
+        <Id>NG:4382089</Id>
+    </CreditMemo>
+</IntuitResponse>

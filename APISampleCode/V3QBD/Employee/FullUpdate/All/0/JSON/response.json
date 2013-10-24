@@ -1,3 +1,35 @@
 {
-  "key":"value"
+ "Employee": {
+      "Organization": "false",
+      "Title": "Mr.",
+      "GivenName": "REdt",
+      "MiddleName": "MEdt",
+      "FamilyName": "TEdt",
+      "DisplayName": "REdt MEdt TEdt",
+      "PrintOnCheckName": "REdt MEdt TEdt",
+      "Active": "false",
+      "PrimaryPhone": { "FreeFormNumber": "972.433.2324" },
+      "AlternatePhone": { "FreeFormNumber": "408.333.1220" },
+      "Mobile": { "FreeFormNumber": "408.333.1220" },
+      "Fax": { "FreeFormNumber": "972.433.1230" },
+      "PrimaryEmailAddr": { "Address": "roseTeachE@foo.com" },
+      "EmployeeType": "Officer",
+      "EmployeeNumber": "899992",
+      "status": "Pending",
+      "Id": "QB:237",
+      "SyncToken": "2",
+      "MetaData": {
+        "CreateTime": "2013-08-05T21:48:23Z",
+        "LastUpdatedTime": "2013-08-05T21:48:23Z"
+      },
+      "PrimaryAddr": {
+        "Line1": "#12 Lotus Apt",
+        "Line2": "Suite #112",
+        "City": "TeaNeck",
+        "CountrySubDivisionCode": "CA",
+        "PostalCode": "56060"
+      }
+    }
+  },
+  "time": "2013-08-05T21:48:23Z"
 }

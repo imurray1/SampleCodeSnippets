@@ -1,1 +1,5 @@
-
+<IntuitResponse xmlns="http://schema.intuit.com/finance/v3" time="2013-10-23T15:23:02.099Z">
+    <Estimate>
+        <Id>NG:2456103</Id>
+    </Estimate>
+</IntuitResponse>

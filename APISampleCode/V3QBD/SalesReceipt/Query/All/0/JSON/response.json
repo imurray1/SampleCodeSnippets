@@ -1,3 +1,96 @@
 {
-  "key":"value"
+   "SalesReceipt": {
+      "status": "Synchronized",
+      "Id": "NG:3482244",
+      "SyncToken": "2",
+      "MetaData": {
+         "CreateTime": "2013-10-22T10:00:14Z",
+         "LastUpdatedTime": "2013-10-22T10:02:25Z"
+      },
+      "CustomField": [],
+      "DocNumber": "3020",
+      "TxnDate": "2013-10-18",
+      "ExchangeRate": 1,
+      "TxnStatus": "Payable",
+      "Line": [
+         {
+            "Id": "QB:64692",
+            "Description": "Foundation slab - prep and pouring",
+            "Amount": 25,
+            "DetailType": "SalesItemLineDetail",
+            "SalesItemLineDetail": {
+               "ItemRef": {
+                  "value": "QB:50",
+                  "name": "Concrete Slab"
+               },
+               "UnitPrice": 12.5,
+               "Qty": 2,
+               "TaxCodeRef": {
+                  "value": "QB:2",
+                  "name": "Non"
+               }
+            },
+            "CustomField": []
+         },
+         {
+            "Id": "QB:64693",
+            "Description": "Discount based on amounts",
+            "Amount": -3,
+            "DetailType": "DiscountLineDetail",
+            "DiscountLineDetail": {
+               "TaxCodeRef": {
+                  "value": "QB:1",
+                  "name": "Tax"
+               },
+               "DiscountRef": {
+                  "value": "QB:103",
+                  "name": "Amount discount"
+               }
+            },
+            "CustomField": []
+         }
+      ],
+      "TxnTaxDetail": {
+         "DefaultTaxCodeRef": {
+            "value": "QB:2",
+            "name": "Non"
+         },
+         "TotalTax": 0,
+         "TaxLine": [
+            {
+               "Id": "QB:64694",
+               "Description": "CA sales tax, San Tomas County",
+               "Amount": 0,
+               "DetailType": "TaxLineDetail",
+               "TaxLineDetail": {
+                  "TaxRateRef": {
+                     "value": "QB:46",
+                     "name": "San Tomas"
+                  },
+                  "TaxPercent": 7.75
+               },
+               "CustomField": []
+            }
+         ]
+      },
+      "DueDate": "2013-10-18",
+      "ShipMethodRef": {
+         "value": "QB:4",
+         "name": "UPS"
+      },
+      "ShipDate": "2013-10-18",
+      "TotalAmt": 22,
+      "TemplateRef": {
+         "value": "QB:9",
+         "name": "Custom Sales Receipt"
+      },
+      "PrintStatus": "NotSet",
+      "EmailStatus": "NotSet",
+      "Balance": 22,
+      "DepositToAccountRef": {
+         "value": "QB:8",
+         "name": "Undeposited Funds"
+      }
+   },
+   "time": "2013-10-23T16:50:54.996Z"
 }

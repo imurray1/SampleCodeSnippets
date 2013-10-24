@@ -1,3 +1,15 @@
 {
-  "key":"value"
+    "PaymentMethod": {
+        "Name": "NG#Check",
+        "Active": false,
+        "Type": "Check",
+        "status": "Pending",
+        "Id": "NG:70600",
+        "SyncToken": "1",
+        "MetaData": {
+            "CreateTime": "2013-10-22T05:23:59Z",
+            "LastUpdatedTime": "2013-10-22T05:23:59Z"
+        }
+    },
+    "time": "2013-10-22T05:23:59.120Z"
 }

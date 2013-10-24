@@ -1,0 +1,11 @@
+{
+ 
+    "Name": "testInvDisc2",
+    "Active": "false",
+    "Type": "DateDriven",
+    "DiscountPercent": "0",
+    "DayOfMonthDue": "6",
+    "DueNextMonthDays": "4",
+    "DiscountDayOfMonth": "3"
+ 
+}

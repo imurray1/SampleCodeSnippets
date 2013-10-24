@@ -1,1 +1,248 @@
-
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<IntuitResponse xmlns="http://schema.intuit.com/finance/v3" time="2013-10-23T12:24:18.777Z">
+    <SalesReceipt status="Pending">
+        <Id>NG:3482353</Id>
+        <SyncToken>1</SyncToken>
+        <MetaData>
+            <CreateTime>2013-10-23T12:26:22Z</CreateTime>
+            <LastUpdatedTime>2013-10-23T12:26:22Z</LastUpdatedTime>
+        </MetaData>
+        <DocNumber>1234</DocNumber>
+        <TxnDate>2013-08-07</TxnDate>
+        <ExchangeRate>1</ExchangeRate>
+        <PrivateNote>Testing with all fields</PrivateNote>
+        <TxnStatus>Payable</TxnStatus>
+        <Line>
+            <Id>NG:3741440</Id>
+            <Amount>3</Amount>
+            <DetailType>SalesItemLineDetail</DetailType>
+            <SalesItemLineDetail>
+                <ItemRef name="Blueprint changes">QB:52</ItemRef>
+                <ClassRef name="Design">QB:9</ClassRef>
+                <UnitPrice>0</UnitPrice>
+                <TaxCodeRef name="Non">QB:2</TaxCodeRef>
+                <ServiceDate>2013-08-12</ServiceDate>
+            </SalesItemLineDetail>
+        </Line>
+        <Line>
+            <Id>NG:3741441</Id>
+            <Description>oval bolts to use with nuts</Description>
+            <Amount>0.3</Amount>
+            <DetailType>SalesItemLineDetail</DetailType>
+            <SalesItemLineDetail>
+                <ItemRef name="Bolts, oval">QB:114</ItemRef>
+                <ClassRef name="Design">QB:9</ClassRef>
+                <UnitPrice>0.3</UnitPrice>
+                <Qty>1</Qty>
+                <UOMRef>
+                    <Unit>each</Unit>
+                    <UOMSetRef>QB:1</UOMSetRef>
+                </UOMRef>
+                <TaxCodeRef name="Tax">QB:1</TaxCodeRef>
+                <ServiceDate>2013-08-13</ServiceDate>
+            </SalesItemLineDetail>
+        </Line>
+        <Line>
+            <Id>NG:3741442</Id>
+            <Description>Lumber</Description>
+            <Amount>2.5</Amount>
+            <DetailType>SalesItemLineDetail</DetailType>
+            <SalesItemLineDetail>
+                <ItemRef name="Lumber">QB:88</ItemRef>
+                <ClassRef name="Design">QB:9</ClassRef>
+                <UnitPrice>0</UnitPrice>
+                <TaxCodeRef name="Tax">QB:1</TaxCodeRef>
+                <ServiceDate>2013-08-06</ServiceDate>
+            </SalesItemLineDetail>
+        </Line>
+        <Line>
+            <Id>NG:3741443</Id>
+            <Description>unit 2 desc</Description>
+            <Amount>50</Amount>
+            <DetailType>SalesItemLineDetail</DetailType>
+            <SalesItemLineDetail>
+                <ItemRef name="unit2">QB:119</ItemRef>
+                <ClassRef name="Design">QB:9</ClassRef>
+                <UnitPrice>50</UnitPrice>
+                <TaxCodeRef name="Tax">QB:1</TaxCodeRef>
+                <ServiceDate>2013-08-22</ServiceDate>
+            </SalesItemLineDetail>
+        </Line>
+        <Line>
+            <Id>NG:3741444</Id>
+            <Description>IBM Thinkpads T60P</Description>
+            <Amount>6000</Amount>
+            <DetailType>SalesItemLineDetail</DetailType>
+            <SalesItemLineDetail>
+                <ItemRef name="Laptops / 10">QB:98</ItemRef>
+                <ClassRef name="Design">QB:9</ClassRef>
+                <UnitPrice>6000</UnitPrice>
+                <TaxCodeRef name="Tax">QB:1</TaxCodeRef>
+                <ServiceDate>2013-08-09</ServiceDate>
+            </SalesItemLineDetail>
+        </Line>
+        <Line>
+            <Id>NG:3741445</Id>
+            <Description>Bad debt or write-off amounts</Description>
+            <Amount>0</Amount>
+            <DetailType>SalesItemLineDetail</DetailType>
+            <SalesItemLineDetail>
+                <ItemRef name="Bad debt">QB:34</ItemRef>
+                <ClassRef name="Design">QB:9</ClassRef>
+                <UnitPrice>0</UnitPrice>
+                <TaxCodeRef name="Non">QB:2</TaxCodeRef>
+                <ServiceDate>2013-08-21</ServiceDate>
+            </SalesItemLineDetail>
+        </Line>
+        <Line>
+            <Id>NG:3741446</Id>
+            <Description>Subtotal of Reimbursable Expenses</Description>
+            <Amount>6050.3</Amount>
+            <DetailType>SubTotalLineDetail</DetailType>
+            <SubTotalLineDetail>
+                <ItemRef name="Reimb Subt">QB:40</ItemRef>
+                <ServiceDate>2013-08-01</ServiceDate>
+            </SubTotalLineDetail>
+        </Line>
+        <Line>
+            <Id>NG:3741447</Id>
+            <DetailType>GroupLineDetail</DetailType>
+            <GroupLineDetail>
+                <GroupItemRef name="BOM">QB:89</GroupItemRef>
+                <UOMRef>
+                    <Unit>dozen</Unit>
+                    <UOMSetRef>QB:2</UOMSetRef>
+                </UOMRef>
+                <ServiceDate>2013-08-11</ServiceDate>
+            </GroupLineDetail>
+        </Line>
+        <Line>
+            <Id>NG:3741448</Id>
+            <Description>Discount of 10.00</Description>
+            <Amount>-10</Amount>
+            <DetailType>DiscountLineDetail</DetailType>
+            <DiscountLineDetail>
+                <DiscountRef name="Ten dollar discount">QB:102</DiscountRef>
+                <DiscountPercent>20.5</DiscountPercent>
+                <ServiceDate>2013-08-10</ServiceDate>
+                <ClassRef name="Design">QB:9</ClassRef>
+                <TaxCodeRef name="Tax">QB:1</TaxCodeRef>
+            </DiscountLineDetail>
+        </Line>
+        <Line>
+            <Id>NG:3741449</Id>
+            <Amount>-30.25</Amount>
+            <DetailType>PaymentLineDetail</DetailType>
+            <PaymentLineDetail>
+                <ItemRef name="Pre-Payment">QB:92</ItemRef>
+                <ServiceDate>2013-08-09</ServiceDate>
+                <ClassRef name="Design">QB:9</ClassRef>
+            </PaymentLineDetail>
+        </Line>
+        <Line>
+            <Id>NG:3741450</Id>
+            <Description>City Sales Tax</Description>
+            <Amount>0</Amount>
+            <DetailType>TaxLineDetail</DetailType>
+            <TaxLineDetail>
+                <TaxRateRef name="East Bayshore">QB:53</TaxRateRef>
+                <TaxPercent>0.3</TaxPercent>
+                <ServiceDate>2013-08-08</ServiceDate>
+            </TaxLineDetail>
+        </Line>
+        <Line>
+            <Id>NG:3741451</Id>
+            <Amount>200</Amount>
+            <DetailType>SalesItemLineDetail</DetailType>
+            <SalesItemLineDetail>
+                <ItemRef name="Blueprint changes">QB:52</ItemRef>
+                <UnitPrice>200</UnitPrice>
+                <TaxCodeRef name="Non">QB:2</TaxCodeRef>
+            </SalesItemLineDetail>
+        </Line>
+        <Line>
+            <Id>NG:3741452</Id>
+            <Description>10% Discount</Description>
+            <Amount>-20</Amount>
+            <DetailType>DiscountLineDetail</DetailType>
+            <DiscountLineDetail>
+                <DiscountRef name="Discount">QB:42</DiscountRef>
+                <DiscountPercent>10</DiscountPercent>
+                <TaxCodeRef name="Non">QB:2</TaxCodeRef>
+            </DiscountLineDetail>
+        </Line>
+        <Line>
+            <Id>NG:3741453</Id>
+            <Description>Installation labor</Description>
+            <Amount>35</Amount>
+            <DetailType>SalesItemLineDetail</DetailType>
+            <SalesItemLineDetail>
+                <ItemRef name="Installation">QB:2</ItemRef>
+                <UnitPrice>35</UnitPrice>
+                <Qty>1</Qty>
+                <UOMRef>
+                    <Unit>square meter</Unit>
+                    <UOMSetRef>QB:9</UOMSetRef>
+                </UOMRef>
+                <TaxCodeRef name="Non">QB:2</TaxCodeRef>
+            </SalesItemLineDetail>
+        </Line>
+        <Line>
+            <Id>NG:3741454</Id>
+            <Description>Out-of-state sale, exempt from sales tax</Description>
+            <Amount>20</Amount>
+            <DetailType>TaxLineDetail</DetailType>
+            <TaxLineDetail>
+                <TaxRateRef name="Out of State">QB:44</TaxRateRef>
+            </TaxLineDetail>
+        </Line>
+        <TxnTaxDetail>
+            <DefaultTaxCodeRef name="Tax">QB:1</DefaultTaxCodeRef>
+            <TotalTax>607.55</TotalTax>
+            <TaxLine>
+                <Id>NG:3741455</Id>
+                <Description>CA sales tax, San Tomas County</Description>
+                <Amount>607.55</Amount>
+                <DetailType>TaxLineDetail</DetailType>
+                <TaxLineDetail>
+                    <TaxRateRef name="San Tomas">QB:46</TaxRateRef>
+                    <TaxPercent>7.75</TaxPercent>
+                </TaxLineDetail>
+            </TaxLine>
+        </TxnTaxDetail>
+        <CustomerRef name="Michael">QB:285</CustomerRef>
+        <CustomerMemo>Hi, How are you doing?</CustomerMemo>
+        <BillAddr>
+            <Line1>Robert Allard</Line1>
+            <Line2>92834 Chandler St.</Line2>
+            <Line3>Louis Creek</Line3>
+            <City>Millbrae</City>
+            <CountrySubDivisionCode>CA</CountrySubDivisionCode>
+            <PostalCode>94030</PostalCode>
+        </BillAddr>
+        <ShipAddr>
+            <Line1>Test Addr</Line1>
+            <Line2>#101</Line2>
+            <Line3>Jp Nagar 5th Phase</Line3>
+            <City>Millbrae</City>
+            <Country>USA</Country>
+            <CountrySubDivisionCode>CA</CountrySubDivisionCode>
+            <PostalCode>94030</PostalCode>
+        </ShipAddr>
+        <RemitToRef name="Michael">QB:285</RemitToRef>
+        <ClassRef name="Design">QB:9</ClassRef>
+        <DueDate>2013-08-07</DueDate>
+        <SalesRepRef name="DL">QB:6</SalesRepRef>
+        <PONumber>Chk#002</PONumber>
+        <FOB>05</FOB>
+        <ShipMethodRef name="US Mail">QB:5</ShipMethodRef>
+        <ShipDate>2013-08-07</ShipDate>
+        <TotalAmt>8416.85</TotalAmt>
+        <TemplateRef name="Custom Sales Receipt">QB:9</TemplateRef>
+        <PrintStatus>NeedToPrint</PrintStatus>
+        <EmailStatus>NeedToSend</EmailStatus>
+        <Balance>8416.85</Balance>
+        <PaymentMethodRef name="Check">QB:2</PaymentMethodRef>
+        <DepositToAccountRef name="Employee Advances">QB:5</DepositToAccountRef>
+    </SalesReceipt>
+</IntuitResponse>

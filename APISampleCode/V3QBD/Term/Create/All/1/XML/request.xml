@@ -1,0 +1,10 @@
+<Term xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Name>testInvDisc</Name>
+    <Active>false</Active>
+    <Type>DateDriven</Type>
+    <DiscountPercent>0</DiscountPercent>
+    <DayOfMonthDue>6</DayOfMonthDue>
+    <DueNextMonthDays>4</DueNextMonthDays>
+    <DiscountDayOfMonth>3</DiscountDayOfMonth>
+    
+</Term>

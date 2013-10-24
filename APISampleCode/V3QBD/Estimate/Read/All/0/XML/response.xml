@@ -1,1 +1,68 @@
-
+<IntuitResponse xmlns="http://schema.intuit.com/finance/v3"
+    time="2013-08-21T06:53:30.585Z">
+    <Estimate status="Synchronized">
+        <Id>QB:62627</Id>
+        <SyncToken>1</SyncToken>
+        <MetaData>
+            <CreateTime>2011-04-05T14:09:39.372Z</CreateTime>
+            <LastUpdatedTime>2013-04-19T05:37:12Z</LastUpdatedTime>
+        </MetaData>
+        <DocNumber>616</DocNumber>
+        <TxnDate>2004-04-20</TxnDate>
+        <PrivateNote>Estimate Memo 6357</PrivateNote>
+        <TxnStatus>Active</TxnStatus>
+        <Line>
+            <Id>QB:62629</Id>
+            <Description>ItemService_6357 Desc</Description>
+            <Amount>6357</Amount>
+            <DetailType>SalesItemLineDetail</DetailType>
+            <SalesItemLineDetail>
+                <ItemRef name="ItemService_6357">QB:103</ItemRef>
+                <UnitPrice>6357</UnitPrice>
+                <TaxCodeRef name="Tax">QB:1</TaxCodeRef>
+            </SalesItemLineDetail>
+        </Line>
+        <TxnTaxDetail>
+            <DefaultTaxCodeRef name="Tax">QB:1</DefaultTaxCodeRef>
+            <TotalTax>492.67</TotalTax>
+            <TaxLine>
+                <Id>QB:62630</Id>
+                <Description>CA sales tax, San Tomas County</Description>
+                <Amount>492.67</Amount>
+                <DetailType>TaxLineDetail</DetailType>
+                <TaxLineDetail>
+                    <TaxRateRef name="San Tomas">QB:46</TaxRateRef>
+                    <TaxPercent>7.75</TaxPercent>
+                </TaxLineDetail>
+            </TaxLine>
+        </TxnTaxDetail>
+        <CustomerRef name="Customer_6357">QB:223</CustomerRef>
+        <BillAddr>
+            <Line1>6357 Garcia Ave</Line1>
+            <Line2>Bldg 6357</Line2>
+            <City>Mountain View</City>
+            <Country>USA</Country>
+            <CountrySubDivisionCode>CA</CountrySubDivisionCode>
+            <PostalCode>94043</PostalCode>
+        </BillAddr>
+        <ShipAddr>
+            <Line1>6357 Garcia Ave</Line1>
+            <Line2>Bldg 6357</Line2>
+            <City>Mountain View</City>
+            <Country>USA</Country>
+            <CountrySubDivisionCode>CA</CountrySubDivisionCode>
+            <PostalCode>94403</PostalCode>
+        </ShipAddr>
+        <RemitToRef name="Customer_6357">QB:223</RemitToRef>
+        <DueDate>2004-04-20</DueDate>
+        <ShipDate>2004-04-20</ShipDate>
+        <TotalAmt>6849.67</TotalAmt>
+        <TemplateRef name="Custom Estimate">QB:6</TemplateRef>
+        <PrintStatus>NotSet</PrintStatus>
+        <EmailStatus>NotSet</EmailStatus>
+        <BillEmail>
+            <Address>Customer_6357@Company_6357.com</Address>
+        </BillEmail>
+        <Balance>6849.67</Balance>
+    </Estimate>
+</IntuitResponse>

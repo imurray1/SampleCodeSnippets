@@ -1,1 +1,5 @@
-
+<IntuitResponse xmlns="http://schema.intuit.com/finance/v3" time="2013-10-23T16:41:30.041Z">
+    <SalesReceipt>
+        <Id>QB:64695</Id>
+    </SalesReceipt>
+</IntuitResponse>

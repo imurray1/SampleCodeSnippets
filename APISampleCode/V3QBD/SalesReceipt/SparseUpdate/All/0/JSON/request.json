@@ -1,3 +1,9 @@
 {
-  "key":"value"
+   "sparse": "true",
+   "Id": "QB:14068",
+   "SyncToken": "1",
+   "CustomerRef": {
+      "name": "Apple",
+      "value": "QB:260"
+   }
 }

@@ -1,1 +1,5 @@
-
+<Employee xmlns="http://schema.intuit.com/finance/v3" sparse="true">
+    <Id>NG:3704377</Id>
+    <SyncToken>1</SyncToken>
+    <FamilyName>BEdt</FamilyName>
+</Employee>

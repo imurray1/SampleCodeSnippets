@@ -1,1 +1,171 @@
-
+<Estimate xmlns="http://schema.intuit.com/finance/v3">
+    <TxnDate>2013-09-01</TxnDate>
+    <Line>
+        <Id>QB:62757</Id>
+        <Description>Blueprints</Description>
+        <Amount>20</Amount>
+        <DetailType>SalesItemLineDetail</DetailType>
+        <SalesItemLineDetail>
+            <ItemRef name="Blueprints">QB:86</ItemRef>
+            <UnitPrice>10</UnitPrice>
+            <Qty>2</Qty>
+            <TaxCodeRef name="Non">QB:2</TaxCodeRef>
+        </SalesItemLineDetail>
+    </Line>
+    <Line>
+        <Id>QB:62758</Id>
+        <Description>ItemInventory_6357 Sales Description</Description>
+        <Amount>12714</Amount>
+        <DetailType>SalesItemLineDetail</DetailType>
+        <SalesItemLineDetail>
+            <ItemRef name="ItemInventory_6357">QB:101</ItemRef>
+            <UnitPrice>6357</UnitPrice>
+            <Qty>2</Qty>
+            <TaxCodeRef name="Tax">QB:1</TaxCodeRef>
+        </SalesItemLineDetail>
+    </Line>
+    <Line>
+        <Id>QB:62759</Id>
+        <Description>complete Interior door</Description>
+        <Amount>96600</Amount>
+        <DetailType>SalesItemLineDetail</DetailType>
+        <SalesItemLineDetail>
+            <ItemRef name="Interior Door kit">QB:67</ItemRef>
+            <UnitPrice>32200</UnitPrice>
+            <Qty>3</Qty>
+            <TaxCodeRef name="Tax">QB:1</TaxCodeRef>
+        </SalesItemLineDetail>
+    </Line>
+    <Line>
+        <Id>QB:62760</Id>
+        <Description>Trim lumber</Description>
+        <Amount>95</Amount>
+        <DetailType>SalesItemLineDetail</DetailType>
+        <SalesItemLineDetail>
+            <ItemRef name="Trim">QB:29</ItemRef>
+            <UnitPrice>95</UnitPrice>
+            <Qty>1</Qty>
+            <TaxCodeRef name="Tax">QB:1</TaxCodeRef>
+        </SalesItemLineDetail>
+    </Line>
+    <Line>
+        <Id>QB:62761</Id>
+        <Description>Copier/Printer</Description>
+        <Amount>20</Amount>
+        <DetailType>SalesItemLineDetail</DetailType>
+        <SalesItemLineDetail>
+            <ItemRef name="Copier/Printer - 15">QB:91</ItemRef>
+            <UnitPrice>10</UnitPrice>
+            <TaxCodeRef name="Tax">QB:1</TaxCodeRef>
+        </SalesItemLineDetail>
+    </Line>
+    <Line>
+        <Id>QB:62762</Id>
+        <Description>Freight and Delivery Reimbursement</Description>
+        <Amount>86</Amount>
+        <DetailType>SalesItemLineDetail</DetailType>
+        <SalesItemLineDetail>
+            <ItemRef name="Freight Reimbursement">QB:95</ItemRef>
+            <UnitPrice>43</UnitPrice>
+            <Qty>2</Qty>
+            <TaxCodeRef name="Non">QB:2</TaxCodeRef>
+        </SalesItemLineDetail>
+    </Line>
+    <Line>
+        <Id>QB:62763</Id>
+        <Description>Subtotal of Reimbursable Expenses</Description>
+        <Amount>109515</Amount>
+        <DetailType>SubTotalLineDetail</DetailType>
+        <SubTotalLineDetail>
+            <ItemRef name="Reimb Subt">QB:40</ItemRef>
+        </SubTotalLineDetail>
+    </Line>
+    <Line>
+        <Id>QB:62764</Id>
+        <DetailType>GroupLineDetail</DetailType>
+        <GroupLineDetail>
+            <GroupItemRef name="A1 Custom Storage Shed">QB:64</GroupItemRef>
+            <Line>
+                <Id>QB:62765</Id>
+                <Description>Rough lumber</Description>
+                <Amount>950</Amount>
+                <DetailType>SalesItemLineDetail</DetailType>
+                <SalesItemLineDetail>
+                    <ItemRef name="Rough">QB:28</ItemRef>
+                    <UnitPrice>475</UnitPrice>
+                    <Qty>2</Qty>
+                    <TaxCodeRef name="Tax">QB:1</TaxCodeRef>
+                </SalesItemLineDetail>
+            </Line>
+            <Line>
+                <Id>QB:62766</Id>
+                <Amount>0</Amount>
+                <DetailType>SalesItemLineDetail</DetailType>
+                <SalesItemLineDetail>
+                    <ItemRef name="Labor">QB:63</ItemRef>
+                    <UnitPrice>0</UnitPrice>
+                    <Qty>5</Qty>
+                    <TaxCodeRef name="Non">QB:2</TaxCodeRef>
+                </SalesItemLineDetail>
+            </Line>
+            <Line>
+                <Id>QB:62767</Id>
+                <Description>Custom Storage Building - Model A1</Description>
+                <Amount>950</Amount>
+                <DetailType>DescriptionOnly</DetailType>
+            </Line>
+        </GroupLineDetail>
+    </Line>
+    <Line>
+        <Id>QB:62768</Id>
+        <Description>City Sales Tax</Description>
+        <Amount>2.85</Amount>
+        <DetailType>TaxLineDetail</DetailType>
+        <TaxLineDetail>
+            <TaxRateRef name="East Bayshore">QB:53</TaxRateRef>
+            <TaxPercent>0.3</TaxPercent>
+        </TaxLineDetail>
+    </Line>
+    <TxnTaxDetail>
+        <DefaultTaxCodeRef name="Tax">QB:1</DefaultTaxCodeRef>
+        <TotalTax>8552.82</TotalTax>
+        <TaxLine>
+            <Id>QB:62769</Id>
+            <Description>CA sales tax, San Tomas County</Description>
+            <Amount>8552.82</Amount>
+            <DetailType>TaxLineDetail</DetailType>
+            <TaxLineDetail>
+                <TaxRateRef name="San Tomas">QB:46</TaxRateRef>
+                <TaxPercent>7.75</TaxPercent>
+            </TaxLineDetail>
+        </TaxLine>
+    </TxnTaxDetail>
+    <CustomerRef name="Customer_6356">QB:222</CustomerRef>
+    <BillAddr>
+        <Line1>6356 Garcia Ave</Line1>
+        <Line2>Bldg 6356</Line2>
+        <City>Mountain View</City>
+        <Country>USA</Country>
+        <CountrySubDivisionCode>CA</CountrySubDivisionCode>
+        <PostalCode>94043</PostalCode>
+    </BillAddr>
+    <ShipAddr>
+        <Line1>6356 Garcia Ave</Line1>
+        <Line2>Bldg 6356</Line2>
+        <City>Mountain View</City>
+        <Country>USA</Country>
+        <CountrySubDivisionCode>CA</CountrySubDivisionCode>
+        <PostalCode>94403</PostalCode>
+    </ShipAddr>
+    <RemitToRef name="Customer_6356">QB:222</RemitToRef>
+    <SalesTermRef name="1% 10 Net 30">QB:5</SalesTermRef>
+    <DueDate>2013-10-03</DueDate>
+    <SalesRepRef name="R1">QB:1</SalesRepRef>
+    <PONumber>23</PONumber>
+    <FOB>2</FOB>
+    <TotalAmt>119020.67</TotalAmt>
+    <TemplateRef name="Custom Estimate">QB:6</TemplateRef>
+    <PrintStatus>NotSet</PrintStatus>
+    <EmailStatus>NotSet</EmailStatus>
+    <Balance>119020.67</Balance>
+</Estimate>

@@ -1,3 +1,315 @@
 {
-  "key":"value"
+   "DocNumber":"1321",
+   "TxnDate":"2013-08-24",
+   "PrivateNote":"first memo",
+   "TxnStatus":"Pending",
+   "Line":[
+      {
+         "Description":"Install carpeting",
+         "Amount":"20",
+         "DetailType":"SalesItemLineDetail",
+         "SalesItemLineDetail":{
+            "ItemRef":{
+               "name":"Carpet",
+               "value":"QB:6"
+            },
+            "ClassRef":{
+               "name":"Tub Design",
+               "value":"QB:12"
+            },
+            "UnitPrice":"10",
+            "Qty":"2",
+            "TaxCodeRef":{
+               "name":"Non",
+               "value":"QB:2"
+            },
+            "ServiceDate":"2013-08-26"
+         }
+      }
+   ],
+   "Line":[
+      {
+         "Description":"Doors",
+         "Amount":"10",
+         "DetailType":"SalesItemLineDetail",
+         "SalesItemLineDetail":{
+            "ItemRef":{
+               "name":"Wood Door",
+               "value":"QB:21"
+            },
+            "ClassRef":{
+               "name":"Tub Design",
+               "value":"QB:12"
+            },
+            "UnitPrice":"10",
+            "Qty":"1",
+            "TaxCodeRef":{
+               "name":"Tax",
+               "value":"QB:1"
+            },
+            "ServiceDate":"2013-08-26"
+         }
+      }
+   ],
+   "Line":[
+      {
+         "Description":"complete Interior door",
+         "Amount":"10",
+         "DetailType":"SalesItemLineDetail",
+         "SalesItemLineDetail":{
+            "ItemRef":{
+               "name":"Interior Door kit",
+               "value":"QB:67"
+            },
+            "ClassRef":{
+               "name":"Bathroom Design",
+               "value":"QB:10"
+            },
+            "UnitPrice":"10",
+            "Qty":"1",
+            "TaxCodeRef":{
+               "name":"Tax",
+               "value":"QB:1"
+            },
+            "ServiceDate":"2013-08-26"
+         }
+      }
+   ],
+   "Line":[
+      {
+         "Description":"Flooring",
+         "Amount":"10",
+         "DetailType":"SalesItemLineDetail",
+         "SalesItemLineDetail":{
+            "ItemRef":{
+               "name":"Flooring",
+               "value":"QB:49"
+            },
+            "ClassRef":{
+               "name":"Tub Design",
+               "value":"QB:12"
+            },
+            "UnitPrice":"10",
+            "Qty":"1",
+            "TaxCodeRef":{
+               "name":"Tax",
+               "value":"QB:1"
+            },
+            "ServiceDate":"2013-08-26"
+         }
+      }
+   ],
+   "Line":[
+      {
+         "Description":"Equipment",
+         "Amount":"10",
+         "DetailType":"SalesItemLineDetail",
+         "SalesItemLineDetail":{
+            "ItemRef":{
+               "name":"Equipment - 17",
+               "value":"QB:97"
+            },
+            "ClassRef":{
+               "name":"Tub Design",
+               "value":"QB:12"
+            },
+            "UnitPrice":"10",
+            "TaxCodeRef":{
+               "name":"Tax",
+               "value":"QB:1"
+            },
+            "ServiceDate":"2013-08-26"
+         }
+      }
+   ],
+   "Line":[
+      {
+         "Description":"Description of Delivery of material",
+         "Amount":"0.56",
+         "DetailType":"SalesItemLineDetail",
+         "SalesItemLineDetail":{
+            "ItemRef":{
+               "name":"Delivery",
+               "value":"QB:124"
+            },
+            "ClassRef":{
+               "name":"Tub Design",
+               "value":"QB:12"
+            },
+            "RatePercent":"5.6",
+            "TaxCodeRef":{
+               "name":"Tax",
+               "value":"QB:1"
+            },
+            "ServiceDate":"2013-08-26"
+         }
+      }
+   ],
+   "Line":[
+      {
+         "DetailType":"GroupLineDetail",
+         "GroupLineDetail":{
+            "GroupItemRef":{
+               "name":"Door set",
+               "value":"QB:47"
+            }
+         }
+      }
+   ],
+   "Line":[
+      {
+         "Description":"10% Discount",
+         "Amount":"-15",
+         "DetailType":"DiscountLineDetail",
+         "DiscountLineDetail":{
+            "DiscountRef":{
+               "name":"Discount",
+               "value":"QB:42"
+            },
+            "DiscountPercent":"10",
+            "ServiceDate":"2013-08-26",
+            "ClassRef":{
+               "name":"Tub Design",
+               "value":"QB:12"
+            },
+            "TaxCodeRef":{
+               "name":"Non",
+               "value":"QB:2"
+            }
+         }
+      }
+   ],
+   "Line":[
+      {
+         "Description":"Down payment received",
+         "Amount":"100",
+         "DetailType":"PaymentLineDetail",
+         "PaymentLineDetail":{
+            "ItemRef":{
+               "name":"Payment",
+               "value":"QB:43"
+            },
+            "ServiceDate":"2013-08-26",
+            "ClassRef":{
+               "name":"Tub Design",
+               "value":"QB:12"
+            }
+         }
+      }
+   ],
+   "Line":[
+      {
+         "Description":"Subtotal",
+         "Amount":"305.56",
+         "DetailType":"SubTotalLineDetail",
+         "SubTotalLineDetail":{
+            "ItemRef":{
+               "name":"Subtotal",
+               "value":"QB:41"
+            },
+            "ServiceDate":"2013-08-27"
+         }
+      }
+   ],
+   "Line":[
+      {
+         "Description":"CA sales tax, San Domingo County",
+         "Amount":"0",
+         "DetailType":"TaxLineDetail",
+         "TaxLineDetail":{
+            "TaxRateRef":{
+               "name":"San Domingo",
+               "value":"QB:45"
+            }
+         }
+      }
+   ],
+   "TxnTaxDetail":{
+      "DefaultTaxCodeRef":{
+         "name":"Tax",
+         "value":"QB:1"
+      },
+      "TxnTaxCodeRef":{
+         "name":"test",
+         "value":"QB:TG.54"
+      },
+      "TotalTax":"14.77",
+      "TaxLine":[
+         {
+            "Id":"QB:64773",
+            "Description":"CA sales tax, San Tomas County",
+            "Amount":"14.77",
+            "DetailType":"TaxLineDetail",
+            "TaxLineDetail":{
+               "TaxRateRef":{
+                  "name":"San Tomas",
+                  "value":"QB:46"
+               },
+               "TaxPercent":"7.75"
+            }
+         }
+      ]
+   },
+   "CustomerRef":{
+      "name":"Michael M Moore",
+      "value":"QB:253"
+   },
+   "BillAddr":{
+      "Line1":"Line1",
+      "Line2":"Line2",
+      "Line3":"Line3",
+      "Line4":"note:b",
+      "City":"San Francisco",
+      "Country":"USA",
+      "CountrySubDivisionCode":"CA",
+      "PostalCode":"95141"
+   },
+   "ShipAddr":{
+      "Line1":"Line1",
+      "Line2":"Line2",
+      "Line3":"Line3",
+      "Line4":"note:s",
+      "City":"San Francisco",
+      "Country":"USA",
+      "CountrySubDivisionCode":"CA",
+      "PostalCode":"95141"
+   },
+   "RemitToRef":{
+      "name":"Apple",
+      "value":"QB:260"
+   },
+   "ClassRef":{
+      "name":"Tub Design",
+      "value":"QB:12"
+   },
+   "SalesTermRef":{
+      "name":"Net 15",
+      "value":"QB:2"
+   },
+   "DueDate":"2013-09-08",
+   "SalesRepRef":{
+      "name":"EM",
+      "value":"QB:1"
+   },
+   "PONumber":"1",
+   "FOB":"fob",
+   "ShipMethodRef":{
+      "name":"Airborne",
+      "value":"QB:1"
+   },
+   "ShipDate":"2013-08-24",
+   "TotalAmt":"320.33",
+   "HomeTotalAmt":"320.33",
+   "TemplateRef":{
+      "name":"Custom Credit Memo",
+      "value":"QB:10"
+   },
+   "PrintStatus":"NeedToPrint",
+   "EmailStatus":"NotSet",
+   "ARAccountRef":{
+      "name":"Accounts Receivable",
+      "value":"QB:4"
+   },
+   "Balance":"0",
+   "RemainingCredit":"0"
 }

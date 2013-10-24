@@ -1,3 +1,103 @@
 {
-  "key":"value"
+    "Estimate": {
+        "status": "Pending",
+        "Id": "NG:3482355",
+        "SyncToken": "2",
+        "MetaData": {
+            "CreateTime": "2013-10-23T12:36:48Z",
+            "LastUpdatedTime": "2013-10-23T12:39:34Z"
+        },
+        "CustomField": [],
+        "AttachableRef": [],
+        "DocNumber": "1321Mod",
+        "TxnDate": "2013-09-01",
+        "TxnStatus": "Active",
+        "LinkedTxn": [],
+        "Line": [{
+            "Id": "NG:3741460",
+            "Description": "Blueprints",
+            "Amount": 20,
+            "LinkedTxn": [],
+            "DetailType": "SalesItemLineDetail",
+            "SalesItemLineDetail": {
+                "ItemRef": {
+                    "value": "QB:86",
+                    "name": "Blueprints"
+                },
+                "UnitPrice": 10,
+                "Qty": 2,
+                "TaxCodeRef": {
+                    "value": "QB:2",
+                    "name": "Non"
+                }
+            },
+            "CustomField": []
+        }],
+        "TxnTaxDetail": {
+            "DefaultTaxCodeRef": {
+                "value": "QB:1",
+                "name": "Tax"
+            },
+            "TotalTax": 8552.82,
+            "TaxLine": [{
+                "Id": "NG:3741461",
+                "Description": "CA sales tax, San Tomas County",
+                "Amount": 8552.82,
+                "LinkedTxn": [],
+                "DetailType": "TaxLineDetail",
+                "TaxLineDetail": {
+                    "TaxRateRef": {
+                        "value": "QB:46",
+                        "name": "San Tomas"
+                    },
+                    "TaxPercent": 7.75
+                },
+                "CustomField": []
+            }]
+        },
+        "CustomerRef": {
+            "value": "QB:222",
+            "name": "Customer_6356"
+        },
+        "BillAddr": {
+            "Line1": "6356 Garcia Ave",
+            "Line2": "Bldg 6356",
+            "City": "Mountain View",
+            "Country": "USA",
+            "CountrySubDivisionCode": "CA",
+            "PostalCode": "94043"
+        },
+        "ShipAddr": {
+            "Line1": "6356 Garcia Ave",
+            "Line2": "Bldg 6356",
+            "City": "Mountain View",
+            "Country": "USA",
+            "CountrySubDivisionCode": "CA",
+            "PostalCode": "94403"
+        },
+        "RemitToRef": {
+            "value": "QB:222",
+            "name": "Customer_6356"
+        },
+        "SalesTermRef": {
+            "value": "QB:5",
+            "name": "1% 10 Net 30"
+        },
+        "DueDate": "2013-10-03",
+        "SalesRepRef": {
+            "value": "QB:1",
+            "name": "R1"
+        },
+        "PONumber": "23",
+        "FOB": "2",
+        "ShipDate": "2013-09-03",
+        "TotalAmt": 119020.67,
+        "TemplateRef": {
+            "value": "QB:6",
+            "name": "Custom Estimate"
+        },
+        "PrintStatus": "NotSet",
+        "EmailStatus": "NotSet"
+    },
+    "time": "2013-10-23T12:36:23.319Z"
 }

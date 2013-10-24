@@ -1,0 +1,33 @@
+{
+    "address": {"country": "USA"},
+    "keys": {"key": [
+        {
+            "name": "Banking Password",
+            "mask": true,
+            "description": "Banking Password",
+            "status": "Active",
+            "displayOrder": 2,
+            "valueLengthMin": 1,
+            "valueLengthMax": 20,
+            "displayFlag": true,
+            "instructions": "Enter banking password (go)"
+        },
+        {
+            "name": "Banking Userid",
+            "mask": false,
+            "description": "Banking Userid",
+            "status": "Active",
+            "displayOrder": 1,
+            "valueLengthMin": 1,
+            "valueLengthMax": 20,
+            "displayFlag": true,
+            "instructions": "Enter banking userid (demo)"
+        }
+    ]},
+    "currencyCode": "USD",
+    "emailAddress": "CustomerCentralBank@intuit.com",
+    "specialText": "Welcome to  Bank of Intuit",
+    "institutionName": "CC Bank",
+    "institutionId": 100000,
+    "homeUrl": "http://www.intuit.com"
+}
