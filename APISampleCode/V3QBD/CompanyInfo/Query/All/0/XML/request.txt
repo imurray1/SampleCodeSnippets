@@ -1,1 +1,1 @@
-select * from CompanyInfo where id = '1'
+select * from CompanyInfo  where Metadata.CreateTime = '2013-02-25'
