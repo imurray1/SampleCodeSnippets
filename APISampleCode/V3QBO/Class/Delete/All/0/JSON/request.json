@@ -1,0 +1,23 @@
+{
+   "Name":"ClassJUnitInputCreateRead-1373581588868",
+   "SubClass":true,
+   "ParentRef":{
+      "value":"100100000000000321223"
+   },
+   "FullyQualifiedName":"ClassJUnitInputCreateRead-1373581588314:ClassJUnitInputCreateRead-1373581588868",
+   "Active":true,
+   "domain":"QBO",
+   "sparse":false,
+   "Id":"100100000000000321224",
+   "SyncToken":"0",
+   "MetaData":{
+      "CreateTime":"2013-07-11T15:23:24-07:00",
+      "LastUpdatedTime":"2013-07-11T15:23:24-07:00"
+   },
+   "CustomField":[
+
+   ],
+   "AttachableRef":[
+
+   ]
+}

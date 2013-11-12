@@ -1,0 +1,41 @@
+{
+"Item":
+    {
+        "Name":"Office Supplies",
+        "Description":"This is the sales description.",
+        "Active":true,
+        "Taxable":true,
+        "UnitPrice":25,
+        "Type":"Inventory",
+        "IncomeAccountRef":
+        {
+            "value":"140",
+            "name":"Sales of Product Income"
+        },
+        "PurchaseDesc":"This is the purchasing description.",
+        "PurchaseCost":35,
+        "ExpenseAccountRef":
+        {
+            "value":"61",
+            "name":"Cost of Goods Sold"
+        },
+        "AssetAccountRef":
+        {
+            "value":"139",
+            "name":"Inventory Asset-1"
+        },
+        "TrackQtyOnHand":true,
+        "QtyOnHand":10,
+        "InvStartDate":"2013-02-19",
+        "domain":"QBO",
+        "sparse":false,
+        "Id":"10",
+        "SyncToken":"0",
+        "MetaData":
+        {
+            "CreateTime":"2013-02-19T15:00:22-08:00",
+            "LastUpdatedTime":"2013-02-19T15:00:22-08:00"
+        }
+    },
+    "time":"2013-02-19T15:00:34.421-08:00"
+}

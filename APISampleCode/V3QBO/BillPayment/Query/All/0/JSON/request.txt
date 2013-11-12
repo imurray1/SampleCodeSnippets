@@ -1,0 +1,1 @@
+select * from billpayment Where Metadata.LastUpdatedTime>'2015-12-12T14:50:22-08:00' Order By Metadata.LastUpdatedTime

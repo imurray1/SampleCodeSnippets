@@ -1,0 +1,19 @@
+{
+    "sparse": true,
+    "Id": "97",
+    "SyncToken": "0",
+    "MetaData": {
+        "CreateTime": "2013-03-13T13:39:57-07:00",
+        "LastUpdatedTime": "2013-03-13T13:39:57-07:00"
+    },
+    "Line": [{
+        "Description": "UpdatedDescription",
+        "Amount": 5,
+        "DetailType": "SalesItemLineDetail",
+        "SalesItemLineDetail": {
+            "ItemRef": {"value": "1"},
+            "UnitPrice": 0.5,
+            "Qty": 10
+        }
+    }]
+}

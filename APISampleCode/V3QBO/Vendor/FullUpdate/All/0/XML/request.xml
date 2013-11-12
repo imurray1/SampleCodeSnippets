@@ -1,0 +1,20 @@
+<Vendor xmlns="http://schema.intuit.com/finance/v3" sparse="false">
+  <Id>1129</Id>
+  <SyncToken>0</SyncToken>
+  <MetaData>
+    <CreateTime>2013-04-23T08:55:33-07:00</CreateTime>
+    <LastUpdatedTime>2013-04-23T08:55:33-07:00</LastUpdatedTime>
+  </MetaData>
+  <Title>Ms.</Title>
+  <GivenName>Vendor-NK021ZwsyF</GivenName>
+  <MiddleName>U.</MiddleName>
+  <FamilyName>Vendor</FamilyName>
+  <Suffix>II.</Suffix>
+  <CompanyName>U Vendor Company</CompanyName>
+  <DisplayName>Vendor-mvi44EFOor</DisplayName>
+  <PrintOnCheckName>U Vendor on Check</PrintOnCheckName>
+  <Active>true</Active>
+  <TaxIdentifier>12-3456788</TaxIdentifier>
+  <Vendor1099>true</Vendor1099>
+  <CurrencyRef name="United States Dollar">USD</CurrencyRef>
+</Vendor>

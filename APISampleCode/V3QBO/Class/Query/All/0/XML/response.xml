@@ -1,0 +1,44 @@
+<IntuitResponse xmlns="http://schema.intuit.com/finance/v3" time="2013-07-11T17:38:27.842-07:00">
+   <QueryResponse startPosition="1" maxResults="8" totalCount="8">
+      <Class sparse="true">
+         <Id>100100000000000321236</Id>
+         <Name>ClassJUnitInputCreateRead-1373589503357</Name>
+         <Active>false</Active>
+      </Class>
+      <Class sparse="true">
+         <Id>100100000000000321238</Id>
+         <Name>ClassJUnitInputCreateRead-1373589504806</Name>
+         <Active>false</Active>
+      </Class>
+      <Class sparse="true">
+         <Id>100100000000000321239</Id>
+         <Name>ClassJUnitInputCreateRead-1373589505180</Name>
+         <Active>false</Active>
+      </Class>
+      <Class sparse="true">
+         <Id>100100000000000321240</Id>
+         <Name>ClassJUnitInputCreateRead-1373589505606</Name>
+         <Active>false</Active>
+      </Class>
+      <Class sparse="true">
+         <Id>100100000000000321242</Id>
+         <Name>ClassJUnitInputCreateRead-1373589506515</Name>
+         <Active>false</Active>
+      </Class>
+      <Class sparse="true">
+         <Id>100100000000000321243</Id>
+         <Name>ClassJUnitInputCreateRead-1373589506965</Name>
+         <Active>false</Active>
+      </Class>
+      <Class sparse="true">
+         <Id>100100000000000321244</Id>
+         <Name>ClassJUnitInputCreateRead-1373589507415</Name>
+         <Active>false</Active>
+      </Class>
+      <Class sparse="true">
+         <Id>100100000000000321237</Id>
+         <Name>testClassSparseUpdateNilParentRef-1373589504510</Name>
+         <Active>false</Active>
+      </Class>
+   </QueryResponse>
+</IntuitResponse>

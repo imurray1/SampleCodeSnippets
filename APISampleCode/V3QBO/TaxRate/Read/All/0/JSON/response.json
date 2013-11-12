@@ -1,0 +1,24 @@
+{
+   "TaxRate":{
+      "Name":"HST (PE) on purchases",
+      "Description":"GST",
+      "Active":true,
+      "RateValue":14,
+      "AgencyRef":{
+         "value":"1"
+      },
+      "TaxReturnLineRef":{
+         "value":"5"
+      },
+      "SpecialTaxType":"NONE",
+      "domain":"QBO",
+      "sparse":false,
+      "Id":"101",
+      "SyncToken":"0",
+      "MetaData":{
+         "CreateTime":"2013-01-23T00:20:52-08:00",
+         "LastUpdatedTime":"2013-01-23T00:20:52-08:00"
+      }
+   },
+   "time":"2013-03-14T14:28:41.328-07:00"
+}

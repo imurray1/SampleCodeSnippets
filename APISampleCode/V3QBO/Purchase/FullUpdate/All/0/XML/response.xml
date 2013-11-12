@@ -1,0 +1,25 @@
+<IntuitResponse xmlns="http://schema.intuit.com/finance/v3" time="2013-04-09T03:26:09.114-07:00">
+  <Purchase domain="QBO" sparse="false">
+    <Id>3040</Id>
+    <SyncToken>1</SyncToken>
+    <MetaData>
+      <CreateTime>2013-04-09T03:25:50-07:00</CreateTime>
+      <LastUpdatedTime>2013-04-09T03:25:50-07:00</LastUpdatedTime>
+    </MetaData>
+    <TxnDate>2012-06-18</TxnDate>
+    <PrivateNote>Purchase-wMnU7DVsyI</PrivateNote>
+    <Line>
+      <Id>2</Id>
+      <Amount>300.00</Amount>
+      <DetailType>AccountBasedExpenseLineDetail</DetailType>
+      <AccountBasedExpenseLineDetail>
+        <AccountRef name="Test Purchase Expense Account">55</AccountRef>
+        <BillableStatus>NotBillable</BillableStatus>
+        <TaxCodeRef>NON</TaxCodeRef>
+      </AccountBasedExpenseLineDetail>
+    </Line>
+    <AccountRef name="Test Purchase Bank Account">53</AccountRef>
+    <PaymentType>Cash</PaymentType>
+    <TotalAmt>300.00</TotalAmt>
+  </Purchase>
+</IntuitResponse>

@@ -1,0 +1,204 @@
+{
+    "QueryResponse":
+    {
+        "Invoice":[
+            {
+                "Deposit":12.00,
+                "AllowIPNPayment":true,
+                "domain":"QBO",
+                "sparse":false,
+                "Id":"97",
+                "SyncToken":"0",
+                "MetaData":
+                {
+                    "CreateTime":"2013-03-14T16:13:03-07:00",
+                    "LastUpdatedTime":"2013-03-14T16:13:03-07:00"
+                },
+                "CustomField":[
+                    {
+                        "Name":"Custom 1",
+                        "Type":"StringType",
+                        "StringValue":"Custom1"
+                    },
+                    {
+                        "Name":"Custom 2",
+                        "Type":"StringType",
+                        "StringValue":"Custom2"
+                    },
+                    {
+                        "Name":"Custom 3",
+                        "Type":"StringType",
+                        "StringValue":"Custom3"
+                    }
+                ],
+                "DocNumber":"Sample_Inv#3",
+                "TxnDate":"2013-03-14",
+                "DepartmentRef":
+                {
+                    "value":"1",
+                    "name":"Mountain View"
+                },
+                "CurrencyRef":
+                {
+                    "value":"USD",
+                    "name":"United States Dollar"
+                },
+                "PrivateNote":"Summary for sample invoice",
+                "Line":[
+                    {
+                        "Id":"1",
+                        "LineNum":1,
+                        "Description":"Sample invoice create request",
+                        "Amount":50.00,
+                        "DetailType":"SalesItemLineDetail",
+                        "SalesItemLineDetail":
+                        {
+                            "ServiceDate":"2013-03-04",
+                            "ItemRef":
+                            {
+                                "value":"2",
+                                "name":"Hours"
+                            },
+                            "UnitPrice":50,
+                            "Qty":1,
+                            "TaxCodeRef":
+                            {
+                                "value":"TAX"
+                            }
+                        }
+                    },
+                    {
+                        "Amount":50.00,
+                        "DetailType":"SubTotalLineDetail",
+                        "SubTotalLineDetail":
+                        {
+                        }
+                    },
+                    {
+                        "Amount":5.00,
+                        "DetailType":"DiscountLineDetail",
+                        "DiscountLineDetail":
+                        {
+                            "PercentBased":true,
+                            "DiscountPercent":10,
+                            "DiscountAccountRef":
+                            {
+                                "value":"30",
+                                "name":"Discounts given"
+                            }
+                        }
+                    },
+                    {
+                        "Amount":2.00,
+                        "DetailType":"SalesItemLineDetail",
+                        "SalesItemLineDetail":
+                        {
+                            "ItemRef":
+                            {
+                                "value":"SHIPPING_ITEM_ID"
+                            }
+                        }
+                    }
+                ],
+                "TxnTaxDetail":
+                {
+                    "TxnTaxCodeRef":
+                    {
+                        "value":"5"
+                    },
+                    "TotalTax":5.00,
+                    "TaxLine":[
+                        {
+                            "Amount":5.00,
+                            "DetailType":"TaxLineDetail",
+                            "TaxLineDetail":
+                            {
+                                "TaxRateRef":
+                                {
+                                    "value":"2"
+                                },
+                                "PercentBased":true,
+                                "TaxPercent":10,
+                                "NetAmountTaxable":50.00
+                            }
+                        }
+                    ]
+                },
+                "CustomerRef":
+                {
+                    "value":"15",
+                    "name":"Mr V3 Service Customer Jr2"
+                },
+                "CustomerMemo":
+                {
+                    "value":"This is the customer message"
+                },
+                "BillAddr":
+                {
+                    "Id":"37",
+                    "Line1":"Google",
+                    "Line2":"Building 1",
+                    "Line3":"123 street",
+                    "Line4":"Dept 12",
+                    "Line5":"Cube 999",
+                    "City":"Mountain View",
+                    "Country":"USA",
+                    "CountrySubDivisionCode":"CA",
+                    "PostalCode":"95123",
+                    "Lat":"37.2374847",
+                    "Long":"-121.8277925"
+                },
+                "ShipAddr":
+                {
+                    "Id":"38",
+                    "Line1":"Intuit",
+                    "Line2":"Building 1",
+                    "Line3":"123 street",
+                    "Line4":"Dept 12",
+                    "Line5":"Cube 999",
+                    "City":"San Jose",
+                    "Country":"USA",
+                    "CountrySubDivisionCode":"CA",
+                    "PostalCode":"95123",
+                    "Lat":"37.2374847",
+                    "Long":"-121.8277925"
+                },
+                "ClassRef":
+                {
+                    "value":"200900000000000003901",
+                    "name":"Class 1"
+                },
+                "SalesTermRef":
+                {
+                    "value":"4"
+                },
+                "DueDate":"2013-05-13",
+                "ShipMethodRef":
+                {
+                    "value":"UPS",
+                    "name":"UPS"
+                },
+                "ShipDate":"2013-03-01",
+                "TrackingNum":"123456789",
+                "TotalAmt":52.00,
+                "ApplyTaxAfterDiscount":false,
+                "PrintStatus":"NeedToPrint",
+                "EmailStatus":"NeedToSend",
+                "BillEmail":
+                {
+                    "Address":"test@intuit.com"
+                },
+                "Balance":40.00,
+                "DepositToAccountRef":
+                {
+                    "value":"4",
+                    "name":"Undeposited Funds"
+                }
+            }
+        ],
+        "startPosition":1,
+        "maxResults":1,
+        "totalCount":1
+    },
+    "time":"2013-03-15T00:05:41.033-07:00"
+}

@@ -1,0 +1,33 @@
+<SalesReceipt xmlns="http://schema.intuit.com/finance/v3" sparse="true">
+  <Id>3084</Id>
+  <SyncToken>1</SyncToken>
+  <MetaData>
+    <CreateTime>2013-04-23T08:53:46-07:00</CreateTime>
+    <LastUpdatedTime>2013-04-23T08:53:47-07:00</LastUpdatedTime>
+  </MetaData>
+  <PrivateNote>Sales Receipt Sparse Update test</PrivateNote>
+  <CustomerRef>1105</CustomerRef>
+  <CustomerMemo>Sales Receipt for customer</CustomerMemo>
+  <BillAddr>
+    <Line1>1700 Garcia Avenue</Line1>
+    <City>Mountain View</City>
+    <Country>USA</Country>
+    <CountrySubDivisionCode>CA</CountrySubDivisionCode>
+    <PostalCode>94043</PostalCode>
+  </BillAddr>
+  <ShipAddr>
+    <Line1>Ms. Anupama Madhavapeddi</Line1>
+    <Line2>Intuit Systems</Line2>
+    <Line3>4700 Garcia Avenue</Line3>
+    <Line4>Mountain View, CA 94043 USA</Line4>
+  </ShipAddr>
+  <ShipDate>2012-05-01</ShipDate>
+  <TrackingNum>1232</TrackingNum>
+  <ApplyTaxAfterDiscount>false</ApplyTaxAfterDiscount>
+  <PrintStatus>PrintComplete</PrintStatus>
+  <EmailStatus>EmailSent</EmailStatus>
+  <BillEmail>
+    <Address>anupamatest@abc.com</Address>
+  </BillEmail>
+  <Balance>0</Balance>
+</SalesReceipt>

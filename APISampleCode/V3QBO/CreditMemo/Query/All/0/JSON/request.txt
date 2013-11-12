@@ -1,0 +1,1 @@
+Select * from CreditMemo where TxnDate > '2013-04-15'

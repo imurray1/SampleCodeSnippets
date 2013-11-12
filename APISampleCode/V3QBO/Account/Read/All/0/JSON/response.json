@@ -1,0 +1,22 @@
+{ "Account" : { "AccountSubType" : "CostOfLaborCos",
+      "AccountType" : "Cost of Goods Sold",
+      "Active" : true,
+      "Classification" : "Expense",
+      "CurrencyRef" : { "name" : "United States Dollar",
+          "value" : "USD"
+        },
+      "CurrentBalance" : 0,
+      "CurrentBalanceWithSubAccounts" : 0,
+      "FullyQualifiedName" : "qQqcZ1tSkFayEA48LJ6u",
+      "Id" : "55",
+      "MetaData" : { "CreateTime" : "2013-04-09T03:23:03-07:00",
+          "LastUpdatedTime" : "2013-04-09T03:23:04-07:00"
+        },
+      "Name" : "qQqcZ1tSkFayEA48LJ6u",
+      "SubAccount" : false,
+      "SyncToken" : "3",
+      "domain" : "QBO",
+      "sparse" : false
+    },
+  "time" : "2013-04-09T03:23:23.139-07:00"
+}

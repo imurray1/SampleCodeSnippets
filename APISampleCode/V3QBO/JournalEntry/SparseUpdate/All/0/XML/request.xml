@@ -1,0 +1,7 @@
+<JournalEntry xmlns="http://schema.intuit.com/finance/v3" domain="QBO" sparse="true">
+    <Id>842</Id>
+    <SyncToken>1</SyncToken>
+    <PrivateNote>Revised private note via sparse update</PrivateNote>
+    <TxnTaxDetail />
+    <Adjustment>false</Adjustment>
+  </JournalEntry>

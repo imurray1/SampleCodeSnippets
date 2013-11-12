@@ -1,0 +1,13 @@
+<IntuitResponse xmlns="http://schema.intuit.com/finance/v3" time="2013-07-11T17:54:58.467-07:00">
+   <PaymentMethod domain="QBO" sparse="false">
+      <Id>1271</Id>
+      <SyncToken>0</SyncToken>
+      <MetaData>
+         <CreateTime>2013-07-11T17:51:53-07:00</CreateTime>
+         <LastUpdatedTime>2013-07-11T17:51:53-07:00</LastUpdatedTime>
+      </MetaData>
+      <Name>WM4dIABgD7</Name>
+      <Active>true</Active>
+      <Type>NON_CREDIT_CARD</Type>
+   </PaymentMethod>
+</IntuitResponse>

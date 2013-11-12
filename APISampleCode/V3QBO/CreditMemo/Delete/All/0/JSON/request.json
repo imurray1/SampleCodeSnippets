@@ -1,0 +1,136 @@
+{
+   "RemainingCredit":8999.10,
+   "domain":"QBO",
+   "sparse":false,
+   "Id":"276",
+   "SyncToken":"2",
+   "MetaData":{
+      "CreateTime":"2013-04-29T17:30:30-07:00",
+      "LastUpdatedTime":"2013-04-29T17:30:33-07:00"
+   },
+   "CustomField":[
+      {
+         "Name":"Custom 1",
+         "Type":"StringType"
+      },
+      {
+         "Name":"Custom 2",
+         "Type":"StringType"
+      },
+      {
+         "Name":"Custom 3",
+         "Type":"StringType"
+      }
+   ],
+   "AttachableRef":[
+
+   ],
+   "DocNumber":"1139",
+   "TxnDate":"2013-04-29",
+   "DepartmentRef":{
+      "value":"1",
+      "name":"testDept"
+   },
+   "PrivateNote":"Credit Memo Sparse Update test",
+   "LinkedTxn":[
+
+   ],
+   "Line":[
+      {
+         "Id":"1",
+         "LineNum":1,
+         "Description":"QBO",
+         "Amount":9999.00,
+         "LinkedTxn":[
+
+         ],
+         "DetailType":"SalesItemLineDetail",
+         "SalesItemLineDetail":{
+            "ItemRef":{
+               "value":"1",
+               "name":"Sales"
+            },
+            "UnitPrice":9999,
+            "Qty":1,
+            "TaxCodeRef":{
+               "value":"NON"
+            }
+         },
+         "CustomField":[
+
+         ]
+      },
+      {
+         "Amount":9999.00,
+         "LinkedTxn":[
+
+         ],
+         "DetailType":"SubTotalLineDetail",
+         "SubTotalLineDetail":{
+
+         },
+         "CustomField":[
+
+         ]
+      },
+      {
+         "Amount":999.90,
+         "LinkedTxn":[
+
+         ],
+         "DetailType":"DiscountLineDetail",
+         "DiscountLineDetail":{
+            "PercentBased":true,
+            "DiscountPercent":10,
+            "DiscountAccountRef":{
+               "value":"51",
+               "name":"Discounts given"
+            }
+         },
+         "CustomField":[
+
+         ]
+      }
+   ],
+   "TxnTaxDetail":{
+      "TotalTax":0,
+      "TaxLine":[
+
+      ]
+   },
+   "CustomerRef":{
+      "value":"96"
+   },
+   "CustomerMemo":{
+      "value":"Credit Memo for customer"
+   },
+   "BillAddr":{
+      "Id":"92",
+      "Line1":"1700 Garcia Avenue",
+      "City":"Mountain View",
+      "Country":"USA",
+      "CountrySubDivisionCode":"CA",
+      "PostalCode":"94043",
+      "Lat":"37.424577",
+      "Long":"-122.0911091"
+   },
+   "ShipAddr":{
+      "Id":"93",
+      "Line1":"Ms. Anupama Madhavapeddi",
+      "Line2":"Intuit Systems",
+      "Line3":"4700 Garcia Avenue",
+      "Line4":"Mountain View, CA 94043 USA",
+      "Lat":"37.428434",
+      "Long":"-122.0723816"
+   },
+   "ShipDate":"2012-05-01",
+   "TrackingNum":"1232",
+   "TotalAmt":8999.10,
+   "ApplyTaxAfterDiscount":false,
+   "PrintStatus":"PrintComplete",
+   "EmailStatus":"EmailSent",
+   "BillEmail":{
+      "Address":"test@abc.com"
+   },
+   "Balance":8999.10
+}

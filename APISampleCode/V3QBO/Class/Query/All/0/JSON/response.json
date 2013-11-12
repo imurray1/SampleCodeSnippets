@@ -1,0 +1,69 @@
+{
+   "QueryResponse":{
+      "Class":[
+         {
+            "Name":"ClassJUnitInputCreateRead-1373581573614",
+            "SubClass":false,
+            "FullyQualifiedName":"ClassJUnitInputCreateRead-1373581573614",
+            "Active":false,
+            "domain":"QBO",
+            "sparse":false,
+            "Id":"100100000000000321205",
+            "SyncToken":"0",
+            "MetaData":{
+               "CreateTime":"2013-07-11T15:23:09-07:00",
+               "LastUpdatedTime":"2013-07-11T15:23:09-07:00"
+            }
+         },
+         {
+            "Name":"ClassJUnitInputCreateRead-1373581574560",
+            "SubClass":false,
+            "FullyQualifiedName":"ClassJUnitInputCreateRead-1373581574560",
+            "Active":false,
+            "domain":"QBO",
+            "sparse":false,
+            "Id":"100100000000000321206",
+            "SyncToken":"0",
+            "MetaData":{
+               "CreateTime":"2013-07-11T15:23:10-07:00",
+               "LastUpdatedTime":"2013-07-11T15:23:10-07:00"
+            }
+         },
+         
+  ... Some objects removed for brevity
+  
+         {
+            "Name":"TimeActivity KlassIhfewcvm",
+            "SubClass":false,
+            "FullyQualifiedName":"TimeActivity KlassIhfewcvm",
+            "Active":false,
+            "domain":"QBO",
+            "sparse":false,
+            "Id":"100100000000000321203",
+            "SyncToken":"0",
+            "MetaData":{
+               "CreateTime":"2013-07-11T15:12:19-07:00",
+               "LastUpdatedTime":"2013-07-11T15:12:19-07:00"
+            }
+         },
+         {
+            "Name":"TimeActivity KlasskuzA8UVd",
+            "SubClass":false,
+            "FullyQualifiedName":"TimeActivity KlasskuzA8UVd",
+            "Active":false,
+            "domain":"QBO",
+            "sparse":false,
+            "Id":"100100000000000321202",
+            "SyncToken":"0",
+            "MetaData":{
+               "CreateTime":"2013-07-11T15:12:12-07:00",
+               "LastUpdatedTime":"2013-07-11T15:12:12-07:00"
+            }
+         }
+      ],
+      "startPosition":1,
+      "maxResults":24,
+      "totalCount":24
+   },
+   "time":"2013-07-11T15:26:30.999-07:00"
+}

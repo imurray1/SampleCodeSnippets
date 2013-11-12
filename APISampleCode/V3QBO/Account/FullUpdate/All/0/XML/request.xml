@@ -1,4 +1,16 @@
-<Account xmlns="http://schema.intuit.com/finance/v3">
-   <Name>vH5imvPtTbMSKow38jMu</Name>
-   <AccountType>Accounts Receivable</AccountType>
+﻿<Account xmlns="http://schema.intuit.com/finance/v3" domain="QBO" sparse="false">
+  <Id>46</Id>
+  <SyncToken>0</SyncToken>
+  <MetaData>
+    <CreateTime>2013-04-23T08:20:02-07:00</CreateTime>
+    <LastUpdatedTime>2013-04-23T08:20:02-07:00</LastUpdatedTime>
+  </MetaData>
+  <Name>DrFDh5m17pZP7t9IAgyk</Name>
+  <SubAccount>false</SubAccount>
+  <FullyQualifiedName>qJu3vJeqcbz2zC1bhEp5</FullyQualifiedName>
+  <Active>true</Active>
+  <AccountType>Cost of Goods Sold</AccountType>
+  <CurrentBalance>0</CurrentBalance>
+  <CurrentBalanceWithSubAccounts>0</CurrentBalanceWithSubAccounts>
+  <CurrencyRef name="United States Dollar">USD</CurrencyRef>
 </Account>

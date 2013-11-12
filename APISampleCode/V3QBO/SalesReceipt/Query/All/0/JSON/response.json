@@ -1,0 +1,110 @@
+{
+    "QueryResponse": {
+        "SalesReceipt": [{
+            "domain": "QBO",
+            "sparse": false,
+            "Id": "102",
+            "SyncToken": "0",
+            "MetaData": {
+                "CreateTime": "2013-03-13T14:05:08-07:00",
+                "LastUpdatedTime": "2013-03-13T14:05:08-07:00"
+            },
+            "CustomField": [
+                {
+                    "Name": "Custom 1",
+                    "Type": "StringType"
+                },
+                {
+                    "Name": "Custom 2",
+                    "Type": "StringType"
+                },
+                {
+                    "Name": "Custom 3",
+                    "Type": "StringType"
+                }
+            ],
+            "DocNumber": "1049",
+            "TxnDate": "2012-07-19",
+            "DepartmentRef": {
+                "value": "1",
+                "name": "Department1"
+            },
+            "CurrencyRef": {
+                "value": "USD",
+                "name": "United States Dollar"
+            },
+            "PrivateNote": "Customer Sales Receipt",
+            "Line": [
+                {
+                    "Id": "1",
+                    "LineNum": 1,
+                    "Description": "Sales only",
+                    "Amount": 5,
+                    "DetailType": "SalesItemLineDetail",
+                    "SalesItemLineDetail": {
+                        "ItemRef": {
+                            "value": "1",
+                            "name": "Sales"
+                        },
+                        "UnitPrice": 0.5,
+                        "Qty": 10,
+                        "TaxCodeRef": {"value": "NON"}
+                    }
+                },
+                {
+                    "Amount": 5,
+                    "DetailType": "SubTotalLineDetail",
+                    "SubTotalLineDetail": {}
+                },
+                {
+                    "Amount": 0.5,
+                    "DetailType": "DiscountLineDetail",
+                    "DiscountLineDetail": {
+                        "PercentBased": true,
+                        "DiscountPercent": 10,
+                        "DiscountAccountRef": {
+                            "value": "51",
+                            "name": "Discounts given"
+                        }
+                    }
+                }
+            ],
+            "TxnTaxDetail": {"TotalTax": 0},
+            "CustomerMemo": {"value": "Sales Receipt with customer"},
+            "BillAddr": {
+                "Id": "18",
+                "Line1": "2500 Garcia Avenue",
+                "City": "Mountain View",
+                "Country": "USA",
+                "CountrySubDivisionCode": "CA",
+                "PostalCode": "94043",
+                "Lat": "37.4283343",
+                "Long": "-122.095824"
+            },
+            "ShipAddr": {
+                "Id": "19",
+                "Line1": "Ms. Anupama Madhavapeddi",
+                "Line2": "Intuit Systems",
+                "Line3": "3400 Garcia Avenue",
+                "Line4": "Mountain View, CA 94043 USA",
+                "Lat": "37.428434",
+                "Long": "-122.0723816"
+            },
+            "ShipDate": "2012-04-18",
+            "TrackingNum": "1232",
+            "TotalAmt": 4.5,
+            "ApplyTaxAfterDiscount": false,
+            "PrintStatus": "NotSet",
+            "EmailStatus": "NotSet",
+            "BillEmail": {"Address": "test@abc.com"},
+            "Balance": 0,
+            "DepositToAccountRef": {
+                "value": "4",
+                "name": "Undeposited Funds"
+            }
+        }],
+        "startPosition": 1,
+        "maxResults": 1
+    },
+    "time": "2013-03-13T14:26:00.190-07:00"
+}

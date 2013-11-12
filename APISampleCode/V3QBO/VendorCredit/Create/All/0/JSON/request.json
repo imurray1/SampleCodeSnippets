@@ -1,0 +1,41 @@
+{
+        "TxnDate":"2013-09-20",
+        "Line":[
+        {
+            "Id":"1",
+            "Amount":90.00,
+            "DetailType":"AccountBasedExpenseLineDetail",
+            "AccountBasedExpenseLineDetail":
+            {
+                "CustomerRef":
+                {
+                    "value":"2",
+                    "name":"Cust1"
+                },
+                "AccountRef":
+                {
+                    "value":"8",
+                    "name":"Bank Charges"
+                },
+                "BillableStatus":"Billable",
+                "TaxCodeRef":
+                {
+                    "value":"TAX"
+                }
+            }
+        }
+        ],
+        "VendorRef":
+        {
+            "value":"5",
+            "name":"5tzQGh9ljv"
+        },
+        "APAccountRef":
+        {
+            "value":"38",
+            "name":"Accounts Payable (A/P)"
+        },
+        "TotalAmt":90.00
+    }
+    ]
+}

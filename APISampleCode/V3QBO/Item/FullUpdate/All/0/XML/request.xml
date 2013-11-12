@@ -1,0 +1,16 @@
+<Item xmlns="http://schema.intuit.com/finance/v3" sparse="false">
+   <Id>22</Id>
+   <SyncToken>0</SyncToken>
+   <MetaData>
+      <CreateTime>2013-07-11T17:34:58-07:00</CreateTime>
+      <LastUpdatedTime>2013-07-11T17:34:58-07:00</LastUpdatedTime>
+   </MetaData>
+   <Name>Item-Update-1373589483504</Name>
+   <Description>This is an item update test</Description>
+   <Active>true</Active>
+   <Taxable>true</Taxable>
+   <UnitPrice>8888</UnitPrice>
+   <IncomeAccountRef>1</IncomeAccountRef>
+   <PurchaseCost>0</PurchaseCost>
+   <TrackQtyOnHand>false</TrackQtyOnHand>
+</Item>

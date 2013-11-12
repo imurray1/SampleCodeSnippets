@@ -1,0 +1,28 @@
+{
+"CustomerRef": {"value": "16"},
+    "PaymentMethodRef": {"value": "16"},
+    "PaymentRefNum": "123456",
+    "sparse": false,
+    "Id": "69",
+    "SyncToken": "0",
+    "MetaData": {
+        "CreateTime": "2013-03-13T14:49:21-07:00",
+        "LastUpdatedTime": "2013-03-13T14:49:21-07:00"
+    },
+    "Line": [
+        {
+            "Amount": 300,
+            "LinkedTxn": [{
+                "TxnId": "67",
+                "TxnType": "Invoice"
+            }]
+        },
+        {
+            "Amount": 300,
+            "LinkedTxn": [{
+                "TxnId": "68",
+                "TxnType": "CreditMemo"
+            }]
+        }
+    ]
+}

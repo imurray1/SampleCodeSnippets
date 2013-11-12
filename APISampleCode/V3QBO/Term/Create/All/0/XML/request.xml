@@ -1,0 +1,7 @@
+<Term xmlns="http://schema.intuit.com/finance/v3">
+   <Name>TermForV3Testing-1373590184130</Name>
+   <DiscountPercent>4</DiscountPercent>
+   <DayOfMonthDue>1</DayOfMonthDue>
+   <DueNextMonthDays>2</DueNextMonthDays>
+   <DiscountDayOfMonth>3</DiscountDayOfMonth>
+</Term>

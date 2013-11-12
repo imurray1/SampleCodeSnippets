@@ -1,0 +1,6 @@
+<Payment xmlns="http://schema.intuit.com/finance/v3">
+   <TxnDate>2013-07-11</TxnDate>
+   <PrivateNote>Payment smoke test</PrivateNote>
+   <CustomerRef>25342</CustomerRef>
+   <TotalAmt>40</TotalAmt>
+</Payment>

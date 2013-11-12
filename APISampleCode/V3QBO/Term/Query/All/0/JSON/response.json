@@ -1,0 +1,26 @@
+{
+   "QueryResponse":{
+      "Term":[
+         {
+            "Name":"null-1373582384574",
+            "Active":true,
+            "Type":"DATE_DRIVEN",
+            "DiscountPercent":20.0000000,
+            "DayOfMonthDue":1,
+            "DueNextMonthDays":2,
+            "DiscountDayOfMonth":3,
+            "domain":"QBO",
+            "sparse":false,
+            "Id":"13",
+            "SyncToken":"2",
+            "MetaData":{
+               "CreateTime":"2013-07-11T15:36:39-07:00",
+               "LastUpdatedTime":"2013-07-11T15:36:40-07:00"
+            }
+         }
+      ],
+      "startPosition":1,
+      "maxResults":1
+   },
+   "time":"2013-07-11T15:39:45.320-07:00"
+}

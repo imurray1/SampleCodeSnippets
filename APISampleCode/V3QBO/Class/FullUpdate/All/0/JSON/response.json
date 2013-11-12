@@ -1,0 +1,20 @@
+{
+   "Class":{
+      "Name":"KlassFullUpdate-1373581580453",
+      "SubClass":true,
+      "ParentRef":{
+         "value":"100100000000000321211"
+      },
+      "FullyQualifiedName":"ClassJUnitInputCreateRead-1373581578154:KlassFullUpdate-1373581580453",
+      "Active":true,
+      "domain":"QBO",
+      "sparse":false,
+      "Id":"100100000000000321212",
+      "SyncToken":"1",
+      "MetaData":{
+         "CreateTime":"2013-07-11T15:23:15-07:00",
+         "LastUpdatedTime":"2013-07-11T15:23:16-07:00"
+      }
+   },
+   "time":"2013-07-11T15:26:20.595-07:00"
+}

@@ -1,0 +1,10 @@
+<Attachable xmlns="http://schema.intuit.com/finance/v3" domain="QBO" sparse="false">
+   <Lat>25.293112341223</Lat>
+   <Long>-21.3253249834</Long>
+   <Note>This is an attached note.</Note>
+   <Tag>Create Attachable with Note</Tag>
+   <PlaceName>Mountain View</PlaceName>
+   <AttachableRef>
+      <EntityRef type="Invoice">671</EntityRef>
+   </AttachableRef>
+</Attachable>

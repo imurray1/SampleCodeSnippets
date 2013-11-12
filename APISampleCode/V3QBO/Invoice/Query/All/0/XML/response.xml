@@ -1,0 +1,70 @@
+<IntuitResponse xmlns="http://schema.intuit.com/finance/v3" time="2013-04-23T08:30:37.983-07:00">
+  <QueryResponse startPosition="1" maxResults="1" totalCount="1">
+    <Invoice domain="QBO" sparse="false">
+      <Id>44</Id>
+      <SyncToken>1</SyncToken>
+      <MetaData>
+        <CreateTime>2013-04-23T08:30:17-07:00</CreateTime>
+        <LastUpdatedTime>2013-04-23T08:30:18-07:00</LastUpdatedTime>
+      </MetaData>
+      <CustomField>
+        <Name>Custom 1</Name>
+        <Type>StringType</Type>
+      </CustomField>
+      <CustomField>
+        <Name>Custom 2</Name>
+        <Type>StringType</Type>
+      </CustomField>
+      <CustomField>
+        <Name>Custom 3</Name>
+        <Type>StringType</Type>
+      </CustomField>
+      <DocNumber>1014</DocNumber>
+      <TxnDate>2012-04-20</TxnDate>
+      <CurrencyRef name="United States Dollar">USD</CurrencyRef>
+      <Line>
+        <Id>1</Id>
+        <LineNum>1</LineNum>
+        <Amount>15.00</Amount>
+        <DetailType>SalesItemLineDetail</DetailType>
+        <SalesItemLineDetail>
+          <ItemRef name="Sales">1</ItemRef>
+          <TaxCodeRef>NON</TaxCodeRef>
+        </SalesItemLineDetail>
+      </Line>
+      <Line>
+        <Amount>15.00</Amount>
+        <DetailType>SubTotalLineDetail</DetailType>
+        <SubTotalLineDetail/>
+      </Line>
+      <TxnTaxDetail>
+        <TotalTax>0</TotalTax>
+      </TxnTaxDetail>
+      <CustomerRef name="wEDvyvvklH gNnWGaB1fd">67</CustomerRef>
+      <BillAddr>
+        <Id>59</Id>
+        <Line1>3500</Line1>
+        <Line2>Flower Avenue</Line2>
+        <City>Los Altos</City>
+        <Lat>37.3852183</Lat>
+        <Long>-122.1141298</Long>
+      </BillAddr>
+      <ShipAddr>
+        <Id>60</Id>
+        <Line1>3500</Line1>
+        <Line2>Flower Avenue</Line2>
+        <City>Los Altos</City>
+        <Lat>37.3852183</Lat>
+        <Long>-122.1141298</Long>
+      </ShipAddr>
+      <DueDate>2012-05-20</DueDate>
+      <TotalAmt>15.00</TotalAmt>
+      <ApplyTaxAfterDiscount>false</ApplyTaxAfterDiscount>
+      <PrintStatus>NeedToPrint</PrintStatus>
+      <EmailStatus>NotSet</EmailStatus>
+      <Balance>15.00</Balance>
+      <Deposit>0</Deposit>
+      <AllowIPNPayment>false</AllowIPNPayment>
+    </Invoice>
+  </QueryResponse>
+</IntuitResponse>

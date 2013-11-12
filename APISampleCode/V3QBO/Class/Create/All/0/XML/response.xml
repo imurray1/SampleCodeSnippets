@@ -1,0 +1,15 @@
+<IntuitResponse xmlns="http://schema.intuit.com/finance/v3" time="2013-07-11T17:38:24.340-07:00">
+   <Class domain="QBO" sparse="false">
+      <Id>100100000000000321237</Id>
+      <SyncToken>0</SyncToken>
+      <MetaData>
+         <CreateTime>2013-07-11T17:35:19-07:00</CreateTime>
+         <LastUpdatedTime>2013-07-11T17:35:19-07:00</LastUpdatedTime>
+      </MetaData>
+      <Name>ClassJUnitInputCreateRead-1373589504207</Name>
+      <SubClass>true</SubClass>
+      <ParentRef>100100000000000321236</ParentRef>
+      <FullyQualifiedName>ClassJUnitInputCreateRead-1373589503357:ClassJUnitInputCreateRead-1373589504207</FullyQualifiedName>
+      <Active>true</Active>
+   </Class>
+</IntuitResponse>

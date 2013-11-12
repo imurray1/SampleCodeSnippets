@@ -1,0 +1,12 @@
+{
+ "ProductAndServicesPrefs": {
+   "ForSales": true,
+   "ForPurchase": true
+  },
+  "SalesFormsPrefs": {
+   "AllowEstimates": true
+  },
+  "sparse": false,
+  "Id": "1",
+  "SyncToken": "20"
+}

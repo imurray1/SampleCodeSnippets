@@ -1,0 +1,21 @@
+<IntuitResponse xmlns="http://schema.intuit.com/finance/v3" time="2013-07-11T17:38:04.565-07:00">
+   <QueryResponse startPosition="1" maxResults="1">
+      <Item domain="QBO" sparse="false">
+         <Id>22</Id>
+         <SyncToken>2</SyncToken>
+         <MetaData>
+            <CreateTime>2013-07-11T17:34:58-07:00</CreateTime>
+            <LastUpdatedTime>2013-07-11T17:34:59-07:00</LastUpdatedTime>
+         </MetaData>
+         <Name>Item-SparseUnitPriceSparseUpdateTest-1373589483837</Name>
+         <Description>QBO</Description>
+         <Active>true</Active>
+         <Taxable>true</Taxable>
+         <UnitPrice>800</UnitPrice>
+         <Type>Service</Type>
+         <IncomeAccountRef name="Services">1</IncomeAccountRef>
+         <PurchaseCost>0</PurchaseCost>
+         <TrackQtyOnHand>false</TrackQtyOnHand>
+      </Item>
+   </QueryResponse>
+</IntuitResponse>

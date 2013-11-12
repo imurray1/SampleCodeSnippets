@@ -1,0 +1,34 @@
+{
+   "Payment":
+    {
+        "CustomerRef":
+        {
+            "value":"2903"
+        },
+        "DepositToAccountRef":
+        {
+            "value":"4"
+        },
+        "PaymentMethodRef":
+        {
+            "value":"253"
+        },
+        "PaymentRefNum":"123456",
+        "TotalAmt":80.00,
+        "UnappliedAmt":80.00,
+        "ProcessPayment":false,
+        "domain":"QBO",
+        "sparse":false,
+        "Id":"3112",
+        "SyncToken":"2",
+        "MetaData":
+        {
+            "CreateTime":"2013-03-12T13:57:55-07:00",
+            "LastUpdatedTime":"2013-03-15T11:05:47-07:00"
+        },
+        "TxnDate":"2012-06-26",
+        "Line":[
+        ]
+    },
+    "time":"2013-03-15T11:06:08.072-07:00"
+}

@@ -1,0 +1,66 @@
+{
+    "CustomField": [{
+        "Name": "Custom 1",
+        "Type": "StringType",
+        "StringValue": "custom 1"
+    }],
+    "DocNumber": "1043",
+    "TxnDate": "2013-03-13",
+    "DepartmentRef": {"value": "1"},
+    "PrivateNote": "Memo for SalesReceipt",
+    "Line": [
+        {
+            "Description": "Line description",
+            "Amount": 14,
+            "DetailType": "SalesItemLineDetail",
+            "SalesItemLineDetail": {
+                "ServiceDate": "2013-03-19",
+                "ItemRef": {"value": "2"},
+                "ClassRef": {"value": "200900000000000003841"},
+                "UnitPrice": 14,
+                "Qty": 1,
+                "TaxCodeRef": {"value": "TAX"}
+            }
+        },
+        {
+            "Amount": 0.28,
+            "DetailType": "DiscountLineDetail",
+            "DiscountLineDetail": {
+                "PercentBased": true,
+                "DiscountPercent": 2,
+                "DiscountAccountRef": {"value": "51"}
+            }
+        },
+        {
+            "Amount": 5,
+            "DetailType": "SalesItemLineDetail",
+            "SalesItemLineDetail": {"ItemRef": {"value": "SHIPPING_ITEM_ID"}}
+        }
+    ],
+    "TxnTaxDetail": {
+        "TxnTaxCodeRef": {"value": "2"},
+        "TotalTax": 1.4,
+        "TaxLine": [{
+            "Amount": 1.4,
+            "DetailType": "TaxLineDetail",
+            "TaxLineDetail": {
+                "TaxRateRef": {"value": "1"},
+                "PercentBased": true,
+                "TaxPercent": 10,
+                "NetAmountTaxable": 14
+            }
+        }]
+    },
+    "CustomerRef": {"value": "1"},
+    "CustomerMemo": {"value": "customer message"},
+    "ShipMethodRef": {"value": "ShipMethod"},
+    "ShipDate": "2013-03-20",
+    "TrackingNum": "Track#123",
+    "ApplyTaxAfterDiscount": false,
+    "PrintStatus": "NeedToPrint",
+    "EmailStatus": "NeedToSend",
+    "BillEmail": {"Address": "email@intuit.com"},
+    "PaymentMethodRef": {"value": "6"},
+    "PaymentRefNum": "Ref#123",
+    "DepositToAccountRef": {"value": "4"}
+}

@@ -1,0 +1,54 @@
+<IntuitResponse xmlns="http://schema.intuit.com/finance/v3" time="2013-03-14T14:48:26.584-07:00">
+   <QueryResponse maxResults="1">
+      <Preferences domain="QBO" sparse="false">
+         <Id>1</Id>
+         <SyncToken>20</SyncToken>
+         <MetaData>
+            <CreateTime>2011-03-22T11:08:09-07:00</CreateTime>
+            <LastUpdatedTime>2013-03-14T14:35:23-07:00</LastUpdatedTime>
+         </MetaData>
+         <ProductAndServicesPrefs>
+            <ForSales>false</ForSales>
+            <ForPurchase>false</ForPurchase>
+            <QuantityWithPriceAndRate>true</QuantityWithPriceAndRate>
+         </ProductAndServicesPrefs>
+         <SalesFormsPrefs>
+            <CustomTxnNumbers>false</CustomTxnNumbers>
+            <AllowDeposit>true</AllowDeposit>
+            <AllowDiscount>true</AllowDiscount>
+            <AllowEstimates>false</AllowEstimates>
+            <IPNSupportEnabled>false</IPNSupportEnabled>
+            <AllowShipping>true</AllowShipping>
+            <DefaultTerms>3</DefaultTerms>
+         </SalesFormsPrefs>
+         <VendorAndPurchasesPrefs>
+            <TrackingByCustomer>true</TrackingByCustomer>
+            <BillableExpenseTracking>true</BillableExpenseTracking>
+         </VendorAndPurchasesPrefs>
+         <TimeTrackingPrefs>
+            <UseServices>true</UseServices>
+            <BillCustomers>true</BillCustomers>
+            <ShowBillRateToAll>false</ShowBillRateToAll>
+            <WorkWeekStartDate>Sunday</WorkWeekStartDate>
+            <MarkTimeEntriesBillable>true</MarkTimeEntriesBillable>
+         </TimeTrackingPrefs>
+         <TaxPrefs>
+            <UsingSalesTax>true</UsingSalesTax>
+            <TaxGroupCodeRef>2</TaxGroupCodeRef>
+         </TaxPrefs>
+         <CurrencyPrefs>
+            <MultiCurrencyEnabled>false</MultiCurrencyEnabled>
+            <HomeCurrency>USD</HomeCurrency>
+         </CurrencyPrefs>
+         <OtherPrefs>
+            <NameValue>
+               <Name>SalesFormsPrefs.DefaultCustomerMessage</Name>
+            </NameValue>
+            <NameValue>
+               <Name>SalesFormsPrefs.DefaultItem</Name>
+               <Value>1</Value>
+            </NameValue>
+         </OtherPrefs>
+      </Preferences>
+   </QueryResponse>
+</IntuitResponse>

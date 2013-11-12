@@ -1,0 +1,70 @@
+{
+   "sparse":false,
+   "PrivateNote":"CreditMemo",
+   "Line":[
+      {
+         "Description":"QBO",
+         "Amount":9999.00,
+         "DetailType":"SalesItemLineDetail",
+         "SalesItemLineDetail":{
+            "ItemRef":{
+               "value":"1"
+            },
+            "UnitPrice":9999,
+            "Qty":1,
+            "TaxCodeRef":{
+               "value":"TAX"
+            }
+         }
+      },
+      {
+         "Amount":999.90,
+         "DetailType":"DiscountLineDetail",
+         "DiscountLineDetail":{
+            "PercentBased":true,
+            "DiscountPercent":10
+         }
+      }
+   ],
+   "TxnTaxDetail":{
+      "TxnTaxCodeRef":{
+         "value":"9"
+      },
+      "TaxLine":[
+         {
+            "DetailType":"TaxLineDetail",
+            "TaxLineDetail":{
+               "PercentBased":true,
+               "TaxPercent":15
+            }
+         }
+      ]
+   },
+   "CustomerRef":{
+      "value":"96"
+   },
+   "CustomerMemo":{
+      "value":"Issuing a credit to customer"
+   },
+   "BillAddr":{
+      "Line1":"2700 Garcia Avenue",
+      "City":"Mountain View",
+      "Country":"USA",
+      "CountrySubDivisionCode":"CA",
+      "PostalCode":"94043"
+   },
+   "ShipAddr":{
+      "Line1":"2500 Garcia Avenue",
+      "City":"Mountain View",
+      "Country":"USA",
+      "CountrySubDivisionCode":"CA",
+      "PostalCode":"94043"
+   },
+   "TotalAmt":10498.95,
+   "ApplyTaxAfterDiscount":false,
+   "PrintStatus":"NotSet",
+   "EmailStatus":"NotSet",
+   "BillEmail":{
+      "Address":"test@abc.com"
+   }
+}

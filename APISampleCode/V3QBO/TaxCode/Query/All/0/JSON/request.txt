@@ -1,0 +1,1 @@
+select * From TaxCode Where Metadata.LastUpdatedTime>'2011-12-19T14:17:31-08:00' Order By Metadata.LastUpdatedTime

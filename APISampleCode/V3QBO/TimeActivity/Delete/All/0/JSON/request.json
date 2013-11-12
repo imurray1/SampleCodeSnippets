@@ -1,0 +1,46 @@
+{
+   "TxnDate":"2013-01-29",
+   "NameOf":"Vendor",
+   "VendorRef":{
+      "value":"61",
+      "name":"TimeActivity Vendor9QrXF1BF"
+   },
+   "CustomerRef":{
+      "value":"60",
+      "name":"TimeActivity Customer2UGu2cKx"
+   },
+   "DepartmentRef":{
+      "value":"3",
+      "name":"TimeActivity Departmenttgv5wci9"
+   },
+   "ItemRef":{
+      "value":"4",
+      "name":"TimeActivity ItemwTsh51e2"
+   },
+   "ClassRef":{
+      "value":"100100000000000321202",
+      "name":"TimeActivity KlasskuzA8UVd"
+   },
+   "BillableStatus":"Billable",
+   "Taxable":false,
+   "HourlyRate":400,
+   "BreakHours":2,
+   "BreakMinutes":30,
+   "StartTime":"2013-01-29T06:00:00-08:00",
+   "EndTime":"2013-01-29T18:00:00-08:00",
+   "Description":"Single activity sparse update time sheet",
+   "domain":"QBO",
+   "sparse":false,
+   "Id":"2",
+   "SyncToken":"2",
+   "MetaData":{
+      "CreateTime":"2013-07-11T15:12:14-07:00",
+      "LastUpdatedTime":"2013-07-11T15:12:16-07:00"
+   },
+   "CustomField":[
+
+   ],
+   "AttachableRef":[
+
+   ]
+}

@@ -1,0 +1,73 @@
+<IntuitResponse xmlns="http://schema.intuit.com/finance/v3" time="2013-09-05T14:18:01.204-07:00">
+  <QueryResponse startPosition="1" maxResults="8">
+    <Attachable domain="QBO" sparse="false">
+      <Id>100000000000196102</Id>
+      <SyncToken>1</SyncToken>
+      <MetaData>
+        <CreateTime>2013-06-13T16:43:43-07:00</CreateTime>
+        <LastUpdatedTime>2013-06-13T17:13:35-07:00</LastUpdatedTime>
+      </MetaData>
+      <AttachableRef>
+        <EntityRef type="Invoice">809</EntityRef>
+        <IncludeOnSend>false</IncludeOnSend>
+      </AttachableRef>
+      <FileName>linedetails.png</FileName>
+      <FileAccessUri>/v3/company/649976145/download/100000000000196102</FileAccessUri>
+      <TempDownloadUri>https:...>
+      <Size>40009</Size>
+      <ContentType>image/png</ContentType>
+      <ThumbnailFileAccessUri>/v3/company/649976145/attachable-thumbnail/100000000000196102</ThumbnailFileAccessUri>
+      <ThumbnailTempDownloadUri>https:...>
+    </Attachable>
+...<!--some content ommitted-->
+    <Attachable domain="QBO" sparse="false">
+      <Id>100000000000375172</Id>
+      <SyncToken>0</SyncToken>
+      <MetaData>
+        <CreateTime>2013-09-05T09:20:05-07:00</CreateTime>
+        <LastUpdatedTime>2013-09-05T09:20:05-07:00</LastUpdatedTime>
+      </MetaData>
+      <FileName>img_0771.jpg</FileName>
+      <FileAccessUri>/v3/company/649976145/download/100000000000375172</FileAccessUri>
+      <TempDownloadUri>https:...</TempDownloadUri>
+      <Size>154613</Size>
+      <ContentType>image/jpeg</ContentType>
+      <ThumbnailFileAccessUri>/v3/company/649976145/attachable-thumbnail/100000000000375172</ThumbnailFileAccessUri>
+      <ThumbnailTempDownloadUri>https:...>
+    </Attachable>
+    <Attachable domain="QBO" sparse="false">
+      <Id>100000000000376706</Id>
+      <SyncToken>0</SyncToken>
+      <MetaData>
+        <CreateTime>2013-09-05T14:00:20-07:00</CreateTime>
+        <LastUpdatedTime>2013-09-05T14:00:20-07:00</LastUpdatedTime>
+      </MetaData>
+      <AttachableRef>
+        <EntityRef type="Invoice">671</EntityRef>
+        <IncludeOnSend>false</IncludeOnSend>
+      </AttachableRef>
+      <Lat>25.293189023</Lat>
+      <Long>-21.3253249834</Long>
+      <PlaceName>Mountain View</PlaceName>
+      <Note>This is an attached note.</Note>
+      <Tag>Create Attachable with Note</Tag>
+    </Attachable>
+    <Attachable domain="QBO" sparse="false">
+      <Id>100000000000376715</Id>
+      <SyncToken>0</SyncToken>
+      <MetaData>
+        <CreateTime>2013-09-05T14:02:42-07:00</CreateTime>
+        <LastUpdatedTime>2013-09-05T14:02:42-07:00</LastUpdatedTime>
+      </MetaData>
+      <AttachableRef>
+        <EntityRef type="Invoice">671</EntityRef>
+        <IncludeOnSend>false</IncludeOnSend>
+      </AttachableRef>
+      <Lat>25.293112341223</Lat>
+      <Long>-21.3253249834</Long>
+      <PlaceName>Mountain View</PlaceName>
+      <Note>This is an attached note.</Note>
+      <Tag>Create Attachable with Note</Tag>
+    </Attachable>
+  </QueryResponse>
+</IntuitResponse>

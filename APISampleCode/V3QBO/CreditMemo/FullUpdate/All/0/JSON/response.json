@@ -1,0 +1,111 @@
+{
+   "CreditMemo":{
+      "RemainingCredit":8999.10,
+      "domain":"QBO",
+      "sparse":false,
+      "Id":"276",
+      "SyncToken":"1",
+      "MetaData":{
+         "CreateTime":"2013-04-29T17:30:30-07:00",
+         "LastUpdatedTime":"2013-04-29T17:30:31-07:00"
+      },
+      "CustomField":[
+         {
+            "Name":"Custom 1",
+            "Type":"StringType"
+         },
+         {
+            "Name":"Custom 2",
+            "Type":"StringType"
+         },
+         {
+            "Name":"Custom 3",
+            "Type":"StringType"
+         }
+      ],
+      "DocNumber":"1139",
+      "TxnDate":"2013-04-29",
+      "DepartmentRef":{
+         "value":"1",
+         "name":"testDept"
+      },
+      "PrivateNote":"CreditMemo Update",
+      "Line":[
+         {
+            "Id":"1",
+            "LineNum":1,
+            "Description":"QBO",
+            "Amount":9999.00,
+            "DetailType":"SalesItemLineDetail",
+            "SalesItemLineDetail":{
+               "ItemRef":{
+                  "value":"1",
+                  "name":"Sales"
+               },
+               "UnitPrice":9999,
+               "Qty":1,
+               "TaxCodeRef":{
+                  "value":"NON"
+               }
+            }
+         },
+         {
+            "Amount":9999.00,
+            "DetailType":"SubTotalLineDetail",
+            "SubTotalLineDetail":{
+
+            }
+         },
+         {
+            "Amount":999.90,
+            "DetailType":"DiscountLineDetail",
+            "DiscountLineDetail":{
+               "PercentBased":true,
+               "DiscountPercent":10,
+               "DiscountAccountRef":{
+                  "value":"51",
+                  "name":"Discounts given"
+               }
+            }
+         }
+      ],
+      "TxnTaxDetail":{
+         "TotalTax":0
+      },
+      "CustomerRef":{
+         "value":"96",
+         "name":"yOvUlsnhx6 AOGcYnY5TI"
+      },
+      "BillAddr":{
+         "Id":"92",
+         "Line1":"2700 Garcia Avenue",
+         "City":"Mountain View",
+         "Country":"USA",
+         "CountrySubDivisionCode":"CA",
+         "PostalCode":"94043",
+         "Lat":"37.4276176",
+         "Long":"-122.099344"
+      },
+      "ShipAddr":{
+         "Id":"93",
+         "Line1":"4520 Casey Avenue",
+         "City":"Mountain View",
+         "Country":"USA",
+         "CountrySubDivisionCode":"CA",
+         "PostalCode":"94043",
+         "Lat":"37.432294",
+         "Long":"-122.1002581"
+      },
+      "ShipDate":"2012-04-18",
+      "TrackingNum":"1232",
+      "TotalAmt":8999.10,
+      "ApplyTaxAfterDiscount":false,
+      "PrintStatus":"NeedToPrint",
+      "EmailStatus":"NeedToSend",
+      "BillEmail":{
+         "Address":"test@abc.com"
+      },
+      "Balance":8999.10
+   },
+   "time":"2013-04-29T17:30:51.886-07:00"
+}

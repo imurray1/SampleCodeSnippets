@@ -1,0 +1,17 @@
+<TimeActivity xmlns="http://schema.intuit.com/finance/v3" domain="QBO" sparse="false">
+   <TxnDate>2013-01-28</TxnDate>
+   <NameOf>Vendor</NameOf>
+   <VendorRef>61</VendorRef>
+   <CustomerRef>60</CustomerRef>
+   <DepartmentRef>3</DepartmentRef>
+   <ItemRef>4</ItemRef>
+   <ClassRef>100100000000000321233</ClassRef>
+   <BillableStatus>Billable</BillableStatus>
+   <Taxable>true</Taxable>
+   <HourlyRate>251</HourlyRate>
+   <BreakHours>1</BreakHours>
+   <BreakMinutes>0</BreakMinutes>
+   <StartTime>2013-01-28T08:00:00-08:00</StartTime>
+   <EndTime>2013-01-28T17:00:00-08:00</EndTime>
+   <Description>Single activity time sheet</Description>
+</TimeActivity>

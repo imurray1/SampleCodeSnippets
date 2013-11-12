@@ -1,0 +1,19 @@
+<BillPayment xmlns="http://schema.intuit.com/finance/v3" domain="QBO" sparse="false">
+    <DocNumber>2</DocNumber>
+    <TxnDate>2015-12-15</TxnDate>
+    <PrivateNote>Acct. 1JK90</PrivateNote>
+    <Line>
+        <Amount>110.00</Amount>
+        <LinkedTxn>
+            <TxnId>185</TxnId>
+            <TxnType>Bill</TxnType>
+        </LinkedTxn>
+    </Line>
+    <VendorRef name="Cal Telephone">26</VendorRef>
+    <PayType>Check</PayType>
+    <CheckPayment>
+        <BankAccountRef name="Barter Account">133</BankAccountRef>
+        <PrintStatus>NotSet</PrintStatus>
+    </CheckPayment>
+    <TotalAmt>110.00</TotalAmt>
+</BillPayment>

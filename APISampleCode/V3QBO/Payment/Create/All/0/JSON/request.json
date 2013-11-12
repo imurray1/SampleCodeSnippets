@@ -1,0 +1,22 @@
+{
+    "CustomerRef": {"value": "16"},
+    "PaymentMethodRef": {"value": "16"},
+    "PaymentRefNum": "123456",
+    "sparse": false,
+    "Line": [
+        {
+            "Amount": 150,
+            "LinkedTxn": [{
+                "TxnId": "67",
+                "TxnType": "Invoice"
+            }]
+        },
+        {
+            "Amount": 150,
+            "LinkedTxn": [{
+                "TxnId": "68",
+                "TxnType": "CreditMemo"
+            }]
+        }
+    ]
+    }

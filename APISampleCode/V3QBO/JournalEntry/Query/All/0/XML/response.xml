@@ -1,0 +1,36 @@
+<IntuitResponse xmlns="http://schema.intuit.com/finance/v3" time="2013-10-18T13:44:15.916-07:00">
+  <QueryResponse startPosition="1" maxResults="1" totalCount="1">
+    <JournalEntry domain="QBO" sparse="false">
+      <Id>842</Id>
+      <SyncToken>2</SyncToken>
+      <MetaData>
+        <CreateTime>2013-10-18T13:33:53-07:00</CreateTime>
+        <LastUpdatedTime>2013-10-18T13:42:48-07:00</LastUpdatedTime>
+      </MetaData>
+      <DocNumber>A108</DocNumber>
+      <TxnDate>2015-11-30</TxnDate>
+      <PrivateNote>Revised private note via sparse update</PrivateNote>
+      <Line>
+        <Id>0</Id>
+        <Description>nov portion of rider insurance</Description>
+        <Amount>100.00</Amount>
+        <DetailType>JournalEntryLineDetail</DetailType>
+        <JournalEntryLineDetail>
+          <PostingType>Debit</PostingType>
+          <AccountRef name="Insurance">93</AccountRef>
+        </JournalEntryLineDetail>
+      </Line>
+      <Line>
+        <Id>1</Id>
+        <Description>nov portion of rider insurance</Description>
+        <Amount>100.00</Amount>
+        <DetailType>JournalEntryLineDetail</DetailType>
+        <JournalEntryLineDetail>
+          <PostingType>Credit</PostingType>
+          <AccountRef name="Prepaid Insurance">138</AccountRef>
+        </JournalEntryLineDetail>
+      </Line>
+      <Adjustment>false</Adjustment>
+    </JournalEntry>
+  </QueryResponse>
+</IntuitResponse>

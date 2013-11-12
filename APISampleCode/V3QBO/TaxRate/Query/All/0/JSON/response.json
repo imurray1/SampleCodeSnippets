@@ -1,0 +1,31 @@
+{
+   "QueryResponse":{
+      "TaxRate":[
+         {
+            "Name":"5% Tax (Sales)",
+            "Description":"GST/HST",
+            "Active":true,
+            "RateValue":5,
+            "AgencyRef":{
+               "value":"1"
+            },
+            "TaxReturnLineRef":{
+               "value":"2"
+            },
+            "SpecialTaxType":"NONE",
+            "domain":"QBO",
+            "sparse":false,
+            "Id":"84",
+            "SyncToken":"0",
+            "MetaData":{
+               "CreateTime":"2012-10-15T16:41:13-07:00",
+               "LastUpdatedTime":"2012-10-15T16:41:13-07:00"
+            }
+         }
+      ],
+      "startPosition":1,
+      "maxResults":1,
+      "totalCount":1
+   },
+   "time":"2013-03-14T14:42:52.355-07:00"
+}

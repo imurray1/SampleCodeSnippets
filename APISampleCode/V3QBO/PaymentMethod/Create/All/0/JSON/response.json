@@ -1,0 +1,16 @@
+{
+   "PaymentMethod":{
+      "Name":"PM-CreateMinimum-1373580945452",
+      "Active":true,
+      "Type":"NON_CREDIT_CARD",
+      "domain":"QBO",
+      "sparse":false,
+      "Id":"13",
+      "SyncToken":"0",
+      "MetaData":{
+         "CreateTime":"2013-07-11T15:12:41-07:00",
+         "LastUpdatedTime":"2013-07-11T15:12:41-07:00"
+      }
+   },
+   "time":"2013-07-11T15:15:45.600-07:00"
+}

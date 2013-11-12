@@ -1,0 +1,43 @@
+{
+    "Adjustment": false,
+    "domain": "QBO",
+    "sparse": false,
+    "Id": "843",
+    "SyncToken": "0",
+    "MetaData": {
+      "CreateTime": "2013-10-18T13:48:46-07:00",
+      "LastUpdatedTime": "2013-10-18T13:48:46-07:00"
+    },
+    "DocNumber": "A108",
+    "TxnDate": "2015-11-30",
+    "PrivateNote": "Revised private note",
+    "Line": [
+      {
+        "Id": "0",
+        "Description": "nov portion of rider insurance",
+        "Amount": 100.0,
+        "DetailType": "JournalEntryLineDetail",
+        "JournalEntryLineDetail": {
+          "PostingType": "Debit",
+          "AccountRef": {
+            "value": "93",
+            "name": "Insurance"
+          }
+        }
+      },
+      {
+        "Id": "1",
+        "Description": "nov portion of rider insurance",
+        "Amount": 100.0,
+        "DetailType": "JournalEntryLineDetail",
+        "JournalEntryLineDetail": {
+          "PostingType": "Credit",
+          "AccountRef": {
+            "value": "138",
+            "name": "Prepaid Insurance"
+          }
+        }
+      }
+    ],
+    "TxnTaxDetail": {}
+  }

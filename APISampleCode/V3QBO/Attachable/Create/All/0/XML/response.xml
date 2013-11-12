@@ -1,0 +1,19 @@
+<IntuitResponse xmlns="http://schema.intuit.com/finance/v3" time="2013-09-05T14:02:42.078-07:00">
+  <Attachable domain="QBO" sparse="false">
+    <Id>100000000000376715</Id>
+    <SyncToken>0</SyncToken>
+    <MetaData>
+      <CreateTime>2013-09-05T14:02:42-07:00</CreateTime>
+      <LastUpdatedTime>2013-09-05T14:02:42-07:00</LastUpdatedTime>
+    </MetaData>
+    <AttachableRef>
+      <EntityRef type="Invoice">671</EntityRef>
+      <IncludeOnSend>false</IncludeOnSend>
+    </AttachableRef>
+    <Lat>25.293112341223</Lat>
+    <Long>-21.3253249834</Long>
+    <PlaceName>Mountain View</PlaceName>
+    <Note>This is an attached note.</Note>
+    <Tag>Create Attachable with Note</Tag>
+  </Attachable>
+</IntuitResponse>

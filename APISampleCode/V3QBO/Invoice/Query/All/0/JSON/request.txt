@@ -1,0 +1,1 @@
+select * from Invoice where Metadata.LastUpdatedTime > '2013-03-13T13:21:49-07:00'

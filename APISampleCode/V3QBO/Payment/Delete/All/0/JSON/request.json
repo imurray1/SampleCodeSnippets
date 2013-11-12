@@ -1,0 +1,22 @@
+{
+   "CustomerRef": {"value": "17"},
+    "DepositToAccountRef": {"value": "4"},
+    "PaymentMethodRef": {"value": "17"},
+    "PaymentRefNum": "123456",
+    "TotalAmt": 10,
+    "UnappliedAmt": 10,
+    "ProcessPayment": false,
+    "domain": "QBO",
+    "sparse": false,
+    "Id": "73",
+    "SyncToken": "2",
+    "MetaData": {
+        "CreateTime": "2013-03-14T11:57:16-07:00",
+        "LastUpdatedTime": "2013-03-14T11:57:18-07:00"
+    },
+    "CustomField": [],
+    "AttachableRef": [],
+    "TxnDate": "2012-06-28",
+    "LinkedTxn": [],
+    "Line": []
+}

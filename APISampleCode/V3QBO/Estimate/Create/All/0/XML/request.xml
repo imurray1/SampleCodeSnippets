@@ -1,0 +1,56 @@
+<Estimate xmlns="http://schema.intuit.com/finance/v3" sparse="false">
+  <DocNumber>3BcMMoa4YQBuUbJucPeR</DocNumber>
+  <TxnDate>2012-04-20</TxnDate>
+  <TxnStatus>Pending</TxnStatus>
+  <Line>
+    <Id>1</Id>
+    <Description>dsfafdfasdfdsfasdfadsfasdfsad</Description>
+    <Amount>20.00</Amount>
+    <DetailType>SalesItemLineDetail</DetailType>
+    <SalesItemLineDetail>
+      <ItemRef>1</ItemRef>
+      <UnitPrice>20</UnitPrice>
+      <Qty>1</Qty>
+      <ServiceDate>2012-04-17</ServiceDate>
+    </SalesItemLineDetail>
+  </Line>
+  <Line>
+    <Id>2</Id>
+    <Description>dsafsdgggggggg</Description>
+    <Amount>40.00</Amount>
+    <DetailType>SalesItemLineDetail</DetailType>
+    <SalesItemLineDetail>
+      <ItemRef>1</ItemRef>
+      <UnitPrice>40</UnitPrice>
+      <Qty>1</Qty>
+      <ServiceDate>2012-04-10</ServiceDate>
+    </SalesItemLineDetail>
+  </Line>
+  <CustomerRef name="400a vnAPSdnwcAnjXiAjuduR">32</CustomerRef>
+  <CustomerMemo>This Estimate is a guestimate</CustomerMemo>
+  <BillAddr>
+    <Line1>bill line1</Line1>
+    <City>Billville</City>
+    <Country>USA</Country>
+    <CountrySubDivisionCode>CA</CountrySubDivisionCode>
+    <PostalCode>12345</PostalCode>
+  </BillAddr>
+  <ShipAddr>
+    <Line1>ship line1</Line1>
+    <City>Shipville</City>
+    <Country>USA</Country>
+    <CountrySubDivisionCode>CA</CountrySubDivisionCode>
+    <PostalCode>12345</PostalCode>
+  </ShipAddr>
+  <TotalAmt>63.50</TotalAmt>
+  <ApplyTaxAfterDiscount>false</ApplyTaxAfterDiscount>
+  <PrintStatus>NotSet</PrintStatus>
+  <EmailStatus>NeedToSend</EmailStatus>
+  <BillEmail>
+    <Address>sam@abc.com</Address>
+  </BillEmail>
+  <Balance>0</Balance>
+  <ExpirationDate>2012-04-27</ExpirationDate>
+  <AcceptedBy>AcceptedBySpiderman</AcceptedBy>
+  <AcceptedDate>2012-04-20</AcceptedDate>
+</Estimate>

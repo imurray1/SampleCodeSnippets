@@ -1,0 +1,16 @@
+<Attachable xmlns="http://schema.intuit.com/finance/v3" domain="QBO" sparse="false">
+  <Id>100100000000000002117</Id>
+  <SyncToken>0</SyncToken>
+  <MetaData>
+     <CreateTime>2012-05-10T11:53:14-07:00</CreateTime>
+     <LastUpdatedTime>2012-05-10T11:53:16-07:00</LastUpdatedTime>
+  </MetaData>
+  <Lat>25.293112341223</Lat>
+  <Long>-21.3253249834</Long>
+  <Note>This is an attached note.</Note>
+  <Tag>Create Attachable with Note with update.</Tag>
+  <PlaceName>Mountain View</PlaceName>
+  <AttachableRef>
+      <EntityRef type="Vendor">10576</EntityRef>
+  </AttachableRef>
+</Attachable>

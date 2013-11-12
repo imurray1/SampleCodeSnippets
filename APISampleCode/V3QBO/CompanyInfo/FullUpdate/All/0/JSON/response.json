@@ -1,0 +1,57 @@
+{
+    "CompanyInfo": {
+        "CompanyName": "K7v6qCorp.",
+        "LegalName": "K7v6qLegal Corp.",
+        "CompanyAddr": {
+            "Id": "1",
+            "Line1": "K7v6q Something Street",
+            "Line2": "ApartmentK7v6q",
+            "City": "SunnyvaleK7v6q",
+            "Country": "USA",
+            "PostalCode": "94085",
+            "Lat": "37.3895297",
+            "Long": "-122.0183914"
+        },
+        "CustomerCommunicationAddr": {
+            "Id": "3",
+            "Line1": "K7v6q Something Street Customer Comm",
+            "Line2": "ApartmentK7v6q",
+            "City": "SunnyvaleK7v6q",
+            "Country": "USA",
+            "PostalCode": "94085",
+            "Lat": "37.3895297",
+            "Long": "-122.0183914"
+        },
+        "LegalAddr": {
+            "Id": "2",
+            "Line1": "K7v6q Something Street Legal",
+            "Line2": "ApartmentK7v6q",
+            "City": "SunnyvaleK7v6q",
+            "Country": "USA",
+            "PostalCode": "94085",
+            "Lat": "37.3895297",
+            "Long": "-122.0183914"
+        },
+        "PrimaryPhone": {
+            "FreeFormNumber": "6192098978"
+        },
+        "CompanyStartDate": "2012-06-01",
+        "Country": "US",
+        "Email": {
+            "Address": "abc@intuit.com"
+        },
+        "WebAddr": {
+            "URI": "http://www.intuitK7v6q.com"
+        },
+        "SupportedLanguages": "en",
+        "domain": "QBO",
+        "sparse": false,
+        "Id": "1",
+        "SyncToken": "8",
+        "MetaData": {
+            "CreateTime": "2012-06-01T17:17:42-07:00",
+            "LastUpdatedTime": "2012-07-20T18:13:02-07:00"
+        }
+    },
+    "time": "2013-03-15T09:38:58.155-07:00"
+}

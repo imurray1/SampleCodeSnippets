@@ -1,0 +1,14 @@
+<CreditMemo xmlns="http://schema.intuit.com/finance/v3">
+   <TxnDate>2013-07-11</TxnDate>
+   <PrivateNote>CreditMemo UK Date test</PrivateNote>
+   <Line>
+      <Amount>50</Amount>
+      <DetailType>SalesItemLineDetail</DetailType>
+      <SalesItemLineDetail>
+         <ItemRef>6</ItemRef>
+         <TaxCodeRef>2</TaxCodeRef>
+      </SalesItemLineDetail>
+   </Line>
+   <CustomerRef>4</CustomerRef>
+   <ShipDate>2013-07-11</ShipDate>
+</CreditMemo>

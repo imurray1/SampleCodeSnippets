@@ -1,0 +1,58 @@
+{
+"QueryResponse":
+    {
+        "Item":[
+            {
+                "Name":"Office Supplies 1",
+                "Active":true,
+                "Taxable":false,
+                "UnitPrice":0,
+                "Type":"Service",
+                "PurchaseCost":0,
+                "TrackQtyOnHand":false,
+                "domain":"QBO",
+                "sparse":false,
+                "Id":"6",
+                "SyncToken":"0",
+                "MetaData":
+                {
+                    "CreateTime":"2013-02-19T14:26:05-08:00",
+                    "LastUpdatedTime":"2013-02-19T14:26:05-08:00"
+                }
+            },
+            {
+                "Name":"Office Supplies 2",
+                "Description":"Supplies for the office.",
+                "Active":true,
+                "Taxable":true,
+                "UnitPrice":100.0000000,
+                "Type":"Service",
+                "IncomeAccountRef":
+                {
+                    "value":"1",
+                    "name":"IncomeAccountRef"
+                },
+                "PurchaseDesc":"This is of one cost",
+                "PurchaseCost":1,
+                "ExpenseAccountRef":
+                {
+                    "value":"9",
+                    "name":"ExpenseAccountRef"
+                },
+                "TrackQtyOnHand":false,
+                "domain":"QBO",
+                "sparse":false,
+                "Id":"7",
+                "SyncToken":"0",
+                "MetaData":
+                {
+                    "CreateTime":"2013-02-19T14:28:43-08:00",
+                    "LastUpdatedTime":"2013-02-19T14:28:43-08:00"
+                }
+            }
+        ],
+        "startPosition":1,
+        "maxResults":2
+    },
+    "time":"2013-03-13T17:09:31.330-07:00"
+}

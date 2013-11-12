@@ -1,0 +1,16 @@
+{ 
+"AttachableRef" : [ 
+{ 
+  "EntityRef" : { "type" : "Vendor",
+            "value" : "1057"
+          },
+        "IncludeOnSend" : "false"
+      } ],
+  "Lat" : "25.293189023",
+  "Long" : "-21.3253249834",
+  "Note" : "This is an attached note.",
+  "PlaceName" : "Mountain View",
+  "Tag" : "Create Attachable with Note",
+  "domain" : "QBO",
+  "sparse" : false
+}

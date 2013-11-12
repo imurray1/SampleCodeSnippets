@@ -1,0 +1,5 @@
+<IntuitResponse xmlns="http://schema.intuit.com/finance/v3" time="2013-07-11T08:32:38.841-07:00">
+   <CreditMemo domain="QBO" status="Deleted">
+      <Id>53</Id>
+   </CreditMemo>
+</IntuitResponse>

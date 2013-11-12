@@ -1,0 +1,23 @@
+<TimeActivity xmlns="http://schema.intuit.com/finance/v3" domain="QBO" sparse="false">
+   <Id>2</Id>
+   <SyncToken>0</SyncToken>
+   <MetaData>
+      <CreateTime>2013-07-11T17:26:11-07:00</CreateTime>
+      <LastUpdatedTime>2013-07-11T17:26:11-07:00</LastUpdatedTime>
+   </MetaData>
+   <TxnDate>2013-01-29</TxnDate>
+   <NameOf>Vendor</NameOf>
+   <VendorRef>61</VendorRef>
+   <CustomerRef>60</CustomerRef>
+   <DepartmentRef>3</DepartmentRef>
+   <ItemRef>4</ItemRef>
+   <ClassRef>100100000000000321233</ClassRef>
+   <BillableStatus>Billable</BillableStatus>
+   <Taxable>false</Taxable>
+   <HourlyRate>400</HourlyRate>
+   <BreakHours>2</BreakHours>
+   <BreakMinutes>30</BreakMinutes>
+   <StartTime>2013-01-29T06:00:00-08:00</StartTime>
+   <EndTime>2013-01-29T18:00:00-08:00</EndTime>
+   <Description>Single activity update time sheet</Description>
+</TimeActivity>

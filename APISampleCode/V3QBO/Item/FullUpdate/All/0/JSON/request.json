@@ -1,0 +1,30 @@
+{
+"Name":"Paper",
+    "Description":"This is the sales description.",
+    "Active":true,
+    "Taxable":true,
+    "UnitPrice":150,
+    "Type":"Service",
+    "IncomeAccountRef":
+    {
+        "value":"63",
+        "name":"IncomeAccountRef"
+    },
+    "PurchaseDesc":"This is the purchasing description.",
+    "PurchaseCost":35,
+    "ExpenseAccountRef":
+    {
+        "value":"62",
+        "name":"ExpenseAccountRef"
+    },
+    "TrackQtyOnHand":false,
+    "domain":"QBO",
+    "sparse":false,
+    "Id":"16",
+    "SyncToken":"0",
+    "MetaData":
+    {
+        "CreateTime":"2013-03-13T15:38:58-07:00",
+        "LastUpdatedTime":"2013-03-13T15:38:58-07:00"
+    }
+}

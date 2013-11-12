@@ -1,0 +1,156 @@
+<IntuitResponse xmlns="http://schema.intuit.com/finance/v3" time="2013-07-11T17:35:27.634-07:00">
+   <Preferences domain="QBO" sparse="false">
+      <Id>1</Id>
+      <SyncToken>2</SyncToken>
+      <MetaData>
+         <CreateTime>2013-04-20T10:32:18-07:00</CreateTime>
+         <LastUpdatedTime>2013-07-11T17:31:39-07:00</LastUpdatedTime>
+      </MetaData>
+      <AccountingInfoPrefs>
+         <CustomerTerminology>customer</CustomerTerminology>
+      </AccountingInfoPrefs>
+      <ProductAndServicesPrefs>
+         <ForSales>true</ForSales>
+         <ForPurchase>true</ForPurchase>
+         <QuantityWithPriceAndRate>true</QuantityWithPriceAndRate>
+         <QuantityOnHand>true</QuantityOnHand>
+      </ProductAndServicesPrefs>
+      <SalesFormsPrefs>
+         <CustomField xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="BooleanTypeCustomFieldDefinition">
+            <CustomField>
+               <Name>SalesFormsPrefs.UseSalesCustom3</Name>
+               <Type>BooleanType</Type>
+               <BooleanValue>true</BooleanValue>
+            </CustomField>
+            <CustomField>
+               <Name>SalesFormsPrefs.UseSalesCustom2</Name>
+               <Type>BooleanType</Type>
+               <BooleanValue>true</BooleanValue>
+            </CustomField>
+            <CustomField>
+               <Name>SalesFormsPrefs.UseSalesCustom1</Name>
+               <Type>BooleanType</Type>
+               <BooleanValue>true</BooleanValue>
+            </CustomField>
+         </CustomField>
+         <CustomField xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="StringTypeCustomFieldDefinition">
+            <CustomField>
+               <Name>SalesFormsPrefs.PrintOrderSalesCustom3</Name>
+               <Type>StringType</Type>
+               <StringValue>3</StringValue>
+            </CustomField>
+            <CustomField>
+               <Name>SalesFormsPrefs.SalesCustomName3</Name>
+               <Type>StringType</Type>
+               <StringValue>Custom 3</StringValue>
+            </CustomField>
+            <CustomField>
+               <Name>SalesFormsPrefs.PrintOrderSalesCustom2</Name>
+               <Type>StringType</Type>
+               <StringValue>2</StringValue>
+            </CustomField>
+            <CustomField>
+               <Name>SalesFormsPrefs.PrintOrderSalesCustom1</Name>
+               <Type>StringType</Type>
+               <StringValue>1</StringValue>
+            </CustomField>
+            <CustomField>
+               <Name>SalesFormsPrefs.SalesCustomName1</Name>
+               <Type>StringType</Type>
+               <StringValue>Custom 1</StringValue>
+            </CustomField>
+            <CustomField>
+               <Name>SalesFormsPrefs.SalesCustomName2</Name>
+               <Type>StringType</Type>
+               <StringValue>Custom 2</StringValue>
+            </CustomField>
+         </CustomField>
+         <CustomTxnNumbers>false</CustomTxnNumbers>
+         <AllowDeposit>true</AllowDeposit>
+         <AllowDiscount>true</AllowDiscount>
+         <AllowEstimates>true</AllowEstimates>
+         <IPNSupportEnabled>false</IPNSupportEnabled>
+         <AllowServiceDate>true</AllowServiceDate>
+         <AllowShipping>true</AllowShipping>
+         <DefaultTerms>3</DefaultTerms>
+      </SalesFormsPrefs>
+      <VendorAndPurchasesPrefs>
+         <TrackingByCustomer>true</TrackingByCustomer>
+         <BillableExpenseTracking>true</BillableExpenseTracking>
+         <DefaultTerms name="Net 30">3</DefaultTerms>
+         <DefaultMarkup>10</DefaultMarkup>
+         <POCustomField xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="BooleanTypeCustomFieldDefinition">
+            <CustomField>
+               <Name>PurchasePrefs.UsePurchaseCustom3</Name>
+               <Type>BooleanType</Type>
+               <BooleanValue>true</BooleanValue>
+            </CustomField>
+            <CustomField>
+               <Name>PurchasePrefs.UsePurchaseCustom2</Name>
+               <Type>BooleanType</Type>
+               <BooleanValue>true</BooleanValue>
+            </CustomField>
+            <CustomField>
+               <Name>PurchasePrefs.UsePurchaseCustom1</Name>
+               <Type>BooleanType</Type>
+               <BooleanValue>true</BooleanValue>
+            </CustomField>
+         </POCustomField>
+         <POCustomField xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="StringTypeCustomFieldDefinition">
+            <CustomField>
+               <Name>PurchasePrefs.PurchaseCustomName3</Name>
+               <Type>StringType</Type>
+               <StringValue>Custom 3</StringValue>
+            </CustomField>
+            <CustomField>
+               <Name>PurchasePrefs.PurchaseCustomName2</Name>
+               <Type>StringType</Type>
+               <StringValue>Custom 2</StringValue>
+            </CustomField>
+            <CustomField>
+               <Name>PurchasePrefs.PurchaseCustomName1</Name>
+               <Type>StringType</Type>
+               <StringValue>Custom 1</StringValue>
+            </CustomField>
+            <CustomField>
+               <Name>PurchasePrefs.PrintOrderPurchaseCustom2</Name>
+               <Type>StringType</Type>
+               <StringValue>2</StringValue>
+            </CustomField>
+            <CustomField>
+               <Name>PurchasePrefs.PrintOrderPurchaseCustom3</Name>
+               <Type>StringType</Type>
+               <StringValue>3</StringValue>
+            </CustomField>
+            <CustomField>
+               <Name>PurchasePrefs.PrintOrderPurchaseCustom1</Name>
+               <Type>StringType</Type>
+               <StringValue>1</StringValue>
+            </CustomField>
+         </POCustomField>
+      </VendorAndPurchasesPrefs>
+      <TimeTrackingPrefs>
+         <UseServices>true</UseServices>
+         <BillCustomers>true</BillCustomers>
+         <ShowBillRateToAll>true</ShowBillRateToAll>
+         <WorkWeekStartDate>Sunday</WorkWeekStartDate>
+         <MarkTimeEntriesBillable>true</MarkTimeEntriesBillable>
+      </TimeTrackingPrefs>
+      <TaxPrefs>
+         <UsingSalesTax>true</UsingSalesTax>
+      </TaxPrefs>
+      <CurrencyPrefs>
+         <MultiCurrencyEnabled>false</MultiCurrencyEnabled>
+         <HomeCurrency>USD</HomeCurrency>
+      </CurrencyPrefs>
+      <OtherPrefs>
+         <NameValue>
+            <Name>SalesFormsPrefs.DefaultCustomerMessage</Name>
+         </NameValue>
+         <NameValue>
+            <Name>SalesFormsPrefs.DefaultItem</Name>
+            <Value>1</Value>
+         </NameValue>
+      </OtherPrefs>
+   </Preferences>
+</IntuitResponse>

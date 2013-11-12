@@ -1,0 +1,22 @@
+{ "QueryResponse":
+{
+   "PaymentMethod":[
+      {
+         "Name":"PM-Update-1373580946332",
+         "Active":true,
+         "Type":"CREDIT_CARD",
+         "domain":"QBO",
+         "sparse":false,
+         "Id":"14",
+         "SyncToken":"2",
+         "MetaData":{
+            "CreateTime":"2013-07-11T15:12:41-07:00",
+            "LastUpdatedTime":"2013-07-11T15:12:42-07:00"
+         }
+      }
+   ],
+   "startPosition":1,
+   "maxResults":1
+},
+"time":"2013-07-11T15:15:47.637-07:00"
+}

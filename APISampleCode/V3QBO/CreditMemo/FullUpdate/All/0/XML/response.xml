@@ -1,0 +1,89 @@
+<IntuitResponse xmlns="http://schema.intuit.com/finance/v3" time="2013-07-11T08:32:36.135-07:00">
+   <CreditMemo domain="QBO" sparse="false">
+      <Id>53</Id>
+      <SyncToken>1</SyncToken>
+      <MetaData>
+         <CreateTime>2013-07-11T08:29:31-07:00</CreateTime>
+         <LastUpdatedTime>2013-07-11T08:29:32-07:00</LastUpdatedTime>
+      </MetaData>
+      <CustomField>
+         <Name>Custom 1</Name>
+         <Type>StringType</Type>
+      </CustomField>
+      <CustomField>
+         <Name>Custom 2</Name>
+         <Type>StringType</Type>
+      </CustomField>
+      <CustomField>
+         <Name>Custom 3</Name>
+         <Type>StringType</Type>
+      </CustomField>
+      <DocNumber>1018</DocNumber>
+      <TxnDate>2013-07-11</TxnDate>
+      <DepartmentRef name="TimeActivity DepartmentRxlKzF89">5</DepartmentRef>
+      <PrivateNote>CreditMemo Update</PrivateNote>
+      <Line>
+         <Id>1</Id>
+         <LineNum>1</LineNum>
+         <Description>QBO</Description>
+         <Amount>9999.00</Amount>
+         <DetailType>SalesItemLineDetail</DetailType>
+         <SalesItemLineDetail>
+            <ItemRef name="Sales">1</ItemRef>
+            <UnitPrice>9999</UnitPrice>
+            <Qty>1</Qty>
+            <TaxCodeRef>NON</TaxCodeRef>
+         </SalesItemLineDetail>
+      </Line>
+      <Line>
+         <Amount>9999.00</Amount>
+         <DetailType>SubTotalLineDetail</DetailType>
+         <SubTotalLineDetail />
+      </Line>
+      <Line>
+         <Amount>999.90</Amount>
+         <DetailType>DiscountLineDetail</DetailType>
+         <DiscountLineDetail>
+            <PercentBased>true</PercentBased>
+            <DiscountPercent>10</DiscountPercent>
+            <DiscountAccountRef name="Discounts given">30</DiscountAccountRef>
+         </DiscountLineDetail>
+      </Line>
+      <TxnTaxDetail>
+         <TotalTax>0</TotalTax>
+      </TxnTaxDetail>
+      <CustomerRef name="v7c1dtldWt EO1SpKNAq7">72</CustomerRef>
+      <CustomerMemo>CreditMemo with customer</CustomerMemo>
+      <BillAddr>
+         <Id>56</Id>
+         <Line1>2700 Garcia Avenue</Line1>
+         <City>Mountain View</City>
+         <Country>USA</Country>
+         <CountrySubDivisionCode>CA</CountrySubDivisionCode>
+         <PostalCode>94043</PostalCode>
+         <Lat>37.4276176</Lat>
+         <Long>-122.0993439</Long>
+      </BillAddr>
+      <ShipAddr>
+         <Id>57</Id>
+         <Line1>4520 Casey Avenue</Line1>
+         <City>Mountain View</City>
+         <Country>USA</Country>
+         <CountrySubDivisionCode>CA</CountrySubDivisionCode>
+         <PostalCode>94043</PostalCode>
+         <Lat>37.432294</Lat>
+         <Long>-122.1002581</Long>
+      </ShipAddr>
+      <ShipDate>2012-04-18</ShipDate>
+      <TrackingNum>1232</TrackingNum>
+      <TotalAmt>8999.10</TotalAmt>
+      <ApplyTaxAfterDiscount>false</ApplyTaxAfterDiscount>
+      <PrintStatus>NeedToPrint</PrintStatus>
+      <EmailStatus>NeedToSend</EmailStatus>
+      <BillEmail>
+         <Address>test@abc.com</Address>
+      </BillEmail>
+      <Balance>8999.10</Balance>
+      <RemainingCredit>8999.10</RemainingCredit>
+   </CreditMemo>
+</IntuitResponse>

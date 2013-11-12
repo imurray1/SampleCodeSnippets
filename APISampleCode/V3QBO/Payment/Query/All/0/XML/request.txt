@@ -1,0 +1,1 @@
+select * from Payment where id = '8748'

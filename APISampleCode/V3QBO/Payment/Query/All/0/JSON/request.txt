@@ -1,0 +1,1 @@
+select * from Payment Where Metadata.LastUpdatedTime>'2013-03-13T14:50:22-08:00' Order By Metadata.LastUpdatedTime

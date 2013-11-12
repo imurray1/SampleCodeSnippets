@@ -1,0 +1,73 @@
+{
+    Taxable: false,
+    BillAddr: {
+        Id: "16",
+        Line1: "Google",
+        Line2: "Building 1",
+        Line3: "123 street",
+        Line4: "Dept 12",
+        Line5: "Cube 999",
+        City: "Mountain View",
+        Country: "USA",
+        CountrySubDivisionCode: "CA",
+        PostalCode: "95123",
+        Lat: "37.2374847",
+        Long: "-121.8277925"
+    },
+    ShipAddr: {
+        Id: "17",
+        Line1: "Intuit",
+        Line2: "Building 1",
+        Line3: "123 street",
+        Line4: "Dept 12",
+        Line5: "Cube 999",
+        City: "San Jose",
+        Country: "USA",
+        CountrySubDivisionCode: "CA",
+        PostalCode: "95123",
+        Lat: "37.2374847",
+        Long: "-121.8277925"
+    },
+    Notes: "Contact if urgent",
+    Job: false,
+    BillWithParent: false,
+    SalesTermRef: {
+        value: "1"
+    },
+    PaymentMethodRef: {
+        value: "1"
+    },
+    Balance: 0,
+    BalanceWithJobs: 0,
+    PreferredDeliveryMethod: "Print",
+    ResaleNum: "123",
+    domain: "QBO",
+    sparse: false,
+    Title: "Mr.",
+    GivenName: "Bill",
+    MiddleName: "Jr.",
+    FamilyName: "Billy",
+    Suffix: "3rd",
+    FullyQualifiedName: "Peter Griffin Jr",
+    CompanyName: "Intuit",
+    DisplayName: "Peter G. Griffin ",
+    PrintOnCheckName: "00FPMiL2Lb",
+    Active: true,
+    PrimaryPhone: {
+        FreeFormNumber: "123456789012345678901"
+    },
+    AlternatePhone: {
+        FreeFormNumber: "012345678901234567890"
+    },
+    Mobile: {
+        FreeFormNumber: "234567890123456789012"
+    },
+    Fax: {
+        FreeFormNumber: "345678901234567890123"
+    },
+    PrimaryEmailAddr: {
+        Address: "abc@intuit.com"
+    },
+    WebAddr: {
+        URI: "http://www.intuit.com"
+    }

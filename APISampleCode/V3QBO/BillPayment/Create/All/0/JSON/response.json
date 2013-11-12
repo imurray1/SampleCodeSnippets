@@ -1,0 +1,39 @@
+{
+  "BillPayment": {
+    "VendorRef": {
+      "value": "32",
+      "name": "Computer Services by DJ"
+    },
+    "PayType": "Check",
+    "CheckPayment": {
+      "BankAccountRef": {
+        "value": "133",
+        "name": "Barter Account"
+      },
+      "PrintStatus": "NeedToPrint"
+    },
+    "TotalAmt": 75.0,
+    "domain": "QBO",
+    "sparse": false,
+    "Id": "844",
+    "SyncToken": "0",
+    "MetaData": {
+      "CreateTime": "2013-10-18T15:15:12-07:00",
+      "LastUpdatedTime": "2013-10-18T15:15:12-07:00"
+    },
+    "TxnDate": "2013-10-18",
+    "PrivateNote": "Acct. 1JK90",
+    "Line": [
+      {
+        "Amount": 75.0,
+        "LinkedTxn": [
+          {
+            "TxnId": "4",
+            "TxnType": "Bill"
+          }
+        ]
+      }
+    ]
+  },
+  "time": "2013-10-18T15:15:11.925-07:00"
+}

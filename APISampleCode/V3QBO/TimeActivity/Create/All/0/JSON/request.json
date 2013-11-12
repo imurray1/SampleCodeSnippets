@@ -1,0 +1,29 @@
+{
+   "TxnDate":"2013-01-28",
+   "NameOf":"Vendor",
+   "VendorRef":{
+      "value":"61"
+   },
+   "CustomerRef":{
+      "value":"60"
+   },
+   "DepartmentRef":{
+      "value":"3"
+   },
+   "ItemRef":{
+      "value":"4"
+   },
+   "ClassRef":{
+      "value":"100100000000000321202"
+   },
+   "BillableStatus":"Billable",
+   "Taxable":true,
+   "HourlyRate":251,
+   "BreakHours":1,
+   "BreakMinutes":0,
+   "StartTime":"2013-01-28T08:00:00-08:00",
+   "EndTime":"2013-01-28T17:00:00-08:00",
+   "Description":"Single activity time sheet",
+   "domain":"QBO",
+   "sparse":false
+}

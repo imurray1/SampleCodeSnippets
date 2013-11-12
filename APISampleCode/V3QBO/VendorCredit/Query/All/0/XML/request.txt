@@ -1,0 +1,1 @@
+select * from VendorCredit where Id = '9'

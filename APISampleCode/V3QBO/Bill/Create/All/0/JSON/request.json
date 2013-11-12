@@ -1,0 +1,86 @@
+{
+    "SalesTermRef":
+    {
+        "value":"3"
+    },
+    "DueDate":"2013-06-09",
+    "domain":"QBO",
+    "sparse":false,
+    "DocNumber":"9876",
+    "PrivateNote":"This the memo.",
+    "Line":[
+        {
+            "Id":"1",
+            "Description":"For Advertising",
+            "Amount":200.00,
+            "DetailType":"AccountBasedExpenseLineDetail",
+            "AccountBasedExpenseLineDetail":
+            {
+                "CustomerRef":
+                {
+                    "value":"407",
+                    "name":"Customer 1"
+                },
+                "ClassRef":
+                {
+                    "value":"100100000000000212510",
+                    "name":"Class 1"
+                },
+                "AccountRef":
+                {
+                    "value":"8",
+                    "name":"Advertising"
+                },
+                "BillableStatus":"Billable",
+                "MarkupInfo":
+                {
+                    "Percent":10
+                },
+                "TaxCodeRef":
+                {
+                    "value":"TAX"
+                }
+            }
+        },
+        {
+            "Id":"2",
+            "Description":"For Sunflowers",
+            "Amount":5.00,
+            "DetailType":"ItemBasedExpenseLineDetail",
+            "ItemBasedExpenseLineDetail":
+            {
+                "BillableStatus":"NotBillable",
+                "ItemRef":
+                {
+                    "value":"3",
+                    "name":"Sunflowers"
+                },
+                "UnitPrice":5,
+                "Qty":1,
+                "TaxCodeRef":
+                {
+                    "value":"NON"
+                }
+            },
+            "AccountBasedExpenseLineDetail":
+            {
+                "AccountRef":
+                {
+                    "value":"60",
+                    "name":"Purchases"
+                }
+            }
+        }
+    ],
+    "VendorRef":
+    {
+        "value":"52",
+        "name":"Test Vendor 1"
+    },
+    "APAccountRef":
+    {
+        "value":"59",
+        "name":"Accounts Payable (A/P)"
+    },
+    "TotalAmt":205.00
+}

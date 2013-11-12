@@ -1,0 +1,19 @@
+<Purchase xmlns="http://schema.intuit.com/finance/v3" sparse="false">
+  <Id>3040</Id>
+  <SyncToken>0</SyncToken>
+  <MetaData>
+    <CreateTime>2013-04-09T03:25:50-07:00</CreateTime>
+    <LastUpdatedTime>2013-04-09T03:25:50-07:00</LastUpdatedTime>
+  </MetaData>
+  <TxnDate>2012-06-18</TxnDate>
+  <PrivateNote>Purchase-wMnU7DVsyI</PrivateNote>
+  <Line>
+    <Amount>300.00</Amount>
+    <DetailType>AccountBasedExpenseLineDetail</DetailType>
+    <AccountBasedExpenseLineDetail>
+      <AccountRef name="Test Purchase Expense Account">55</AccountRef>
+    </AccountBasedExpenseLineDetail>
+  </Line>
+  <AccountRef name="Test Purchase Bank Account">53</AccountRef>
+  <PaymentType>Cash</PaymentType>
+</Purchase>

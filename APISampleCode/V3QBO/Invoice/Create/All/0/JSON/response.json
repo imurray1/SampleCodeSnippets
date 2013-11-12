@@ -1,0 +1,66 @@
+{
+    "Invoice":
+    {
+        "Deposit":0,
+        "AllowIPNPayment":false,
+        "domain":"QBO",
+        "sparse":false,
+        "Id":"65",
+        "SyncToken":"0",
+        "MetaData":
+        {
+            "CreateTime":"2013-03-20T05:28:05-07:00",
+            "LastUpdatedTime":"2013-03-20T05:28:05-07:00"
+        },
+        "DocNumber":"custom txnServices 15",
+        "TxnDate":"2013-03-20",
+        "CurrencyRef":
+        {
+            "value":"USD",
+            "name":"United States Dollar"
+        },
+        "Line":[
+            {
+                "Id":"1",
+                "LineNum":1,
+                "Amount":100.00,
+                "DetailType":"SalesItemLineDetail",
+                "SalesItemLineDetail":
+                {
+                    "ItemRef":
+                    {
+                        "value":"1",
+                        "name":"Services"
+                    },
+                    "TaxCodeRef":
+                    {
+                        "value":"NON"
+                    }
+                }
+            },
+            {
+                "Amount":100.00,
+                "DetailType":"SubTotalLineDetail",
+                "SubTotalLineDetail":
+                {
+                }
+            }
+        ],
+        "TxnTaxDetail":
+        {
+            "TotalTax":0
+        },
+        "CustomerRef":
+        {
+            "value":"21",
+            "name":"V3 Sample Customer"
+        },
+        "DueDate":"2013-04-19",
+        "TotalAmt":100.00,
+        "ApplyTaxAfterDiscount":false,
+        "PrintStatus":"NeedToPrint",
+        "EmailStatus":"NotSet",
+        "Balance":100.00
+    },
+    "time":"2013-03-20T05:28:04.700-07:00"
+}

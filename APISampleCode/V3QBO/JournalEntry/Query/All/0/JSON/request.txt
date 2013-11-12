@@ -1,0 +1,1 @@
+select * from JournalEntry Where Metadata.LastUpdatedTime>'2015-10-31T00:00:00-07:00' Order By Metadata.LastUpdatedTime

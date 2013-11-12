@@ -1,0 +1,4 @@
+<BillPayment xmlns="http://schema.intuit.com/finance/v3" domain="QBO" sparse="true">
+    <Id>839</Id>
+    <SyncToken>3</SyncToken>
+  </BillPayment>

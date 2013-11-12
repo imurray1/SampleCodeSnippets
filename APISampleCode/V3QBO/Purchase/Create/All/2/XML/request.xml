@@ -1,0 +1,20 @@
+<Purchase xmlns="http://schema.intuit.com/finance/v3" sparse="false">
+  <ExchangeRate>1</ExchangeRate>
+  <Line>
+    <Id>1</Id>
+    <Description>this is description only.</Description>
+    <Amount>0</Amount>
+    <DetailType>AccountBasedExpenseLineDetail</DetailType>
+    <AccountBasedExpenseLineDetail>
+      <AccountRef name="Advertising">60</AccountRef>
+      <BillableStatus>NotBillable</BillableStatus>
+      <TaxCodeRef>NON</TaxCodeRef>
+    </AccountBasedExpenseLineDetail>
+  </Line>
+  <AccountRef name="Test Purchase Credit Card Account">64</AccountRef>
+  <PaymentType>CreditCard</PaymentType>
+  <EntityRef name="Mr V3 Service Customer Jr2">1</EntityRef>
+  <Credit>false</Credit>
+  <TotalAmt>0</TotalAmt>
+  <GlobalTaxCalculation>TaxExcluded</GlobalTaxCalculation>
+</Purchase>

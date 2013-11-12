@@ -1,0 +1,22 @@
+{ "Account" : { "AccountSubType" : "AccountsReceivable",
+      "AccountType" : "Accounts Receivable",
+      "Active" : true,
+      "Classification" : "Asset",
+      "CurrencyRef" : { "name" : "United States Dollar",
+          "value" : "USD"
+        },
+      "CurrentBalance" : 0,
+      "CurrentBalanceWithSubAccounts" : 0,
+      "FullyQualifiedName" : "HtCXoLdDTnGaJ6tqSKvF",
+      "Id" : "51",
+      "MetaData" : { "CreateTime" : "2013-04-09T03:23:02-07:00",
+          "LastUpdatedTime" : "2013-04-09T03:23:02-07:00"
+        },
+      "Name" : "HtCXoLdDTnGaJ6tqSKvF",
+      "SubAccount" : false,
+      "SyncToken" : "0",
+      "domain" : "QBO",
+      "sparse" : false
+    },
+  "time" : "2013-04-09T03:23:21.277-07:00"
+}

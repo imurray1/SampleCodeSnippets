@@ -1,0 +1,44 @@
+{
+    "CompanyInfo": {
+        "CompanyName": "V3 JSON",
+        "LegalName": "V3 JSON",
+        "CompanyAddr": {
+            "Id": "1",
+            "Line1": "2600 Casey Ave\nMountain View",
+            "City": "Mountain View",
+            "CountrySubDivisionCode": "CA",
+            "PostalCode": "94151"
+        },
+        "CustomerCommunicationAddr": {
+            "Id": "1",
+            "Line1": "2600 Casey Ave\nMountain View",
+            "City": "Mountain View",
+            "CountrySubDivisionCode": "CA",
+            "PostalCode": "94151"
+        },
+        "LegalAddr": {
+            "Id": "1",
+            "Line1": "2600 Casey Ave\nMountain View",
+            "City": "Mountain View",
+            "CountrySubDivisionCode": "CA",
+            "PostalCode": "94151"
+        },
+        "PrimaryPhone": {},
+        "CompanyStartDate": "2012-06-01",
+        "Country": "US",
+        "Email": {
+            "Address": "abc@intuit.com"
+        },
+        "WebAddr": {},
+        "SupportedLanguages": "en",
+        "domain": "QBO",
+        "sparse": false,
+        "Id": "1",
+        "SyncToken": "7",
+        "MetaData": {
+            "CreateTime": "2012-06-01T17:17:42-07:00",
+            "LastUpdatedTime": "2012-07-20T18:13:02-07:00"
+        }
+    },
+    "time": "2013-03-15T09:38:57.952-07:00"
+}

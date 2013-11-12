@@ -1,0 +1,1 @@
+select id from Account where active = false order by metadata.lastupdatedtime desc

@@ -1,0 +1,55 @@
+{
+    Customer: {
+        Taxable: false,
+        BillAddr: {
+            Id: "20",
+            Line1: "Intuit",
+            Line2: "Building 1",
+            Line3: "345 st",
+            Line4: "Dept 12",
+            Line5: "Cube 999",
+            City: "Mountain View",
+            Country: "USA",
+            CountrySubDivisionCode: "CA",
+            PostalCode: "95123",
+            Lat: "37.2374847",
+            Long: "-121.8277925"
+        },
+        ShipAddr: {
+            Id: "21",
+            Line1: "Intuit",
+            Line2: "Building 1",
+            Line3: "123 street",
+            Line4: "Dept 12",
+            Line5: "Cube 999",
+            City: "San Jose",
+            Country: "USA",
+            CountrySubDivisionCode: "CA",
+            PostalCode: "95123",
+            Lat: "37.2374847",
+            Long: "-121.8277925"
+        },
+        Job: false,
+        BillWithParent: false,
+        Balance: 0,
+        BalanceWithJobs: 0,
+        PreferredDeliveryMethod: "Print",
+        domain: "QBO",
+        sparse: false,
+        Id: "91",
+        SyncToken: "2",
+        MetaData: {
+            CreateTime: "2013-03-13T15:48:05-07:00",
+            LastUpdatedTime: "2013-03-13T16:22:35-07:00"
+        },
+        Title: "Mr.",
+        GivenName: "Bill",
+        MiddleName: "Jr.",
+        FamilyName: "Billy",
+        FullyQualifiedName: "Peter G. Griffin",
+        DisplayName: "Peter G. Griffin",
+        PrintOnCheckName: "Mr. Bill Jr. Billy",
+        Active: true
+    },
+    time: "2013-03-13T16:22:35.167-07:00"
+}

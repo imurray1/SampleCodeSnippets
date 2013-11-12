@@ -1,0 +1,29 @@
+{
+        "VendorRef":
+        {
+            "value":"32",
+            "name":"Computer Services by DJ"
+        },
+        "PayType":"Check",
+        "CheckPayment":
+        {
+            "BankAccountRef":
+            {
+                "value":"133",
+                "name":"Barter Account"
+            }
+        },
+        "TotalAmt":110.00,
+        "PrivateNote":"Acct. 1JK90",
+        "Line":[
+            {
+                "Amount":75.00,
+                "LinkedTxn":[
+                    {
+                        "TxnId":"4",
+                        "TxnType":"Bill"
+                    }
+                ]
+            }
+        ]
+    }

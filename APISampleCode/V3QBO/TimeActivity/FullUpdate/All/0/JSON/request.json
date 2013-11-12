@@ -1,0 +1,35 @@
+{
+   "TxnDate":"2013-01-29",
+   "NameOf":"Vendor",
+   "VendorRef":{
+      "value":"61"
+   },
+   "CustomerRef":{
+      "value":"60"
+   },
+   "DepartmentRef":{
+      "value":"3"
+   },
+   "ItemRef":{
+      "value":"4"
+   },
+   "ClassRef":{
+      "value":"100100000000000321202"
+   },
+   "BillableStatus":"Billable",
+   "Taxable":false,
+   "HourlyRate":400,
+   "BreakHours":2,
+   "BreakMinutes":30,
+   "StartTime":"2013-01-29T06:00:00-08:00",
+   "EndTime":"2013-01-29T18:00:00-08:00",
+   "Description":"Single activity update time sheet",
+   "domain":"QBO",
+   "sparse":false,
+   "Id":"2",
+   "SyncToken":"0",
+   "MetaData":{
+      "CreateTime":"2013-07-11T15:12:14-07:00",
+      "LastUpdatedTime":"2013-07-11T15:12:14-07:00"
+   }
+}

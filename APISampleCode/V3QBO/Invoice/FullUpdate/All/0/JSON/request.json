@@ -1,0 +1,42 @@
+{
+    "sparse":false,
+    "Id":"20",
+    "SyncToken":"0",
+    "MetaData":
+    {
+        "CreateTime":"2013-03-15T00:43:10-07:00",
+        "LastUpdatedTime":"2013-03-15T00:43:10-07:00"
+    },
+    "DocNumber":"1011",
+    "Line":[
+        {
+            "Id":"1",
+            "LineNum":1,
+            "Amount":10.00,
+            "Description":"update invoice line description",
+            "DetailType":"SalesItemLineDetail",
+            "SalesItemLineDetail":
+            {
+                "ItemRef":
+                {
+                    "value":"1",
+                    "name":"Sales"
+                },
+                "TaxCodeRef":
+                {
+                    "value":"NON"
+                }
+            }
+        }
+    ],
+    "CustomerRef":
+    {
+        "value":"4",
+        "name":"Mr V3 Service Customer Jr2"
+    },
+    "CustomerMemo":
+    {
+        "value":"This is a sample invoice with one sales line."
+    },
+    "DueDate":"2013-04-14"      
+}

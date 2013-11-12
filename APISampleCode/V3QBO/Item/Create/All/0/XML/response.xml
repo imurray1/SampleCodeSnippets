@@ -1,0 +1,24 @@
+<IntuitResponse xmlns="http://schema.intuit.com/finance/v3" time="2013-09-12T07:49:53.661-07:00">
+  <Item domain="QBO" sparse="false">
+    <Id>61</Id>
+    <SyncToken>0</SyncToken>
+    <MetaData>
+      <CreateTime>2013-09-12T07:49:53-07:00</CreateTime>
+      <LastUpdatedTime>2013-09-12T07:49:54-07:00</LastUpdatedTime>
+    </MetaData>
+    <Name>Office Supplies</Name>
+    <Description>This is the sales description.</Description>
+    <Active>true</Active>
+    <Taxable>true</Taxable>
+    <UnitPrice>25</UnitPrice>
+    <Type>Inventory</Type>
+    <IncomeAccountRef name="Sales of Product Income">140</IncomeAccountRef>
+    <PurchaseDesc>This is the purchasing description.</PurchaseDesc>
+    <PurchaseCost>35</PurchaseCost>
+    <ExpenseAccountRef name="Cost of Goods Sold">61</ExpenseAccountRef>
+    <AssetAccountRef name="Inventory Asset-1">139</AssetAccountRef>
+    <TrackQtyOnHand>true</TrackQtyOnHand>
+    <QtyOnHand>10</QtyOnHand>
+    <InvStartDate>2013-02-19</InvStartDate>
+  </Item>
+</IntuitResponse>

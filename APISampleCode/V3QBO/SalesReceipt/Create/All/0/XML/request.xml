@@ -1,0 +1,60 @@
+<SalesReceipt xmlns="http://schema.intuit.com/finance/v3" sparse="false">
+  <PrivateNote>Customer Sales Receipt</PrivateNote>
+  <Line>
+    <Description>Sales only</Description>
+    <Amount>5.00</Amount>
+    <DetailType>SalesItemLineDetail</DetailType>
+    <SalesItemLineDetail>
+      <ItemRef>1</ItemRef>
+      <UnitPrice>0.5</UnitPrice>
+      <Qty>10</Qty>
+      <TaxCodeRef>TAX</TaxCodeRef>
+    </SalesItemLineDetail>
+  </Line>
+  <Line>
+    <Amount>0.50</Amount>
+    <DetailType>DiscountLineDetail</DetailType>
+    <DiscountLineDetail>
+      <PercentBased>true</PercentBased>
+      <DiscountPercent>10</DiscountPercent>
+    </DiscountLineDetail>
+  </Line>
+  <TxnTaxDetail>
+    <TxnTaxCodeRef>9</TxnTaxCodeRef>
+    <TaxLine>
+      <Amount>0.75</Amount>
+      <DetailType>TaxLineDetail</DetailType>
+      <TaxLineDetail>
+        <TaxRateRef>18</TaxRateRef>
+        <PercentBased>true</PercentBased>
+        <TaxPercent>15</TaxPercent>
+        <NetAmountTaxable>5.00</NetAmountTaxable>
+      </TaxLineDetail>
+    </TaxLine>
+  </TxnTaxDetail>
+  <CustomerRef>1105</CustomerRef>
+  <CustomerMemo>Sales Receipt with customer</CustomerMemo>
+  <BillAddr>
+    <Line1>2500 Garcia Avenue</Line1>
+    <City>Mountain View</City>
+    <Country>USA</Country>
+    <CountrySubDivisionCode>CA</CountrySubDivisionCode>
+    <PostalCode>94043</PostalCode>
+  </BillAddr>
+  <ShipAddr>
+    <Line1>Ms. Anupama Madhavapeddi</Line1>
+    <Line2>Intuit Systems</Line2>
+    <Line3>3400 Garcia Avenue</Line3>
+    <Line4>Mountain View, CA 94043 USA</Line4>
+  </ShipAddr>
+  <ShipDate>2012-04-18</ShipDate>
+  <TrackingNum>1232</TrackingNum>
+  <TotalAmt>5.25</TotalAmt>
+  <ApplyTaxAfterDiscount>false</ApplyTaxAfterDiscount>
+  <PrintStatus>NotSet</PrintStatus>
+  <EmailStatus>NotSet</EmailStatus>
+  <BillEmail>
+    <Address>test@abc.com</Address>
+  </BillEmail>
+  <Balance>0</Balance>
+</SalesReceipt>
