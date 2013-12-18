@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<IntuitResponse xmlns="http://schema.intuit.com/finance/v3" time="2013-11-25T09:21:38.202-08:00">
+    <Employee domain="QBO" sparse="false">
+        <Id>48</Id>
+        <SyncToken>0</SyncToken>
+        <MetaData>
+            <CreateTime>2013-10-11T08:28:30-07:00</CreateTime>
+            <LastUpdatedTime>2013-10-11T08:28:30-07:00</LastUpdatedTime>
+        </MetaData>
+        <GivenName>Jenny</GivenName>
+        <FamilyName>Miller</FamilyName>
+        <DisplayName>Jenny Miller</DisplayName>
+        <PrintOnCheckName>Jenny Miller</PrintOnCheckName>
+        <Active>true</Active>
+        <PrimaryPhone>
+            <FreeFormNumber>525-7891</FreeFormNumber>
+        </PrimaryPhone>
+        <SSN>XXX-XX-XXXX</SSN>
+        <PrimaryAddr>
+            <Id>50</Id>
+            <Line1>45 N. Elm Street</Line1>
+            <City>Middlefield</City>
+            <CountrySubDivisionCode>CA</CountrySubDivisionCode>
+            <PostalCode>93242</PostalCode>
+        </PrimaryAddr>
+        <BillableTime>false</BillableTime>
+        <HiredDate>2014-11-01</HiredDate>
+    </Employee>
+</IntuitResponse>

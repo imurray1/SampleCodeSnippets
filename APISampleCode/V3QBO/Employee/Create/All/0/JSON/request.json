@@ -1,0 +1,18 @@
+{
+    "SSN": "444-55-6666",
+    "PrimaryAddr": {
+        "Id": "50",
+        "Line1": "45 N. Elm Street",
+        "City": "Middlefield",
+        "CountrySubDivisionCode": "CA",
+        "PostalCode": "93242"
+    },
+    "BillableTime": false,
+    "HiredDate": "2014-11-01",
+    "GivenName": "Jane",
+    "FamilyName": "Miller",
+    "DisplayName": "Jane Miller",
+    "PrintOnCheckName": "Jane Miller",
+    "Active": true,
+    "PrimaryPhone": {"FreeFormNumber": "525-123"}
+}

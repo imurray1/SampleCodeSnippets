@@ -1,0 +1,30 @@
+<IntuitResponse xmlns="http://schema.intuit.com/finance/v3" time="2013-12-03T13:26:39.530-08:00">
+    <QueryResponse startPosition="1" maxResults="1">
+        <Employee domain="QBO" sparse="false">
+            <Id>47</Id>
+            <SyncToken>0</SyncToken>
+            <MetaData>
+                <CreateTime>2013-03-01T11:50:00-08:00</CreateTime>
+                <LastUpdatedTime>2013-03-01T11:50:00-08:00</LastUpdatedTime>
+            </MetaData>
+            <GivenName>Duncan</GivenName>
+            <FamilyName>Fisher</FamilyName>
+            <DisplayName>Duncan Fisher</DisplayName>
+            <PrintOnCheckName>Duncan Fisher</PrintOnCheckName>
+            <Active>true</Active>
+            <PrimaryPhone>
+                <FreeFormNumber>555-3286</FreeFormNumber>
+            </PrimaryPhone>
+            <SSN>XXX-XX-XXXX</SSN>
+            <PrimaryAddr>
+                <Id>49</Id>
+                <Line1>331 Poplar Rd</Line1>
+                <City>Bayshore</City>
+                <CountrySubDivisionCode>CA</CountrySubDivisionCode>
+                <PostalCode>94326</PostalCode>
+            </PrimaryAddr>
+            <BillableTime>false</BillableTime>
+            <HiredDate>2016-06-15</HiredDate>
+        </Employee>
+    </QueryResponse>
+</IntuitResponse>

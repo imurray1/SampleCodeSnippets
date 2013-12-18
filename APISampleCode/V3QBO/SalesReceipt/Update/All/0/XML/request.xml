@@ -1,0 +1,72 @@
+<SalesReceipt xmlns="http://schema.intuit.com/finance/v3" sparse="false">
+    <Id>3084</Id>
+    <SyncToken>0</SyncToken>
+    <MetaData>
+        <CreateTime>2013-04-23T08:53:46-07:00</CreateTime>
+        <LastUpdatedTime>2013-04-23T08:53:46-07:00</LastUpdatedTime>
+    </MetaData>
+    <PrivateNote>Sales Receipt Update testing</PrivateNote>
+    <Line>
+        <Id>1</Id>
+        <Description>Sales only</Description>
+        <Amount>5.00</Amount>
+        <DetailType>SalesItemLineDetail</DetailType>
+        <SalesItemLineDetail>
+            <ItemRef name="Services">1</ItemRef>
+            <UnitPrice>0.5</UnitPrice>
+            <Qty>10</Qty>
+            <TaxCodeRef>TAX</TaxCodeRef>
+        </SalesItemLineDetail>
+    </Line>
+    <Line>
+        <Amount>5.00</Amount>
+        <DetailType>SubTotalLineDetail</DetailType>
+        <SubTotalLineDetail/>
+    </Line>
+    <Line>
+        <Amount>0.50</Amount>
+        <DetailType>DiscountLineDetail</DetailType>
+        <DiscountLineDetail>
+            <PercentBased>true</PercentBased>
+            <DiscountPercent>10</DiscountPercent>
+        </DiscountLineDetail>
+    </Line>
+    <TxnTaxDetail>
+        <TxnTaxCodeRef>9</TxnTaxCodeRef>
+        <TotalTax>0.75</TotalTax>
+        <TaxLine>
+            <Amount>0.75</Amount>
+            <DetailType>TaxLineDetail</DetailType>
+            <TaxLineDetail>
+                <TaxRateRef>18</TaxRateRef>
+                <PercentBased>true</PercentBased>
+                <TaxPercent>15</TaxPercent>
+                <NetAmountTaxable>5.00</NetAmountTaxable>
+            </TaxLineDetail>
+        </TaxLine>
+    </TxnTaxDetail>
+    <CustomerRef>1105</CustomerRef>
+    <CustomerMemo>Sales Receipt with customer</CustomerMemo>
+    <BillAddr>
+        <Line1>2700 Garcia Avenue</Line1>
+        <City>Mountain View</City>
+        <Country>USA</Country>
+        <CountrySubDivisionCode>CA</CountrySubDivisionCode>
+        <PostalCode>94043</PostalCode>
+    </BillAddr>
+    <ShipAddr>
+        <Line1>Ms. Anupama Madhavapeddi</Line1>
+        <Line2>Intuit Systems</Line2>
+        <Line3>3700 Garcia Avenue</Line3>
+        <Line4>Mountain View, CA 94043 USA</Line4>
+    </ShipAddr>
+    <ShipDate>2012-04-18</ShipDate>
+    <TrackingNum>1232</TrackingNum>
+    <ApplyTaxAfterDiscount>false</ApplyTaxAfterDiscount>
+    <PrintStatus>NeedToPrint</PrintStatus>
+    <EmailStatus>NeedToSend</EmailStatus>
+    <BillEmail>
+        <Address>test@abc.com</Address>
+    </BillEmail>
+    <Balance>0</Balance>
+</SalesReceipt>

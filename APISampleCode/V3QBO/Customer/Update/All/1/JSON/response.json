@@ -1,0 +1,24 @@
+{
+    Customer: {
+        Taxable: false,
+        Job: false,
+        BillWithParent: false,
+        Balance: 0,
+        BalanceWithJobs: 0,
+        PreferredDeliveryMethod: "Print",
+        domain: "QBO",
+        sparse: false,
+        Id: "92",
+        SyncToken: "0",
+        MetaData: {
+            CreateTime: "2013-03-13T16:26:53-07:00",
+            LastUpdatedTime: "2013-03-13T16:26:53-07:00"
+        },
+        MiddleName: "Mac",
+        FullyQualifiedName: "Mac",
+        DisplayName: "Mac",
+        PrintOnCheckName: "Mac",
+        Active: true
+    },
+    time: "2013-03-13T16:26:53.334-07:00"
+}

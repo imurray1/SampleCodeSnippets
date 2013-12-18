@@ -1,0 +1,6 @@
+<Customer xmlns="http://schema.intuit.com/finance/v3" domain="QBO" sparse="false">
+    <Id>20</Id>
+    <SyncToken>2</SyncToken>
+    <DisplayName>Abercrombie, Kristy</DisplayName>
+    <PrintOnCheckName>Mrs. Kristy Abercrombie</PrintOnCheckName>
+</Customer>

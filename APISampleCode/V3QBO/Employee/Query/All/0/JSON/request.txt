@@ -1,0 +1,1 @@
+select * from Employee Where Metadata.LastUpdatedTime >'2013-02-03T13:26:39.530-00:00' Order By MetaData

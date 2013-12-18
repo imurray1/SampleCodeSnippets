@@ -1,0 +1,38 @@
+{
+    "Employee":
+    {
+        "SSN":"XXX-XX-XXXX",
+        "PrimaryAddr":
+        {
+            "Id":"356",
+            "Line1":"45 N. Elm Street",
+            "City":"Middlefield",
+            "CountrySubDivisionCode":"CA",
+            "PostalCode":"93242",
+            "Lat":"37.4601027",
+            "Long":"-122.1523605"
+        },
+        "BillableTime":true,
+        "BillRate":50,
+        "HiredDate":"2014-11-01",
+        "domain":"QBO",
+        "sparse":false,
+        "Id":"113",
+        "SyncToken":"1",
+        "MetaData":
+        {
+            "CreateTime":"2013-11-25T09:30:07-08:00",
+            "LastUpdatedTime":"2013-11-25T09:33:08-08:00"
+        },
+        "GivenName":"Jane",
+        "FamilyName":"Miller",
+        "DisplayName":"Jane Miller",
+        "PrintOnCheckName":"Jane Miller",
+        "Active":true,
+        "PrimaryPhone":
+        {
+            "FreeFormNumber":"234-525-1234"
+        }
+    },
+    "time":"2013-11-25T09:33:07.977-08:00"
+}

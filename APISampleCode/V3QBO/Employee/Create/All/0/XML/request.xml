@@ -1,0 +1,24 @@
+<Employee xmlns="http://schema.intuit.com/finance/v3" domain="QBO" sparse="false">
+    <GivenName>John</GivenName>
+    <FamilyName>Miller</FamilyName>
+    <DisplayName>John Miller</DisplayName>
+    <PrintOnCheckName>John Miller</PrintOnCheckName>
+    <Active>true</Active>
+    <PrimaryPhone>
+        <FreeFormNumber>234-525-1234</FreeFormNumber>
+    </PrimaryPhone>
+    <SSN>888-77-6666</SSN>
+    <PrimaryAddr>
+        <Id>356</Id>
+        <Line1>45 N. Elm Street</Line1>
+        <City>Middlefield</City>
+        <CountrySubDivisionCode>CA</CountrySubDivisionCode>
+        <PostalCode>93242</PostalCode>
+        <Lat>37.4601027</Lat>
+        <Long>-122.1523605</Long>
+    </PrimaryAddr>
+    <BillableTime>true</BillableTime>
+    <BillRate>50</BillRate>
+    <HiredDate>2013-11-01</HiredDate>
+</Employee>
+
