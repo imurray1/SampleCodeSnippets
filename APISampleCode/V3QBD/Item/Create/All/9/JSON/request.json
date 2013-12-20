@@ -1,0 +1,23 @@
+{
+    "Name": "ADD13",
+    "Description": "Groupitemallfields",
+    "Active": "true",
+    "Type": "Group",
+    "PrintGroupedItems": "true",
+    "ItemGroupDetail": {
+        "ItemGroupLine": [{
+            "ItemRef": {
+                "name": "Cabinet Pulls",
+                "value": "QB:16"
+            },
+            "Qty": "24"
+        },
+        {
+            "ItemRef": {
+                "name": "Light Pine",
+                "value": "QB:17"
+            },
+            "Qty": "1"
+        }]
+    }
+}

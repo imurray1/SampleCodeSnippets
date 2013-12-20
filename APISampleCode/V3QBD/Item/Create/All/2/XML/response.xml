@@ -1,25 +1,23 @@
-<IntuitResponse xmlns="http://schema.intuit.com/finance/v3" time="2013-05-27T10:08:10.627Z">
+<IntuitResponse xmlns="http://schema.intuit.com/finance/v3" time="2013-05-27T09:41:13.129Z">
     <Item status="Pending">
-        <Id>NG:3056725</Id>
+        <Id>NG:3056723</Id>
         <SyncToken>1</SyncToken>
         <MetaData>
-            <CreateTime>2013-05-27T08:56:15Z</CreateTime>
-            <LastUpdatedTime>2013-05-27T08:56:15Z</LastUpdatedTime>
+            <CreateTime>2013-05-27T08:29:17Z</CreateTime>
+            <LastUpdatedTime>2013-05-27T08:29:17Z</LastUpdatedTime>
         </MetaData>
-        <Name>P1</Name>
-        <Description>desc_Sales</Description>
+        <Name>OthrChrFull1</Name>
+        <Description>Add New Full Item 1 Sales Tranc</Description>
         <Active>true</Active>
-        <ParentRef name="Lumber">QB:88</ParentRef>
+        <ParentRef name="Delivery">QB:124</ParentRef>
         
-        <UnitPrice>30</UnitPrice>
-        <Type>NonInventory</Type>
-        <UOMSetRef name="Area by the square foot">QB:5</UOMSetRef>
-        <IncomeAccountRef name="Reimbursement Income">QB:128</IncomeAccountRef>
-        <PurchaseDesc>Desc_Purchase</PurchaseDesc>
-        <PurchaseCost>10</PurchaseCost>
+        <UnitPrice>1000</UnitPrice>
+        <Type>Other Charge</Type>
+        <IncomeAccountRef name="Design Income">QB:122</IncomeAccountRef>
+        <PurchaseDesc>Add New Full Item 1 Purc Tranc</PurchaseDesc>
+        <PurchaseCost>2000</PurchaseCost>
         <ExpenseAccountRef name="Other Expenses">QB:78</ExpenseAccountRef>
-        <PrefVendorRef name="A Cheung Limited">QB:166</PrefVendorRef>
-        <ManPartNum>1234</ManPartNum>
+        <PrefVendorRef name="Hugo Boss">QB:268</PrefVendorRef>
         <SalesTaxCodeRef>QB:1</SalesTaxCodeRef>
     </Item>
 </IntuitResponse>

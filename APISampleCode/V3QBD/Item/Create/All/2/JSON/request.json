@@ -1,32 +1,35 @@
 {
-   "Name":"P2",
-   "Description":"desc_Sales",
+   "Name":"Inventory item 9",
+   "Description":"Inventory item",
    "Active":"true",
-   "ParentRef":{
-      "name":"Lumber",
-      "value":"QB:88"
-   },
-   "UnitPrice":"30",
-   "Type":"NonInventory",
+   "UnitPrice":"1782.56",
+   "Type":"Inventory",
    "UOMSetRef":{
-      "name":"Area by the square foot",
-      "value":"QB:5"
+      "name":"Each to Case/Doz",
+      "value":"QB:1"
    },
    "IncomeAccountRef":{
-      "name":"Reimbursement Income",
-      "value":"QB:128"
+      "name":"Materials Income",
+      "value":"QB:26"
    },
-   "PurchaseDesc":"Desc_Purchase",
-   "PurchaseCost":"10",
-   "ExpenseAccountRef":{
-      "name":"Other Expenses",
-      "value":"QB:78"
+   "PurchaseDesc":"standard interior brass hinge",
+   "PurchaseCost":"3",
+   "COGSAccountRef":{
+      "name":"Cost of Goods Sold",
+      "value":"QB:30"
+   },
+   "AssetAccountRef":{
+      "name":"Inventory Asset",
+      "value":"QB:6"
    },
    "PrefVendorRef":{
-      "name":"A Cheung Limited",
-      "value":"QB:166"
+      "name":"Perry Windows & Doors",
+      "value":"QB:12"
    },
-   "ManPartNum":"1234",
+   "AvgCost":"3",
+   "QtyOnHand":"2142",
+   "QtyOnPurchaseOrder":"0",
+   "QtyOnSalesOrder":"0",
    "SalesTaxCodeRef":{
       "value":"QB:1"
    }

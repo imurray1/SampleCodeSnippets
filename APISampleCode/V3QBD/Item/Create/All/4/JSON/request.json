@@ -1,6 +1,28 @@
 {
-   "Name":"Sub3",
-   "Description":"Desc Full Subtotal",
+   "Name":"SerItem3",
+   "Description":"ServiceItems",
    "Active":"true",
-   "Type":"Subtotal"
+   "UnitPrice":"20.5",
+   "Type":"Service",
+   "UOMSetRef":{
+      "name":"Area by the square foot",
+      "value":"QB:5"
+   },
+   "IncomeAccountRef":{
+      "name":"Reimbursement Income",
+      "value":"QB:28"
+   },
+   "PurchaseDesc":"Service_Purchase",
+   "PurchaseCost":"10",
+   "ExpenseAccountRef":{
+      "name":"Other Expenses",
+      "value":"QB:78"
+   },
+   "PrefVendorRef":{
+      "name":"A Cheung Limited",
+      "value":"QB:4"
+   },
+   "SalesTaxCodeRef":{
+      "value":"QB:2"
+   }
 }

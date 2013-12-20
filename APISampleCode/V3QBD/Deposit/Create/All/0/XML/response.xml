@@ -1,0 +1,32 @@
+<IntuitResponse>
+    <Deposit status="Pending">
+        <Id>NG:3488507</Id>
+        <SyncToken>1</SyncToken>
+        <MetaData>
+            <CreateTime>2013-12-11T05:31:26Z</CreateTime>
+            <LastUpdatedTime>2013-12-11T05:31:26Z</LastUpdatedTime>
+        </MetaData>
+        <TxnDate>2013-11-25</TxnDate>
+        <PrivateNote>Deposit</PrivateNote>
+        <TxnStatus>Payable</TxnStatus>
+        <Line>
+            <Id>NG:3764542</Id>
+            <Description>Deposit Line</Description>
+            <Amount>500</Amount>
+            <DetailType>DepositLineDetail</DetailType>
+            <DepositLineDetail>
+                <Entity type="Customer" name="2nd story addition">QB:105</Entity>
+                <ClassRef name="New Construction">QB:1</ClassRef>
+                <AccountRef name="Telephone">QB:74</AccountRef>
+                <PaymentMethodRef name="Check">QB:2</PaymentMethodRef>
+                <CheckNum>786</CheckNum>
+            </DepositLineDetail>
+        </Line>
+        <DepositToAccountRef name="Checking">QB:2</DepositToAccountRef>
+        <CashBack>
+            <AccountRef name="Petty Cash">QB:85</AccountRef>
+            <Amount>56</Amount>
+            <Memo>cash back memo</Memo>
+        </CashBack>
+    </Deposit>  
+</IntuitResponse>

@@ -1,23 +1,49 @@
-<Item xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:schemaLocation="http://schema.intuit.com/finance/v3 IntuitRestServiceDef.xsd"
-    xmlns="http://schema.intuit.com/finance/v3">
-    <Name>Addmodall</Name>
-    <Description>Groupitemallfields</Description>
+<Item xmlns="http://schema.intuit.com/finance/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.intuit.com/finance/v3 IntuitRestServiceDef.xsd">
+    <Name>Assmb_Test_All</Name>
+    <Description>Testing sales</Description>
     <Active>true</Active>
-    <Type>Group</Type>
-    <PrintGroupedItems>true</PrintGroupedItems>
-    <ItemGroupDetail>
-        <ItemGroupLine>
-            <ItemRef name="Cabinet Pulls">QB:16</ItemRef>
-            <Qty>24</Qty>
+    <ParentRef name="Interior Door kit">QB:67</ParentRef>
+    <Taxable>true</Taxable>
+    <UnitPrice>20</UnitPrice>
+    <Type>Assembly</Type>
+    <UOMSetRef name="Each to Case/Doz">QB:1</UOMSetRef>
+    <IncomeAccountRef name="Design Income">QB:122</IncomeAccountRef>
+    <PurchaseDesc>Testing purchase</PurchaseDesc>
+    <PurchaseCost>10</PurchaseCost>
+    <COGSAccountRef name="Cost of Goods Sold">QB:30</COGSAccountRef>
+    <AssetAccountRef name="Inventory Asset">QB:6</AssetAccountRef>
+    <PrefVendorRef name="Bank of Anycity">QB:164</PrefVendorRef>
+    <AvgCost>10</AvgCost>
+    <QtyOnHand>30</QtyOnHand>
+    <QtyOnPurchaseOrder>0</QtyOnPurchaseOrder>
+    <QtyOnSalesOrder>0</QtyOnSalesOrder>
+    <ManPartNum>Man#Test001</ManPartNum>
+    <SalesTaxCodeRef name="Tax">QB:1</SalesTaxCodeRef>
+    <BuildPoint>10</BuildPoint>
+    <ItemAssemblyDetail>
+        <ItemAssemblyLine>
+            <ItemRef name="clip">QB:115</ItemRef>
+            <Qty>3</Qty>
             <UOMRef>
                 <Unit>each</Unit>
                 <UOMSetRef>QB:2</UOMSetRef>
             </UOMRef>
-        </ItemGroupLine>
-        <ItemGroupLine>
-            <ItemRef name="Light Pine">QB:17</ItemRef>
+        </ItemAssemblyLine>
+        <ItemAssemblyLine>
+            <ItemRef name="unit1">QB:117</ItemRef>
+            <Qty>2</Qty>
+        </ItemAssemblyLine>
+        <ItemAssemblyLine>
+            <ItemRef name="Trim">QB:29</ItemRef>
+            <Qty>3</Qty>
+        </ItemAssemblyLine>
+        <ItemAssemblyLine>
+            <ItemRef name="labor used in assembly">QB:118</ItemRef>
+            <Qty>4</Qty>
+        </ItemAssemblyLine>
+        <ItemAssemblyLine>
+            <ItemRef name="Delivery Charges">QB:56</ItemRef>
             <Qty>1</Qty>
-        </ItemGroupLine>
-    </ItemGroupDetail>
+        </ItemAssemblyLine>
+    </ItemAssemblyDetail>
 </Item>

@@ -1,0 +1,100 @@
+<IntuitResponse xmlns="http://schema.intuit.com/finance/v3" time="2013-05-21T11:37:50.498Z">
+    <QueryResponse maxResults="1" startPosition="1">
+        <Deposit status="Synchronized">
+            <Id>QB:64535</Id>
+            <SyncToken>1</SyncToken>
+            <MetaData>
+                <CreateTime>2013-11-14T09:35:24.640Z</CreateTime>
+                <LastUpdatedTime>2013-11-14T09:47:26Z</LastUpdatedTime>
+            </MetaData>
+            <TxnDate>2013-11-14</TxnDate>
+            <ExchangeRate>1</ExchangeRate>
+            <PrivateNote>Deposit</PrivateNote>
+            <TxnStatus>Payable</TxnStatus>
+            <Line>
+                <Id>QB:64537</Id>
+                <Description>Done</Description>
+                <Amount>35</Amount>
+                <LinkedTxn>
+                    <TxnId>QB:62552</TxnId>
+                    <TxnType>SalesReceipt</TxnType>
+                </LinkedTxn>
+                <DetailType>DepositLineDetail</DetailType>
+                <DepositLineDetail>
+                    <Entity type="Customer" name="Allard, Robert">QB:208</Entity>
+                    <ClassRef name="Remodel">QB:4</ClassRef>
+                    <AccountRef name="Undeposited Funds">QB:8</AccountRef>
+                    <TxnType>SalesReceipt</TxnType>
+                </DepositLineDetail>
+            </Line>
+            <Line>
+                <Id>QB:64538</Id>
+                <Amount>440</Amount>
+                <LinkedTxn>
+                    <TxnId>QB:9146</TxnId>
+                    <TxnType>ReceivePayment</TxnType>
+                </LinkedTxn>
+                <DetailType>DepositLineDetail</DetailType>
+                <DepositLineDetail>
+                    <Entity type="Customer" name="Garage repairs">QB:90</Entity>
+                    <AccountRef name="Undeposited Funds">QB:8</AccountRef>
+                    <PaymentMethodRef name="Cash">QB:1</PaymentMethodRef>
+                    <TxnType>ReceivePayment</TxnType>
+                </DepositLineDetail>
+            </Line>
+            <Line>
+                <Id>QB:64539</Id>
+                <Amount>23</Amount>
+                <LinkedTxn>
+                    <TxnId>QB:64218</TxnId>
+                    <TxnType>Invoice</TxnType>
+                    <TxnLineId>QB:64221</TxnLineId>
+                </LinkedTxn>
+                <DetailType>DepositLineDetail</DetailType>
+                <DepositLineDetail>
+                    <Entity type="Customer" name="Pixer">QB:279</Entity>
+                    <AccountRef name="Undeposited Funds">QB:8</AccountRef>
+                    <PaymentMethodRef name="Check">QB:2</PaymentMethodRef>
+                    <CheckNum>1170</CheckNum>
+                    <TxnType>Invoice</TxnType>
+                </DepositLineDetail>
+            </Line>
+            <Line>
+                <Id>QB:64540</Id>
+                <Amount>-268</Amount>
+                <LinkedTxn>
+                    <TxnId>QB:64037</TxnId>
+                    <TxnType>ARRefundCreditCard</TxnType>
+                </LinkedTxn>
+                <DetailType>DepositLineDetail</DetailType>
+                <DepositLineDetail>
+                    <Entity type="Customer" name="Daniel Street">QB:273</Entity>
+                    <AccountRef name="Undeposited Funds">QB:8</AccountRef>
+                    <PaymentMethodRef name="Master Card">QB:5</PaymentMethodRef>
+                    <CheckNum>1</CheckNum>
+                    <TxnType>ARRefundCreditCard</TxnType>
+                </DepositLineDetail>
+            </Line>
+            <Line>
+                <Id>QB:64541</Id>
+                <Amount>100</Amount>
+                <DetailType>DepositLineDetail</DetailType>
+                <DepositLineDetail>
+                    <Entity type="Customer" name="Michael">QB:285</Entity>
+                    <AccountRef name="Retainage Receivable">QB:7</AccountRef>
+                </DepositLineDetail>
+            </Line>
+            <Line>
+                <Id>QB:64542</Id>
+                <DetailType>DepositLineDetail</DetailType>
+            </Line>
+            <DepositToAccountRef name="Checking">QB:2</DepositToAccountRef>
+            <CashBack>
+                <AccountRef name="Accumulated Depreciation">QB:98</AccountRef>
+                <Amount>50</Amount>
+                <Memo>cash back memo</Memo>
+            </CashBack>
+            <TotalAmt>280</TotalAmt>
+        </Deposit>
+    </QueryResponse>
+</IntuitResponse>

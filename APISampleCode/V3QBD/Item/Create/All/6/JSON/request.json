@@ -1,14 +1,16 @@
 {
-   "Name":"Pay2",
-   "Description":"Pay1",
+   "Name":"Dis1",
+   "Description":"10% Discount",
    "Active":"true",
-   "Type":"Payment",
-   "PaymentMethodRef":{
-      "name":"Check",
-      "value":"QB:2"
+   "Taxable":"false",
+   "RatePercent":"10",
+   "Type":"Discount",
+   "IncomeAccountRef":{
+      "name":"Less Discounts given",
+      "value":"QB:24"
    },
-   "DepositToAccountRef":{
-      "name":"Checking",
-      "value":"QB:8"
+   "SalesTaxCodeRef":{
+      "name":"Non",
+      "value":"QB:2"
    }
 }

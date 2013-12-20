@@ -1,0 +1,58 @@
+{
+    "Deposit": {
+        "DepositToAccountRef": {
+            "value": "QB:2",
+            "name": "Checking"
+        },
+        "CashBack": {
+            "AccountRef": {
+                "value": "QB:85",
+                "name": "Petty Cash"
+            },
+            "Amount": 56,
+            "Memo": "cash back memo"
+        },
+        "status": "Pending",
+        "Id": "NG:4474056",
+        "SyncToken": "1",
+        "MetaData": {
+            "CreateTime": "2013-12-19T11:37:14Z",
+            "LastUpdatedTime": "2013-12-19T11:37:14Z"
+        },
+        "CustomField": [],
+        "AttachableRef": [],
+        "TxnDate": "2013-11-25",
+        "PrivateNote": "Deposit",
+        "TxnStatus": "Payable",
+        "LinkedTxn": [],
+        "Line": [{
+            "Id": "NG:4240834",
+            "Description": "Deposit Line",
+            "Amount": 500,
+            "LinkedTxn": [],
+            "DetailType": "DepositLineDetail",
+            "DepositLineDetail": {
+                "Entity": {
+                    "value": "QB:105",
+                    "name": "2nd story addition",
+                    "type": "Customer"
+                },
+                "ClassRef": {
+                    "value": "QB:1",
+                    "name": "New Construction"
+                },
+                "AccountRef": {
+                    "value": "QB:8",
+                    "name": "Undeposited Funds"
+                },
+                "PaymentMethodRef": {
+                    "value": "QB:2",
+                    "name": "Check"
+                },
+                "CheckNum": "786"
+            },
+            "CustomField": []
+        }]
+    },
+    "time": "2013-12-19T11:47:37.665Z"
+}

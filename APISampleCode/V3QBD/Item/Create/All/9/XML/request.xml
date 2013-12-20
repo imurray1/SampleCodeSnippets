@@ -1,0 +1,23 @@
+<Item xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://schema.intuit.com/finance/v3 IntuitRestServiceDef.xsd"
+    xmlns="http://schema.intuit.com/finance/v3">
+    <Name>Addmodall</Name>
+    <Description>Groupitemallfields</Description>
+    <Active>true</Active>
+    <Type>Group</Type>
+    <PrintGroupedItems>true</PrintGroupedItems>
+    <ItemGroupDetail>
+        <ItemGroupLine>
+            <ItemRef name="Cabinet Pulls">QB:16</ItemRef>
+            <Qty>24</Qty>
+            <UOMRef>
+                <Unit>each</Unit>
+                <UOMSetRef>QB:2</UOMSetRef>
+            </UOMRef>
+        </ItemGroupLine>
+        <ItemGroupLine>
+            <ItemRef name="Light Pine">QB:17</ItemRef>
+            <Qty>1</Qty>
+        </ItemGroupLine>
+    </ItemGroupDetail>
+</Item>

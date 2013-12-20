@@ -1,43 +1,38 @@
 {
     "Item": {
-        "Name": "P2",
-        "Description": "desc_Sales",
+        "Name": "OthrChrFull2",
+        "Description": "Add New Full Item 1 Sales Tranc",
         "Active": true,
         "ParentRef": {
-            "value": "QB:88",
-            "name": "Lumber"
+            "value": "QB:124",
+            "name": "Delivery"
         },
-        "UnitPrice": 30,
-        "Type": "NonInventory",
-        "UOMSetRef": {
-            "value": "QB:5",
-            "name": "Area by the square foot"
-        },
+        "UnitPrice": 1000,
+        "Type": "Other Charge",
         "IncomeAccountRef": {
-            "value": "QB:128",
-            "name": "Reimbursement Income"
+            "value": "QB:122",
+            "name": "Design Income"
         },
-        "PurchaseDesc": "Desc_Purchase",
-        "PurchaseCost": 10,
+        "PurchaseDesc": "Add New Full Item 1 Purc Tranc",
+        "PurchaseCost": 2000,
         "ExpenseAccountRef": {
             "value": "QB:78",
             "name": "Other Expenses"
         },
         "PrefVendorRef": {
-            "value": "QB:166",
-            "name": "A Cheung Limited"
+            "value": "QB:268",
+            "name": "Hugo Boss"
         },
-        "ManPartNum": "1234",
         "SalesTaxCodeRef": {"value": "QB:1"},
         "status": "Pending",
-        "Id": "NG:3104667",
+        "Id": "NG:3104666",
         "SyncToken": "1",
         "MetaData": {
-            "CreateTime": "2013-06-04T05:51:26Z",
-            "LastUpdatedTime": "2013-06-04T05:51:26Z"
+            "CreateTime": "2013-06-04T05:45:50Z",
+            "LastUpdatedTime": "2013-06-04T05:45:50Z"
         },
         "CustomField": [],
         "AttachableRef": []
     },
-    "time": "2013-06-04T07:04:44.161Z"
+    "time": "2013-06-04T06:59:08.441Z"
 }

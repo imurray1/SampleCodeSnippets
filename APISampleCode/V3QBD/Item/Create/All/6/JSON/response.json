@@ -1,26 +1,28 @@
 {
     "Item": {
-        "Name": "Pay2",
-        "Description": "Pay1",
+        "Name": "Dis1",
+        "Description": "10% Discount",
         "Active": true,
-        "Type": "Payment",
-        "PaymentMethodRef": {
-            "value": "QB:2",
-            "name": "Check"
+        "Taxable": false,
+        "RatePercent": 10,
+        "Type": "Discount",
+        "IncomeAccountRef": {
+            "value": "QB:24",
+            "name": "Less Discounts given"
         },
-        "DepositToAccountRef": {
-            "value": "QB:8",
-            "name": "Checking"
+        "SalesTaxCodeRef": {
+            "value": "QB:2",
+            "name": "Non"
         },
         "status": "Pending",
-        "Id": "NG:3104671",
+        "Id": "NG:3104670",
         "SyncToken": "1",
         "MetaData": {
-            "CreateTime": "2013-06-04T08:33:25Z",
-            "LastUpdatedTime": "2013-06-04T08:33:25Z"
+            "CreateTime": "2013-06-04T08:29:58Z",
+            "LastUpdatedTime": "2013-06-04T08:29:58Z"
         },
         "CustomField": [],
         "AttachableRef": []
     },
-    "time": "2013-06-04T09:46:42.652Z"
+    "time": "2013-06-04T09:43:13.463Z"
 }

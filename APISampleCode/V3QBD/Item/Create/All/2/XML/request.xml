@@ -1,16 +1,14 @@
 <Item xmlns="http://schema.intuit.com/finance/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.intuit.com/finance/v3 IntuitRestServiceDef.xsd">
-    <Name>P1</Name>
-    <Description>desc_Sales</Description>
+    <Name>OthrChrFull1</Name>
+    <Description>Add New Full Item 1 Sales Tranc</Description>
     <Active>true</Active>
-    <ParentRef name="Lumber">QB:88</ParentRef>
-    <UnitPrice>30</UnitPrice>
-    <Type>NonInventory</Type>
-    <UOMSetRef name="Area by the square foot">QB:5</UOMSetRef>
-    <IncomeAccountRef name="Reimbursement Income">QB:128</IncomeAccountRef>
-    <PurchaseDesc>Desc_Purchase</PurchaseDesc>
-    <PurchaseCost>10</PurchaseCost>
+    <ParentRef name="Delivery">QB:124</ParentRef>
+    <UnitPrice>1000</UnitPrice>
+    <Type>Other Charge</Type>
+    <IncomeAccountRef name="Design Income">QB:122</IncomeAccountRef>
+    <PurchaseDesc>Add New Full Item 1 Purc Tranc</PurchaseDesc>
+    <PurchaseCost>2000</PurchaseCost>
     <ExpenseAccountRef name="Other Expenses">QB:78</ExpenseAccountRef>
-    <PrefVendorRef name="A Cheung Limited">QB:166</PrefVendorRef>
-    <ManPartNum>1234</ManPartNum>
+    <PrefVendorRef name="Hugo Boss">QB:268</PrefVendorRef>
     <SalesTaxCodeRef>QB:1</SalesTaxCodeRef>
 </Item>

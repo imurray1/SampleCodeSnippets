@@ -1,0 +1,158 @@
+{
+    "QueryResponse": {
+        "Deposit": [{
+            "DepositToAccountRef": {
+                "value": "QB:2",
+                "name": "Checking"
+            },
+            "CashBack": {
+                "AccountRef": {
+                    "value": "QB:98",
+                    "name": "Accumulated Depreciation"
+                },
+                "Amount": 50,
+                "Memo": "cash back memo"
+            },
+            "TotalAmt": 280,
+            "status": "Synchronized",
+            "Id": "QB:64535",
+            "SyncToken": "1",
+            "MetaData": {
+                "CreateTime": "2013-11-14T09:35:24.640Z",
+                "LastUpdatedTime": "2013-11-14T09:47:26Z"
+            },
+            "CustomField": [],
+            "TxnDate": "2013-11-14",
+            "ExchangeRate": 1,
+            "PrivateNote": "Deposit",
+            "TxnStatus": "Payable",
+            "Line": [{
+                "Id": "QB:64537",
+                "Description": "Done",
+                "Amount": 35,
+                "LinkedTxn": [{
+                    "TxnId": "QB:62552",
+                    "TxnType": "SalesReceipt"
+                }],
+                "DetailType": "DepositLineDetail",
+                "DepositLineDetail": {
+                    "Entity": {
+                        "value": "QB:208",
+                        "name": "Allard, Robert",
+                        "type": "Customer"
+                    },
+                    "ClassRef": {
+                        "value": "QB:4",
+                        "name": "Remodel"
+                    },
+                    "AccountRef": {
+                        "value": "QB:8",
+                        "name": "Undeposited Funds"
+                    },
+                    "TxnType": "SalesReceipt"
+                }
+            },
+            {
+                "Id": "QB:64538",
+                "Amount": 440,
+                "LinkedTxn": [{
+                    "TxnId": "QB:9146",
+                    "TxnType": "ReceivePayment"
+                }],
+                "DetailType": "DepositLineDetail",
+                "DepositLineDetail": {
+                    "Entity": {
+                        "value": "QB:90",
+                        "name": "Garage repairs",
+                        "type": "Customer"
+                    },
+                    "AccountRef": {
+                        "value": "QB:8",
+                        "name": "Undeposited Funds"
+                    },
+                    "PaymentMethodRef": {
+                        "value": "QB:1",
+                        "name": "Cash"
+                    },
+                    "TxnType": "ReceivePayment"
+                }
+            },
+            {
+                "Id": "QB:64539",
+                "Amount": 23,
+                "LinkedTxn": [{
+                    "TxnId": "QB:64218",
+                    "TxnType": "Invoice",
+                    "TxnLineId": "QB:64221"
+                }],
+                "DetailType": "DepositLineDetail",
+                "DepositLineDetail": {
+                    "Entity": {
+                        "value": "QB:279",
+                        "name": "Pixer",
+                        "type": "Customer"
+                    },
+                    "AccountRef": {
+                        "value": "QB:8",
+                        "name": "Undeposited Funds"
+                    },
+                    "PaymentMethodRef": {
+                        "value": "QB:2",
+                        "name": "Check"
+                    },
+                    "CheckNum": "1170",
+                    "TxnType": "Invoice"
+                }
+            },
+            {
+                "Id": "QB:64540",
+                "Amount": -268,
+                "LinkedTxn": [{
+                    "TxnId": "QB:64037",
+                    "TxnType": "ARRefundCreditCard"
+                }],
+                "DetailType": "DepositLineDetail",
+                "DepositLineDetail": {
+                    "Entity": {
+                        "value": "QB:273",
+                        "name": "Daniel Street",
+                        "type": "Customer"
+                    },
+                    "AccountRef": {
+                        "value": "QB:8",
+                        "name": "Undeposited Funds"
+                    },
+                    "PaymentMethodRef": {
+                        "value": "QB:5",
+                        "name": "Master Card"
+                    },
+                    "CheckNum": "1",
+                    "TxnType": "ARRefundCreditCard"
+                }
+            },
+            {
+                "Id": "QB:64541",
+                "Amount": 100,
+                "DetailType": "DepositLineDetail",
+                "DepositLineDetail": {
+                    "Entity": {
+                        "value": "QB:285",
+                        "name": "Michael",
+                        "type": "Customer"
+                    },
+                    "AccountRef": {
+                        "value": "QB:7",
+                        "name": "Retainage Receivable"
+                    }
+                }
+            },
+            {
+                "Id": "QB:64542",
+                "DetailType": "DepositLineDetail"
+            }]
+        }],
+        "startPosition": 1,
+        "maxResults": 1
+    },
+    "time": "2013-11-26T06:37:34.348Z"
+}

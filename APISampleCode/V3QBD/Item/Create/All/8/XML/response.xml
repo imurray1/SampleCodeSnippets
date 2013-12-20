@@ -1,29 +1,57 @@
-<IntuitResponse xmlns="http://schema.intuit.com/finance/v3" time="2013-07-11T11:06:02.685Z">
+<IntuitResponse xmlns="http://schema.intuit.com/finance/v3" time="2013-07-09T11:45:47.672Z">
     <Item status="Pending">
-        <Id>NG:3201247</Id>
+        <Id>NG:3199228</Id>
         <SyncToken>1</SyncToken>
         <MetaData>
-            <CreateTime>2013-07-11T11:01:15Z</CreateTime>
-            <LastUpdatedTime>2013-07-11T11:01:15Z</LastUpdatedTime>
+            <CreateTime>2013-07-09T11:41:30Z</CreateTime>
+            <LastUpdatedTime>2013-07-09T11:41:30Z</LastUpdatedTime>
         </MetaData>
-        <Name>Addmodall</Name>
-        <Description>Groupitemallfields</Description>
+        <Name>Assmb_Test_All1373370347146</Name>
+        <Description>Testing sales</Description>
         <Active>true</Active>
-        <Type>Group</Type>
-        <PrintGroupedItems>true</PrintGroupedItems>
-        <ItemGroupDetail>
-            <ItemGroupLine>
-                <ItemRef name="Cabinet Pulls">QB:16</ItemRef>
-                <Qty>24</Qty>
+        <ParentRef name="Interior Door kit">QB:67</ParentRef>
+        <Taxable>true</Taxable>
+        <UnitPrice>20</UnitPrice>
+        <Type>Assembly</Type>
+        <UOMSetRef name="Each to Case/Doz">QB:1</UOMSetRef>
+        <IncomeAccountRef name="Design Income">QB:122</IncomeAccountRef>
+        <PurchaseDesc>Testing purchase</PurchaseDesc>
+        <PurchaseCost>10</PurchaseCost>
+        <COGSAccountRef name="Cost of Goods Sold">QB:30</COGSAccountRef>
+        <AssetAccountRef name="Inventory Asset">QB:6</AssetAccountRef>
+        <PrefVendorRef name="Bank of Anycity">QB:164</PrefVendorRef>
+        <AvgCost>10</AvgCost>
+        <QtyOnHand>30</QtyOnHand>
+        <QtyOnPurchaseOrder>0</QtyOnPurchaseOrder>
+        <QtyOnSalesOrder>0</QtyOnSalesOrder>
+        <ManPartNum>Man#Test001</ManPartNum>
+        <SalesTaxCodeRef name="Tax">QB:1</SalesTaxCodeRef>
+        <BuildPoint>10</BuildPoint>
+        <ItemAssemblyDetail>
+            <ItemAssemblyLine>
+                <ItemRef name="clip">QB:115</ItemRef>
+                <Qty>3</Qty>
                 <UOMRef>
                     <Unit>each</Unit>
                     <UOMSetRef>QB:2</UOMSetRef>
                 </UOMRef>
-            </ItemGroupLine>
-            <ItemGroupLine>
-                <ItemRef name="Light Pine">QB:17</ItemRef>
+            </ItemAssemblyLine>
+            <ItemAssemblyLine>
+                <ItemRef name="unit1">QB:117</ItemRef>
+                <Qty>2</Qty>
+            </ItemAssemblyLine>
+            <ItemAssemblyLine>
+                <ItemRef name="Trim">QB:29</ItemRef>
+                <Qty>3</Qty>
+            </ItemAssemblyLine>
+            <ItemAssemblyLine>
+                <ItemRef name="labor used in assembly">QB:118</ItemRef>
+                <Qty>4</Qty>
+            </ItemAssemblyLine>
+            <ItemAssemblyLine>
+                <ItemRef name="Delivery Charges">QB:56</ItemRef>
                 <Qty>1</Qty>
-            </ItemGroupLine>
-        </ItemGroupDetail>
+            </ItemAssemblyLine>
+        </ItemAssemblyDetail>
     </Item>
 </IntuitResponse>

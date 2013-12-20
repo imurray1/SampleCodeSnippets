@@ -1,0 +1,45 @@
+{
+"Deposit":{
+    "TxnDate": "2013-11-25",
+    "PrivateNote": "Deposit",
+    "TxnStatus": "Payable",
+    "Line":[ {
+      "Description": "Deposit Line",
+      "Amount": "500",
+      "DetailType": "DepositLineDetail",
+      "DepositLineDetail": {
+        "Entity": {
+          "type": "Customer",
+          "name": "2nd story addition",
+          "value": "QB:105"
+        },
+        "ClassRef": {
+          "name": "New Construction",
+          "value": "QB:1"
+        },
+        "AccountRef": {
+          "name": "Undeposited Funds",
+          "value": "QB:8"
+        },
+        "PaymentMethodRef": {
+          "name": "Check",
+          "value": "QB:2"
+        },
+        "CheckNum": "786"
+      }
+    }],
+    "DepositToAccountRef": {
+      "name": "Checking",
+      "value": "QB:2"
+    },
+    "CashBack": {
+      "AccountRef": {
+        "name": "Petty Cash",
+        "value": "QB:85"
+      },
+      "Amount": "56",
+      "Memo": "cash back memo"
+    }
+   },
+   "time":"2013-04-03T10:11:39.859Z"
+}

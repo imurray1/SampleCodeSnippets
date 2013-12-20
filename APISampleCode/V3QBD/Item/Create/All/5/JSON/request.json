@@ -1,16 +1,6 @@
 {
-   "Name":"Dis1",
-   "Description":"10% Discount",
+   "Name":"Sub3",
+   "Description":"Desc Full Subtotal",
    "Active":"true",
-   "Taxable":"false",
-   "RatePercent":"10",
-   "Type":"Discount",
-   "IncomeAccountRef":{
-      "name":"Less Discounts given",
-      "value":"QB:24"
-   },
-   "SalesTaxCodeRef":{
-      "name":"Non",
-      "value":"QB:2"
-   }
+   "Type":"Subtotal"
 }

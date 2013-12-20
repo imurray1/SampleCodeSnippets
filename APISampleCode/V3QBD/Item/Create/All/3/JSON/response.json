@@ -1,38 +1,43 @@
 {
     "Item": {
-        "Name": "SerItem3",
-        "Description": "ServiceItems",
+        "Name": "P2",
+        "Description": "desc_Sales",
         "Active": true,
-        "UnitPrice": 20.5,
-        "Type": "Service",
+        "ParentRef": {
+            "value": "QB:88",
+            "name": "Lumber"
+        },
+        "UnitPrice": 30,
+        "Type": "NonInventory",
         "UOMSetRef": {
             "value": "QB:5",
             "name": "Area by the square foot"
         },
         "IncomeAccountRef": {
-            "value": "QB:28",
+            "value": "QB:128",
             "name": "Reimbursement Income"
         },
-        "PurchaseDesc": "Service_Purchase",
+        "PurchaseDesc": "Desc_Purchase",
         "PurchaseCost": 10,
         "ExpenseAccountRef": {
             "value": "QB:78",
             "name": "Other Expenses"
         },
         "PrefVendorRef": {
-            "value": "QB:4",
+            "value": "QB:166",
             "name": "A Cheung Limited"
         },
-        "SalesTaxCodeRef": {"value": "QB:2"},
+        "ManPartNum": "1234",
+        "SalesTaxCodeRef": {"value": "QB:1"},
         "status": "Pending",
-        "Id": "NG:3104668",
+        "Id": "NG:3104667",
         "SyncToken": "1",
         "MetaData": {
-            "CreateTime": "2013-06-04T05:59:47Z",
-            "LastUpdatedTime": "2013-06-04T05:59:47Z"
+            "CreateTime": "2013-06-04T05:51:26Z",
+            "LastUpdatedTime": "2013-06-04T05:51:26Z"
         },
         "CustomField": [],
         "AttachableRef": []
     },
-    "time": "2013-06-04T07:13:05.493Z"
+    "time": "2013-06-04T07:04:44.161Z"
 }

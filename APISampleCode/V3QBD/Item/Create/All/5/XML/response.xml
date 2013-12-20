@@ -1,18 +1,14 @@
-<IntuitResponse xmlns="http://schema.intuit.com/finance/v3" time="2013-05-27T16:28:13.315Z">
+<IntuitResponse xmlns="http://schema.intuit.com/finance/v3" time="2013-05-27T16:07:42.074Z">
     <Item status="Pending">
-        <Id>NG:3056748</Id>
+        <Id>NG:3056746</Id>
         <SyncToken>1</SyncToken>
         <MetaData>
-            <CreateTime>2013-05-27T15:16:15Z</CreateTime>
-            <LastUpdatedTime>2013-05-27T15:16:15Z</LastUpdatedTime>
+            <CreateTime>2013-05-27T14:55:44Z</CreateTime>
+            <LastUpdatedTime>2013-05-27T14:55:44Z</LastUpdatedTime>
         </MetaData>
-        <Name>Dis</Name>
-        <Description>10% Discount</Description>
+        <Name>Sub1</Name>
+        <Description>Desc Full Subtotal</Description>
         <Active>true</Active>
-        <Taxable>false</Taxable>
-        <RatePercent>10</RatePercent>
-        <Type>Discount</Type>
-        <IncomeAccountRef name="Less Discounts given">QB:24</IncomeAccountRef>
-        <SalesTaxCodeRef name="Non">QB:2</SalesTaxCodeRef>
+        <Type>Subtotal</Type>
     </Item>
 </IntuitResponse>
