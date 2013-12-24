@@ -1,0 +1,43 @@
+{
+    "BillPayment":
+    {
+        "VendorRef":
+        {
+            "value":"38",
+            "name":"Nolan Hardware and Supplies"
+        },
+        "PayType":"CreditCard",
+        "CreditCardPayment":
+        {
+            "CCAccountRef":
+            {
+                "value":"135",
+                "name":"CreditCard"
+            }
+        },
+        "TotalAmt":336.00,
+        "domain":"QBO",
+        "sparse":false,
+        "Id":"812",
+        "SyncToken":"0",
+        "MetaData":
+        {
+            "CreateTime":"2013-10-18T10:19:48-07:00",
+            "LastUpdatedTime":"2013-10-18T10:19:48-07:00"
+        },
+        "TxnDate":"2013-10-18",
+        "PrivateNote":"5-487-00",
+        "Line":[
+            {
+                "Amount":336.00,
+                "LinkedTxn":[
+                    {
+                        "TxnId":"134",
+                        "TxnType":"Bill"
+                    }
+                ]
+            }
+        ]
+    },
+    "time":"2013-10-18T10:23:57.862-07:00"
+}
