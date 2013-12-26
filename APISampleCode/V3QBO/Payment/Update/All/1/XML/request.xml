@@ -1,0 +1,16 @@
+<Payment xmlns="http://schema.intuit.com/finance/v3" domain="QBO" sparse="true">
+    <Id>764</Id>
+    <SyncToken>1</SyncToken>
+    <MetaData>
+        <CreateTime>2015-12-15T00:00:00-08:00</CreateTime>
+        <LastUpdatedTime>2015-12-15T00:00:00-08:00</LastUpdatedTime>
+    </MetaData>
+    <TxnDate>2015-12-15</TxnDate>
+    <CustomerRef>35</CustomerRef>
+    <DepositToAccountRef>50</DepositToAccountRef>
+    <PaymentMethodRef>8</PaymentMethodRef>
+    <PaymentRefNum>42000</PaymentRefNum>
+    <TotalAmt>13560.39</TotalAmt>
+    <UnappliedAmt>0</UnappliedAmt>
+    <ProcessPayment>false</ProcessPayment>
+</Payment>

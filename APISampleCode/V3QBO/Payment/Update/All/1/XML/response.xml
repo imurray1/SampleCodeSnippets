@@ -1,0 +1,39 @@
+<IntuitResponse xmlns="http://schema.intuit.com/finance/v3" time="2013-12-26T10:13:28.606-08:00">
+    <Payment domain="QBO" sparse="false">
+        <Id>764</Id>
+        <SyncToken>2</SyncToken>
+        <MetaData>
+            <CreateTime>2015-12-15T00:00:00-08:00</CreateTime>
+            <LastUpdatedTime>2013-12-26T10:13:28-08:00</LastUpdatedTime>
+        </MetaData>
+        <TxnDate>2015-12-15</TxnDate>
+        <Line>
+            <Amount>8656.25</Amount>
+            <LinkedTxn>
+                <TxnId>762</TxnId>
+                <TxnType>Invoice</TxnType>
+            </LinkedTxn>
+        </Line>
+        <Line>
+            <Amount>2824.03</Amount>
+            <LinkedTxn>
+                <TxnId>763</TxnId>
+                <TxnType>Invoice</TxnType>
+            </LinkedTxn>
+        </Line>
+        <Line>
+            <Amount>2080.11</Amount>
+            <LinkedTxn>
+                <TxnId>761</TxnId>
+                <TxnType>Invoice</TxnType>
+            </LinkedTxn>
+        </Line>
+        <CustomerRef>35</CustomerRef>
+        <DepositToAccountRef>50</DepositToAccountRef>
+        <PaymentMethodRef>8</PaymentMethodRef>
+        <PaymentRefNum>42000</PaymentRefNum>
+        <TotalAmt>13560.39</TotalAmt>
+        <UnappliedAmt>0</UnappliedAmt>
+        <ProcessPayment>false</ProcessPayment>
+    </Payment>
+</IntuitResponse>
