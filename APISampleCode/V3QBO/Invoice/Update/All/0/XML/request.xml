@@ -1,20 +1,20 @@
 <Invoice xmlns="http://schema.intuit.com/finance/v3">
-  <Line>
-    <Amount>15</Amount>
-    <DetailType>SalesItemLineDetail</DetailType>
-    <SalesItemLineDetail>
-      <ItemRef>1</ItemRef>
-    </SalesItemLineDetail>
-  </Line>
-  <CustomerRef>69</CustomerRef>
-  <BillAddr>
-    <Line1>645</Line1>
-    <Line2>Park Avenue</Line2>
-    <City>San Jose</City>
-  </BillAddr>
-  <ShipAddr>
-    <Line1>2314</Line1>
-    <Line2>Gladstone Street</Line2>
-    <City>San Francisco</City>
-  </ShipAddr>
+    <Line>
+        <Amount>15</Amount>
+        <DetailType>SalesItemLineDetail</DetailType>
+        <SalesItemLineDetail>
+            <ItemRef>1</ItemRef>
+        </SalesItemLineDetail>
+    </Line>
+    <CustomerRef>69</CustomerRef>
+    <BillAddr>
+        <Line1>645</Line1>
+        <Line2>Park Avenue</Line2>
+        <City>San Jose</City>
+    </BillAddr>
+    <ShipAddr>
+        <Line1>2314</Line1>
+        <Line2>Gladstone Street</Line2>
+        <City>San Francisco</City>
+    </ShipAddr>
 </Invoice>

@@ -1,0 +1,9 @@
+<Invoice xmlns="http://schema.intuit.com/finance/v3" domain="QBO" sparse="true">
+    <Id>776</Id>
+    <SyncToken>14</SyncToken>
+    <MetaData>
+        <CreateTime>2018-11-15T00:00:00-08:00</CreateTime>
+        <LastUpdatedTime>2014-01-02T15:44:22-08:00</LastUpdatedTime>
+    </MetaData>
+    <PrivateNote>This is a revised memo from Sparse update.</PrivateNote>
+</Invoice>

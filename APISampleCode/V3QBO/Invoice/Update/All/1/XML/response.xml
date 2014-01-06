@@ -1,0 +1,132 @@
+<IntuitResponse xmlns="http://schema.intuit.com/finance/v3" time="2014-01-06T10:18:14.260-08:00">
+    <Invoice domain="QBO" sparse="false">
+        <Id>776</Id>
+        <SyncToken>15</SyncToken>
+        <MetaData>
+            <CreateTime>2018-11-15T00:00:00-08:00</CreateTime>
+            <LastUpdatedTime>2014-01-06T10:18:16-08:00</LastUpdatedTime>
+        </MetaData>
+        <CustomField>
+            <Name>P.O. Number</Name>
+            <Type>StringType</Type>
+            <StringValue>56785678</StringValue>
+        </CustomField>
+        <CustomField>
+            <Name>Sales Rep</Name>
+            <Type>StringType</Type>
+            <StringValue>David</StringValue>
+        </CustomField>
+        <DocNumber>134</DocNumber>
+        <TxnDate>2018-11-15</TxnDate>
+        <DepartmentRef name="Garden Services">1</DepartmentRef>
+        <CurrencyRef name="United States Dollar">USD</CurrencyRef>
+        <PrivateNote>This is a revised memo from Sparse update.</PrivateNote>
+        <LinkedTxn>
+            <TxnId>834</TxnId>
+            <TxnType>Payment</TxnType>
+        </LinkedTxn>
+        <LinkedTxn>
+            <TxnId>835</TxnId>
+            <TxnType>Payment</TxnType>
+        </LinkedTxn>
+        <Line>
+            <Id>2</Id>
+            <LineNum>1</LineNum>
+            <Description>Tree Removal Service</Description>
+            <Amount>750.00</Amount>
+            <DetailType>SalesItemLineDetail</DetailType>
+            <SalesItemLineDetail>
+                <ItemRef name="Tree Removal">61</ItemRef>
+                <UnitPrice>50</UnitPrice>
+                <Qty>15</Qty>
+                <TaxCodeRef>TAX</TaxCodeRef>
+                <ServiceDate>2014-01-01</ServiceDate>
+            </SalesItemLineDetail>
+        </Line>
+        <Line>
+            <Id>5</Id>
+            <LineNum>2</LineNum>
+            <Description>This is a description line.</Description>
+            <DetailType>DescriptionOnly</DetailType>
+            <DescriptionLineDetail>
+                <ServiceDate>2014-01-01</ServiceDate>
+            </DescriptionLineDetail>
+        </Line>
+        <Line>
+            <Amount>750.00</Amount>
+            <DetailType>SubTotalLineDetail</DetailType>
+            <SubTotalLineDetail/>
+        </Line>
+        <Line>
+            <Amount>75.00</Amount>
+            <DetailType>DiscountLineDetail</DetailType>
+            <DiscountLineDetail>
+                <PercentBased>true</PercentBased>
+                <DiscountPercent>10</DiscountPercent>
+                <DiscountAccountRef name="Discounts given">151</DiscountAccountRef>
+            </DiscountLineDetail>
+        </Line>
+        <Line>
+            <Amount>10.00</Amount>
+            <DetailType>SalesItemLineDetail</DetailType>
+            <SalesItemLineDetail>
+                <ItemRef>SHIPPING_ITEM_ID</ItemRef>
+            </SalesItemLineDetail>
+        </Line>
+        <TxnTaxDetail>
+            <TxnTaxCodeRef>2</TxnTaxCodeRef>
+            <TotalTax>48.75</TotalTax>
+            <TaxLine>
+                <Amount>48.75</Amount>
+                <DetailType>TaxLineDetail</DetailType>
+                <TaxLineDetail>
+                    <TaxRateRef>1</TaxRateRef>
+                    <PercentBased>true</PercentBased>
+                    <TaxPercent>6.5</TaxPercent>
+                    <NetAmountTaxable>750.00</NetAmountTaxable>
+                </TaxLineDetail>
+            </TaxLine>
+        </TxnTaxDetail>
+        <CustomerRef name="Blackwell, Edward">20</CustomerRef>
+        <CustomerMemo>This is a message.</CustomerMemo>
+        <BillAddr>
+            <Id>299</Id>
+            <Line1>Wild Garden Restaurant</Line1>
+            <Line2>Edward Blackwell</Line2>
+            <Line3>431 Hampshire Blvd</Line3>
+            <Line4>Bayshore CA 94326</Line4>
+            <Lat>INVALID</Lat>
+            <Long>INVALID</Long>
+        </BillAddr>
+        <ShipAddr>
+            <Id>356</Id>
+            <Line1>Edward Blackwell</Line1>
+            <Line2>Wild Garden Restaurant</Line2>
+            <Line3>431 Hampshire Blvd</Line3>
+            <Line4>Bayshore, CA 94326</Line4>
+            <Lat>INVALID</Lat>
+            <Long>INVALID</Long>
+        </ShipAddr>
+        <SalesTermRef>5</SalesTermRef>
+        <DueDate>2019-11-15</DueDate>
+        <ShipMethodRef name="UPS">UPS</ShipMethodRef>
+        <ShipDate>2018-11-16</ShipDate>
+        <TrackingNum>12341234</TrackingNum>
+        <TotalAmt>733.75</TotalAmt>
+        <ApplyTaxAfterDiscount>false</ApplyTaxAfterDiscount>
+        <PrintStatus>NotSet</PrintStatus>
+        <EmailStatus>NotSet</EmailStatus>
+        <BillEmail>
+            <Address>eblackwell@gmail.com</Address>
+        </BillEmail>
+        <Balance>83.75</Balance>
+        <PaymentMethodRef name="Check">9</PaymentMethodRef>
+        <PaymentRefNum>3456</PaymentRefNum>
+        <DepositToAccountRef name="Checking">40</DepositToAccountRef>
+        <Deposit>100.00</Deposit>
+        <AllowIPNPayment>false</AllowIPNPayment>
+        <AllowOnlinePayment>false</AllowOnlinePayment>
+        <AllowOnlineCreditCardPayment>false</AllowOnlineCreditCardPayment>
+        <AllowOnlineACHPayment>false</AllowOnlineACHPayment>
+    </Invoice>
+</IntuitResponse>
