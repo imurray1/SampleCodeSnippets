@@ -1,9 +1,8 @@
 {
-    "Invoice":
-    {
-        "domain":"QBO",
-        "status":"Deleted",
-        "Id":"33"
+    "Invoice": {
+        "domain": "QBO",
+        "status": "Deleted",
+        "Id": "33"
     },
-    "time":"2013-03-15T00:18:15.322-07:00"
+    "time": "2013-03-15T00:18:15.322-07:00"
 }

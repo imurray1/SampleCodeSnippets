@@ -1,101 +1,82 @@
 {
-        "Deposit":0,
-        "AllowIPNPayment":false,
-        "domain":"QBO",
-        "sparse":false,
-        "Id":"33",
-        "SyncToken":"3",
-        "MetaData":
+    "Deposit": 0,
+    "AllowIPNPayment": false,
+    "domain": "QBO",
+    "sparse": false,
+    "Id": "33",
+    "SyncToken": "3",
+    "MetaData": {
+        "CreateTime": "2012-11-06T14:12:53-08:00",
+        "LastUpdatedTime": "2013-01-29T23:34:02-08:00"
+    },
+    "CustomField": [
         {
-            "CreateTime":"2012-11-06T14:12:53-08:00",
-            "LastUpdatedTime":"2013-01-29T23:34:02-08:00"
+            "Name": "Custom 1",
+            "Type": "StringType"
         },
-        "CustomField":[
-            {
-                "Name":"Custom 1",
-                "Type":"StringType"
-            },
-            {
-                "Name":"Custom 2",
-                "Type":"StringType"
-            },
-            {
-                "Name":"Custom 3",
-                "Type":"StringType"
+        {
+            "Name": "Custom 2",
+            "Type": "StringType"
+        },
+        {
+            "Name": "Custom 3",
+            "Type": "StringType"
+        }
+    ],
+    "DocNumber": "1020",
+    "TxnDate": "2012-11-06",
+    "DepartmentRef": {
+        "value": "1",
+        "name": "Mountain View"
+    },
+    "CurrencyRef": {
+        "value": "USD",
+        "name": "United States Dollar"
+    },
+    "Line": [
+        {
+            "Id": "1",
+            "LineNum": 1,
+            "Amount": 10,
+            "DetailType": "SalesItemLineDetail",
+            "SalesItemLineDetail": {
+                "ItemRef": {
+                    "value": "2",
+                    "name": "Hours"
+                },
+                "UnitPrice": 10,
+                "Qty": 1,
+                "TaxCodeRef": {"value": "NON"}
             }
-        ],
-        "DocNumber":"1020",
-        "TxnDate":"2012-11-06",
-        "DepartmentRef":
-        {
-            "value":"1",
-            "name":"Mountain View"
         },
-        "CurrencyRef":
         {
-            "value":"USD",
-            "name":"United States Dollar"
+            "Amount": 10,
+            "DetailType": "SubTotalLineDetail",
+            "SubTotalLineDetail": {}
         },
-        "Line":[
-            {
-                "Id":"1",
-                "LineNum":1,
-                "Amount":10.00,
-                "DetailType":"SalesItemLineDetail",
-                "SalesItemLineDetail":
-                {
-                    "ItemRef":
-                    {
-                        "value":"2",
-                        "name":"Hours"
-                    },
-                    "UnitPrice":10,
-                    "Qty":1,
-                    "TaxCodeRef":
-                    {
-                        "value":"NON"
-                    }
-                }
-            },
-            {
-                "Amount":10.00,
-                "DetailType":"SubTotalLineDetail",
-                "SubTotalLineDetail":
-                {
-                }
-            },
-            {
-                "Amount":1.10,
-                "DetailType":"DiscountLineDetail",
-                "DiscountLineDetail":
-                {
-                    "PercentBased":true,
-                    "DiscountPercent":11,
-                    "DiscountAccountRef":
-                    {
-                        "value":"30",
-                        "name":"Discounts given"
-                    }
+        {
+            "Amount": 1.1,
+            "DetailType": "DiscountLineDetail",
+            "DiscountLineDetail": {
+                "PercentBased": true,
+                "DiscountPercent": 11,
+                "DiscountAccountRef": {
+                    "value": "30",
+                    "name": "Discounts given"
                 }
             }
-        ],
-        "TxnTaxDetail":
-        {
-            "TotalTax":0
-        },
-        "CustomerRef":
-        {
-            "value":"6",
-            "name":"TestSales"
-        },
-        "SalesTermRef":
-        {
-            "value":"3"
-        },
-        "DueDate":"2012-12-06",
-        "TotalAmt":8.90,
-        "ApplyTaxAfterDiscount":false,
-        "PrintStatus":"NeedToPrint",
-        "EmailStatus":"NotSet",
-        "Balance":8.90
-    }
+        }
+    ],
+    "TxnTaxDetail": {"TotalTax": 0},
+    "CustomerRef": {
+        "value": "6",
+        "name": "TestSales"
+    },
+    "SalesTermRef": {"value": "3"},
+    "DueDate": "2012-12-06",
+    "TotalAmt": 8.9,
+    "ApplyTaxAfterDiscount": false,
+    "PrintStatus": "NeedToPrint",
+    "EmailStatus": "NotSet",
+    "Balance": 8.9
+}
