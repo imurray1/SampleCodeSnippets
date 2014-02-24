@@ -1,0 +1,59 @@
+<Customer xmlns="http://schema.intuit.com/finance/v3" domain="QBO" sparse="false">
+  <Title>Mr</Title>
+  <GivenName>James</GivenName>
+  <MiddleName>B</MiddleName>
+  <FamilyName>Drew</FamilyName>
+  <Suffix>Jr</Suffix>
+  <FullyQualifiedName>Drew Furniture</FullyQualifiedName>
+  <CompanyName>Drew Furniture</CompanyName>
+  <DisplayName>Drew and Sons Furniture</DisplayName>
+  <PrintOnCheckName>Drew Furniture</PrintOnCheckName>
+  <Active>true</Active>
+  <PrimaryPhone>
+    <FreeFormNumber>(555) 555-5555</FreeFormNumber>
+  </PrimaryPhone>
+  <AlternatePhone>
+    <FreeFormNumber>(555) 555-8888</FreeFormNumber>
+  </AlternatePhone>
+  <Mobile>
+    <FreeFormNumber>555-5555-6666</FreeFormNumber>
+  </Mobile>
+  <Fax>
+    <FreeFormNumber>(555) 555-7777</FreeFormNumber>
+  </Fax>
+  <PrimaryEmailAddr>
+    <Address>jdrew@myemail.com</Address>
+  </PrimaryEmailAddr>
+  <WebAddr>
+    <URI>http://www.drewfurniture.com</URI>
+  </WebAddr>
+  <DefaultTaxCodeRef>2</DefaultTaxCodeRef>
+  <Taxable>true</Taxable>
+  <BillAddr>
+    <Id>378</Id>
+    <City>Mountain View</City>
+    <Country>USA</Country>
+    <CountrySubDivisionCode>CA</CountrySubDivisionCode>
+    <PostalCode>94042</PostalCode>
+    <Lat>37.3931794</Lat>
+    <Long>-122.0778761</Long>
+  </BillAddr>
+  <ShipAddr>
+    <Id>378</Id>
+    <City>Mountain View</City>
+    <Country>USA</Country>
+    <CountrySubDivisionCode>CA</CountrySubDivisionCode>
+    <PostalCode>94042</PostalCode>
+    <Lat>37.3931794</Lat>
+    <Long>-122.0778761</Long>
+  </ShipAddr>
+  <Notes>Here are other details.</Notes>
+  <Job>false</Job>
+  <BillWithParent>false</BillWithParent>
+  <SalesTermRef>7</SalesTermRef>
+  <PaymentMethodRef>9</PaymentMethodRef>
+  <Balance>20.00</Balance>
+  <BalanceWithJobs>20.00</BalanceWithJobs>
+  <PreferredDeliveryMethod>Print</PreferredDeliveryMethod>
+  <ResaleNum>12341234</ResaleNum>
+</Customer>
