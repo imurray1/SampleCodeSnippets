@@ -1,198 +1,70 @@
 {
-    "QueryResponse":
-    {
-        "Bill":[
-            {
-                "SalesTermRef":
-                {
-                    "value":"3"
-                },
-                "DueDate":"2013-06-09",
-                "domain":"QBO",
-                "sparse":false,
-                "Id":"516",
-                "SyncToken":"0",
-                "MetaData":
-                {
-                    "CreateTime":"2013-05-10T12:14:55-07:00",
-                    "LastUpdatedTime":"2013-05-10T12:14:55-07:00"
-                },
-                "DocNumber":"12345",
-                "TxnDate":"2013-05-10",
-                "PrivateNote":"This the memo.",
-                "Line":[
-                    {
-                        "Id":"1",
-                        "Description":"The Description",
-                        "Amount":200.00,
-                        "DetailType":"AccountBasedExpenseLineDetail",
-                        "AccountBasedExpenseLineDetail":
-                        {
-                            "CustomerRef":
-                            {
-                                "value":"407",
-                                "name":"Customer 1"
-                            },
-                            "ClassRef":
-                            {
-                                "value":"100100000000000212510",
-                                "name":"Class 1"
-                            },
-                            "AccountRef":
-                            {
-                                "value":"8",
-                                "name":"Advertising"
-                            },
-                            "BillableStatus":"Billable",
-                            "MarkupInfo":
-                            {
-                                "Percent":10
-                            },
-                            "TaxCodeRef":
-                            {
-                                "value":"TAX"
-                            }
-                        }
-                    },
-                    {
-                        "Id":"2",
-                        "Amount":5.00,
-                        "DetailType":"ItemBasedExpenseLineDetail",
-                        "ItemBasedExpenseLineDetail":
-                        {
-                            "BillableStatus":"NotBillable",
-                            "ItemRef":
-                            {
-                                "value":"3",
-                                "name":"Sunflowers"
-                            },
-                            "UnitPrice":5,
-                            "Qty":1,
-                            "TaxCodeRef":
-                            {
-                                "value":"NON"
-                            }
-                        },
-                        "AccountBasedExpenseLineDetail":
-                        {
-                            "AccountRef":
-                            {
-                                "value":"60",
-                                "name":"Purchases"
-                            }
-                        }
-                    }
-                ],
-                "VendorRef":
-                {
-                    "value":"52",
-                    "name":"Test Vendor 1"
-                },
-                "APAccountRef":
-                {
-                    "value":"59",
-                    "name":"Accounts Payable (A/P)"
-                },
-                "TotalAmt":205.00
-            },
-            {
-                "SalesTermRef":
-                {
-                    "value":"3"
-                },
-                "DueDate":"2013-06-09",
-                "domain":"QBO",
-                "sparse":false,
-                "Id":"518",
-                "SyncToken":"1",
-                "MetaData":
-                {
-                    "CreateTime":"2013-05-10T13:30:06-07:00",
-                    "LastUpdatedTime":"2013-05-10T13:35:20-07:00"
-                },
-                "DocNumber":"9876",
-                "TxnDate":"2013-05-10",
-                "PrivateNote":"This the memo.",
-                "Line":[
-                    {
-                        "Id":"1",
-                        "Description":"For Advertising",
-                        "Amount":200.00,
-                        "DetailType":"AccountBasedExpenseLineDetail",
-                        "AccountBasedExpenseLineDetail":
-                        {
-                            "CustomerRef":
-                            {
-                                "value":"407",
-                                "name":"Customer 1"
-                            },
-                            "ClassRef":
-                            {
-                                "value":"100100000000000212510",
-                                "name":"Class 1"
-                            },
-                            "AccountRef":
-                            {
-                                "value":"8",
-                                "name":"Advertising"
-                            },
-                            "BillableStatus":"Billable",
-                            "MarkupInfo":
-                            {
-                                "Percent":10
-                            },
-                            "TaxCodeRef":
-                            {
-                                "value":"TAX"
-                            }
-                        }
-                    },
-                    {
-                        "Id":"2",
-                        "Description":"For Sunflowers",
-                        "Amount":10.00,
-                        "DetailType":"ItemBasedExpenseLineDetail",
-                        "ItemBasedExpenseLineDetail":
-                        {
-                            "BillableStatus":"NotBillable",
-                            "ItemRef":
-                            {
-                                "value":"3",
-                                "name":"Sunflowers"
-                            },
-                            "UnitPrice":5,
-                            "Qty":2,
-                            "TaxCodeRef":
-                            {
-                                "value":"NON"
-                            }
-                        },
-                        "AccountBasedExpenseLineDetail":
-                        {
-                            "AccountRef":
-                            {
-                                "value":"60",
-                                "name":"Purchases"
-                            }
-                        }
-                    }
-                ],
-                "VendorRef":
-                {
-                    "value":"52",
-                    "name":"Test Vendor 1"
-                },
-                "APAccountRef":
-                {
-                    "value":"59",
-                    "name":"Accounts Payable (A/P)"
-                },
-                "TotalAmt":210.00
+  "QueryResponse": {
+    "Bill": [
+      {
+        "SalesTermRef": {
+          "value": "12"
+        },
+        "DueDate": "2013-06-09",
+        "Balance": 200.0,
+        "domain": "QBO",
+        "sparse": false,
+        "Id": "890",
+        "SyncToken": "1",
+        "MetaData": {
+          "CreateTime": "2014-04-04T12:38:01-07:00",
+          "LastUpdatedTime": "2014-04-04T12:48:56-07:00"
+        },
+        "DocNumber": "56789",
+        "TxnDate": "2014-04-04",
+        "DepartmentRef": {
+          "value": "1",
+          "name": "Garden Services"
+        },
+        "CurrencyRef": {
+          "value": "USD",
+          "name": "United States Dollar"
+        },
+        "PrivateNote": "This is a memo.",
+        "Line": [
+          {
+            "Id": "1",
+            "Description": "Gasoline",
+            "Amount": 200.0,
+            "DetailType": "AccountBasedExpenseLineDetail",
+            "AccountBasedExpenseLineDetail": {
+              "CustomerRef": {
+                "value": "20",
+                "name": "Blackwell, Edward"
+              },
+              "AccountRef": {
+                "value": "75",
+                "name": "Automobile"
+              },
+              "BillableStatus": "Billable",
+              "MarkupInfo": {
+                "Percent": 10
+              },
+              "TaxCodeRef": {
+                "value": "TAX"
+              }
             }
+          }
         ],
-        "startPosition":1,
-        "maxResults":2,
-        "totalCount":2
-    },
-    "time":"2013-05-10T13:40:57.682-07:00"
+        "VendorRef": {
+          "value": "81",
+          "name": "Bayshore CalOil Service"
+        },
+        "APAccountRef": {
+          "value": "49",
+          "name": "Accounts Payable"
+        },
+        "TotalAmt": 200.0
+      }
+    ],
+    "startPosition": 1,
+    "maxResults": 1,
+    "totalCount": 1
+  },
+  "time": "2014-04-04T12:49:25.44-07:00"
 }

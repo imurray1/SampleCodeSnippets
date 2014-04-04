@@ -1,38 +1,27 @@
-<IntuitResponse xmlns="http://schema.intuit.com/finance/v3" time="2013-07-19T08:42:46.914-07:00">
+<IntuitResponse xmlns="http://schema.intuit.com/finance/v3" time="2014-04-04T09:39:58.514-07:00">
     <Bill domain="QBO" sparse="false">
-        <Id>814</Id>
+        <Id>888</Id>
         <SyncToken>0</SyncToken>
         <MetaData>
-            <CreateTime>2013-07-19T08:42:46-07:00</CreateTime>
-            <LastUpdatedTime>2013-07-19T08:42:46-07:00</LastUpdatedTime>
+            <CreateTime>2014-04-04T09:39:58-07:00</CreateTime>
+            <LastUpdatedTime>2014-04-04T09:39:58-07:00</LastUpdatedTime>
         </MetaData>
-        <DocNumber>17</DocNumber>
-        <TxnDate>2017-12-16</TxnDate>
+        <TxnDate>2014-04-04</TxnDate>
+        <DepartmentRef name="Garden Services">1</DepartmentRef>
         <Line>
             <Id>1</Id>
             <Amount>700.00</Amount>
             <DetailType>AccountBasedExpenseLineDetail</DetailType>
             <AccountBasedExpenseLineDetail>
-                <ClassRef name="Overhead">100000000000128320</ClassRef>
-                <AccountRef name="Bank Loan">42</AccountRef>
+                <AccountRef name="Automobile">75</AccountRef>
                 <BillableStatus>NotBillable</BillableStatus>
                 <TaxCodeRef>NON</TaxCodeRef>
             </AccountBasedExpenseLineDetail>
         </Line>
-        <Line>
-            <Id>2</Id>
-            <Amount>55.12</Amount>
-            <DetailType>AccountBasedExpenseLineDetail</DetailType>
-            <AccountBasedExpenseLineDetail>
-                <ClassRef name="Overhead">100000000000128320</ClassRef>
-                <AccountRef name="Interest Expense">77</AccountRef>
-                <BillableStatus>NotBillable</BillableStatus>
-                <TaxCodeRef>NON</TaxCodeRef>
-            </AccountBasedExpenseLineDetail>
-        </Line>
-        <VendorRef name="Great Statewide Bank">4</VendorRef>
-        <APAccountRef name="Accounts Payable">38</APAccountRef>
-        <TotalAmt>755.12</TotalAmt>
-        <DueDate>2018-12-26</DueDate>
+        <VendorRef name="Bayshore CalOil Service">81</VendorRef>
+        <APAccountRef name="Accounts Payable">49</APAccountRef>
+        <TotalAmt>700.00</TotalAmt>
+        <DueDate>2014-04-04</DueDate>
+        <Balance>700.00</Balance>
     </Bill>
 </IntuitResponse>

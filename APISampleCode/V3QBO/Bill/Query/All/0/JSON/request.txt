@@ -1,1 +1,1 @@
-Select * From Bill Where Metadata.LastUpdatedTime>'2013-05-10T00:00:00-08:00' Order By Metadata.LastUpdatedTime
+https://qb.sbfinance.intuit.com/v3/company/1029354210/query?query=select * from Bill where DocNumber = '56789'

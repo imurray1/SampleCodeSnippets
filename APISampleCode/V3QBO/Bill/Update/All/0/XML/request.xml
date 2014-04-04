@@ -1,36 +1,35 @@
 <Bill xmlns="http://schema.intuit.com/finance/v3" domain="QBO" sparse="false">
-        <Id>295</Id>
-        <SyncToken>0</SyncToken>
-        <MetaData>
-            <CreateTime>2017-12-16T00:00:00-08:00</CreateTime>
-            <LastUpdatedTime>2017-12-16T00:00:00-08:00</LastUpdatedTime>
-        </MetaData>
-        <DocNumber>16</DocNumber>
-        <TxnDate>2017-12-16</TxnDate>
-        <Line>
-            <Id>1</Id>
-            <Amount>700.00</Amount>
-            <DetailType>AccountBasedExpenseLineDetail</DetailType>
-            <AccountBasedExpenseLineDetail>
-                <ClassRef name="Overhead">100000000000128320</ClassRef>
-                <AccountRef name="Bank Loan">42</AccountRef>
-                <BillableStatus>NotBillable</BillableStatus>
-                <TaxCodeRef>NON</TaxCodeRef>
-            </AccountBasedExpenseLineDetail>
-        </Line>
-        <Line>
-            <Id>2</Id>
-            <Amount>55.12</Amount>
-            <DetailType>AccountBasedExpenseLineDetail</DetailType>
-            <AccountBasedExpenseLineDetail>
-                <ClassRef name="Overhead">100000000000128320</ClassRef>
-                <AccountRef name="Interest Expense">77</AccountRef>
-                <BillableStatus>NotBillable</BillableStatus>
-                <TaxCodeRef>NON</TaxCodeRef>
-            </AccountBasedExpenseLineDetail>
-        </Line>
-        <VendorRef name="Great Statewide Bank">4</VendorRef>
-        <APAccountRef name="Accounts Payable">38</APAccountRef>
-        <TotalAmt>699.12</TotalAmt>
-        <DueDate>2018-12-26</DueDate>
-    </Bill>
+    <Id>888</Id>
+    <SyncToken>1</SyncToken>
+    <MetaData>
+        <CreateTime>2014-04-04T09:39:58-07:00</CreateTime>
+        <LastUpdatedTime>2014-04-04T12:15:05-07:00</LastUpdatedTime>
+    </MetaData>
+    <DocNumber>12345</DocNumber>
+    <TxnDate>2014-04-04</TxnDate>
+    <DepartmentRef name="Garden Services">1</DepartmentRef>
+    <CurrencyRef name="United States Dollar">USD</CurrencyRef>
+    <PrivateNote>This is another memo.</PrivateNote>
+    <Line>
+        <Id>1</Id>
+        <Description>Gasoline</Description>
+        <Amount>700.00</Amount>
+        <DetailType>AccountBasedExpenseLineDetail</DetailType>
+        <AccountBasedExpenseLineDetail>
+            <CustomerRef name="Blackwell, Edward">20</CustomerRef>
+            <ClassRef name="Maintenance">100000000000368492</ClassRef>
+            <AccountRef name="Automobile">75</AccountRef>
+            <BillableStatus>Billable</BillableStatus>
+            <MarkupInfo>
+                <Percent>10</Percent>
+            </MarkupInfo>
+            <TaxCodeRef>TAX</TaxCodeRef>
+        </AccountBasedExpenseLineDetail>
+    </Line>
+    <VendorRef name="Bayshore CalOil Service">81</VendorRef>
+    <APAccountRef name="Accounts Payable">49</APAccountRef>
+    <TotalAmt>700.00</TotalAmt>
+    <SalesTermRef>12</SalesTermRef>
+    <DueDate>2014-04-04</DueDate>
+    <Balance>700.00</Balance>
+</Bill>

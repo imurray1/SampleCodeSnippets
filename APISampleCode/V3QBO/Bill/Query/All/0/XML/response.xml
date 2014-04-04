@@ -1,40 +1,39 @@
-<IntuitResponse xmlns="http://schema.intuit.com/finance/v3" time="2013-07-18T16:09:47.873-07:00">
+<IntuitResponse xmlns="http://schema.intuit.com/finance/v3" time="2014-04-04T12:23:07.140-07:00">
     <QueryResponse startPosition="1" maxResults="1" totalCount="1">
         <Bill domain="QBO" sparse="false">
-            <Id>295</Id>
-            <SyncToken>1</SyncToken>
+            <Id>888</Id>
+            <SyncToken>2</SyncToken>
             <MetaData>
-                <CreateTime>2017-12-16T00:00:00-08:00</CreateTime>
-                <LastUpdatedTime>2013-07-18T16:05:50-07:00</LastUpdatedTime>
+                <CreateTime>2014-04-04T09:39:58-07:00</CreateTime>
+                <LastUpdatedTime>2014-04-04T12:21:39-07:00</LastUpdatedTime>
             </MetaData>
-            <DocNumber>16</DocNumber>
-            <TxnDate>2017-12-16</TxnDate>
+            <DocNumber>12345</DocNumber>
+            <TxnDate>2014-04-04</TxnDate>
+            <DepartmentRef name="Garden Services">1</DepartmentRef>
+            <CurrencyRef name="United States Dollar">USD</CurrencyRef>
+            <PrivateNote>This is another memo.</PrivateNote>
             <Line>
                 <Id>1</Id>
+                <Description>Gasoline</Description>
                 <Amount>700.00</Amount>
                 <DetailType>AccountBasedExpenseLineDetail</DetailType>
                 <AccountBasedExpenseLineDetail>
-                    <ClassRef name="Overhead">100000000000128320</ClassRef>
-                    <AccountRef name="Bank Loan">42</AccountRef>
-                    <BillableStatus>NotBillable</BillableStatus>
-                    <TaxCodeRef>NON</TaxCodeRef>
+                    <CustomerRef name="Blackwell, Edward">20</CustomerRef>
+                    <ClassRef name="Maintenance">100000000000368492</ClassRef>
+                    <AccountRef name="Automobile">75</AccountRef>
+                    <BillableStatus>Billable</BillableStatus>
+                    <MarkupInfo>
+                        <Percent>10</Percent>
+                    </MarkupInfo>
+                    <TaxCodeRef>TAX</TaxCodeRef>
                 </AccountBasedExpenseLineDetail>
             </Line>
-            <Line>
-                <Id>2</Id>
-                <Amount>55.12</Amount>
-                <DetailType>AccountBasedExpenseLineDetail</DetailType>
-                <AccountBasedExpenseLineDetail>
-                    <ClassRef name="Overhead">100000000000128320</ClassRef>
-                    <AccountRef name="Interest Expense">77</AccountRef>
-                    <BillableStatus>NotBillable</BillableStatus>
-                    <TaxCodeRef>NON</TaxCodeRef>
-                </AccountBasedExpenseLineDetail>
-            </Line>
-            <VendorRef name="Great Statewide Bank">4</VendorRef>
-            <APAccountRef name="Accounts Payable">38</APAccountRef>
-            <TotalAmt>755.12</TotalAmt>
-            <DueDate>2018-12-26</DueDate>
+            <VendorRef name="Bayshore CalOil Service">81</VendorRef>
+            <APAccountRef name="Accounts Payable">49</APAccountRef>
+            <TotalAmt>700.00</TotalAmt>
+            <SalesTermRef>12</SalesTermRef>
+            <DueDate>2014-04-04</DueDate>
+            <Balance>700.00</Balance>
         </Bill>
     </QueryResponse>
 </IntuitResponse>
