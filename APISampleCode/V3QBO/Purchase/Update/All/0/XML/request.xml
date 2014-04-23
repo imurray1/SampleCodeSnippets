@@ -1,19 +1,32 @@
-<Purchase xmlns="http://schema.intuit.com/finance/v3" sparse="false">
-  <Id>3040</Id>
-  <SyncToken>0</SyncToken>
+
+<Purchase xmlns="http://schema.intuit.com/finance/v3" domain="QBO" sparse="false">
+  <Id>603</Id>
+  <SyncToken>1</SyncToken>
   <MetaData>
-    <CreateTime>2013-04-09T03:25:50-07:00</CreateTime>
-    <LastUpdatedTime>2013-04-09T03:25:50-07:00</LastUpdatedTime>
+    <CreateTime>2018-07-18T00:00:00-07:00</CreateTime>
+    <LastUpdatedTime>2014-04-22T08:57:37-07:00</LastUpdatedTime>
   </MetaData>
-  <TxnDate>2012-06-18</TxnDate>
-  <PrivateNote>Purchase-wMnU7DVsyI</PrivateNote>
+  <TxnDate>2018-07-18</TxnDate>
+  <CurrencyRef name="United States Dollar">USD</CurrencyRef>
+  <PrivateNote>Taxable expense.</PrivateNote>
   <Line>
-    <Amount>300.00</Amount>
+    <Id>1</Id>
+    <Amount>28.40</Amount>
     <DetailType>AccountBasedExpenseLineDetail</DetailType>
     <AccountBasedExpenseLineDetail>
-      <AccountRef name="Test Purchase Expense Account">55</AccountRef>
+      <CustomerRef name="Andres, Cristina">21</CustomerRef>
+      <ClassRef name="Landscaping">100000000000368490</ClassRef>
+      <AccountRef name="Automobile:Fuel">76</AccountRef>
+      <BillableStatus>Billable</BillableStatus>
+      <MarkupInfo>
+        <Percent>10</Percent>
+      </MarkupInfo>
+      <TaxCodeRef>TAX</TaxCodeRef>
     </AccountBasedExpenseLineDetail>
   </Line>
-  <AccountRef name="Test Purchase Bank Account">53</AccountRef>
-  <PaymentType>Cash</PaymentType>
+  <AccountRef name="CalOil Card">50</AccountRef>
+  <PaymentType>CreditCard</PaymentType>
+  <EntityRef name="Bayshore CalOil Service" type="Vendor">81</EntityRef>
+  <Credit>false</Credit>
+  <TotalAmt>26.00</TotalAmt>
 </Purchase>

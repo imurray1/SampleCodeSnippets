@@ -1,0 +1,16 @@
+{
+    "TaxAgency": {
+        "TaxTrackedOnPurchases": false,
+        "TaxTrackedOnSales": true,
+        "domain": "QBO",
+        "sparse": false,
+        "Id": "1",
+        "SyncToken": "0",
+        "MetaData": {
+            "CreateTime": "2014-02-05T10:44:43-08:00",
+            "LastUpdatedTime": "2014-02-05T10:44:43-08:00"
+        },
+        "DisplayName": "MyTaxAgency"
+    },
+    "time": "2014-04-15T14:04:37.519-07:00"
+}

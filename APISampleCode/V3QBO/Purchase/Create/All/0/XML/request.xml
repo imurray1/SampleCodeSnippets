@@ -1,66 +1,11 @@
 <Purchase xmlns="http://schema.intuit.com/finance/v3" sparse="false">
-  <ExchangeRate>1</ExchangeRate>
   <Line>
-    <Id>1</Id>
-    <Description>this is line 1</Description>
     <Amount>10.00</Amount>
     <DetailType>AccountBasedExpenseLineDetail</DetailType>
     <AccountBasedExpenseLineDetail>
-      <AccountRef name="Cash Over and Short">65</AccountRef>
-      <BillableStatus>NotBillable</BillableStatus>
-      <TaxCodeRef>3</TaxCodeRef>
+      <AccountRef>79</AccountRef>
     </AccountBasedExpenseLineDetail>
   </Line>
-  <Line>
-    <Id>2</Id>
-    <Amount>0.95</Amount>
-    <DetailType>ItemBasedExpenseLineDetail</DetailType>
-    <ItemBasedExpenseLineDetail>
-      <ItemRef name="Test Purchase Item">3</ItemRef>
-      <UnitPrice>0.95</UnitPrice>
-      <Qty>1</Qty>
-      <TaxCodeRef>5</TaxCodeRef>
-      <BillableStatus>NotBillable</BillableStatus>
-    </ItemBasedExpenseLineDetail>
-    <AccountBasedExpenseLineDetail>
-      <AccountRef name="Test Purchase Expense Account">62</AccountRef>
-    </AccountBasedExpenseLineDetail>
-  </Line>
-  <TxnTaxDetail>
-    <TaxLine>
-      <Amount>2.00</Amount>
-      <DetailType>TaxLineDetail</DetailType>
-      <TaxLineDetail>
-        <TaxRateRef>4</TaxRateRef>
-        <PercentBased>true</PercentBased>
-        <TaxPercent>20</TaxPercent>
-        <NetAmountTaxable>10.00</NetAmountTaxable>
-      </TaxLineDetail>
-    </TaxLine>
-    <TaxLine>
-      <Amount>-2.00</Amount>
-      <DetailType>TaxLineDetail</DetailType>
-      <TaxLineDetail>
-        <TaxRateRef>3</TaxRateRef>
-        <PercentBased>true</PercentBased>
-        <TaxPercent>-20</TaxPercent>
-        <NetAmountTaxable>10.00</NetAmountTaxable>
-      </TaxLineDetail>
-    </TaxLine>
-    <TaxLine>
-      <Amount>0.05</Amount>
-      <DetailType>TaxLineDetail</DetailType>
-      <TaxLineDetail>
-        <TaxRateRef>8</TaxRateRef>
-        <PercentBased>true</PercentBased>
-        <TaxPercent>5</TaxPercent>
-        <NetAmountTaxable>0.95</NetAmountTaxable>
-      </TaxLineDetail>
-    </TaxLine>
-  </TxnTaxDetail>
-  <AccountRef name="Test Purchase Bank Account">61</AccountRef>
+  <AccountRef name="Cash Expenditures">125</AccountRef>
   <PaymentType>Cash</PaymentType>
-  <EntityRef name="Mr V3 Service Customer Jr2">1</EntityRef>
-  <TotalAmt>11.00</TotalAmt>
-  <GlobalTaxCalculation>TaxInclusive</GlobalTaxCalculation>
 </Purchase>

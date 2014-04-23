@@ -1,1 +1,1 @@
-select * from Purchase where Metadata.LastUpdatedTime>'2013-03-14T02:02:22-08:00' Order By Metadata.LastUpdatedTime
+select * from Purchase where Id='595'
