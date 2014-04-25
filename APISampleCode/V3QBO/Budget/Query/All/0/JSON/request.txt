@@ -1,0 +1,1 @@
+Select * from Budget where Metadata.LastUpdatedTime<'2013-01-30T11:02:22-08:00'

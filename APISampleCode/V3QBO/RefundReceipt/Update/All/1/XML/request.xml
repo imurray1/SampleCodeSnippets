@@ -1,0 +1,5 @@
+<RefundReceipt xmlns="http://schema.intuit.com/finance/v3" domain="QBO" sparse="true">
+    <Id>927</Id>
+    <SyncToken>1</SyncToken>
+    <PrivateNote>This is a revised memo to demonstrate Sparse update.</PrivateNote>
+</RefundReceipt>

@@ -1,0 +1,20 @@
+{
+    "Line":[
+        {
+            "Amount":420.00,
+            "DetailType":"SalesItemLineDetail",
+            "SalesItemLineDetail":
+            {
+                "ItemRef":
+                {
+                    "value":"33"
+                }
+            }
+        }
+    ],
+    "DepositToAccountRef":
+    {
+        "value":"40",
+        "name":"Checking"
+    }
+}

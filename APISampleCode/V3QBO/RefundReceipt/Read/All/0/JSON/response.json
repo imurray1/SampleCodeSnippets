@@ -1,0 +1,59 @@
+{
+    "RefundReceipt": {
+        "domain": "QBO",
+        "sparse": false,
+        "Id": "930",
+        "SyncToken": "0",
+        "MetaData": {
+            "CreateTime": "2014-04-25T09:40:43-07:00",
+            "LastUpdatedTime": "2014-04-25T09:40:43-07:00"
+        },
+        "CustomField": [
+            {
+                "Name": "P.O. Number",
+                "Type": "StringType"
+            },
+            {
+                "Name": "Sales Rep",
+                "Type": "StringType"
+            }
+        ],
+        "DocNumber": "10033",
+        "TxnDate": "2014-04-25",
+        "DepartmentRef": {
+            "value": "1",
+            "name": "Garden Services"
+        },
+        "Line": [
+            {
+                "Id": "1",
+                "LineNum": 1,
+                "Amount": 420,
+                "DetailType": "SalesItemLineDetail",
+                "SalesItemLineDetail": {
+                    "ItemRef": {
+                        "value": "33",
+                        "name": "Concrete"
+                    },
+                    "TaxCodeRef": {"value": "NON"}
+                }
+            },
+            {
+                "Amount": 420,
+                "DetailType": "SubTotalLineDetail",
+                "SubTotalLineDetail": {}
+            }
+        ],
+        "TxnTaxDetail": {"TotalTax": 0},
+        "TotalAmt": 420,
+        "ApplyTaxAfterDiscount": false,
+        "PrintStatus": "NeedToPrint",
+        "Balance": 0,
+        "PaymentRefNum": "To Print",
+        "DepositToAccountRef": {
+            "value": "40",
+            "name": "Checking"
+        }
+    },
+    "time": "2014-04-25T09:42:01.824-07:00"
+}

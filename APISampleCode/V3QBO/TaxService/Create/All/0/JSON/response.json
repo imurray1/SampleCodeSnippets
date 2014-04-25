@@ -1,0 +1,18 @@
+{
+    TaxCode": "MyTaxCodeName", 
+    "TaxCodeId": "1", 
+    "TaxRateDetails": 
+    [ {
+        "TaxRateName": "myNewTaxRateName",
+         "TaxRateId" : "3",
+         "RateValue": "8%",
+         "TaxAgencyId" : "1",
+         "TaxApplicableOn" : "Sales"
+    },{
+        "TaxRateName": "myExistingTaxRateName", 
+        "TaxRateId" : "2", 
+        "RateValue": "5%", 
+        "TaxAgencyId" : "1", 
+        "TaxApplicableOn" : "Purchase"
+    } ]
+}

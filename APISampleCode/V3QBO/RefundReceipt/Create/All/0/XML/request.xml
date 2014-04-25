@@ -1,0 +1,11 @@
+<RefundReceipt xmlns="http://schema.intuit.com/finance/v3">
+  <Line>
+    <Description>Installation labor</Description>
+    <Amount>420.00</Amount>
+    <DetailType>SalesItemLineDetail</DetailType>
+    <SalesItemLineDetail>
+      <ItemRef>33</ItemRef>
+    </SalesItemLineDetail>
+  </Line>
+  <DepositToAccountRef name="Checking">40</DepositToAccountRef>
+</RefundReceipt>

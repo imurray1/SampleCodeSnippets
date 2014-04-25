@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<IntuitResponse xmlns="http://schema.intuit.com/finance/v3" time="2014-04-25T09:23:41.065-07:00">
+  <RefundReceipt domain="QBO" status="Deleted">
+    <Id>927</Id>
+  </RefundReceipt>
+</IntuitResponse>

@@ -1,0 +1,65 @@
+{
+    "QueryResponse": {
+        "RefundReceipt": [{
+            "domain": "QBO",
+            "sparse": false,
+            "Id": "930",
+            "SyncToken": "2",
+            "MetaData": {
+                "CreateTime": "2014-04-25T09:40:43-07:00",
+                "LastUpdatedTime": "2014-04-25T09:56:29-07:00"
+            },
+            "CustomField": [
+                {
+                    "Name": "P.O. Number",
+                    "Type": "StringType"
+                },
+                {
+                    "Name": "Sales Rep",
+                    "Type": "StringType"
+                }
+            ],
+            "DocNumber": "10033",
+            "TxnDate": "2014-04-25",
+            "DepartmentRef": {
+                "value": "1",
+                "name": "Garden Services"
+            },
+            "PrivateNote": "This is a private note update via full update.",
+            "Line": [
+                {
+                    "Id": "1",
+                    "LineNum": 1,
+                    "Amount": 420,
+                    "DetailType": "SalesItemLineDetail",
+                    "SalesItemLineDetail": {
+                        "ItemRef": {
+                            "value": "33",
+                            "name": "Concrete"
+                        },
+                        "TaxCodeRef": {"value": "NON"}
+                    }
+                },
+                {
+                    "Amount": 420,
+                    "DetailType": "SubTotalLineDetail",
+                    "SubTotalLineDetail": {}
+                }
+            ],
+            "TxnTaxDetail": {"TotalTax": 0},
+            "TotalAmt": 420,
+            "ApplyTaxAfterDiscount": false,
+            "PrintStatus": "NeedToPrint",
+            "Balance": 0,
+            "PaymentRefNum": "To Print",
+            "DepositToAccountRef": {
+                "value": "40",
+                "name": "Checking"
+            }
+        }],
+        "startPosition": 1,
+        "maxResults": 1,
+        "totalCount": 1
+    },
+    "time": "2014-04-25T09:57:35.488-07:00"
+}

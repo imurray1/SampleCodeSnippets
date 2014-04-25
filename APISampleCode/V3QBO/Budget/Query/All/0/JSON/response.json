@@ -1,0 +1,20 @@
+{"QueryResponse": {"Budget": [{
+    "Name": "MyBudget",
+    "StartDate": "2014-01-01",
+    "EndDate": "2014-12-31",
+    "BudgetType": "ProfitAndLoss",
+    "BudgetEntryType": "Monthly",
+    "Active": true,
+    "BudgetDetail": [{
+        "BudgetDate": "2014-01-01",
+        "Amount": -24995,
+        "AccountRef": {
+            "value": "32",
+            "name": "Fish Supplies"
+        },
+        "CustomerRef": {
+            "value": "1",
+            "name": "Sea Cucumber"
+        }
+    }]
+}]}}
