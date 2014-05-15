@@ -3,7 +3,7 @@
     "TaxRateDetails": [
         {
             "TaxRateName": "myNewTaxRateName",
-            "RateValue": "8%",
+            "RateValue": "8",
             "TaxAgencyId": "1",
             "TaxApplicableOn": "Sales"
         },
