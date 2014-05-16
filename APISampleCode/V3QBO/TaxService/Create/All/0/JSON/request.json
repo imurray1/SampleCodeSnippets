@@ -6,7 +6,6 @@
             "RateValue": "8",
             "TaxAgencyId": "1",
             "TaxApplicableOn": "Sales"
-        },
-        {"TaxRateId": "2"}
+        }
     ]
 }
