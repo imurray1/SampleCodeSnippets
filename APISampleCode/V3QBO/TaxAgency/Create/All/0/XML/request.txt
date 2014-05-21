@@ -1,1 +1,0 @@
-XML requests not supported.
